@@ -1,0 +1,342 @@
+[
+    {
+        "tag": "Introductory Modifiers (Page 8)",
+        "question": "Before the complex tunnel network was excavated in 1964, commuting by ferry across the treacherous bay took over three hours and risked severe vessel damage. By routing the high-speed rail line under the ________ engineering marvel cut travel time to twelve minutes and eliminated weather-induced delays entirely.",
+        "options": [
+            "strait; the",
+            "strait (the",
+            "strait, the",
+            "strait: the"
+        ],
+        "answerIndex": 2,
+        "explanationText": "The sentence opens with a long gerund phrase modifying module ('By routing the high-speed rail line under the strait'). Standard punctuation blueprint rules command that when a descriptive introductory construction sets the stage for the rest of the sentence, a standalone comma must be used right at its boundary to link it cleanly to the primary active subject ('the engineering marvel')."
+    },
+    {
+        "tag": "Nonessential Clauses (Page 8)",
+        "question": "The striking oil portraits of Remedios Varo, which blend surrealist mythology and mechanical imagery in vivid, dreamlike detail, have won the painter intense acclaim from prominent modern ________ them Mexican author Carlos Fuentes, who remarked that Varo's canvas captured 'a terrifyingly delicate magic.'",
+        "options": [
+            "intellectuals. Among",
+            "intellectuals among",
+            "intellectuals; among",
+            "intellectuals, among"
+        ],
+        "answerIndex": 3,
+        "explanationText": "The phrase following the blank space ('among them Mexican author...') serves as a supplementary pronoun descriptor that adds extra detail to the object noun 'intellectuals'. Because it functions as a nonessential parenthetical modification unit, a simple comma is the correct choice to bind it to the main structural branch."
+    },
+    {
+        "tag": "Coordinating Conjunctions (Page 8)",
+        "question": "It is easy to romanticize the life of an offshore commercial ________ vast majority of their shift is dictated by a harsh routine of freezing winds, physical strain, and strict safety regulations.",
+        "options": [
+            "divers, the",
+            "divers the",
+            "divers but the",
+            "divers, but the"
+        ],
+        "answerIndex": 3,
+        "explanationText": "This framework contains two distinct independent structures that could stand alone as independent units ('It is easy to romanticize...' and 'the vast majority of their shift is dictated...'). To combine them safely within a single compound sentence configuration without forming a comma splice error, you must supply a comma directly followed by a coordinating FANBOYS conjunction ('but')."
+    },
+    {
+        "tag": "Subordinating Conjunctions (Page 8)",
+        "question": "Although Ada Lovelace is celebrated primarily for her early work on the mechanical Analytical ________ was widely recognized by her mid-nineteenth-century peers as an extraordinarily talented mathematician and translator.",
+        "options": [
+            "Engine; she",
+            "Engine, but Lovelace",
+            "Engine, she",
+            "Engine she"
+        ],
+        "answerIndex": 2,
+        "explanationText": "The word 'Although' acts as a subordinating conjunction, making the initial clause dependent. When a dependent structural framework sits ahead of the main structural line, a comma must mark the transition boundary before introducing the main sentence subject pronoun ('she')."
+    },
+    {
+        "tag": "Sentence Boundaries (Page 13)",
+        "question": "On humid afternoons, concrete sidewalks absorb atmospheric moisture and radiate it back as localized humidity, compounding the city's ambient ________ installing permeable pavement blocks across urban walkways, either by embedding coarse stone channels or layering gravel beds, mitigates this localized swelling.",
+        "options": [
+            "heat; by introducing",
+            "heat, introducing",
+            "heat. Introducing",
+            "heat by introducing"
+        ],
+        "answerIndex": 2,
+        "explanationText": "The segment ending with 'heat' forms a complete structural thought. The downstream text beginning with 'Introducing permeable pavement blocks' forms a separate independent sentence structure with its own active verb framework ('mitigates this localized swelling'). Therefore, these two distinct independent clauses must be cleanly split using a period boundary."
+    },
+    {
+        "tag": "Conjunctive Adverbs (Page 13)",
+        "question": "Luminosity is an astronomical calculation used to determine how much energy a celestial object emits. The value is based on how rapidly and how intensely light energy can be ________ one solar unit of absolute luminosity is equivalent to the total energy output generated by the Sun in exactly one second.",
+        "options": [
+            "radiated, for example,",
+            "radiated,",
+            "radiated; for example,",
+            "radiated"
+        ],
+        "answerIndex": 2,
+        "explanationText": "The word pair 'for example' serves as a formal transition bridging two fully independent clauses. Grammatical blueprints mandate that when a conjunctive transition word functions as a bridge between two full sentences, it must be preceded by a semicolon boundary and followed immediately by a single comma."
+    },
+    {
+        "tag": "Colon Application (Page 14)",
+        "question": "Guernica is a 1937 masterpiece by the Spanish artist Pablo Picasso. Like many of Picasso’s anti-war statements, Guernica, which depicts the terrifying destruction of a defenseless village, attempts to convey the raw emotional horror of unchecked military ________ brandishing jagged structural fractures, a hollow-eyed mother wails over her fallen infant amid crumbling architecture.",
+        "options": [
+            "violence",
+            "violence:",
+            "violence while",
+            "violence while,"
+        ],
+        "answerIndex": 1,
+        "explanationText": "The clause leading to the blank space is fully independent. The subsequent descriptive visual text acts as a direct, structural elaboration and illustration of how the painting targets the raw emotional horror of unchecked military violence. A colon boundary is precisely designed to link an independent sentence to an explanatory illustration."
+    },
+    {
+        "tag": "Structural Explanations (Page 14)",
+        "question": "The complex feedback loop between ice sheets and ocean currents explains why adjacent polar regions experience vastly different ________ whereas the western shelf loses mass to warm deep-sea upwellings, the eastern plateau accumulates dense surface snow that buffers it from seasonal melting forces.",
+        "options": [
+            "microclimates",
+            "microclimates,",
+            "microclimates and,",
+            "microclimates:"
+        ],
+        "answerIndex": 3,
+        "explanationText": "The first part of the sentence functions as a complete independent line. The segment following the blank provides an analytical breakdown explaining why and how these distinct microclimates occur. A colon boundary is used here to transition to this downstream explanation."
+    },
+    {
+        "tag": "Compound Clause Boundaries (Page 19)",
+        "question": "Tenants who are pleased with how a landlord handles an emergency repair may rate their leasing office more highly than they would if no maintenance emergency had occurred. This phenomenon is known as the service recovery ________ industry analysis demonstrates that it exerts a powerful influence on annual lease renewal rates.",
+        "options": [
+            "anomaly,",
+            "anomaly",
+            "anomaly, and",
+            "anomaly and,"
+        ],
+        "answerIndex": 2,
+        "explanationText": "Two fully complete independent ideas are brought together here. To successfully marry them without structural errors like a run-on or comma splice, a comma configuration coupled with the conjunction coordinator 'and' is the only viable path."
+    },
+    {
+        "tag": "Noun-Modifier Boundaries (Page 20)",
+        "question": "The discipline of behavioral economics owes a profound debt to Israeli ________ Daniel Kahneman, a pioneering cognitive psychologist whose innovative experiments on human bias and intuitive decision-making helped establish new frameworks for modern market analysis.",
+        "options": [
+            "theorist",
+            "theorist:",
+            "theorist;",
+            "theorist,"
+        ],
+        "answerIndex": 0,
+        "explanationText": "The target proper noun 'Daniel Kahneman' is acting as an essential identifying piece directly linked to the structural title descriptor 'Israeli theorist'. Placing any form of punctuation here artificially breaks the direct connection between a title descriptor and its defining proper noun."
+    },
+    {
+        "tag": "Relative Clauses (Page 20)",
+        "question": "The botanical database that project founder Evelyn G. Harrison had predicted would be populated by 1994 was not, in fact, completed during her career. The delays did not exhaust motivation among ________ view the dynamic archive as a vital milestone in plant ecology.",
+        "options": [
+            "conservationists. Conservationists",
+            "conservationists, and these conservationists",
+            "conservationists, but conservationists",
+            "conservationists, who"
+        ],
+        "answerIndex": 3,
+        "explanationText": "Option D utilizes the relative clause connector 'who', creating an integrated descriptive adjectival modifier phrase that naturally attaches back to 'conservationists'. This keeps the workflow combined cleanly in a unified, grammatically sound layout."
+    },
+    {
+        "tag": "Interrupter Formatting (Page 20)",
+        "question": "Drafting a blueprint is only the introductory stage of an architectural consultant's __________ matter how elegant a design seems, it can never be translated into a structural reality unless it is translated accurately for the onsite structural engineering crews.",
+        "options": [
+            "assignment, however, no",
+            "assignment, however. No",
+            "assignment, however, No",
+            "assignment however no"
+        ],
+        "answerIndex": 1,
+        "explanationText": "The initial text segment concludes a complete independent statement. The word 'however' is being used here to start a fresh sentence trajectory that highlights a contrasting constraint. Therefore, a definitive period boundary must drop before 'however' to finalize the first sentence."
+    },
+    {
+        "tag": "Punctuation Symmetry (Page 24)",
+        "question": "Anthocyanins are natural compounds _______ among their primary functions, yield the deep blues that safeguard delicate plant tissue from severe solar radiation.",
+        "options": [
+            "that–",
+            "that;",
+            "that,",
+            "that:"
+        ],
+        "answerIndex": 2,
+        "explanationText": "The phrase 'among their primary functions' functions as a classic nonessential parenthetical interrupter element. Punctuation rules demand internal formatting symmetry: because the interrupter is closed with a comma after the word 'functions', it must be opened symmetrically with a comma right after 'that'."
+    },
+    {
+        "tag": "Noun Modifications (Page 24)",
+        "question": "During the mid-nineteenth century, Thaddeus Lowe and other American ________ to the majestic and sweeping perspective of high-altitude ballooning. The technology soon became an asset for tactical reconnaissance and meteorological research.",
+        "options": [
+            "aeronauts introduced military generals",
+            "aeronauts’ introduced military generals’",
+            "aeronaut’s introduced military general’s",
+            "aeronauts’ introduced military generals"
+        ],
+        "answerIndex": 0,
+        "explanationText": "The structural subject 'aeronauts' is a basic plural noun phrase, and the structural receiver object 'military generals' is also a straightforward plural noun. Since there is zero possessive context here, implementing apostrophe structures is an error."
+    },
+    {
+        "tag": "Pronoun Possession (Page 24)",
+        "question": "Paleontologist and evolutionary biologist Stephen Jay Gould used the concept of 'punctuated equilibrium' to explain how rapidly shifting environments can trigger massive trends in species adaptation. According to Gould’s framework, the evolutionary pressure on a population flexing ________ in response to climatic shifts might generate a new line rapidly.",
+        "options": [
+            "its traits",
+            "its traits’",
+            "it’s trait’s",
+            "it’s traits’"
+        ],
+        "answerIndex": 0,
+        "explanationText": "The context requires a clear singular possessive tracking pronoun ('its') indicating that the traits belong to the single population. The homonym option 'it's' functions strictly as a contraction shorthand for 'it is', which creates a total syntax error if inserted."
+    },
+    {
+        "tag": "Subject-Verb Agreement (Page 29)",
+        "question": "The molten magma that ________ beneath the crust of active volcanic calderas is classified as primary basaltic lava.",
+        "options": [
+            "surges",
+            "have surged",
+            "surge",
+            "are surging"
+        ],
+        "answerIndex": 0,
+        "explanationText": "The relative clause target 'that' looks directly backward to the structural singular anchor noun 'magma'. To ensure precise subject-verb tracking harmony, a singular noun anchor must couple with a singular verb form ending in '-s' ('surges')."
+    },
+    {
+        "tag": "Verb Tense Context (Page 29)",
+        "question": "In 1911, Norwegian explorer Roald Amundsen led his elite team on a grueling, historic trek across the Antarctic ice cap. Upon arriving at the South Pole, Amundsen _______ a permanent marker to stake his team's territorial claim, a geographic record validated by global scientific bodies months later.",
+        "options": [
+            "is planting",
+            "planted",
+            "will plant",
+            "plants"
+        ],
+        "answerIndex": 1,
+        "explanationText": "The text establishes a clear historical timestamp ('In 1911') right at the launch of the passage. To preserve logical timeline cohesion, subsequent structural actions on the same line must stay consistently anchored within the past tense format ('planted')."
+    },
+    {
+        "tag": "Linking Verb Matching (Page 29)",
+        "question": "What is the standard phonetic pronunciation of Vanuatu? In the Bislama language utilized by native residents of the Pacific island chain, the vowel combination -ua receives a prolonged stress; as a distinct structural consequence, the archipelago’s name _______ sounded as 'Van-WAH-too.'",
+        "options": [
+            "are",
+            "have been",
+            "are being",
+            "is"
+        ],
+        "answerIndex": 3,
+        "explanationText": "The core active subject of the concluding structure is 'the archipelago's name', which is Singular. A singular subject entity must align with the singular active linking verb 'is' to complete the statement correctly."
+    },
+    {
+        "tag": "Complex Agreement (Page 30)",
+        "question": "Cyberpunk is a dystopian sci-fi genre that imagines high-tech computer modifications integrated gritly into marginalized city alleys. In William Gibson’s literary masterpiece “Neuromancer,” a military construct that extracts mainframe databases, re-routing them through decentralized arrays of visual interfaces and firewalls, _______ Chiba City's digital underworld.",
+        "options": [
+            "have been dominating",
+            "dominate",
+            "dominates",
+            "are dominating"
+        ],
+        "answerIndex": 2,
+        "explanationText": "The core subject noun of the clause is 'a military construct', which is singular. Even though a dense string of descriptive operational parenthetical terms ('that extracts mainframe... firewalls') separates the subject from the blank, the root verb must remain strictly singular ('dominates')."
+    },
+    {
+        "tag": "Perfect Tense Frameworks (Page 30)",
+        "question": "The National Forestry Service hopes to catalogue every ancient old-growth redwood grove in California, and it is recruiting local hikers to assist. Marcus Vance and Elena Torres are just two of the many dedicated amateur scouts who ________ to the inventory since the initiative launched in 2018.",
+        "options": [
+            "contribute",
+            "will contribute",
+            "have contributed",
+            "has contributed"
+        ],
+        "answerIndex": 2,
+        "explanationText": "The operational phrase 'since the initiative launched in 2018' traces an activity loop that launched deep in the past but actively connects directly to the present. This specific timeline structure requires the present perfect tense framework ('have contributed'), using a plural helper verb to track the plural antecedent anchor 'scouts'."
+    },
+    {
+        "tag": "Pronoun Antecedents (Page 31)",
+        "question": "Ahead of the seminar on architectural design, neither of the draftsmen realized that computational modeling software was an effective way to simplify _____ handling of complex geometries.",
+        "options": [
+            "his",
+            "their"
+        ],
+        "answerIndex": 0,
+        "explanationText": "The analytical word 'neither' serves as the singular subject baseline here. Because 'neither' functions strictly as a singular antecedent engine, it requires the matching singular tracking pronoun 'his' to clear the verification rules."
+    },
+    {
+        "tag": "Compound Reference Handling (Page 31)",
+        "question": "Both the display screen and the secondary storage drive had _____ corrupted by electromagnetic pulses from the nearby generator loop.",
+        "options": [
+            "its internal circuit",
+            "their internal circuits"
+        ],
+        "answerIndex": 1,
+        "explanationText": "The complex layout links two unique items using the conjunction coordinator 'and' ('Both the display screen and the secondary storage drive'). This structure creates a plural reference framework, mandating the plural modifier package 'their internal circuits'."
+    },
+    {
+        "tag": "Collective Units (Page 31)",
+        "question": "At the annual convention, the executive committee earned widespread praise for _____ strategic corporate restructuring blueprint.",
+        "options": [
+            "its",
+            "their"
+        ],
+        "answerIndex": 0,
+        "explanationText": "The subject element 'the executive committee' operates as a singular collective unit working together under one structural identity. It must be paired exclusively with the singular neutral possessive pronoun 'its'."
+    },
+    {
+        "tag": "Plural Antecedent Tracks (Page 31)",
+        "question": "The direct supervisor must supply clear directives so that the technicians can execute _____ daily maintenance checklists without relying on outdated instructional manuals.",
+        "options": [
+            "his or her",
+            "their"
+        ],
+        "answerIndex": 1,
+        "explanationText": "The target noun being referenced is 'technicians', which is explicitly plural. A simple plural target requires the matching plural possession pronoun path 'their'."
+    },
+    {
+        "tag": "Subjective Pronouns (Page 34)",
+        "question": "Weaker than domestic ants, fairyflies are microscopic, but they are resilient. These tiny insects can survive for cold winter months without open nectar sources, and ______ can endure environmental shifts that compromise much larger insect varieties across the local ecosphere.",
+        "options": [
+            "that",
+            "it",
+            "they",
+            "he"
+        ],
+        "answerIndex": 2,
+        "explanationText": "The clause targets 'These tiny insects' as its antecedent anchor. To sustain grammatical tracking alignment across the coordinating layout, you must implement the plural subjective tracking pronoun 'they'."
+    },
+    {
+        "tag": "Compound Pronoun Objects (Page 34)",
+        "question": "The Swahili trade language is dynamic, with a vocabulary and idioms that makes them accessible to populations across the entire coastal region.",
+        "options": [
+            "NO CHANGE",
+            "makes it",
+            "make it",
+            "make them"
+        ],
+        "answerIndex": 2,
+        "explanationText": "The relative operator 'that' references a compound plural list element ('a vocabulary and idioms'), which forces the use of a plural active verb ('make'). This verb works systematically upon a singular structural focus target ('The Swahili trade language'), which forces the singular objective pronoun resolution 'it'."
+    },
+    {
+        "tag": "Resolving Ambiguity (Page 34)",
+        "question": "Within rural farming communities, such mechanical support is uncommon, which drastically limited it’s adoption.",
+        "options": [
+            "NO CHANGE",
+            "that",
+            "this",
+            "the system's"
+        ],
+        "answerIndex": 3,
+        "explanationText": "The base pronoun tracking format 'it's' creates an ambiguous reference error since a reader cannot definitively pinpoint if 'it' points to support, communities, or mechanical structures. Exchanging the vague tracking setup for the highly explicit noun identity 'the system's' eliminates the ambiguity."
+    },
+    {
+        "tag": "Idiomatic Prepositions (Page 36)",
+        "question": "Just this morning I stood across the platform with an analyst who was reading data printouts on a tablet screen.",
+        "options": [
+            "NO CHANGE",
+            "to",
+            "at",
+            "from"
+        ],
+        "answerIndex": 3,
+        "explanationText": "This scenario evaluates formal prepositional idiom structures. Established standard English conventions dictate that a person coordinates spatially across 'from' an external physical target or object."
+    },
+    {
+        "tag": "Dangling Modifiers (Page 40)",
+        "question": "In 1947, a laboratory directed by physicists John Bardeen and Walter Brattain succeeded in routing electric currents across crystalline semiconductors at unprecedented speed—transistorization. A highly efficient (and, as its mechanical design confirms, extremely durable) development, ________________.",
+        "options": [
+            "perfecting the transistor occurred when electronic circuit footprints dropped drastically.",
+            "the modern transistor was perfected when electronic circuit footprints dropped drastically.",
+            "when their production footprint dropped drastically, the transistor was perfected by researchers.",
+            "researchers, when their circuit footprint dropped drastically, perfected the modern solid-state transistor."
+        ],
+        "answerIndex": 1,
+        "explanationText": "The descriptive opening setup phrase ('A highly efficient... development') explicitly details the scientific concept of 'the modern transistor'. To prevent a misplaced modifier flaw, the exact noun entity being described must be positioned immediately following the comma boundary."
+    }
+]
