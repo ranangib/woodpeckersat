@@ -1,0 +1,342 @@
+[
+    {
+        "tag": "Introductory Modifiers (Page 8)",
+        "question": "Before the underwater habitat was deployed in 1971, diving to conduct research along the jagged continental shelf took more than five hours and carried an immense risk of decompression sickness. By stationing the permanent deep-sea laboratory on the ________ marine sanctuary cut travel time to six minutes and streamlined benthic exploration routines.",
+        "options": [
+            "reef; the",
+            "reef (the",
+            "reef, the",
+            "reef: the"
+        ],
+        "answerIndex": 2,
+        "explanationText": "The sentence opens with a long gerund phrase modifying module ('By stationing the permanent deep-sea laboratory on the reef'). Standard punctuation blueprint rules command that when a descriptive introductory construction sets the stage for the rest of the sentence, a standalone comma must be used right at its boundary to link it cleanly to the primary active subject ('the marine sanctuary')."
+    },
+    {
+        "tag": "Nonessential Clauses (Page 8)",
+        "question": "The complex choral arrangements of Hildegard von Bingen, which weave ethereal vocal melodies and unconventional harmonic intervals into resonant liturgical chants, have garnered immense praise from leading classical ________ them French musicologist Pierre Aubry, who observed that Bingen's scores produced 'a strikingly transcendent geometry.'",
+        "options": [
+            "historians. Among",
+            "historians among",
+            "historians; among",
+            "historians, among"
+        ],
+        "answerIndex": 3,
+        "explanationText": "The phrase following the blank space ('among them French musicologist...') serves as a supplementary pronoun descriptor that adds extra detail to the object noun 'historians'. Because it functions as a nonessential parenthetical modification unit, a simple comma is the correct choice to bind it to the main structural branch."
+    },
+    {
+        "tag": "Coordinating Conjunctions (Page 8)",
+        "question": "It is all too easy to glamorize the daily routine of a wilderness field ________ overwhelming majority of their shift is consumed by an exhausting loop of freezing rain, dense brush, and heavy equipment maintenance.",
+        "options": [
+            "biologists, the",
+            "biologists the",
+            "biologists but the",
+            "biologists, but the"
+        ],
+        "answerIndex": 3,
+        "explanationText": "This framework contains two distinct independent structures that could stand alone as independent units ('It is all too easy to glamorize...' and 'the overwhelming majority of their shift is consumed...'). To combine them safely within a single compound sentence configuration without forming a comma splice error, you must supply a comma directly followed by a coordinating FANBOYS conjunction ('but')."
+    },
+    {
+        "tag": "Subordinating Conjunctions (Page 8)",
+        "question": "Although Rosalind Franklin is recognized primarily for her essential contributions to capturing the structural dimensions of ________ was highly regarded by her mid-twentieth-century laboratory peers as an exceptionally meticulous physical chemist and crystallographer.",
+        "options": [
+            "DNA; she",
+            "DNA, but Franklin",
+            "DNA, she",
+            "DNA she"
+        ],
+        "answerIndex": 2,
+        "explanationText": "The word 'Although' acts as a subordinating conjunction, making the initial clause dependent. When a dependent structural framework sits ahead of the main structural line, a comma must mark the transition boundary before introducing the main sentence subject pronoun ('she')."
+    },
+    {
+        "tag": "Sentence Boundaries (Page 13)",
+        "question": "On stifling afternoons, asphalt driveways trap solar radiation and release it slowly as localized thermal columns, driving up nearby residential zone ________ planting green ivy barriers along property borders, either by anchoring modular trellis frames or weaving thick natural vines, dampens this radiant heating effect.",
+        "options": [
+            "temperatures; by anchoring",
+            "temperatures, anchoring",
+            "temperatures. Anchoring",
+            "temperatures by anchoring"
+        ],
+        "answerIndex": 2,
+        "explanationText": "The segment ending with 'temperatures' forms a complete structural thought. The downstream text beginning with 'Anchoring green ivy barriers' forms a separate independent sentence structure with its own active verb framework ('dampens this radiant heating effect'). Therefore, these two distinct independent clauses must be cleanly split using a period boundary."
+    },
+    {
+        "tag": "Conjunctive Adverbs (Page 13)",
+        "question": "Viscosity is a fluid dynamics parameter used to quantify how much resistance a liquid exhibits against sheer deformation. The metric is based on how slowly and how unevenly molecular layers can be ________ one standard unit of dynamic viscosity is equivalent to the friction generated when moving a liquid boundary layer over one centimeter in one second.",
+        "options": [
+            "displaced, for example,",
+            "displaced,",
+            "displaced; for example,",
+            "displaced"
+        ],
+        "answerIndex": 2,
+        "explanationText": "The word pair 'for example' serves as a formal transition bridging two fully independent clauses. Grammatical blueprints mandate that when a conjunctive transition word functions as a bridge between two full sentences, it must be preceded by a semicolon boundary and followed immediately by a single comma."
+    },
+    {
+        "tag": "Colon Application (Page 14)",
+        "question": "Nighthawk is a 1942 iconic piece by the American painter Edward Hopper. Like many of Hopper’s urban character studies, Nighthawk, which illustrates quiet customers sitting inside an all-night diner, attempts to isolate the quiet psychological loneliness of modern city ________ showcasing stark artificial lighting, a pair of disconnected figures stare blankly past polished glass panels into empty street corridors.",
+        "options": [
+            "life",
+            "life:",
+            "life while",
+            "life while,"
+        ],
+        "answerIndex": 1,
+        "explanationText": "The clause leading to the blank space is fully independent. The subsequent descriptive visual text acts as a direct, structural elaboration and illustration of how the painting targets the quiet psychological loneliness of modern city life. A colon boundary is precisely designed to link an independent sentence to an explanatory illustration."
+    },
+    {
+        "tag": "Structural Explanations (Page 14)",
+        "question": "The chemical interaction between volcanic ash and ancient building mortars explains why Roman maritime structures endure centuries of turbulent ocean ________ whereas modern port barriers deteriorate under acidic saltwater currents, the ancient concrete develops crystal lattices that lock it into an increasingly durable shield.",
+        "options": [
+            "exposure",
+            "exposure,",
+            "exposure and,",
+            "exposure:"
+        ],
+        "answerIndex": 3,
+        "explanationText": "The first part of the sentence functions as a complete independent line. The segment following the blank provides an analytical breakdown explaining why and how these distinct maritime exposure results occur. A colon boundary is used here to transition to this downstream explanation."
+    },
+    {
+        "tag": "Compound Clause Boundaries (Page 19)",
+        "question": "Diners who are pleased with how a restaurant manages a seating mistake may rate their dining experience more highly than they would if no reservation error had occurred. This pattern is known as the service recovery ________ empirical evidence indicates that it possesses an exceptional ability to secure long-term brand loyalty.",
+        "options": [
+            "paradox,",
+            "paradox",
+            "paradox, and",
+            "paradox and,"
+        ],
+        "answerIndex": 2,
+        "explanationText": "Two fully complete independent ideas are brought together here. To successfully marry them without structural errors like a run-on or comma splice, a comma configuration coupled with the conjunction coordinator 'and' is the only viable path."
+    },
+    {
+        "tag": "Noun-Modifier Boundaries (Page 20)",
+        "question": "The field of deep-space astrophysics owes an immeasurable legacy to Indian ________ Subrahmanyan Chandrasekhar, a pioneering theoretical physicist whose elegant mathematical formulations on mass limits and stellar death cycles helped redefine modern models of black hole formation.",
+        "options": [
+            "scholar",
+            "scholar:",
+            "scholar;",
+            "scholar,"
+        ],
+        "answerIndex": 0,
+        "explanationText": "The target proper noun 'Subrahmanyan Chandrasekhar' is acting as an essential identifying piece directly linked to the structural title descriptor 'Indian scholar'. Placing any form of punctuation here artificially breaks the direct connection between a title descriptor and its defining proper noun."
+    },
+    {
+        "tag": "Relative Clauses (Page 20)",
+        "question": "The digital manuscript archive that foundation director Arthur C. Sterling had estimated would be published by 2003 was not, in fact, completed during his tenure. The technical setbacks did not weaken devotion among ________ view the online compendium as a crucial baseline for medieval history studies.",
+        "options": [
+            "archivists. Archivists",
+            "archivists, and these archivists",
+            "archivists, but archivists",
+            "archivists, who"
+        ],
+        "answerIndex": 3,
+        "explanationText": "Option D utilizes the relative clause connector 'who', creating an integrated descriptive adjectival modifier phrase that naturally attaches back to 'archivists'. This keeps the workflow combined cleanly in a unified, grammatically sound layout."
+    },
+    {
+        "tag": "Interrupter Formatting (Page 20)",
+        "question": "Calibrating a laboratory sensor is only the initial prerequisite of a chemist's __________ matter how sophisticated an instrument is, it can never yield accurate experimental values unless it is calibrated perfectly to offset minor environmental variations inside the research cleanroom.",
+        "options": [
+            "task, however, no",
+            "task, however. No",
+            "task, however, No",
+            "task however no"
+        ],
+        "answerIndex": 1,
+        "explanationText": "The initial text segment concludes a complete independent statement. The word 'however' is being used here to start a fresh sentence trajectory that highlights a contrasting constraint. Therefore, a definitive period boundary must drop before 'however' to finalize the first sentence."
+    },
+    {
+        "tag": "Punctuation Symmetry (Page 24)",
+        "question": "Carotenoids are organic compounds _______ among their multi-faceted traits, generate the bright pigments that shelter fragile plant systems from excessive solar radiation.",
+        "options": [
+            "that–",
+            "that;",
+            "that,",
+            "that:"
+        ],
+        "answerIndex": 2,
+        "explanationText": "The phrase 'among their multi-faceted traits' functions as a classic nonessential parenthetical interrupter element. Punctuation rules demand internal formatting symmetry: because the interrupter is closed with a comma after the word 'traits', it must be opened symmetrically with a comma right after 'that'."
+    },
+    {
+        "tag": "Noun Modifications (Page 24)",
+        "question": "Around the early twentieth century, Orville Wright and other American ________ to the thrilling and untested world of motorized aviation. The pioneering biplane quickly transformed into a foundation for commercial transit and engineering innovation.",
+        "options": [
+            "pilots introduced civilian spectators",
+            "pilots’ introduced civilian spectators’",
+            "pilot’s introduced civilian spectator’s",
+            "pilots’ introduced civilian spectators"
+        ],
+        "answerIndex": 0,
+        "explanationText": "The structural subject 'pilots' is a basic plural noun phrase, and the structural receiver object 'civilian spectators' is also a straightforward plural noun. Since there is zero possessive context here, implementing apostrophe structures is an error."
+    },
+    {
+        "tag": "Pronoun Possession (Page 24)",
+        "question": "Microbiologist and cellular theorist Lynn Margulis used the concept of 'endosymbiosis' to explain how primitive organism lineages managed major leaps in structural evolution. According to Margulis’s framework, the energetic benefit to a host cell consolidating ________ in response to internal bacterial pairings might yield complex organelles quickly.",
+        "options": [
+            "its systems",
+            "its systems’",
+            "it’s system’s",
+            "it’s systems’"
+        ],
+        "answerIndex": 0,
+        "explanationText": "The context requires a clear singular possessive tracking pronoun ('its') indicating that the systems belong to the single host cell. The homonym option 'it's' functions strictly as a contraction shorthand for 'it is', which creates a total syntax error if inserted."
+    },
+    {
+        "tag": "Subject-Verb Agreement (Page 29)",
+        "question": "The groundwater that ________ within the porous channels of deep limestone aquifers is designated as premium artesian water.",
+        "options": [
+            "flows",
+            "have flowed",
+            "flow",
+            "are flowing"
+        ],
+        "answerIndex": 0,
+        "explanationText": "The relative clause target 'that' looks directly backward to the structural singular anchor noun 'groundwater'. To ensure precise subject-verb tracking harmony, a singular noun anchor must couple with a singular verb form ending in '-s' ('flows')."
+    },
+    {
+        "tag": "Verb Tense Context (Page 29)",
+        "question": "In 1922, British archaeologist Howard Carter led his structural team on a painstaking excavation through Egypt's Valley of the Kings. Upon uncovering the primary stone threshold, Carter _______ a heavy timber beam to anchor the royal tomb's entry corridor, an historic preservation asset documented by global teams weeks later.",
+        "options": [
+            "is raising",
+            "raised",
+            "will raise",
+            "raises"
+        ],
+        "answerIndex": 1,
+        "explanationText": "The text establishes a clear historical timestamp ('In 1922') right at the launch of the passage. To preserve logical timeline cohesion, subsequent structural actions on the same line must stay consistently anchored within the past tense format ('raised')."
+    },
+    {
+        "tag": "Linking Verb Matching (Page 29)",
+        "question": "What is the accurate standard pronunciation of Tuvalu? In the Polynesian language utilized by native citizens of the coral island nation, the syllable sequence -lu carries a short glottal break; as a direct phonological outcome, the country’s name _______ voiced as 'Too-VAH-loo.'",
+        "options": [
+            "are",
+            "have been",
+            "are being",
+            "is"
+        ],
+        "answerIndex": 3,
+        "explanationText": "The core active subject of the concluding structure is 'the country's name', which is Singular. A singular subject entity must align with the singular active linking verb 'is' to complete the statement correctly."
+    },
+    {
+        "tag": "Complex Agreement (Page 30)",
+        "question": "Steampunk is an historical sci-fi subgenre that imagines complex steam-powered machinery woven intricately into industrial brass factories. In H.G. Wells’s foundational masterpiece “The Time Machine,” an elegant device that traverses historical timelines, re-routing them through complex layouts of brass levers and dials, _______ London’s Victorian scientific community.",
+        "options": [
+            "have been transfixing",
+            "transfix",
+            "transfixes",
+            "are transfixing"
+        ],
+        "answerIndex": 2,
+        "explanationText": "The core subject noun of the clause is 'an elegant device', which is singular. Even though a dense string of descriptive operational parenthetical terms ('that traverses historical... dials') separates the subject from the blank, the root verb must remain strictly singular ('transfixes')."
+    },
+    {
+        "tag": "Perfect Tense Frameworks (Page 30)",
+        "question": "The Marine Conservation Agency hopes to chart every barrier coral patch reef in the Keys, and it is organizing local divers to help. Robert Vance and Maria Lopez are just two of the many volunteer scuba teams who ________ to the database since the deployment launched in 2015.",
+        "options": [
+            "contribute",
+            "will contribute",
+            "have contributed",
+            "has contributed"
+        ],
+        "answerIndex": 2,
+        "explanationText": "The operational phrase 'since the deployment launched in 2015' traces an activity loop that launched deep in the past but actively connects directly to the present. This specific timeline structure requires the present perfect tense framework ('have contributed'), using a plural helper verb to track the plural antecedent anchor 'teams'."
+    },
+    {
+        "tag": "Pronoun Antecedents (Page 31)",
+        "question": "Prior to the panel on urban planning, neither of the civic engineers suspected that parametric mapping software was a valuable asset to streamline _____ configuration of roadway systems.",
+        "options": [
+            "his",
+            "their"
+        ],
+        "answerIndex": 0,
+        "explanationText": "The analytical word 'neither' serves as the singular subject baseline here. Because 'neither' functions strictly as a singular antecedent engine, it requires the matching singular tracking pronoun 'his' to clear the verification rules."
+    },
+    {
+        "tag": "Compound Reference Handling (Page 31)",
+        "question": "Both the navigation computer and the secondary telemetry receiver had _____ fried by static discharges from the primary engine exhaust manifold.",
+        "options": [
+            "its vital circuit",
+            "their vital circuits"
+        ],
+        "answerIndex": 1,
+        "explanationText": "The complex layout links two unique items using the conjunction coordinator 'and' ('Both the navigation computer and the secondary telemetry receiver'). This structure creates a plural reference framework, mandating the plural modifier package 'their vital circuits'."
+    },
+    {
+        "tag": "Collective Units (Page 31)",
+        "question": "At the annual gala, the architectural preservation board earned widespread acclaim for _____ meticulous neighborhood historical restoration project.",
+        "options": [
+            "its",
+            "their"
+        ],
+        "answerIndex": 0,
+        "explanationText": "The subject element 'the architectural preservation board' operates as a singular collective unit working together under one structural identity. It must be paired exclusively with the singular neutral possessive pronoun 'its'."
+    },
+    {
+        "tag": "Plural Antecedent Tracks (Page 31)",
+        "question": "The chief researcher must distribute clean updates so that the operators can complete _____ mechanical calibrations without running into legacy software bugs.",
+        "options": [
+            "his or her",
+            "their"
+        ],
+        "answerIndex": 1,
+        "explanationText": "The target noun being referenced is 'operators', which is explicitly plural. A simple plural target requires the matching plural possession pronoun path 'their'."
+    },
+    {
+        "tag": "Subjective Pronouns (Page 34)",
+        "question": "Lighter than dandelion seeds, fairy flies are minuscule, but they are hardy. These tiny wasps can survive for months without stable sugar sources, and ______ can weather environmental shifts that threaten far more resilient insect populations throughout the local ecosystem.",
+        "options": [
+            "that",
+            "it",
+            "they",
+            "he"
+        ],
+        "answerIndex": 2,
+        "explanationText": "The clause targets 'These tiny wasps' as its antecedent anchor. To sustain grammatical tracking alignment across the coordinating layout, you must implement the plural subjective tracking pronoun 'they'."
+    },
+    {
+        "tag": "Compound Pronoun Objects (Page 34)",
+        "question": "The ancient Quechua tongue is multi-layered, with a syntax and variations that makes them complex to speakers used to Western structures.",
+        "options": [
+            "NO CHANGE",
+            "makes it",
+            "make it",
+            "make them"
+        ],
+        "answerIndex": 2,
+        "explanationText": "The relative operator 'that' references a compound plural list element ('a syntax and variations'), which forces the use of a plural active verb ('make'). This verb works systematically upon a singular structural focus target ('The ancient Quechua tongue'), which forces the singular objective pronoun resolution 'it'."
+    },
+    {
+        "tag": "Resolving Ambiguity (Page 34)",
+        "question": "Among small independent workshops, such custom hardware is expensive, which heavily restricted it’s use.",
+        "options": [
+            "NO CHANGE",
+            "that",
+            "this",
+            "the machinery's"
+        ],
+        "answerIndex": 3,
+        "explanationText": "The base pronoun tracking format 'it's' creates an ambiguous reference error since a reader cannot definitively pinpoint if 'it' points to hardware, workshops, or machinery. Exchanging the vague tracking setup for the highly explicit noun identity 'the machinery's' eliminates the ambiguity."
+    },
+    {
+        "tag": "Idiomatic Prepositions (Page 36)",
+        "question": "Just this afternoon I stood across the hallway with a reviewer who was cross-referencing text notes on a laptop panel.",
+        "options": [
+            "NO CHANGE",
+            "to",
+            "at",
+            "from"
+        ],
+        "answerIndex": 3,
+        "explanationText": "This scenario evaluates formal prepositional idiom structures. Established standard English conventions dictate that a person coordinates spatially across 'from' an external physical target or object."
+    },
+    {
+        "tag": "Dangling Modifiers (Page 40)",
+        "question": "In 1954, a medical trial led by viral specialists Jonas Salk and Julius Youngner succeeded in neutralizing active polio particles within test samples without damaging cellular walls—vaccination. A highly effective (and, as its clinical track record confirms, immensely safe) development, ________________.",
+        "options": [
+            "perfecting the polio vaccine occurred when immunization production lines expanded globally.",
+            "the initial polio vaccine was perfected when immunization production lines expanded globally.",
+            "when their manufacturing footprint scaled up, the vaccine was perfected by researchers.",
+            "researchers, when their manufacturing footprint scaled up, perfected the modern medical vaccine."
+        ],
+        "answerIndex": 1,
+        "explanationText": "The descriptive opening setup phrase ('A highly effective... development') explicitly details the scientific concept of 'the initial polio vaccine'. To prevent a misplaced modifier flaw, the exact noun entity being described must be positioned immediately following the comma boundary."
+    }
+]
