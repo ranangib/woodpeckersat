@@ -1,315 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TYN84E9PLF"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-TYN84E9PLF');
-    </script>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Free Digital SAT Grammar Practice Engine (No Login Required)</title>
-
-    <style>
-        :root {
-            --primary: #2563eb;
-            --primary-hover: #1d4ed8;
-            --dark-bg: #1e293b;
-            --text-main: #0f172a;
-            --text-muted: #475569;
-            --bg-body: #f8fafc;
-            --card-bg: #ffffff;
-            --border: #e2e8f0;
-            --accent: #f0fdf4;
-            --accent-text: #166534;
-        }
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--bg-body);
-            color: var(--text-main);
-            line-height: 1.6;
-            padding: 40px 20px;
-        }
-
-        .main-container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        /* Hero Header Section */
-        .hero {
-            background: var(--dark-bg);
-            color: white;
-            padding: 40px;
-            border-radius: 16px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
-            margin-bottom: 32px;
-            border-bottom: 5px solid var(--primary);
-        }
-
-        .hero h1 {
-            font-size: 2.2rem;
-            font-weight: 800;
-            letter-spacing: -0.03em;
-            margin-bottom: 4px;
-            color: #ffffff;
-        }
-
-        .hero h2 {
-            font-size: 1.1rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            color: var(--primary);
-            margin-bottom: 16px;
-        }
-
-        .hero h3 {
-            font-size: 1.3rem;
-            font-weight: 500;
-            color: #e2e8f0;
-            line-height: 1.4;
-        }
-
-        /* Methodology Description Cards */
-        .info-card {
-            background: var(--card-bg);
-            padding: 32px;
-            border-radius: 12px;
-            border: 1px solid var(--border);
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
-            margin-bottom: 32px;
-        }
-
-        .info-card p {
-            margin-bottom: 16px;
-            font-size: 1.05rem;
-            color: var(--text-muted);
-        }
-
-        .info-card p:last-child {
-            margin-bottom: 0;
-            padding: 12px 16px;
-            background-color: var(--accent);
-            color: var(--accent-text);
-            border-radius: 8px;
-            font-weight: 500;
-        }
-
-        /* Schedule Title */
-        .schedule-title {
-            font-size: 1.4rem;
-            font-weight: 700;
-            margin-bottom: 16px;
-            color: var(--dark-bg);
-            letter-spacing: -0.02em;
-        }
-
-        /* Styled Dashboard Training Table */
-        .schedule-table {
-            width: 100%;
-            border-collapse: separate;
-            border-spacing: 0;
-            background: var(--card-bg);
-            border-radius: 12px;
-            border: 1px solid var(--border);
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
-            overflow: hidden;
-            margin-bottom: 40px;
-        }
-
-        .schedule-table th {
-            background: #f1f5f9;
-            color: var(--dark-bg);
-            text-align: left;
-            padding: 16px 24px;
-            font-weight: 700;
-            font-size: 0.95rem;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            border-bottom: 2px solid var(--border);
-        }
-
-        .schedule-table td {
-            padding: 18px 24px;
-            border-bottom: 1px solid var(--border);
-            font-size: 1rem;
-            font-weight: 500;
-        }
-
-        .schedule-table tr:last-child td {
-            border-bottom: none;
-        }
-
-        .day-column {
-            color: var(--dark-bg);
-            font-weight: 700;
-            width: 25%;
-            background: #fafafa;
-            border-right: 1px solid var(--border);
-        }
-
-        /* Rest Day Styling */
-        .rest-day {
-            color: #94a3b8;
-            font-style: italic;
-            font-weight: 400;
-        }
-
-        /* Premium Action Links */
-        .part-link {
-            display: inline-block;
-            color: var(--primary);
-            text-decoration: none;
-            font-weight: 600;
-            padding: 4px 10px;
-            background: #eff6ff;
-            border-radius: 6px;
-            transition: all 0.15s ease;
-            border: 1px solid #dbeafe;
-        }
-
-        .part-link:hover {
-            background: var(--primary);
-            color: white;
-            border-color: var(--primary);
-        }
-
-        .link-separator {
-            color: var(--text-muted);
-            font-weight: 400;
-            margin: 0 6px;
-        }
-    </style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="woodpeckersat.online is a brand-new SAT website made by a 1500 scorer.">
+	<title>woodpeckersat.online | SAT Prep</title>
+	<style>
+		:root {
+			--ink: #172b27;
+			--muted: #52645f;
+			--paper: #f4f7f2;
+			--forest: #17483e;
+			--coral: #e47755;
+			--line: #d8e1da;
+		}
+		* { box-sizing: border-box; }
+		body {
+			min-height: 100vh;
+			margin: 0;
+			color: var(--ink);
+			background-color: var(--paper);
+			background-image: linear-gradient(rgba(23, 72, 62, 0.035) 1px, transparent 1px),
+				linear-gradient(90deg, rgba(23, 72, 62, 0.035) 1px, transparent 1px);
+			background-size: 32px 32px;
+			font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+		}
+		.page {
+			width: min(100% - 40px, 1040px);
+			min-height: 100vh;
+			margin: 0 auto;
+			display: flex;
+			flex-direction: column;
+		}
+		.topbar {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 26px 0;
+			border-bottom: 1px solid var(--line);
+		}
+		.wordmark { color: var(--forest); font-size: 1rem; font-weight: 800; text-decoration: none; }
+		.top-note { color: var(--muted); font-size: 0.88rem; }
+		main { width: min(100%, 760px); margin: auto; padding: 76px 0 88px; }
+		.eyebrow {
+			margin: 0 0 18px;
+			color: #a44a31;
+			font-size: 0.78rem;
+			font-weight: 800;
+			letter-spacing: 0.12em;
+			text-transform: uppercase;
+		}
+		h1 {
+			max-width: 720px;
+			margin: 0;
+			color: var(--forest);
+			font-family: Georgia, "Times New Roman", serif;
+			font-size: clamp(2.6rem, 9vw, 5.4rem);
+			font-weight: 500;
+			line-height: 0.98;
+		}
+		.intro { max-width: 570px; margin: 24px 0 38px; color: var(--muted); font-size: 1.12rem; line-height: 1.7; }
+		.intro strong { color: var(--ink); }
+		.actions { display: flex; flex-wrap: wrap; gap: 14px; }
+		.action {
+			min-height: 58px;
+			display: inline-flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 28px;
+			padding: 0 20px;
+			border: 1px solid var(--forest);
+			border-radius: 5px;
+			color: white;
+			background: var(--forest);
+			font-size: 1rem;
+			font-weight: 700;
+			text-decoration: none;
+			transition: background-color 150ms ease, transform 150ms ease;
+		}
+		.action.secondary { color: var(--forest); background: rgba(255, 255, 255, 0.78); }
+		.action:hover { background: #236456; transform: translateY(-2px); }
+		.action.secondary:hover { color: white; }
+		.action:focus-visible { outline: 3px solid var(--coral); outline-offset: 3px; }
+		.arrow { color: var(--coral); font-size: 1.25rem; }
+		footer { padding: 18px 0 24px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.85rem; }
+		@media (max-width: 520px) {
+			.page { width: min(100% - 32px, 1040px); }
+			.top-note { max-width: 140px; text-align: right; }
+			main { padding: 58px 0; }
+			.actions { flex-direction: column; }
+			.action { width: 100%; }
+		}
+	</style>
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-TYN84E9PLF"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-TYN84E9PLF');
-</script>
-
 <body>
-
-    <div class="main-container">
-        <!-- Hero Header -->
-        <header class="hero">
-            <h2>Grammar</h2>
-            <h1>WoodPeckerSAT: Digital SAT Grammar Guide</h1>
-            <h3>The faster way to learn all of SAT Grammar</h3>
-            <h3>Absolutely no Login Required!</h3>
-        </header>
-
-        <!-- Methodology Summary Section -->
-        <section class="info-card">
-            <p>Why Mastery of Standard English Conventions Matters
-                To earn a top score on the Digital SAT Reading and Writing section, you must build flawless pattern
-                recognition for Standard English conventions. The exam explicitly tests your structural intuition across
-                complex sentence boundaries, clause linkers, and punctuation layouts. Instead of memorizing abstract
-                concepts, our practice engine builds instinctual tracking habits using paired questions that match real
-                test blueprints.</p>
-        </section>
-
-        <!-- Training Timeline Table -->
-        <h4 class="schedule-title">Your Training Routine</h4>
-        <table class="schedule-table">
-            <thead>
-                <tr>
-                    <th class="day-column">Timeline</th>
-                    <th>Daily Training Objective</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="day-column">Day 1</td>
-                    <td><a class="part-link" href="part1.html">Part 1</a></td>
-                </tr>
-                <tr>
-                    <td class="day-column">Day 2</td>
-                    <td class="rest-day">Rest & Consolidate</td>
-                </tr>
-                <tr>
-                    <td class="day-column">Day 3</td>
-                    <td><a class="part-link" href="part2.html">Part 2</a></td>
-                </tr>
-                <tr>
-                    <td class="day-column">Day 4</td>
-                    <td class="rest-day">Rest & Consolidate</td>
-                </tr>
-                <tr>
-                    <td class="day-column">Day 5</td>
-                    <td><a class="part-link" href="part3.html">Part 3</a></td>
-                </tr>
-                <tr>
-                    <td class="day-column">Day 6</td>
-                    <td class="rest-day">Rest & Consolidate</td>
-                </tr>
-                <tr>
-                    <td class="day-column">Day 7</td>
-                    <td>
-                        <a class="part-link" href="part1.html">Part 1</a>
-                        <span class="link-separator">and</span>
-                        <a class="part-link" href="part2.html">Part 2</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="day-column">Day 8</td>
-                    <td class="rest-day">Rest & Consolidate</td>
-                </tr>
-                <tr>
-                    <td class="day-column">Day 9</td>
-                    <td>
-                        <a class="part-link" href="part2.html">Part 2</a>
-                        <span class="link-separator">and</span>
-                        <a class="part-link" href="part3.html">Part 3</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="day-column">Day 10</td>
-                    <td class="rest-day">Rest & Consolidate</td>
-                </tr>
-                <tr>
-                    <td class="day-column">Day 11</td>
-                    <td>
-                        <a class="part-link" href="part1.html">Part 1</a>
-                        <span class="link-separator">,</span>
-                        <a class="part-link" href="part2.html">Part 2</a>
-                        <span class="link-separator">, and</span>
-                        <a class="part-link" href="part3.html">Part 3</a>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Quiz",
-  "name": "Digital SAT Grammar Practice Engine",
-  "description": "Free open-access training app designed to master all 29 core SAT grammar rules through adaptive pattern recognition. No sign-up or login required.",
-  "hasPart": {
-    "@type": "CreativeWork",
-    "name": "SAT Standard English Conventions Practice"
-  }
-}
-</script>
-
+	<div class="page">
+		<header class="topbar">
+			<a class="wordmark" href="index.html">woodpeckersat.online</a>
+			<span class="top-note">A new way to prep for the SAT</span>
+		</header>
+		<main>
+			<p class="eyebrow">Built by a 1500 scorer</p>
+			<h1>Your next SAT session starts here.</h1>
+			<p class="intro"><strong>woodpeckersat.online</strong> is a brand-new SAT website made by a 1500 scorer. Practice grammar or contribute SAT questions.</p>
+			<nav class="actions" aria-label="Choose a destination">
+				<a class="action" href="grammar.html">Go to Grammar <span class="arrow" aria-hidden="true">&rarr;</span></a>
+				<a class="action secondary" href="upload.html">Upload SAT Questions <span class="arrow" aria-hidden="true">&rarr;</span></a>
+			</nav>
+		</main>
+		<footer>woodpeckersat.online</footer>
+	</div>
 </body>
-
 </html>
