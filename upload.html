@@ -1,30 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Upload SAT questions and earn money for your contributions.">
-    <title>Upload SAT Questions | woodpeckersat.online</title>
+    <meta name="description"
+        content="Submit multiple-choice SAT Math or English questions to WoodpeckerSAT and receive a digital gift and mentorship from a recent 1500 scorer.">
+    <link rel="canonical" href="https://woodpeckersat.online/upload.html">
+    <meta name="theme-color" content="#17483e">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="WoodpeckerSAT">
+    <meta property="og:title" content="Submit SAT Questions and Get Mentorship | WoodpeckerSAT">
+    <meta property="og:description"
+        content="Submit multiple-choice SAT Math or English questions and learn about contributor gifts and mentorship.">
+    <meta property="og:url" content="https://woodpeckersat.online/upload.html">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Submit SAT Questions | WoodpeckerSAT">
+    <meta name="twitter:description"
+        content="Contribute SAT Math or English questions and get mentorship and a digital gift.">
+    <title>Submit SAT Questions and Get Mentorship | WoodpeckerSAT</title>
     <style>
-        :root { --ink: #172b27; --muted: #52645f; --paper: #f4f7f2; --forest: #17483e; --coral: #e47755; --line: #d8e1da; }
-        * { box-sizing: border-box; }
-        body { min-height: 100vh; margin: 0; padding: 0 20px; color: var(--ink); background: var(--paper); font-family: "Trebuchet MS", "Segoe UI", sans-serif; }
-        .page { width: min(100%, 860px); min-height: 100vh; margin: 0 auto; display: flex; flex-direction: column; }
-        header { padding: 26px 0; border-bottom: 1px solid var(--line); }
-        header a { color: var(--forest); font-size: 1rem; font-weight: 800; text-decoration: none; }
-        main { margin: auto 0; padding: 72px 0; }
-        .eyebrow { margin: 0 0 18px; color: #a44a31; font-size: 0.78rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; }
-        h1 { max-width: 700px; margin: 0; color: var(--forest); font-family: Georgia, "Times New Roman", serif; font-size: clamp(2.5rem, 8vw, 4.8rem); font-weight: 500; line-height: 1.02; }
-        .description { max-width: 620px; margin: 24px 0 32px; color: var(--muted); font-size: 1.12rem; line-height: 1.7; }
+        :root {
+            --ink: #172b27;
+            --muted: #52645f;
+            --paper: #f4f7f2;
+            --forest: #17483e;
+            --coral: #e47755;
+            --line: #d8e1da;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            margin: 0;
+            padding: 0 20px;
+            color: var(--ink);
+            background: var(--paper);
+            font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+        }
+
+        .page {
+            width: min(100%, 860px);
+            min-height: 100vh;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            padding: 26px 0;
+            border-bottom: 1px solid var(--line);
+        }
+
+        header a {
+            color: var(--forest);
+            font-size: 1rem;
+            font-weight: 800;
+            text-decoration: none;
+        }
+
+        main {
+            margin: auto 0;
+            padding: 72px 0;
+        }
+
+        .eyebrow {
+            margin: 0 0 18px;
+            color: #a44a31;
+            font-size: 0.78rem;
+            font-weight: 800;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            max-width: 700px;
+            margin: 0;
+            color: var(--forest);
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: clamp(2.5rem, 8vw, 4.8rem);
+            font-weight: 500;
+            line-height: 1.02;
+        }
+
+        .description {
+            max-width: 620px;
+            margin: 24px 0 32px;
+            color: var(--muted);
+            font-size: 1.12rem;
+            line-height: 1.7;
+        }
+
         .question-form {
             display: grid;
             gap: 20px;
             max-width: 680px;
             margin: 32px 0;
         }
-        .form-field { display: grid; gap: 8px; }
-        .form-field label, .field-label { color: var(--ink); font-size: 0.95rem; font-weight: 700; }
-        .question-form input, .question-form select, .question-form textarea {
+
+        .form-field {
+            display: grid;
+            gap: 8px;
+        }
+
+        .form-field label,
+        .field-label {
+            color: var(--ink);
+            font-size: 0.95rem;
+            font-weight: 700;
+        }
+
+        .question-form input,
+        .question-form select,
+        .question-form textarea {
             width: 100%;
             min-height: 48px;
             padding: 11px 13px;
@@ -34,12 +125,24 @@
             background: #fff;
             font: inherit;
         }
-        .question-form textarea { min-height: 120px; resize: vertical; }
-        .question-form input:focus-visible, .question-form select:focus-visible, .question-form textarea:focus-visible {
+
+        .question-form textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        .question-form input:focus-visible,
+        .question-form select:focus-visible,
+        .question-form textarea:focus-visible {
             outline: 3px solid rgba(228, 119, 85, 0.45);
             border-color: var(--forest);
         }
-        .answer-fields { display: grid; gap: 12px; }
+
+        .answer-fields {
+            display: grid;
+            gap: 12px;
+        }
+
         .submit-button {
             min-height: 50px;
             justify-self: start;
@@ -52,24 +155,60 @@
             font-weight: 700;
             cursor: pointer;
         }
-        .submit-button:hover { background: #236456; }
-        .submit-button:focus-visible { outline: 3px solid var(--coral); outline-offset: 3px; }
-        .back-link { min-height: 50px; display: inline-flex; align-items: center; padding: 0 18px; border: 1px solid var(--forest); border-radius: 5px; color: white; background: var(--forest); font-weight: 700; text-decoration: none; }
-        .back-link:hover { background: #236456; }
-        .back-link:focus-visible { outline: 3px solid var(--coral); outline-offset: 3px; }
-        footer { padding: 18px 0 24px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.85rem; }
+
+        .submit-button:hover {
+            background: #236456;
+        }
+
+        .submit-button:focus-visible {
+            outline: 3px solid var(--coral);
+            outline-offset: 3px;
+        }
+
+        .back-link {
+            min-height: 50px;
+            display: inline-flex;
+            align-items: center;
+            padding: 0 18px;
+            border: 1px solid var(--forest);
+            border-radius: 5px;
+            color: white;
+            background: var(--forest);
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .back-link:hover {
+            background: #236456;
+        }
+
+        .back-link:focus-visible {
+            outline: 3px solid var(--coral);
+            outline-offset: 3px;
+        }
+
+        footer {
+            padding: 18px 0 24px;
+            border-top: 1px solid var(--line);
+            color: var(--muted);
+            font-size: 0.85rem;
+        }
     </style>
 </head>
+
 <body>
     <div class="page">
         <header><a href="index.html">woodpeckersat.online</a></header>
         <main>
             <p class="eyebrow">Share what you know</p>
-            <h1>Earn money by uploading SAT questions.</h1>
-            <p class="description">Have a knack for writing great SAT questions? This is a way to earn money by contributing your original SAT questions to woodpeckersat.online.</p>
+            <h1>Earn a free mentorship as well as a digital gift by uploading SAT questions.</h1>
+            <p class="description">Upload SAT questions that you can find on the internet/create. Questions must be
+                accurate as well as stricly only be multiple choice. Upon sumbission you will receive a digital gift as
+                well as free mentorship from a recent 1500 scorer.</p>
             <form class="question-form" action="https://formspree.io/f/mppqloyl" method="POST">
                 <div class="form-field">
-                    <label for="email">Your email</label>
+                    <label for="email">Your email (please make sure there are no typos because this is how we will
+                        contact you)</label>
                     <input id="email" type="email" name="email" autocomplete="email" required>
                 </div>
                 <div class="form-field">
@@ -114,4 +253,5 @@
         <footer>woodpeckersat.online</footer>
     </div>
 </body>
+
 </html>

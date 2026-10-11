@@ -1,114 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="woodpeckersat.online is a brand-new SAT website made by a 1500 scorer.">
-	<title>woodpeckersat.online | SAT Prep</title>
-	<style>
-		:root {
-			--ink: #172b27;
-			--muted: #52645f;
-			--paper: #f4f7f2;
-			--forest: #17483e;
-			--coral: #e47755;
-			--line: #d8e1da;
-		}
-		* { box-sizing: border-box; }
-		body {
-			min-height: 100vh;
-			margin: 0;
-			color: var(--ink);
-			background-color: var(--paper);
-			background-image: linear-gradient(rgba(23, 72, 62, 0.035) 1px, transparent 1px),
-				linear-gradient(90deg, rgba(23, 72, 62, 0.035) 1px, transparent 1px);
-			background-size: 32px 32px;
-			font-family: "Trebuchet MS", "Segoe UI", sans-serif;
-		}
-		.page {
-			width: min(100% - 40px, 1040px);
-			min-height: 100vh;
-			margin: 0 auto;
-			display: flex;
-			flex-direction: column;
-		}
-		.topbar {
-			display: flex;
-			align-items: center;
-			justify-content: space-between;
-			padding: 26px 0;
-			border-bottom: 1px solid var(--line);
-		}
-		.wordmark { color: var(--forest); font-size: 1rem; font-weight: 800; text-decoration: none; }
-		.top-note { color: var(--muted); font-size: 0.88rem; }
-		main { width: min(100%, 760px); margin: auto; padding: 76px 0 88px; }
-		.eyebrow {
-			margin: 0 0 18px;
-			color: #a44a31;
-			font-size: 0.78rem;
-			font-weight: 800;
-			letter-spacing: 0.12em;
-			text-transform: uppercase;
-		}
-		h1 {
-			max-width: 720px;
-			margin: 0;
-			color: var(--forest);
-			font-family: Georgia, "Times New Roman", serif;
-			font-size: clamp(2.6rem, 9vw, 5.4rem);
-			font-weight: 500;
-			line-height: 0.98;
-		}
-		.intro { max-width: 570px; margin: 24px 0 38px; color: var(--muted); font-size: 1.12rem; line-height: 1.7; }
-		.intro strong { color: var(--ink); }
-		.actions { display: flex; flex-wrap: wrap; gap: 14px; }
-		.action {
-			min-height: 58px;
-			display: inline-flex;
-			align-items: center;
-			justify-content: space-between;
-			gap: 28px;
-			padding: 0 20px;
-			border: 1px solid var(--forest);
-			border-radius: 5px;
-			color: white;
-			background: var(--forest);
-			font-size: 1rem;
-			font-weight: 700;
-			text-decoration: none;
-			transition: background-color 150ms ease, transform 150ms ease;
-		}
-		.action.secondary { color: var(--forest); background: rgba(255, 255, 255, 0.78); }
-		.action:hover { background: #236456; transform: translateY(-2px); }
-		.action.secondary:hover { color: white; }
-		.action:focus-visible { outline: 3px solid var(--coral); outline-offset: 3px; }
-		.arrow { color: var(--coral); font-size: 1.25rem; }
-		footer { padding: 18px 0 24px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.85rem; }
-		@media (max-width: 520px) {
-			.page { width: min(100% - 32px, 1040px); }
-			.top-note { max-width: 140px; text-align: right; }
-			main { padding: 58px 0; }
-			.actions { flex-direction: column; }
-			.action { width: 100%; }
-		}
-	</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Free digital SAT grammar practice and prep from WoodpeckerSAT, created by a 1500 scorer. Study online and contribute SAT questions.">
+    <link rel="canonical" href="https://woodpeckersat.online/">
+    <meta name="theme-color" content="#17483e">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="WoodpeckerSAT">
+    <meta property="og:title" content="Free SAT Grammar Practice and Prep | WoodpeckerSAT">
+    <meta property="og:description"
+        content="Free digital SAT grammar practice and prep from a 1500 scorer. Study online and contribute SAT questions.">
+    <meta property="og:url" content="https://woodpeckersat.online/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Free SAT Grammar Practice and Prep | WoodpeckerSAT">
+    <meta name="twitter:description" content="Free digital SAT grammar practice and prep from a 1500 scorer.">
+    <title>Free SAT Grammar Practice and Prep | WoodpeckerSAT</title>
+    <script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@graph": [
+			{
+				"@type": "EducationalOrganization",
+				"@id": "https://woodpeckersat.online/#organization",
+				"name": "WoodpeckerSAT",
+				"url": "https://woodpeckersat.online/",
+				"description": "Free digital SAT grammar practice and study resources."
+			},
+			{
+				"@type": "WebSite",
+				"@id": "https://woodpeckersat.online/#website",
+				"name": "WoodpeckerSAT",
+				"url": "https://woodpeckersat.online/",
+				"publisher": { "@id": "https://woodpeckersat.online/#organization" }
+			}
+		]
+	}
+	</script>
+    <style>
+        :root {
+            --ink: #172b27;
+            --muted: #52645f;
+            --paper: #f4f7f2;
+            --forest: #17483e;
+            --coral: #e47755;
+            --line: #d8e1da;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            margin: 0;
+            color: var(--ink);
+            background-color: var(--paper);
+            background-image: linear-gradient(rgba(23, 72, 62, 0.035) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(23, 72, 62, 0.035) 1px, transparent 1px);
+            background-size: 32px 32px;
+            font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+        }
+
+        .page {
+            width: min(100% - 40px, 1040px);
+            min-height: 100vh;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .topbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 26px 0;
+            border-bottom: 1px solid var(--line);
+        }
+
+        .wordmark {
+            color: var(--forest);
+            font-size: 1rem;
+            font-weight: 800;
+            text-decoration: none;
+        }
+
+        .top-note {
+            color: var(--muted);
+            font-size: 0.88rem;
+        }
+
+        main {
+            width: min(100%, 760px);
+            margin: auto;
+            padding: 76px 0 88px;
+        }
+
+        .eyebrow {
+            margin: 0 0 18px;
+            color: #a44a31;
+            font-size: 0.78rem;
+            font-weight: 800;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            max-width: 720px;
+            margin: 0;
+            color: var(--forest);
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: clamp(2.6rem, 9vw, 5.4rem);
+            font-weight: 500;
+            line-height: 0.98;
+        }
+
+        .intro {
+            max-width: 570px;
+            margin: 24px 0 38px;
+            color: var(--muted);
+            font-size: 1.12rem;
+            line-height: 1.7;
+        }
+
+        .intro strong {
+            color: var(--ink);
+        }
+
+        .actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+        }
+
+        .action {
+            min-height: 58px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 28px;
+            padding: 0 20px;
+            border: 1px solid var(--forest);
+            border-radius: 5px;
+            color: white;
+            background: var(--forest);
+            font-size: 1rem;
+            font-weight: 700;
+            text-decoration: none;
+            transition: background-color 150ms ease, transform 150ms ease;
+        }
+
+        .action.secondary {
+            color: var(--forest);
+            background: rgba(255, 255, 255, 0.78);
+        }
+
+        .action:hover {
+            background: #236456;
+            transform: translateY(-2px);
+        }
+
+        .action.secondary:hover {
+            color: white;
+        }
+
+        .action:focus-visible {
+            outline: 3px solid var(--coral);
+            outline-offset: 3px;
+        }
+
+        .arrow {
+            color: var(--coral);
+            font-size: 1.25rem;
+        }
+
+        footer {
+            padding: 18px 0 24px;
+            border-top: 1px solid var(--line);
+            color: var(--muted);
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 520px) {
+            .page {
+                width: min(100% - 32px, 1040px);
+            }
+
+            .top-note {
+                max-width: 140px;
+                text-align: right;
+            }
+
+            main {
+                padding: 58px 0;
+            }
+
+            .actions {
+                flex-direction: column;
+            }
+
+            .action {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
+
 <body>
-	<div class="page">
-		<header class="topbar">
-			<a class="wordmark" href="index.html">woodpeckersat.online</a>
-			<span class="top-note">A new way to prep for the SAT</span>
-		</header>
-		<main>
-			<p class="eyebrow">Built by a 1500 scorer</p>
-			<h1>Your next SAT session starts here.</h1>
-			<p class="intro"><strong>woodpeckersat.online</strong> is a brand-new SAT website made by a 1500 scorer. Practice grammar or contribute SAT questions.</p>
-			<nav class="actions" aria-label="Choose a destination">
-				<a class="action" href="grammar.html">Go to Grammar <span class="arrow" aria-hidden="true">&rarr;</span></a>
-				<a class="action secondary" href="upload.html">Upload SAT Questions <span class="arrow" aria-hidden="true">&rarr;</span></a>
-			</nav>
-		</main>
-		<footer>woodpeckersat.online</footer>
-	</div>
+    <div class="page">
+        <header class="topbar">
+            <a class="wordmark" href="index.html">woodpeckersat.online</a>
+            <span class="top-note">A new way to prep for the SAT</span>
+        </header>
+        <main>
+            <p class="eyebrow">Built by a 1500 scorer</p>
+            <h1>Your next SAT session starts here.</h1>
+            <p class="intro"><strong>woodpeckersat.online</strong> is a brand-new SAT website made by a 1500 scorer.
+                Practice grammar or contribute SAT questions.</p>
+            <nav class="actions" aria-label="Choose a destination">
+                <a class="action" href="grammar.html">Go to Grammar <span class="arrow"
+                        aria-hidden="true">&rarr;</span></a>
+                <a class="action secondary" href="upload.html">Upload SAT Questions <span class="arrow"
+                        aria-hidden="true">&rarr;</span></a>
+            </nav>
+        </main>
+        <footer>woodpeckersat.online</footer>
+    </div>
 </body>
+
 </html>

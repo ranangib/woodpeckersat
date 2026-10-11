@@ -14,7 +14,31 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SAT Prep App</title>
+    <meta name="description"
+        content="Try free SAT-style grammar practice in Part 1. Review punctuation, sentence structure, and standard English conventions with answer explanations.">
+    <link rel="canonical" href="https://woodpeckersat.online/part1.html">
+    <meta name="theme-color" content="#17483e">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="WoodpeckerSAT">
+    <meta property="og:title" content="Digital SAT Grammar Practice: Part 1 | WoodpeckerSAT">
+    <meta property="og:description"
+        content="Free SAT-style grammar questions with answer explanations. Practice standard English conventions online.">
+    <meta property="og:url" content="https://woodpeckersat.online/part1.html">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Digital SAT Grammar Practice: Part 1 | WoodpeckerSAT">
+    <meta name="twitter:description" content="Free SAT-style grammar practice with answer explanations.">
+    <title>Digital SAT Grammar Practice: Part 1 | WoodpeckerSAT</title>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Quiz",
+        "name": "Digital SAT Grammar Practice: Part 1",
+        "description": "Free SAT-style grammar questions with answer explanations.",
+        "url": "https://woodpeckersat.online/part1.html",
+        "educationalLevel": "High School",
+        "inLanguage": "en-US"
+    }
+    </script>
     <style>
         :root {
             --primary: #2563eb;
@@ -279,6 +303,7 @@
             --card-bg: #ffffff;
             --border-color: #d8e1da;
         }
+
         body {
             background-color: var(--bg-body);
             background-image: linear-gradient(rgba(23, 72, 62, 0.035) 1px, transparent 1px),
@@ -286,6 +311,7 @@
             background-size: 32px 32px;
             font-family: "Trebuchet MS", "Segoe UI", sans-serif;
         }
+
         .site-nav {
             max-width: 850px;
             display: flex;
@@ -296,48 +322,110 @@
             padding: 8px 0 18px;
             border-bottom: 1px solid var(--border-color);
         }
-        .site-nav a { color: var(--primary); font-weight: 800; text-decoration: none; }
+
+        .site-nav a {
+            color: var(--primary);
+            font-weight: 800;
+            text-decoration: none;
+        }
+
         .dashboard-container {
             border-radius: 5px;
             box-shadow: none;
             border-color: var(--border-color);
         }
+
         .header {
             background: var(--primary);
             border-bottom: 4px solid #e47755;
         }
-        .header h1 { font-family: Georgia, "Times New Roman", serif; font-weight: 500; }
-        .progress-badge { border-radius: 4px; background: rgba(255, 255, 255, 0.14); }
-        .question-meta { color: #a44a31; }
+
+        .header h1 {
+            font-family: Georgia, "Times New Roman", serif;
+            font-weight: 500;
+        }
+
+        .progress-badge {
+            border-radius: 4px;
+            background: rgba(255, 255, 255, 0.14);
+        }
+
+        .question-meta {
+            color: #a44a31;
+        }
+
         .option-card {
             border-width: 1px;
             border-color: var(--border-color);
             border-radius: 5px;
         }
-        .option-card:hover:not(.disabled) { background: #f2f6f2; border-color: #a9beb0; }
-        .option-letter { background: #edf4ef; color: var(--primary); border-radius: 4px; }
-        .next-btn, .back-btn {
+
+        .option-card:hover:not(.disabled) {
+            background: #f2f6f2;
+            border-color: #a9beb0;
+        }
+
+        .option-letter {
+            background: #edf4ef;
+            color: var(--primary);
+            border-radius: 4px;
+        }
+
+        .next-btn,
+        .back-btn {
             background: var(--primary);
             border: 1px solid var(--primary);
             border-radius: 4px;
             box-shadow: none;
         }
-        .next-btn:hover, .back-btn:hover { background: var(--primary-hover); }
-        .dashboard-container + a {
+
+        .next-btn:hover,
+        .back-btn:hover {
+            background: var(--primary-hover);
+        }
+
+        .dashboard-container+a {
             display: block;
             width: max-content;
             max-width: 100%;
             margin: 0 auto 24px;
         }
-        .back-btn { cursor: pointer; }
+
+        .back-btn {
+            cursor: pointer;
+        }
+
         @media (max-width: 560px) {
-            body { padding: 16px; }
-            .dashboard-container { margin: 22px auto; }
-            .header { align-items: flex-start; flex-direction: column; gap: 10px; padding: 20px; }
-            .header h1 { font-size: 1.35rem; }
-            .quiz-body { padding: 22px 18px; }
-            .option-card { padding: 14px; }
-            .explanation-panel { padding: 18px; }
+            body {
+                padding: 16px;
+            }
+
+            .dashboard-container {
+                margin: 22px auto;
+            }
+
+            .header {
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 10px;
+                padding: 20px;
+            }
+
+            .header h1 {
+                font-size: 1.35rem;
+            }
+
+            .quiz-body {
+                padding: 22px 18px;
+            }
+
+            .option-card {
+                padding: 14px;
+            }
+
+            .explanation-panel {
+                padding: 18px;
+            }
         }
     </style>
 </head>
