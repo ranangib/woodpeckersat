@@ -193,6 +193,89 @@
             font-weight: 400;
             margin: 0 6px;
         }
+
+        :root {
+            --primary: #17483e;
+            --primary-hover: #236456;
+            --dark-bg: #17483e;
+            --text-main: #172b27;
+            --text-muted: #52645f;
+            --bg-body: #f4f7f2;
+            --card-bg: #ffffff;
+            --border: #d8e1da;
+            --accent: #edf4ef;
+            --accent-text: #17483e;
+        }
+
+        body {
+            background-color: var(--bg-body);
+            background-image: linear-gradient(rgba(23, 72, 62, 0.035) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(23, 72, 62, 0.035) 1px, transparent 1px);
+            background-size: 32px 32px;
+            font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+        }
+
+        .main-container { max-width: 900px; }
+        .site-nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            padding: 0 0 22px;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 26px;
+        }
+        .site-nav a:first-child {
+            color: var(--dark-bg);
+            font-weight: 800;
+            text-decoration: none;
+        }
+        .site-nav .upload-link {
+            color: var(--dark-bg);
+            font-weight: 700;
+            text-decoration: none;
+        }
+        .site-nav .upload-link:hover { color: #a44a31; }
+        .hero {
+            background: var(--dark-bg);
+            border: 0;
+            border-bottom: 5px solid #e47755;
+            border-radius: 5px;
+            box-shadow: none;
+        }
+        .hero h1 {
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: clamp(2rem, 6vw, 3rem);
+            font-weight: 500;
+            letter-spacing: 0;
+        }
+        .hero h2 { color: #f1a083; }
+        .info-card {
+            background: rgba(255, 255, 255, 0.78);
+            border-radius: 5px;
+            box-shadow: none;
+        }
+        .schedule-title { color: var(--dark-bg); }
+        .schedule-table {
+            border-radius: 5px;
+            box-shadow: none;
+        }
+        .schedule-table th { background: #e8efea; color: var(--dark-bg); }
+        .day-column { color: var(--dark-bg); background: #f2f6f2; }
+        .part-link {
+            color: var(--dark-bg);
+            background: #edf4ef;
+            border-color: #cad9cf;
+            border-radius: 4px;
+        }
+        .part-link:hover { background: var(--dark-bg); border-color: var(--dark-bg); }
+
+        @media (max-width: 560px) {
+            body { padding: 24px 16px; }
+            .hero, .info-card { padding: 24px; }
+            .schedule-table th, .schedule-table td { padding: 12px 14px; }
+            .day-column { width: 30%; }
+        }
     </style>
 </head>
 <!-- Google tag (gtag.js) -->
@@ -208,6 +291,10 @@
 <body>
 
     <div class="main-container">
+        <nav class="site-nav" aria-label="Main navigation">
+            <a href="index.html">woodpeckersat.online</a>
+            <a class="upload-link" href="upload.html">Upload SAT Questions</a>
+        </nav>
         <!-- Hero Header -->
         <header class="hero">
             <h2>Grammar</h2>

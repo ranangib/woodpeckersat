@@ -265,11 +265,89 @@
             background-color: #1d4ed8;
             /* Darker blue on hover */
         }
+
+        :root {
+            --primary: #17483e;
+            --primary-hover: #236456;
+            --success: #16845f;
+            --success-bg: #edf7f1;
+            --error: #cf584b;
+            --error-bg: #fff0ed;
+            --text-main: #172b27;
+            --text-muted: #52645f;
+            --bg-body: #f4f7f2;
+            --card-bg: #ffffff;
+            --border-color: #d8e1da;
+        }
+        body {
+            background-color: var(--bg-body);
+            background-image: linear-gradient(rgba(23, 72, 62, 0.035) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(23, 72, 62, 0.035) 1px, transparent 1px);
+            background-size: 32px 32px;
+            font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+        }
+        .site-nav {
+            max-width: 850px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            margin: 0 auto;
+            padding: 8px 0 18px;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .site-nav a { color: var(--primary); font-weight: 800; text-decoration: none; }
+        .dashboard-container {
+            border-radius: 5px;
+            box-shadow: none;
+            border-color: var(--border-color);
+        }
+        .header {
+            background: var(--primary);
+            border-bottom: 4px solid #e47755;
+        }
+        .header h1 { font-family: Georgia, "Times New Roman", serif; font-weight: 500; }
+        .progress-badge { border-radius: 4px; background: rgba(255, 255, 255, 0.14); }
+        .question-meta { color: #a44a31; }
+        .option-card {
+            border-width: 1px;
+            border-color: var(--border-color);
+            border-radius: 5px;
+        }
+        .option-card:hover:not(.disabled) { background: #f2f6f2; border-color: #a9beb0; }
+        .option-letter { background: #edf4ef; color: var(--primary); border-radius: 4px; }
+        .next-btn, .back-btn {
+            background: var(--primary);
+            border: 1px solid var(--primary);
+            border-radius: 4px;
+            box-shadow: none;
+        }
+        .next-btn:hover, .back-btn:hover { background: var(--primary-hover); }
+        .dashboard-container + a {
+            display: block;
+            width: max-content;
+            max-width: 100%;
+            margin: 0 auto 24px;
+        }
+        .back-btn { cursor: pointer; }
+        @media (max-width: 560px) {
+            body { padding: 16px; }
+            .dashboard-container { margin: 22px auto; }
+            .header { align-items: flex-start; flex-direction: column; gap: 10px; padding: 20px; }
+            .header h1 { font-size: 1.35rem; }
+            .quiz-body { padding: 22px 18px; }
+            .option-card { padding: 14px; }
+            .explanation-panel { padding: 18px; }
+        }
     </style>
 </head>
 
 <body>
 
+    <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">woodpeckersat.online</a>
+        <a href="grammar.html">Grammar guide</a>
+    </nav>
     <div class="dashboard-container">
         <div class="header">
             <h1 id="quiz-title">Digital SAT Practice Engine</h1>
@@ -291,10 +369,7 @@
             </div>
         </div>
     </div>
-    <!-- If your dashboard is on index.html or your root domain -->
-    <a href="/">
-        <button type="button" class="back-btn">🏠 Back to Dashboard</button>
-    </a>
+    <a class="back-btn" href="index.html">Back to home</a>
 
     <script>
         let testItems = [];
