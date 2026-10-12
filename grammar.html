@@ -2,47 +2,41 @@
 <html lang="en">
 
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TYN84E9PLF"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-TYN84E9PLF');
-    </script>
-    <link rel="icon" type="image/png" href="https://woodpeckersat.online/favicon.png" sizes="48x48" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Practice digital SAT Reading and Writing grammar with a free, no-login guide to punctuation, sentence structure, and standard English conventions.">
+        content="A clear Digital SAT grammar guide to sentence boundaries, punctuation, agreement, verb tense, pronouns, and modifiers, with examples and practice links.">
     <link rel="canonical" href="https://woodpeckersat.online/grammar.html">
     <meta name="theme-color" content="#17483e">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="WoodpeckerSAT">
-    <meta property="og:title" content="Digital SAT Grammar Practice and Guide | WoodpeckerSAT">
+    <meta property="og:title" content="Digital SAT Grammar Guide | WoodpeckerSAT">
     <meta property="og:description"
-        content="Practice digital SAT grammar with a free, no-login guide to standard English conventions.">
+        content="Review the grammar rules most useful for Digital SAT Reading and Writing, with clear examples and a practical editing method.">
     <meta property="og:url" content="https://woodpeckersat.online/grammar.html">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Digital SAT Grammar Practice and Guide | WoodpeckerSAT">
+    <meta name="twitter:title" content="Digital SAT Grammar Guide | WoodpeckerSAT">
     <meta name="twitter:description"
-        content="Free digital SAT grammar practice and a structured standard English conventions guide.">
-    <title>Digital SAT Grammar Practice and Guide | WoodpeckerSAT</title>
+        content="Review sentence boundaries, punctuation, agreement, verb tense, pronouns, and modifiers.">
+    <title>Digital SAT Grammar Guide | WoodpeckerSAT</title>
+    <link rel="icon" type="image/png" href="https://woodpeckersat.online/favicon.png" sizes="48x48">
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "LearningResource",
-        "name": "Digital SAT Grammar Practice and Guide",
-        "description": "Free, no-login digital SAT Reading and Writing grammar guide covering punctuation, sentence structure, and standard English conventions.",
+        "name": "Digital SAT Grammar Guide",
+        "description": "A free guide to sentence boundaries, punctuation, agreement, verb tense, pronouns, modifiers, and usage for Digital SAT Reading and Writing.",
         "url": "https://woodpeckersat.online/grammar.html",
-        "learningResourceType": "Study guide and practice",
+        "learningResourceType": "Study guide",
         "educationalLevel": "High School",
         "inLanguage": "en-US",
         "teaches": [
-            "Punctuation",
             "Sentence structure",
-            "Standard English conventions"
+            "Punctuation",
+            "Subject-verb agreement",
+            "Pronoun agreement",
+            "Verb tense",
+            "Modifiers"
         ],
         "provider": {
             "@type": "EducationalOrganization",
@@ -51,433 +45,551 @@
         }
     }
     </script>
-
     <style>
         :root {
-            --primary: #2563eb;
-            --primary-hover: #1d4ed8;
-            --dark-bg: #1e293b;
-            --text-main: #0f172a;
-            --text-muted: #475569;
-            --bg-body: #f8fafc;
-            --card-bg: #ffffff;
-            --border: #e2e8f0;
-            --accent: #f0fdf4;
-            --accent-text: #166534;
+            --ink: #172b27;
+            --muted: #52645f;
+            --paper: #f4f7f2;
+            --forest: #17483e;
+            --coral: #e47755;
+            --line: #d8e1da;
+            --card: rgba(255, 255, 255, 0.84);
         }
 
         * {
             box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 24px;
+        }
+
+        body {
             margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--bg-body);
-            color: var(--text-main);
-            line-height: 1.6;
-            padding: 40px 20px;
-        }
-
-        .main-container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        /* Hero Header Section */
-        .hero {
-            background: var(--dark-bg);
-            color: white;
-            padding: 40px;
-            border-radius: 16px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
-            margin-bottom: 32px;
-            border-bottom: 5px solid var(--primary);
-        }
-
-        .hero h1 {
-            font-size: 2.2rem;
-            font-weight: 800;
-            letter-spacing: -0.03em;
-            margin-bottom: 4px;
-            color: #ffffff;
-        }
-
-        .hero h2 {
-            font-size: 1.1rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            color: var(--primary);
-            margin-bottom: 16px;
-        }
-
-        .hero h3 {
-            font-size: 1.3rem;
-            font-weight: 500;
-            color: #e2e8f0;
-            line-height: 1.4;
-        }
-
-        /* Methodology Description Cards */
-        .info-card {
-            background: var(--card-bg);
-            padding: 32px;
-            border-radius: 12px;
-            border: 1px solid var(--border);
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
-            margin-bottom: 32px;
-        }
-
-        .info-card p {
-            margin-bottom: 16px;
-            font-size: 1.05rem;
-            color: var(--text-muted);
-        }
-
-        .info-card p:last-child {
-            margin-bottom: 0;
-            padding: 12px 16px;
-            background-color: var(--accent);
-            color: var(--accent-text);
-            border-radius: 8px;
-            font-weight: 500;
-        }
-
-        /* Schedule Title */
-        .schedule-title {
-            font-size: 1.4rem;
-            font-weight: 700;
-            margin-bottom: 16px;
-            color: var(--dark-bg);
-            letter-spacing: -0.02em;
-        }
-
-        /* Styled Dashboard Training Table */
-        .schedule-table {
-            width: 100%;
-            border-collapse: separate;
-            border-spacing: 0;
-            background: var(--card-bg);
-            border-radius: 12px;
-            border: 1px solid var(--border);
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
-            overflow: hidden;
-            margin-bottom: 40px;
-        }
-
-        .schedule-table th {
-            background: #f1f5f9;
-            color: var(--dark-bg);
-            text-align: left;
-            padding: 16px 24px;
-            font-weight: 700;
-            font-size: 0.95rem;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            border-bottom: 2px solid var(--border);
-        }
-
-        .schedule-table td {
-            padding: 18px 24px;
-            border-bottom: 1px solid var(--border);
-            font-size: 1rem;
-            font-weight: 500;
-        }
-
-        .schedule-table tr:last-child td {
-            border-bottom: none;
-        }
-
-        .day-column {
-            color: var(--dark-bg);
-            font-weight: 700;
-            width: 25%;
-            background: #fafafa;
-            border-right: 1px solid var(--border);
-        }
-
-        /* Rest Day Styling */
-        .rest-day {
-            color: #94a3b8;
-            font-style: italic;
-            font-weight: 400;
-        }
-
-        /* Premium Action Links */
-        .part-link {
-            display: inline-block;
-            color: var(--primary);
-            text-decoration: none;
-            font-weight: 600;
-            padding: 4px 10px;
-            background: #eff6ff;
-            border-radius: 6px;
-            transition: all 0.15s ease;
-            border: 1px solid #dbeafe;
-        }
-
-        .part-link:hover {
-            background: var(--primary);
-            color: white;
-            border-color: var(--primary);
-        }
-
-        .link-separator {
-            color: var(--text-muted);
-            font-weight: 400;
-            margin: 0 6px;
-        }
-
-        :root {
-            --primary: #17483e;
-            --primary-hover: #236456;
-            --dark-bg: #17483e;
-            --text-main: #172b27;
-            --text-muted: #52645f;
-            --bg-body: #f4f7f2;
-            --card-bg: #ffffff;
-            --border: #d8e1da;
-            --accent: #edf4ef;
-            --accent-text: #17483e;
-        }
-
-        body {
-            background-color: var(--bg-body);
+            color: var(--ink);
+            background-color: var(--paper);
             background-image: linear-gradient(rgba(23, 72, 62, 0.035) 1px, transparent 1px),
                 linear-gradient(90deg, rgba(23, 72, 62, 0.035) 1px, transparent 1px);
             background-size: 32px 32px;
             font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+            line-height: 1.7;
         }
 
-        .main-container {
-            max-width: 900px;
+        .page {
+            width: min(100% - 40px, 1040px);
+            min-height: 100vh;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .site-nav,
+        footer {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 14px;
+            padding: 22px 0;
         }
 
         .site-nav {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 16px;
-            padding: 0 0 22px;
-            border-bottom: 1px solid var(--border);
-            margin-bottom: 26px;
+            border-bottom: 1px solid var(--line);
+        }
+
+        .site-nav a:first-child,
+        footer a {
+            color: var(--forest);
         }
 
         .site-nav a:first-child {
-            color: var(--dark-bg);
             font-weight: 800;
             text-decoration: none;
         }
 
-        .site-nav .upload-link {
-            color: var(--dark-bg);
+        .nav-links,
+        .footer-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 18px;
+            font-size: 0.9rem;
+        }
+
+        main {
+            width: min(100%, 820px);
+            margin: 0 auto;
+            padding: 52px 0 72px;
+        }
+
+        .hero {
+            padding: 38px;
+            border-radius: 5px;
+            color: white;
+            background: var(--forest);
+            border-bottom: 5px solid var(--coral);
+        }
+
+        .eyebrow {
+            margin: 0 0 14px;
+            color: #ffd0bd;
+            font-size: 0.78rem;
+            font-weight: 800;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: Georgia, "Times New Roman", serif;
+            font-weight: 500;
+            line-height: 1.2;
+        }
+
+        h1 {
+            max-width: 720px;
+            margin: 0;
+            font-size: clamp(2.4rem, 7vw, 4rem);
+        }
+
+        .hero p {
+            max-width: 690px;
+            margin: 18px 0 0;
+            color: #e5eee8;
+            font-size: 1.05rem;
+        }
+
+        .quick-rule {
+            margin: 24px 0;
+            padding: 18px 22px;
+            border-left: 4px solid var(--coral);
+            background: var(--card);
+        }
+
+        .quick-rule strong {
+            color: var(--forest);
+        }
+
+        .contents,
+        .lesson,
+        .practice-note {
+            margin-top: 22px;
+            padding: 26px;
+            border: 1px solid var(--line);
+            border-radius: 5px;
+            background: var(--card);
+        }
+
+        .contents h2,
+        .lesson h2,
+        .practice-note h2 {
+            margin: 0 0 12px;
+            color: var(--forest);
+            font-size: 1.65rem;
+        }
+
+        .contents ol {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 4px 28px;
+            margin: 0;
+            padding-left: 24px;
+        }
+
+        a {
+            color: var(--forest);
+        }
+
+        a:focus-visible {
+            outline: 3px solid var(--coral);
+            outline-offset: 3px;
+        }
+
+        .lesson h3 {
+            margin: 24px 0 8px;
+            color: var(--forest);
+            font-size: 1.2rem;
+        }
+
+        .lesson h3:first-of-type {
+            margin-top: 18px;
+        }
+
+        .lesson p {
+            margin: 10px 0;
+        }
+
+        .lesson ul,
+        .lesson ol {
+            padding-left: 24px;
+        }
+
+        .example {
+            margin: 14px 0;
+            padding: 15px 18px;
+            border-left: 3px solid var(--line);
+            background: #f4f7f2;
+        }
+
+        .example p {
+            margin: 4px 0;
+        }
+
+        .wrong {
+            color: #8f3024;
+        }
+
+        .right {
+            color: #155f45;
+        }
+
+        .rule {
+            color: var(--forest);
+            font-weight: 800;
+        }
+
+        .practice-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 16px;
+        }
+
+        .practice-links a {
+            display: inline-block;
+            padding: 10px 15px;
+            border: 1px solid var(--forest);
+            border-radius: 4px;
+            color: white;
+            background: var(--forest);
             font-weight: 700;
             text-decoration: none;
         }
 
-        .site-nav .upload-link:hover {
-            color: #a44a31;
+        .practice-links a:hover {
+            background: #236456;
         }
 
-        .hero {
-            background: var(--dark-bg);
-            border: 0;
-            border-bottom: 5px solid #e47755;
-            border-radius: 5px;
-            box-shadow: none;
+        footer {
+            border-top: 1px solid var(--line);
+            color: var(--muted);
+            font-size: 0.85rem;
         }
 
-        .hero h1 {
-            font-family: Georgia, "Times New Roman", serif;
-            font-size: clamp(2rem, 6vw, 3rem);
-            font-weight: 500;
-            letter-spacing: 0;
-        }
+        @media (max-width: 600px) {
+            .page {
+                width: min(100% - 32px, 1040px);
+            }
 
-        .hero h2 {
-            color: #f1a083;
-        }
-
-        .info-card {
-            background: rgba(255, 255, 255, 0.78);
-            border-radius: 5px;
-            box-shadow: none;
-        }
-
-        .schedule-title {
-            color: var(--dark-bg);
-        }
-
-        .schedule-table {
-            border-radius: 5px;
-            box-shadow: none;
-        }
-
-        .schedule-table th {
-            background: #e8efea;
-            color: var(--dark-bg);
-        }
-
-        .day-column {
-            color: var(--dark-bg);
-            background: #f2f6f2;
-        }
-
-        .part-link {
-            color: var(--dark-bg);
-            background: #edf4ef;
-            border-color: #cad9cf;
-            border-radius: 4px;
-        }
-
-        .part-link:hover {
-            background: var(--dark-bg);
-            border-color: var(--dark-bg);
-        }
-
-        @media (max-width: 560px) {
-            body {
-                padding: 24px 16px;
+            main {
+                padding: 34px 0 50px;
             }
 
             .hero,
-            .info-card {
-                padding: 24px;
+            .contents,
+            .lesson,
+            .practice-note {
+                padding: 22px;
             }
 
-            .schedule-table th,
-            .schedule-table td {
-                padding: 12px 14px;
-            }
-
-            .day-column {
-                width: 30%;
+            .contents ol {
+                grid-template-columns: 1fr;
             }
         }
     </style>
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-TYN84E9PLF"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-TYN84E9PLF');
-</script>
 
 <body>
-
-    <div class="main-container">
+    <div class="page">
         <nav class="site-nav" aria-label="Main navigation">
             <a href="index.html">woodpeckersat.online</a>
-            <a class="upload-link" href="upload.html">Upload SAT Questions</a>
+            <div class="nav-links">
+                <a href="grammar-plan.html">Grammar Plan</a>
+                <a href="part1.html">Practice questions</a>
+                <a href="upload.html">Contribute</a>
+            </div>
         </nav>
-        <!-- Hero Header -->
-        <header class="hero">
-            <h2>Grammar</h2>
-            <h1>WoodPeckerSAT: Digital SAT Grammar Guide</h1>
-            <h3>The faster way to learn all of SAT Grammar</h3>
-            <h3>Absolutely no Login Required!</h3>
-        </header>
+        <main>
+            <header class="hero">
+                <p class="eyebrow">Digital SAT Reading and Writing</p>
+                <h1>The grammar guide: understand the rule, then use it.</h1>
+                <p>Review the sentence structure and standard English conventions that help you make sense of grammar
+                    questions. Learn a reliable way to analyze the sentence, apply the rule, and check that your choice
+                    preserves the intended meaning.</p>
+            </header>
 
-        <!-- Methodology Summary Section -->
-        <section class="info-card">
-            <p>Why Mastery of Standard English Conventions Matters
-                To earn a top score on the Digital SAT Reading and Writing section, you must build flawless pattern
-                recognition for Standard English conventions. The exam explicitly tests your structural intuition across
-                complex sentence boundaries, clause linkers, and punctuation layouts. Instead of memorizing abstract
-                concepts, our practice engine builds instinctual tracking habits using paired questions that match real
-                test blueprints.</p>
-        </section>
+            <aside class="quick-rule">
+                <strong>Start here:</strong> Find the sentence’s subject and main verb. Decide whether each side of the
+                blank is a complete thought. Then choose punctuation or a word that connects those ideas correctly.
+            </aside>
 
-        <!-- Training Timeline Table -->
-        <h4 class="schedule-title">Your Training Routine</h4>
-        <table class="schedule-table">
-            <thead>
-                <tr>
-                    <th class="day-column">Timeline</th>
-                    <th>Daily Training Objective</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="day-column">Day 1</td>
-                    <td><a class="part-link" href="part1.html">Part 1</a></td>
-                </tr>
-                <tr>
-                    <td class="day-column">Day 2</td>
-                    <td class="rest-day">Rest & Consolidate</td>
-                </tr>
-                <tr>
-                    <td class="day-column">Day 3</td>
-                    <td><a class="part-link" href="part2.html">Part 2</a></td>
-                </tr>
-                <tr>
-                    <td class="day-column">Day 4</td>
-                    <td class="rest-day">Rest & Consolidate</td>
-                </tr>
-                <tr>
-                    <td class="day-column">Day 5</td>
-                    <td><a class="part-link" href="part3.html">Part 3</a></td>
-                </tr>
-                <tr>
-                    <td class="day-column">Day 6</td>
-                    <td class="rest-day">Rest & Consolidate</td>
-                </tr>
-                <tr>
-                    <td class="day-column">Day 7</td>
-                    <td>
-                        <a class="part-link" href="part1.html">Part 1</a>
-                        <span class="link-separator">and</span>
-                        <a class="part-link" href="part2.html">Part 2</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="day-column">Day 8</td>
-                    <td class="rest-day">Rest & Consolidate</td>
-                </tr>
-                <tr>
-                    <td class="day-column">Day 9</td>
-                    <td>
-                        <a class="part-link" href="part2.html">Part 2</a>
-                        <span class="link-separator">and</span>
-                        <a class="part-link" href="part3.html">Part 3</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="day-column">Day 10</td>
-                    <td class="rest-day">Rest & Consolidate</td>
-                </tr>
-                <tr>
-                    <td class="day-column">Day 11</td>
-                    <td>
-                        <a class="part-link" href="part1.html">Part 1</a>
-                        <span class="link-separator">,</span>
-                        <a class="part-link" href="part2.html">Part 2</a>
-                        <span class="link-separator">, and</span>
-                        <a class="part-link" href="part3.html">Part 3</a>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+            <nav class="contents" aria-labelledby="contents-title">
+                <h2 id="contents-title">Guide contents</h2>
+                <ol>
+                    <li><a href="#sentence-building">Clauses, phrases, and sentences</a></li>
+                    <li><a href="#boundaries">Sentence boundaries and run-ons</a></li>
+                    <li><a href="#commas">Commas and supplementary information</a></li>
+                    <li><a href="#semicolons-colons">Semicolons and colons</a></li>
+                    <li><a href="#coordination">Conjunctions and logical relationships</a></li>
+                    <li><a href="#agreement">Subject-verb and pronoun agreement</a></li>
+                    <li><a href="#verbs">Verb tense and form</a></li>
+                    <li><a href="#modifiers">Modifiers and prepositional phrases</a></li>
+                    <li><a href="#apostrophes">Apostrophes and commonly confused words</a></li>
+                    <li><a href="#test-method">A step-by-step test method</a></li>
+                </ol>
+            </nav>
+
+            <section class="lesson" id="sentence-building">
+                <h2>1. Clauses, phrases, and sentences</h2>
+                <p>A <strong>clause</strong> has a subject and a verb. A <strong>phrase</strong> is a group of words
+                    that works together but does not contain a complete subject-and-verb unit.</p>
+                <div class="example">
+                    <p><strong>Clause:</strong> <em>the rain stopped</em> (subject <em>rain</em>; verb <em>stopped</em>)</p>
+                    <p><strong>Phrase:</strong> <em>after the rain</em> (no subject-verb pair)</p>
+                </div>
+                <h3>Independent and dependent clauses</h3>
+                <p>An <strong>independent clause</strong> expresses a complete thought and can stand as a sentence. A
+                    <strong>dependent clause</strong> has a subject and verb but begins or ends in a way that leaves the
+                    thought incomplete. Words such as <em>because, although, when, if,</em> and <em>while</em> often
+                    introduce dependent clauses.</p>
+                <div class="example">
+                    <p><em>The team continued its work</em> — independent clause.</p>
+                    <p><em>although the deadline was close</em> — dependent clause.</p>
+                    <p class="right"><strong>Combined:</strong> Although the deadline was close, the team continued its work.</p>
+                </div>
+                <p>A <strong>simple sentence</strong> has one independent clause. A <strong>compound sentence</strong>
+                    joins independent clauses. A <strong>complex sentence</strong> combines an independent clause with
+                    at least one dependent clause. A compound-complex sentence has both combinations.</p>
+            </section>
+
+            <section class="lesson" id="boundaries">
+                <h2>2. Sentence boundaries and run-ons</h2>
+                <p>Every independent clause needs a correct connection to the clause next to it. A <strong>fused
+                    sentence</strong> joins two independent clauses with no punctuation; a <strong>comma splice</strong>
+                    joins them with only a comma.</p>
+                <div class="example">
+                    <p class="wrong"><strong>Fused:</strong> The library was closing we packed our books.</p>
+                    <p class="wrong"><strong>Comma splice:</strong> The library was closing, we packed our books.</p>
+                    <p class="right"><strong>Period:</strong> The library was closing. We packed our books.</p>
+                    <p class="right"><strong>Semicolon:</strong> The library was closing; we packed our books.</p>
+                    <p class="right"><strong>Comma + coordinating conjunction:</strong> The library was closing, so we packed our books.</p>
+                </div>
+                <p>A comma alone cannot join two complete sentences. To check, read the words on each side of the
+                    proposed punctuation and ask whether each side can stand alone.</p>
+            </section>
+
+            <section class="lesson" id="commas">
+                <h2>3. Commas and supplementary information</h2>
+                <h3>Use a comma in a series of three or more</h3>
+                <p>Keep items in a list parallel, and use the comma before the final <em>and</em> or <em>or</em> when
+                    separating three or more items.</p>
+                <div class="example">
+                    <p class="right">The lab measured temperature, pressure, and humidity.</p>
+                    <p>Do not add a comma just because you see <em>and</em>: <em>The lab measured temperature and pressure.</em></p>
+                </div>
+                <h3>Use a comma between independent clauses joined by FANBOYS</h3>
+                <p>FANBOYS stands for <em>for, and, nor, but, or, yet, so</em>. Use a comma before the conjunction
+                    when it joins two independent clauses. If the second part is not an independent clause, the comma
+                    is usually not needed.</p>
+                <div class="example">
+                    <p class="right">The sample was small, but the result was consistent.</p>
+                    <p>The sample was small but consistent. (No second independent clause.)</p>
+                </div>
+                <h3>Separate introductory elements and nonessential information</h3>
+                <p>Use a comma after an introductory phrase or dependent clause. Set off an interruption or
+                    <strong>nonessential</strong> information with a matching pair of commas. Essential information
+                    identifies which person or thing is meant and should not be separated from that noun with commas.</p>
+                <div class="example">
+                    <p class="right">After reviewing the data, the researchers revised their estimate.</p>
+                    <p class="right">The telescope, which was recently repaired, is operating again.</p>
+                    <p class="right">The telescope that was recently repaired is operating again. (Identifies which telescope.)</p>
+                </div>
+                <p>Use the removal test for a possible interruption: temporarily remove the words. If the main sentence
+                    remains clear and the information is extra, commas may be appropriate. If removing it changes who
+                    or what the sentence identifies, it is essential.</p>
+                <h3>Commas with dates, places, and direct address</h3>
+                <p>When a full date or a city-and-state name appears in the middle of a sentence, close the pair with a
+                    comma. A comma can also separate a person’s name in direct address.</p>
+                <div class="example">
+                    <p class="right">On April 8, 2024, the observatory opened to visitors.</p>
+                    <p class="right">The festival in Salem, Oregon, attracts local artists.</p>
+                    <p class="right">Mina, please review the final paragraph.</p>
+                </div>
+            </section>
+
+            <section class="lesson" id="semicolons-colons">
+                <h2>4. Semicolons and colons</h2>
+                <h3>Semicolons</h3>
+                <p>A semicolon can join two closely related independent clauses. The words on <strong>both</strong>
+                    sides must be able to stand alone as complete sentences.</p>
+                <div class="example">
+                    <p class="right">The forecast changed; the expedition moved indoors.</p>
+                    <p class="wrong">The forecast changed; moving the expedition indoors.</p>
+                </div>
+                <p>When a conjunctive adverb such as <em>however, therefore, consequently, moreover,</em> or
+                    <em>nevertheless</em> connects two independent clauses, use a semicolon before it and a comma after it.</p>
+                <div class="example">
+                    <p class="right">The route was longer than expected; however, the group arrived on time.</p>
+                    <p class="wrong">The route was longer than expected, however, the group arrived on time.</p>
+                </div>
+                <p>Semicolons can also separate complex list items when those items already contain commas.</p>
+                <div class="example">
+                    <p class="right">The panel included Hana Lee, a biologist; Ravi Shah, an engineer; and Lila Chen, a historian.</p>
+                </div>
+                <h3>Colons</h3>
+                <p>Use a colon after a complete independent clause to introduce a list, example, or explanation.
+                    Do not put a colon directly between a verb or preposition and its complement.</p>
+                <div class="example">
+                    <p class="right">The field kit contains three tools: a compass, a ruler, and a notebook.</p>
+                    <p class="wrong">The field kit contains: a compass, a ruler, and a notebook.</p>
+                </div>
+                <p>A colon may also join two independent clauses when the second explains or illustrates the first.
+                    One useful check: does the second clause answer <em>why?</em> or explain the first?</p>
+                <div class="example">
+                    <p class="right">The observatory closed early: a storm was approaching.</p>
+                </div>
+            </section>
+
+            <section class="lesson" id="coordination">
+                <h2>5. Conjunctions and logical relationships</h2>
+                <p>Grammar is not only about punctuation. A connector must express the relationship between the ideas:
+                    addition, contrast, cause, result, or condition. Choose the transition that matches the meaning,
+                    rather than one that merely sounds formal.</p>
+                <div class="example">
+                    <p><strong>Addition:</strong> The method is inexpensive, <em>and</em> it is easy to repeat.</p>
+                    <p><strong>Contrast:</strong> The method is inexpensive, <em>but</em> it takes more time.</p>
+                    <p><strong>Result:</strong> The method is inexpensive; <em>therefore,</em> more schools can use it.</p>
+                </div>
+                <p>Use <strong>coordination</strong> when ideas have similar importance, and <strong>subordination</strong>
+                    when one idea is background or less important. A subordinating word such as <em>because,
+                    although, when,</em> or <em>if</em> makes its clause dependent.</p>
+                <div class="example">
+                    <p class="right">The archive was closed, so the class visited the museum.</p>
+                    <p class="right">Because the archive was closed, the class visited the museum.</p>
+                </div>
+                <p>Keep list items and paired constructions in matching grammatical forms. For example, pair
+                    <em>to measure</em> with <em>to compare</em>, or <em>measuring</em> with <em>comparing</em>.</p>
+            </section>
+
+            <section class="lesson" id="agreement">
+                <h2>6. Subject-verb and pronoun agreement</h2>
+                <h3>Find the true subject before choosing the verb</h3>
+                <p>A verb agrees with its subject, not with a nearby noun inside a prepositional phrase or interruption.
+                    Mentally set aside phrases beginning with words such as <em>of, with, near,</em> and <em>between</em>
+                    to identify the core subject.</p>
+                <div class="example">
+                    <p class="wrong">One of the instruments <em>are</em> missing.</p>
+                    <p class="right">One of the instruments <em>is</em> missing. (Subject: <em>one</em>.)</p>
+                    <p class="right">The instruments in the case <em>are</em> missing. (Subject: <em>instruments</em>.)</p>
+                </div>
+                <p>Compound subjects joined by <em>and</em> usually take a plural verb. With sentences beginning
+                    <em>there is</em> or <em>there are</em>, find the subject after the verb and match the verb to it.
+                    Also check sentences with inverted word order: the subject may come after the verb.</p>
+                <div class="example">
+                    <p class="right">There are several reasons for the change.</p>
+                    <p class="right">Near the entrance stands a row of ancient trees. (Subject: <em>row</em>.)</p>
+                </div>
+                <h3>Make pronouns agree with clear antecedents</h3>
+                <p>A pronoun refers to a noun called its <strong>antecedent</strong>. Keep their number consistent,
+                    and make sure the reference is clear. Singular antecedents such as <em>each</em> and
+                    <em>neither</em> need a singular pronoun in formal test questions.</p>
+                <div class="example">
+                    <p class="right">Each seedling needs <em>its</em> own label.</p>
+                    <p class="right">The seedlings need <em>their</em> own labels.</p>
+                </div>
+                <p>When two possible nouns could be the antecedent, revise so the pronoun’s reference is unmistakable.</p>
+            </section>
+
+            <section class="lesson" id="verbs">
+                <h2>7. Verb tense and form</h2>
+                <p>Keep verb tense consistent unless the timing of events changes. Use time clues such as dates and
+                    phrases like <em>by the time</em> to establish when an action occurs. The past perfect
+                    (<em>had</em> + past participle) can mark an action that happened before another past action.</p>
+                <div class="example">
+                    <p class="wrong">The team tested the design and <em>records</em> the results.</p>
+                    <p class="right">The team tested the design and <em>recorded</em> the results.</p>
+                    <p class="right">By the time the guide arrived, the group <em>had left</em>.</p>
+                </div>
+                <p>When discussing what happens in a work of literature, present tense is the usual convention.</p>
+                <div class="example">
+                    <p class="right">In the final chapter, the narrator <em>reveals</em> the reason for the journey.</p>
+                </div>
+                <p>Check the verb itself as well as its tense: the subject and verb must agree, and the form after a
+                    helping verb must be standard (for example, <em>has written</em>, not <em>has wrote</em>).</p>
+            </section>
+
+            <section class="lesson" id="modifiers">
+                <h2>8. Modifiers and prepositional phrases</h2>
+                <p>A modifier describes another word or phrase. Place it close enough to the thing it describes that
+                    readers can tell what it modifies. A dangling modifier has no logical word to describe.</p>
+                <div class="example">
+                    <p class="wrong">While hiking the trail, the clouds covered the peak.</p>
+                    <p class="right">While hiking the trail, we saw clouds cover the peak.</p>
+                    <p class="wrong">She served sandwiches to the hikers on paper plates. (This can sound like the hikers are on plates.)</p>
+                    <p class="right">She served the hikers sandwiches on paper plates.</p>
+                </div>
+                <p>An introductory modifying phrase should describe the subject that follows it. Prepositional phrases
+                    also contain nouns that can distract from the sentence’s actual subject; do not let those nearby
+                    nouns control the verb.</p>
+            </section>
+
+            <section class="lesson" id="apostrophes">
+                <h2>9. Apostrophes and commonly confused words</h2>
+                <h3>Possession and contractions</h3>
+                <p>Use an apostrophe to show possession or missing letters in a contraction—not to make a noun plural.
+                    Most singular possessives take <em>’s</em>; plural nouns ending in <em>s</em> usually take only an
+                    apostrophe.</p>
+                <div class="example">
+                    <p><strong>One researcher:</strong> the researcher’s notes</p>
+                    <p><strong>Several researchers:</strong> the researchers’ notes</p>
+                    <p><strong>Contraction:</strong> it’s = it is; <strong>possessive:</strong> its = belonging to it</p>
+                    <p><strong>Contraction:</strong> they’re = they are; <strong>possessive:</strong> their</p>
+                </div>
+                <p>Try expanding a contraction to check it: if <em>it is</em> does not make sense, use <em>its</em>.
+                    Similarly, <em>you’re</em> means <em>you are</em>; <em>your</em> is possessive.</p>
+                <h3>Commonly confused words</h3>
+                <ul>
+                    <li><strong>affect / effect:</strong> usually, <em>affect</em> is a verb meaning influence; <em>effect</em> is a noun meaning result.</li>
+                    <li><strong>their / there / they’re:</strong> possession / place or existence / they are.</li>
+                    <li><strong>whose / who’s:</strong> possession / who is or who has.</li>
+                    <li><strong>precede / proceed:</strong> come before / continue or move forward.</li>
+                    <li><strong>accept / except:</strong> receive / excluding.</li>
+                </ul>
+                <p>For idiomatic expressions, choose the standard preposition that fits the phrase’s meaning (for
+                    example, <em>depend on</em> and <em>different from</em>). In test questions, use the context and
+                    the answer choices rather than changing wording without a reason.</p>
+            </section>
+
+            <section class="practice-note" id="test-method">
+                <h2>10. A step-by-step test method</h2>
+                <ol>
+                    <li>Read the whole sentence or passage for meaning before looking closely at punctuation choices.</li>
+                    <li>Find the subject and main verb in each clause. Ignore prepositional phrases while checking agreement.</li>
+                    <li>At the blank, check whether the material before and after it forms complete independent clauses.</li>
+                    <li>Apply the relevant rule: boundary, comma, semicolon, colon, agreement, tense, pronoun, or modifier.</li>
+                    <li>Read your selected answer back into the sentence. Confirm that it is grammatical and preserves the intended relationship between ideas.</li>
+                </ol>
+                <p>When choices differ only in punctuation, the before-and-after check is a useful first step. If either
+                    side is not an independent clause, a semicolon joining two sentences is not appropriate; look for
+                    a clause, phrase, or supplementary-information rule instead.</p>
+                <div class="practice-links" aria-label="Practice the grammar rules">
+                    <a href="part1.html">Practice Part 1</a>
+                    <a href="part2.html">Practice Part 2</a>
+                    <a href="part3.html">Practice Part 3</a>
+                    <a href="grammar-plan.html">Follow the Grammar Plan</a>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <span>woodpeckersat.online</span>
+            <nav class="footer-links" aria-label="About and policies">
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="privacy.html">Privacy</a>
+            </nav>
+        </footer>
     </div>
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Quiz",
-  "name": "Digital SAT Grammar Practice Engine",
-    "description": "Free digital SAT Reading and Writing grammar practice covering standard English conventions. No sign-up or login required.",
-    "url": "https://woodpeckersat.online/grammar.html",
-  "hasPart": {
-    "@type": "CreativeWork",
-    "name": "SAT Standard English Conventions Practice"
-  }
-}
-</script>
-
 </body>
 
 </html>
