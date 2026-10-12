@@ -238,7 +238,8 @@
 
         .action-container {
             display: flex;
-            justify-content: flex-end;
+            justify-content: space-between;
+            gap: 12px;
             margin-top: 24px;
             min-height: 48px;
         }
@@ -454,6 +455,7 @@
             </div>
 
             <div class="action-container">
+                <button class="next-btn" id="previous-button" onclick="handlePreviousClick()">← Previous Question</button>
                 <button class="next-btn" id="next-button" onclick="handleNextClick()">Next Question →</button>
             </div>
         </div>
@@ -464,6 +466,8 @@
         let testItems = [];
         let currentQuestionIdx = 0;
         let optionSelectionLocked = false;
+        let savedAnswers = {};
+        const progressStorageKey = "woodpeckerSatPart2Progress";
 
         // Asynchronously call and parse external JSON asset configurations
         async function initializeQuizApp() {
@@ -473,10 +477,54 @@
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 testItems = await response.json();
+                restoreProgress();
                 loadEngineQuestion();
+                saveProgress();
             } catch (error) {
                 console.error("Could not fetch quiz data:", error);
                 document.getElementById("question-box").innerText = "Failed to load questions from quiz_data.json. Make sure both files are in the same folder on a live server environment.";
+            }
+        }
+
+        function restoreProgress() {
+            let storedProgress;
+            try {
+                storedProgress = localStorage.getItem(progressStorageKey);
+            } catch (error) {
+                console.error("Could not read saved quiz progress:", error);
+                return;
+            }
+
+            if (!storedProgress) return;
+
+            try {
+                const progress = JSON.parse(storedProgress);
+                if (Number.isInteger(progress.currentQuestionIdx)
+                    && progress.currentQuestionIdx >= 0
+                    && progress.currentQuestionIdx < testItems.length) {
+                    currentQuestionIdx = progress.currentQuestionIdx;
+                }
+                if (progress.answers && typeof progress.answers === "object" && !Array.isArray(progress.answers)) {
+                    savedAnswers = progress.answers;
+                }
+            } catch (error) {
+                console.error("Could not parse saved quiz progress:", error);
+                try {
+                    localStorage.removeItem(progressStorageKey);
+                } catch (removeError) {
+                    console.error("Could not remove invalid saved quiz progress:", removeError);
+                }
+            }
+        }
+
+        function saveProgress() {
+            try {
+                localStorage.setItem(progressStorageKey, JSON.stringify({
+                    currentQuestionIdx,
+                    answers: savedAnswers
+                }));
+            } catch (error) {
+                console.error("Could not save quiz progress:", error);
             }
         }
 
@@ -489,6 +537,7 @@
             document.getElementById("progress-text").innerText = `Question ${currentQuestionIdx + 1} of ${testItems.length}`;
             document.getElementById("question-tag").innerText = currentData.tag;
             document.getElementById("question-box").innerText = currentData.question;
+            document.getElementById("previous-button").style.display = currentQuestionIdx > 0 ? "block" : "none";
 
             const explanationBox = document.getElementById("explanation-box");
             explanationBox.style.display = "none";
@@ -513,13 +562,24 @@
                 buttonElement.appendChild(letterSpan);
                 buttonElement.appendChild(textSpan);
 
-                buttonElement.onclick = () => validateSelection(idx, buttonElement);
+                buttonElement.onclick = () => validateSelection(idx);
                 optionsContainer.appendChild(buttonElement);
             });
+
+            const savedSelection = savedAnswers[currentQuestionIdx];
+            if (Number.isInteger(savedSelection) && savedSelection >= 0 && savedSelection < currentData.options.length) {
+                showAnswer(savedSelection);
+            }
         }
 
-        function validateSelection(selectedIndex, clickedButton) {
+        function validateSelection(selectedIndex) {
             if (optionSelectionLocked) return;
+            savedAnswers[currentQuestionIdx] = selectedIndex;
+            saveProgress();
+            showAnswer(selectedIndex);
+        }
+
+        function showAnswer(selectedIndex) {
             optionSelectionLocked = true;
 
             const questionData = testItems[currentQuestionIdx];
@@ -532,10 +592,10 @@
             const isCorrectChoice = (selectedIndex === questionData.answerIndex);
 
             if (isCorrectChoice) {
-                clickedButton.classList.add("correct-pick");
+                allOptionCards[selectedIndex].classList.add("correct-pick");
                 triggerExplanationView(true, "Correct! Excellent choice.", questionData.explanationText);
             } else {
-                clickedButton.classList.add("incorrect-pick");
+                allOptionCards[selectedIndex].classList.add("incorrect-pick");
                 allOptionCards[questionData.answerIndex].classList.add("reveal-correct");
                 triggerExplanationView(false, "Incorrect", questionData.explanationText);
             }
@@ -562,12 +622,26 @@
         function handleNextClick() {
             if (currentQuestionIdx < testItems.length - 1) {
                 currentQuestionIdx++;
+                saveProgress();
                 loadEngineQuestion();
             } else {
                 alert("Congratulations! You have completed all the grammar practice items.");
+                try {
+                    localStorage.removeItem(progressStorageKey);
+                } catch (error) {
+                    console.error("Could not clear completed quiz progress:", error);
+                }
                 currentQuestionIdx = 0;
+                savedAnswers = {};
                 loadEngineQuestion();
             }
+        }
+
+        function handlePreviousClick() {
+            if (currentQuestionIdx === 0) return;
+            currentQuestionIdx--;
+            saveProgress();
+            loadEngineQuestion();
         }
         // Launch execution pipeline on page rendering complete
         window.onload = initializeQuizApp;
