@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Learn how WoodpeckerSAT handles locally saved practice progress, analytics, and question submissions.">
+    <link rel="canonical" href="https://woodpeckersat.online/privacy.html">
+    <meta name="theme-color" content="#17483e">
+    <title>Privacy | WoodpeckerSAT</title>
+    <link rel="icon" type="image/png" href="https://woodpeckersat.online/favicon.png" sizes="48x48">
+    <style>
+        :root {
+            --ink: #172b27;
+            --muted: #52645f;
+            --paper: #f4f7f2;
+            --forest: #17483e;
+            --line: #d8e1da;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            margin: 0;
+            color: var(--ink);
+            background-color: var(--paper);
+            background-image: linear-gradient(rgba(23, 72, 62, 0.035) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(23, 72, 62, 0.035) 1px, transparent 1px);
+            background-size: 32px 32px;
+            font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+        }
+
+        .page {
+            width: min(100% - 40px, 900px);
+            min-height: 100vh;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header,
+        footer {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 14px;
+            padding: 22px 0;
+        }
+
+        header {
+            border-bottom: 1px solid var(--line);
+        }
+
+        header a,
+        footer a {
+            color: var(--forest);
+        }
+
+        header a {
+            font-weight: 800;
+            text-decoration: none;
+        }
+
+        .page-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 18px;
+            font-size: 0.9rem;
+        }
+
+        main {
+            width: min(100%, 720px);
+            margin: auto;
+            padding: 64px 0 72px;
+        }
+
+        .eyebrow {
+            margin: 0 0 16px;
+            color: #a44a31;
+            font-size: 0.78rem;
+            font-weight: 800;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            margin: 0;
+            color: var(--forest);
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: clamp(2.5rem, 8vw, 4.5rem);
+            font-weight: 500;
+            line-height: 1;
+        }
+
+        h2 {
+            margin: 32px 0 8px;
+            color: var(--forest);
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 1.4rem;
+            font-weight: 500;
+        }
+
+        p,
+        li {
+            color: var(--muted);
+            font-size: 1rem;
+            line-height: 1.7;
+        }
+
+        ul {
+            padding-left: 22px;
+        }
+
+        main a {
+            color: var(--forest);
+            font-weight: 700;
+        }
+
+        footer {
+            border-top: 1px solid var(--line);
+            color: var(--muted);
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 520px) {
+            .page {
+                width: min(100% - 32px, 900px);
+            }
+
+            main {
+                padding: 52px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <header>
+            <a href="index.html">woodpeckersat.online</a>
+            <nav class="page-links" aria-label="Main navigation">
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="privacy.html" aria-current="page">Privacy</a>
+            </nav>
+        </header>
+        <main>
+            <p class="eyebrow">Last updated October 12, 2026</p>
+            <h1>Privacy</h1>
+            <p>This page describes what information is handled when you use WoodpeckerSAT.</p>
+
+            <h2>Practice progress</h2>
+            <p>Your quiz answers and current question are saved in local storage in your browser, separately for each
+                practice part. This lets you return to your work on the same browser and device. This information is
+                stored on your device, not sent to WoodpeckerSAT by the practice pages. Progress for a part is cleared
+                when you complete that part. You can also remove it by clearing this site’s local storage or site data
+                in your browser settings.</p>
+
+            <h2>Analytics</h2>
+            <p>Some pages use Google Analytics to measure site visits and understand how the site is used. Google may
+                collect information such as pages visited, browser and device details, and approximate location, and
+                may use cookies or similar technologies. The homepage and these policy pages do not load the site’s
+                Google Analytics tag. For details about Google’s handling of data, see
+                <a href="https://policies.google.com/privacy">Google’s Privacy Policy</a>.</p>
+
+            <h2>Question submissions</h2>
+            <p>If you submit a question through the upload page, the form asks for your email address, question type,
+                question text, and answer choices. The form is handled by Formspree, a third-party form service, and
+                the submission is sent to the site operator so they can respond. Information you submit is subject to
+                <a href="https://formspree.io/legal/privacy-policy/">Formspree’s Privacy Policy</a> as well as this
+                page. Email sent directly to the contact address is also received by the site operator.</p>
+
+            <h2>Contact</h2>
+            <p>For privacy questions, email <a href="mailto:ranangib@gmail.com">ranangib@gmail.com</a>.</p>
+        </main>
+        <footer>
+            <span>woodpeckersat.online</span>
+            <nav class="page-links" aria-label="About and policies">
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="privacy.html" aria-current="page">Privacy</a>
+            </nav>
+        </footer>
+    </div>
+</body>
+
+</html>

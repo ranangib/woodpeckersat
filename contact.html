@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact WoodpeckerSAT with questions, feedback, or suggestions.">
+    <link rel="canonical" href="https://woodpeckersat.online/contact.html">
+    <meta name="theme-color" content="#17483e">
+    <title>Contact WoodpeckerSAT</title>
+    <link rel="icon" type="image/png" href="https://woodpeckersat.online/favicon.png" sizes="48x48">
+    <style>
+        :root {
+            --ink: #172b27;
+            --muted: #52645f;
+            --paper: #f4f7f2;
+            --forest: #17483e;
+            --line: #d8e1da;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            margin: 0;
+            color: var(--ink);
+            background-color: var(--paper);
+            background-image: linear-gradient(rgba(23, 72, 62, 0.035) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(23, 72, 62, 0.035) 1px, transparent 1px);
+            background-size: 32px 32px;
+            font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+        }
+
+        .page {
+            width: min(100% - 40px, 900px);
+            min-height: 100vh;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header,
+        footer {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 14px;
+            padding: 22px 0;
+        }
+
+        header {
+            border-bottom: 1px solid var(--line);
+        }
+
+        header a,
+        footer a {
+            color: var(--forest);
+        }
+
+        header a {
+            font-weight: 800;
+            text-decoration: none;
+        }
+
+        .page-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 18px;
+            font-size: 0.9rem;
+        }
+
+        main {
+            width: min(100%, 720px);
+            margin: auto;
+            padding: 64px 0 72px;
+        }
+
+        .eyebrow {
+            margin: 0 0 16px;
+            color: #a44a31;
+            font-size: 0.78rem;
+            font-weight: 800;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            margin: 0;
+            color: var(--forest);
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: clamp(2.5rem, 8vw, 4.5rem);
+            font-weight: 500;
+            line-height: 1;
+        }
+
+        p {
+            max-width: 680px;
+            color: var(--muted);
+            font-size: 1.05rem;
+            line-height: 1.75;
+        }
+
+        main a {
+            color: var(--forest);
+            font-weight: 700;
+        }
+
+        footer {
+            border-top: 1px solid var(--line);
+            color: var(--muted);
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 520px) {
+            .page {
+                width: min(100% - 32px, 900px);
+            }
+
+            main {
+                padding: 52px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <header>
+            <a href="index.html">woodpeckersat.online</a>
+            <nav class="page-links" aria-label="Main navigation">
+                <a href="about.html">About</a>
+                <a href="contact.html" aria-current="page">Contact</a>
+                <a href="privacy.html">Privacy</a>
+            </nav>
+        </header>
+        <main>
+            <p class="eyebrow">Get in touch</p>
+            <h1>Contact WoodpeckerSAT.</h1>
+            <p>Questions, feedback, or suggestions about the site? Send an email to <a
+                    href="mailto:ranangib@gmail.com">ranangib@gmail.com</a>.</p>
+        </main>
+        <footer>
+            <span>woodpeckersat.online</span>
+            <nav class="page-links" aria-label="About and policies">
+                <a href="about.html">About</a>
+                <a href="contact.html" aria-current="page">Contact</a>
+                <a href="privacy.html">Privacy</a>
+            </nav>
+        </footer>
+    </div>
+</body>
+
+</html>
