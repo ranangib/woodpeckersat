@@ -259,6 +259,34 @@
             line-height: 1.6;
         }
 
+        .volunteer-feature {
+            margin-top: 44px;
+            padding: 24px;
+            border: 1px solid var(--line);
+            border-left: 5px solid var(--coral);
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.8);
+        }
+
+        .volunteer-feature h2 {
+            margin: 0 0 8px;
+            color: var(--forest);
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+
+        .volunteer-feature p {
+            max-width: 700px;
+            margin: 0 0 18px;
+            color: var(--muted);
+            line-height: 1.65;
+        }
+
+        .volunteer-feature .actions {
+            margin: 0;
+        }
+
         .more-links {
             display: flex;
             gap: 22px;
@@ -376,6 +404,17 @@
                         <span>Build on your skills with another set of questions.</span>
                     </a>
                 </div>
+            </section>
+            <section class="volunteer-feature" aria-labelledby="volunteer-feature-title">
+                <h2 id="volunteer-feature-title">Earn a volunteer or NHS hour</h2>
+                <p>Create a useful SAT study sheet to help another student. Submit it for a quick review and earn
+                    one service hour after it’s verified.</p>
+                <nav class="actions" aria-label="Volunteer hours options">
+                    <a class="action" href="volunteer-hours.html">See how it works <span class="arrow"
+                            aria-hidden="true">&rarr;</span></a>
+                    <a class="action secondary" href="https://forms.gle/dZcBS9RM6PcwvQzN9" target="_blank"
+                        rel="noopener noreferrer">Submit your study sheet</a>
+                </nav>
             </section>
             <section class="benefits" aria-label="How the practice works">
                 <div>
