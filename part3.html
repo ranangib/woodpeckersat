@@ -107,6 +107,21 @@
             padding: 32px;
         }
 
+        .practice-overview {
+            margin-bottom: 28px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .practice-overview h2 {
+            margin-bottom: 8px;
+            font-size: 1.2rem;
+        }
+
+        .practice-overview p {
+            color: var(--text-muted);
+        }
+
         .question-meta {
             font-size: 0.85rem;
             font-weight: 700;
@@ -440,12 +455,16 @@
     </nav>
     <div class="dashboard-container">
         <div class="header">
-            <h1 id="quiz-title">Digital SAT Practice Engine</h1>
-            <div class="progress-badge" id="progress-text">Loading Data...</div>
+            <h1 id="quiz-title">Digital SAT Grammar Practice: Part 3</h1>
+            <div class="progress-badge" id="progress-text">Loading questions...</div>
         </div>
         <div class="quiz-body">
+            <section class="practice-overview" aria-labelledby="practice-overview-title">
+                <h2 id="practice-overview-title">What you’ll practice</h2>
+                <p>This free Digital SAT Reading and Writing set contains 29 multiple-choice questions. Practice punctuation and sentence boundaries, verb agreement and tense, pronoun reference, and modifier placement. Choose an answer for immediate feedback and an explanation.</p>
+            </section>
             <div class="question-meta" id="question-tag">...</div>
-            <div class="question-text" id="question-box">Initializing questions directly from data source file...</div>
+            <div class="question-text" id="question-box">Your first practice question will appear here when the set loads.</div>
 
             <div class="options-list" id="options-box"></div>
 
@@ -482,7 +501,8 @@
                 saveProgress();
             } catch (error) {
                 console.error("Could not fetch quiz data:", error);
-                document.getElementById("question-box").innerText = "Failed to load questions from quiz_data.json. Make sure both files are in the same folder on a live server environment.";
+                document.getElementById("progress-text").innerText = "Questions unavailable";
+                document.getElementById("question-box").innerText = "Could not load Part 3 questions (quiz_data3.json). Please refresh the page or visit the grammar guide.";
             }
         }
 
