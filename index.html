@@ -18,7 +18,7 @@
     <meta name="twitter:title" content="Free Digital SAT Grammar Practice | WoodpeckerSAT">
     <meta name="twitter:description" content="Practice focused SAT grammar questions, get instant explanations, and pick up where you left off. Free and no login required.">
     <title>Free Digital SAT Grammar Practice | WoodpeckerSAT</title>
-    <link rel="icon" type="image/png" href="https://woodpeckersat.online/favicon.png" sizes="48x48" />
+    <link rel="icon" type="image/png" href="/assets/favicon.png" sizes="48x48" />
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -84,10 +84,26 @@
 
         .topbar {
             display: flex;
+            flex-wrap: wrap;
             align-items: center;
             justify-content: space-between;
+            gap: 14px;
             padding: 26px 0;
             border-bottom: 1px solid var(--line);
+        }
+
+        .primary-nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px 18px;
+            padding: 14px 0;
+            border-bottom: 1px solid var(--line);
+        }
+
+        .primary-nav a {
+            color: var(--forest);
+            font-size: 0.9rem;
+            font-weight: 700;
         }
 
         .wordmark {
@@ -374,6 +390,13 @@
             <a class="wordmark" href="index.html">woodpeckersat.online</a>
             <span class="top-note">A new way to prep for the SAT</span>
         </header>
+        <nav class="primary-nav" aria-label="Main navigation">
+            <a href="part1.html">Part 1</a>
+            <a href="part2.html">Part 2</a>
+            <a href="part3.html">Part 3</a>
+            <a href="grammar.html">Grammar guide</a>
+            <a href="grammar-plan.html">Study plan</a>
+        </nav>
         <main>
             <p class="eyebrow">Free practice · No login required · Created by a 1500 scorer</p>
             <h1>Build SAT grammar skills, one question at a time.</h1>

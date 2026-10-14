@@ -28,7 +28,7 @@
     <meta name="twitter:title" content="Digital SAT Grammar Practice: Part 3 | WoodpeckerSAT">
     <meta name="twitter:description" content="Free SAT-style grammar practice with answer explanations.">
     <title>Digital SAT Grammar Practice: Part 3 | WoodpeckerSAT</title>
-    <link rel="icon" type="image/png" href="https://woodpeckersat.online/favicon.png" sizes="48x48" />
+    <link rel="icon" type="image/png" href="/assets/favicon.png" sizes="48x48" />
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -332,9 +332,10 @@
         .site-nav {
             max-width: 850px;
             display: flex;
+            flex-wrap: wrap;
             align-items: center;
             justify-content: space-between;
-            gap: 16px;
+            gap: 12px 18px;
             margin: 0 auto;
             padding: 8px 0 18px;
             border-bottom: 1px solid var(--border-color);
@@ -451,7 +452,11 @@
 
     <nav class="site-nav" aria-label="Main navigation">
         <a href="index.html">woodpeckersat.online</a>
+        <a href="part1.html">Part 1</a>
+        <a href="part2.html">Part 2</a>
+        <a href="part3.html">Part 3</a>
         <a href="grammar.html">Grammar guide</a>
+        <a href="grammar-plan.html">Study plan</a>
     </nav>
     <div class="dashboard-container">
         <div class="header">
@@ -491,7 +496,7 @@
         // Asynchronously call and parse external JSON asset configurations
         async function initializeQuizApp() {
             try {
-                const response = await fetch('quiz_data3.json');
+                const response = await fetch('data/quiz_data3.json');
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
