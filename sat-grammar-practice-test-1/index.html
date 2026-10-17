@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TYN84E9PLF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-TYN84E9PLF');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Timed Digital SAT grammar quiz, Part 1: 29 free questions with 40 seconds per question, instant feedback, and explanations. No login required.">
+    <link rel="canonical" href="https://woodpeckersat.online/sat-grammar-practice-test-1/">
+    <meta name="theme-color" content="#17483e">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="WoodpeckerSAT">
+    <meta property="og:title" content="Timed SAT Grammar Quiz Part 1 | WoodpeckerSAT">
+    <meta property="og:description"
+        content="Timed Digital SAT grammar quiz, Part 1: 29 free questions with 40 seconds per question, instant feedback, and explanations. No login required.">
+    <meta property="og:url" content="https://woodpeckersat.online/sat-grammar-practice-test-1/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Timed SAT Grammar Quiz Part 1 | WoodpeckerSAT">
+    <meta name="twitter:description" content="Timed Digital SAT grammar quiz, Part 1: 29 free questions with 40 seconds per question, instant feedback, and explanations. No login required.">
+    <title>Timed SAT Grammar Quiz Part 1 | WoodpeckerSAT</title>
+    <link rel="icon" type="image/png" href="/assets/favicon.png" sizes="48x48" />
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Quiz",
+        "name": "Timed SAT Grammar Quiz Part 1",
+        "description": "29 free Digital SAT grammar questions with 40 seconds per question, instant feedback, and explanations.",
+        "url": "https://woodpeckersat.online/sat-grammar-practice-test-1/",
+        "educationalLevel": "High School",
+        "inLanguage": "en-US"
+    }
+    </script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-hover: #1d4ed8;
+            --success: #10b981;
+            --success-bg: #f0fdf4;
+            --error: #ef4444;
+            --error-bg: #fef2f2;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --bg-body: #f8fafc;
+            --card-bg: #ffffff;
+            --border-color: #e2e8f0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .dashboard-container {
+            max-width: 850px;
+            margin: 40px auto;
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border-color);
+            overflow: hidden;
+        }
+
+        .header {
+            background: #1e293b;
+            color: white;
+            padding: 24px 32px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 4px solid var(--primary);
+        }
+
+        .header h1 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            letter-spacing: -0.025em;
+        }
+
+        .progress-badge {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .header-status {
+            display: flex;
+            flex-shrink: 0;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 8px;
+        }
+
+        .timer-badge {
+            min-width: 150px;
+            padding: 6px 14px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            font-size: 0.9rem;
+            font-variant-numeric: tabular-nums;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        .timer-badge.is-overtime {
+            border-color: #fecaca;
+            background: #991b1b;
+        }
+
+        .quiz-body {
+            padding: 32px;
+        }
+
+        .practice-overview {
+            margin-bottom: 28px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .practice-overview h2 {
+            margin-bottom: 8px;
+            font-size: 1.2rem;
+        }
+
+        .practice-overview p {
+            color: var(--text-muted);
+        }
+
+        .question-meta {
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 8px;
+        }
+
+        .question-text {
+            font-size: 1.15rem;
+            font-weight: 600;
+            line-height: 1.6;
+            color: var(--text-main);
+            margin-bottom: 24px;
+            white-space: pre-wrap;
+        }
+
+        .options-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .option-card {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            padding: 16px 20px;
+            background: var(--card-bg);
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            font-size: 1rem;
+            text-align: left;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            color: var(--text-main);
+        }
+
+        .option-card:hover:not(.disabled) {
+            background: #f1f5f9;
+            border-color: #cbd5e1;
+            transform: translateY(-1px);
+        }
+
+        .option-letter {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            background: #e2e8f0;
+            border-radius: 6px;
+            margin-right: 14px;
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: #475569;
+            flex-shrink: 0;
+        }
+
+        .option-card.correct-pick {
+            background: var(--success-bg);
+            border-color: var(--success);
+            color: #065f46;
+        }
+
+        .option-card.correct-pick .option-letter {
+            background: var(--success);
+            color: white;
+        }
+
+        .option-card.incorrect-pick {
+            background: var(--error-bg);
+            border-color: var(--error);
+            color: #991b1b;
+        }
+
+        .option-card.incorrect-pick .option-letter {
+            background: var(--error);
+            color: white;
+        }
+
+        .option-card.reveal-correct {
+            background: var(--success-bg);
+            border-color: var(--success);
+        }
+
+        .option-card.disabled {
+            cursor: not-allowed;
+            opacity: 0.8;
+        }
+
+        .explanation-panel {
+            margin-top: 24px;
+            padding: 24px;
+            border-radius: 8px;
+            display: none;
+            animation: slideIn 0.3s ease-out;
+            border-left: 5px solid;
+        }
+
+        .explanation-panel.correct-style {
+            background: var(--success-bg);
+            border-color: var(--success);
+            color: #065f46;
+        }
+
+        .explanation-panel.incorrect-style {
+            background: var(--error-bg);
+            border-color: var(--error);
+            color: #991b1b;
+        }
+
+        .exp-title {
+            font-weight: 700;
+            font-size: 1.05rem;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .exp-desc {
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .action-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 12px;
+            margin-top: 24px;
+            min-height: 48px;
+        }
+
+        .next-btn {
+            display: none;
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 12px 28px;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.15s ease;
+            box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.2);
+        }
+
+        .next-btn:hover {
+            background: var(--primary-hover);
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(8px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .back-btn {
+            background-color: #2563eb;
+            /* Clean blue */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.2s ease;
+        }
+
+        .back-btn:hover {
+            background-color: #1d4ed8;
+            /* Darker blue on hover */
+        }
+
+        :root {
+            --primary: #17483e;
+            --primary-hover: #236456;
+            --success: #16845f;
+            --success-bg: #edf7f1;
+            --error: #cf584b;
+            --error-bg: #fff0ed;
+            --text-main: #172b27;
+            --text-muted: #52645f;
+            --bg-body: #f4f7f2;
+            --card-bg: #ffffff;
+            --border-color: #d8e1da;
+        }
+
+        body {
+            background-color: var(--bg-body);
+            background-image: linear-gradient(rgba(23, 72, 62, 0.035) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(23, 72, 62, 0.035) 1px, transparent 1px);
+            background-size: 32px 32px;
+            font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+        }
+
+        .site-nav {
+            max-width: 850px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px 18px;
+            margin: 0 auto;
+            padding: 8px 0 18px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .site-nav a {
+            color: var(--primary);
+            font-weight: 800;
+            text-decoration: none;
+        }
+
+        .dashboard-container {
+            border-radius: 5px;
+            box-shadow: none;
+            border-color: var(--border-color);
+        }
+
+        .header {
+            background: var(--primary);
+            border-bottom: 4px solid #e47755;
+        }
+
+        .header h1 {
+            font-family: Georgia, "Times New Roman", serif;
+            font-weight: 500;
+        }
+
+        .progress-badge {
+            border-radius: 4px;
+            background: rgba(255, 255, 255, 0.14);
+        }
+
+        .question-meta {
+            color: #a44a31;
+        }
+
+        .option-card {
+            border-width: 1px;
+            border-color: var(--border-color);
+            border-radius: 5px;
+        }
+
+        .option-card:hover:not(.disabled) {
+            background: #f2f6f2;
+            border-color: #a9beb0;
+        }
+
+        .option-letter {
+            background: #edf4ef;
+            color: var(--primary);
+            border-radius: 4px;
+        }
+
+        .next-btn,
+        .back-btn {
+            background: var(--primary);
+            border: 1px solid var(--primary);
+            border-radius: 4px;
+            box-shadow: none;
+        }
+
+        .next-btn:hover,
+        .back-btn:hover {
+            background: var(--primary-hover);
+        }
+
+        .dashboard-container+a {
+            display: block;
+            width: max-content;
+            max-width: 100%;
+            margin: 0 auto 24px;
+        }
+
+        .back-btn {
+            cursor: pointer;
+        }
+
+        @media (max-width: 560px) {
+            body {
+                padding: 16px;
+            }
+
+            .dashboard-container {
+                margin: 22px auto;
+            }
+
+            .header {
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 10px;
+                padding: 20px;
+            }
+
+            .header h1 {
+                font-size: 1.35rem;
+            }
+
+            .header-status {
+                align-items: flex-start;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+            .quiz-body {
+                padding: 22px 18px;
+            }
+
+            .option-card {
+                padding: 14px;
+            }
+
+            .explanation-panel {
+                padding: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="site-nav" aria-label="Main navigation">
+        <a href="/">woodpeckersat.online</a>
+        <a href="/sat-grammar-practice-test-1/">Part 1</a>
+        <a href="/sat-grammar-practice-test-2/">Part 2</a>
+        <a href="/sat-grammar-practice-test-3/">Part 3</a>
+        <a href="/grammar.html">Grammar guide</a>
+        <a href="/grammar-plan.html">Study plan</a>
+    </nav>
+    <div class="dashboard-container">
+        <div class="header">
+            <h1 id="quiz-title">Timed Digital SAT Grammar Practice: Part 1</h1>
+            <div class="header-status">
+                <div class="progress-badge" id="progress-text">Loading questions...</div>
+                <div class="timer-badge" id="timer-text" role="timer" aria-label="Time remaining">Time: 40 seconds</div>
+            </div>
+        </div>
+        <div class="quiz-body">
+            <section class="practice-overview" aria-labelledby="practice-overview-title">
+                <h2 id="practice-overview-title">What you’ll practice</h2>
+                <p>This free timed Digital SAT Reading and Writing set contains 29 multiple-choice questions, with 40 seconds per question. Practice punctuation and sentence boundaries, verb agreement and tense, pronoun reference, and modifier placement. The timer counts below zero if needed and resets when you move to another question. Choose an answer for immediate feedback and an explanation.</p>
+            </section>
+            <div class="question-meta" id="question-tag">...</div>
+            <div class="question-text" id="question-box">Your first practice question will appear here when the set loads.</div>
+
+            <div class="options-list" id="options-box"></div>
+
+            <div class="explanation-panel" id="explanation-box">
+                <div class="exp-title" id="exp-headline">Explanation</div>
+                <div class="exp-desc" id="exp-body"></div>
+            </div>
+
+            <div class="action-container">
+                <button class="next-btn" id="previous-button" onclick="handlePreviousClick()">← Previous Question</button>
+                <button class="next-btn" id="next-button" onclick="handleNextClick()">Next Question →</button>
+            </div>
+        </div>
+    </div>
+    <a class="back-btn" href="/">Back to home</a>
+
+    <script>
+        let testItems = [];
+        let currentQuestionIdx = 0;
+        let optionSelectionLocked = false;
+        let savedAnswers = {};
+        let questionTimerInterval;
+        let questionTimerDeadline = 0;
+        const questionTimeLimitSeconds = 40;
+        const progressStorageKey = "woodpeckerSatPart1Progress";
+
+        // Asynchronously call and parse external JSON asset configurations
+        async function initializeQuizApp() {
+            try {
+                const response = await fetch('/data/quiz_data.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                testItems = await response.json();
+                restoreProgress();
+                loadEngineQuestion();
+                saveProgress();
+            } catch (error) {
+                console.error("Could not fetch quiz data:", error);
+                document.getElementById("progress-text").innerText = "Questions unavailable";
+                document.getElementById("question-box").innerText = "Could not load Part 1 questions (data/quiz_data.json). Please refresh the page or visit the grammar guide.";
+            }
+        }
+
+        function restoreProgress() {
+            let storedProgress;
+            try {
+                storedProgress = localStorage.getItem(progressStorageKey);
+            } catch (error) {
+                console.error("Could not read saved quiz progress:", error);
+                return;
+            }
+
+            if (!storedProgress) return;
+
+            try {
+                const progress = JSON.parse(storedProgress);
+                if (Number.isInteger(progress.currentQuestionIdx)
+                    && progress.currentQuestionIdx >= 0
+                    && progress.currentQuestionIdx < testItems.length) {
+                    currentQuestionIdx = progress.currentQuestionIdx;
+                }
+                if (progress.answers && typeof progress.answers === "object" && !Array.isArray(progress.answers)) {
+                    savedAnswers = progress.answers;
+                }
+            } catch (error) {
+                console.error("Could not parse saved quiz progress:", error);
+                try {
+                    localStorage.removeItem(progressStorageKey);
+                } catch (removeError) {
+                    console.error("Could not remove invalid saved quiz progress:", removeError);
+                }
+            }
+        }
+
+        function saveProgress() {
+            try {
+                localStorage.setItem(progressStorageKey, JSON.stringify({
+                    currentQuestionIdx,
+                    answers: savedAnswers
+                }));
+            } catch (error) {
+                console.error("Could not save quiz progress:", error);
+            }
+        }
+
+        function updateQuestionTimer() {
+            const remainingSeconds = Math.ceil((questionTimerDeadline - Date.now()) / 1000);
+            const timerElement = document.getElementById("timer-text");
+            timerElement.innerText = `Time: ${remainingSeconds} second${Math.abs(remainingSeconds) === 1 ? "" : "s"}`;
+            timerElement.classList.toggle("is-overtime", remainingSeconds < 0);
+        }
+
+        function startQuestionTimer() {
+            window.clearInterval(questionTimerInterval);
+            questionTimerDeadline = Date.now() + questionTimeLimitSeconds * 1000;
+            updateQuestionTimer();
+            questionTimerInterval = window.setInterval(updateQuestionTimer, 1000);
+        }
+
+        function loadEngineQuestion() {
+            if (testItems.length === 0) return;
+
+            startQuestionTimer();
+            optionSelectionLocked = false;
+            const currentData = testItems[currentQuestionIdx];
+
+            document.getElementById("progress-text").innerText = `Question ${currentQuestionIdx + 1} of ${testItems.length}`;
+            document.getElementById("question-tag").innerText = currentData.tag;
+            document.getElementById("question-box").innerText = currentData.question;
+            document.getElementById("previous-button").style.display = currentQuestionIdx > 0 ? "block" : "none";
+
+            const explanationBox = document.getElementById("explanation-box");
+            explanationBox.style.display = "none";
+            explanationBox.className = "explanation-panel";
+            document.getElementById("next-button").style.display = "none";
+
+            const optionsContainer = document.getElementById("options-box");
+            optionsContainer.innerHTML = "";
+
+            const letterArray = ["A", "B", "C", "D"];
+            currentData.options.forEach((optionText, idx) => {
+                const buttonElement = document.createElement("button");
+                buttonElement.className = "option-card";
+
+                const letterSpan = document.createElement("span");
+                letterSpan.className = "option-letter";
+                letterSpan.innerText = letterArray[idx];
+
+                const textSpan = document.createElement("span");
+                textSpan.innerText = optionText;
+
+                buttonElement.appendChild(letterSpan);
+                buttonElement.appendChild(textSpan);
+
+                buttonElement.onclick = () => validateSelection(idx);
+                optionsContainer.appendChild(buttonElement);
+            });
+
+            const savedSelection = savedAnswers[currentQuestionIdx];
+            if (Number.isInteger(savedSelection) && savedSelection >= 0 && savedSelection < currentData.options.length) {
+                showAnswer(savedSelection);
+            }
+        }
+
+        function validateSelection(selectedIndex) {
+            if (optionSelectionLocked) return;
+            savedAnswers[currentQuestionIdx] = selectedIndex;
+            saveProgress();
+            showAnswer(selectedIndex);
+        }
+
+        function showAnswer(selectedIndex) {
+            optionSelectionLocked = true;
+
+            const questionData = testItems[currentQuestionIdx];
+            const allOptionCards = document.getElementsByClassName("option-card");
+
+            for (let card of allOptionCards) {
+                card.classList.add("disabled");
+            }
+
+            const isCorrectChoice = (selectedIndex === questionData.answerIndex);
+
+            if (isCorrectChoice) {
+                allOptionCards[selectedIndex].classList.add("correct-pick");
+                triggerExplanationView(true, "Correct! Excellent choice.", questionData.explanationText);
+            } else {
+                allOptionCards[selectedIndex].classList.add("incorrect-pick");
+                allOptionCards[questionData.answerIndex].classList.add("reveal-correct");
+                triggerExplanationView(false, "Incorrect", questionData.explanationText);
+            }
+
+            document.getElementById("next-button").style.display = "block";
+        }
+
+        function triggerExplanationView(isCorrect, statusHeadline, explanationBody) {
+            const panel = document.getElementById("explanation-box");
+            const title = document.getElementById("exp-headline");
+            const body = document.getElementById("exp-body");
+
+            panel.style.display = "block";
+            body.innerText = explanationBody;
+            title.innerText = statusHeadline;
+
+            if (isCorrect) {
+                panel.classList.add("correct-style");
+            } else {
+                panel.classList.add("incorrect-style");
+            }
+        }
+
+        function handleNextClick() {
+            if (currentQuestionIdx < testItems.length - 1) {
+                currentQuestionIdx++;
+                saveProgress();
+                loadEngineQuestion();
+            } else {
+                alert("Congratulations! You have completed all the grammar practice items.");
+                try {
+                    localStorage.removeItem(progressStorageKey);
+                } catch (error) {
+                    console.error("Could not clear completed quiz progress:", error);
+                }
+                currentQuestionIdx = 0;
+                savedAnswers = {};
+                loadEngineQuestion();
+            }
+        }
+
+        function handlePreviousClick() {
+            if (currentQuestionIdx === 0) return;
+            currentQuestionIdx--;
+            saveProgress();
+            loadEngineQuestion();
+        }
+        // Launch execution pipeline on page rendering complete
+        window.onload = initializeQuizApp;
+    </script>
+</body>

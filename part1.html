@@ -16,14 +16,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Timed Digital SAT grammar quiz, Part 1: 29 free questions with 40 seconds per question, instant feedback, and explanations. No login required.">
-    <link rel="canonical" href="https://woodpeckersat.online/part1.html">
+    <link rel="canonical" href="https://woodpeckersat.online/sat-grammar-practice-test-1/">
+    <meta http-equiv="refresh" content="0; url=/sat-grammar-practice-test-1/">
     <meta name="theme-color" content="#17483e">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="WoodpeckerSAT">
     <meta property="og:title" content="Timed SAT Grammar Quiz Part 1 | WoodpeckerSAT">
     <meta property="og:description"
         content="Timed Digital SAT grammar quiz, Part 1: 29 free questions with 40 seconds per question, instant feedback, and explanations. No login required.">
-    <meta property="og:url" content="https://woodpeckersat.online/part1.html">
+    <meta property="og:url" content="https://woodpeckersat.online/sat-grammar-practice-test-1/">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Timed SAT Grammar Quiz Part 1 | WoodpeckerSAT">
     <meta name="twitter:description" content="Timed Digital SAT grammar quiz, Part 1: 29 free questions with 40 seconds per question, instant feedback, and explanations. No login required.">
@@ -35,7 +36,7 @@
         "@type": "Quiz",
         "name": "Timed SAT Grammar Quiz Part 1",
         "description": "29 free Digital SAT grammar questions with 40 seconds per question, instant feedback, and explanations.",
-        "url": "https://woodpeckersat.online/part1.html",
+        "url": "https://woodpeckersat.online/sat-grammar-practice-test-1/",
         "educationalLevel": "High School",
         "inLanguage": "en-US"
     }
@@ -482,12 +483,12 @@
 <body>
 
     <nav class="site-nav" aria-label="Main navigation">
-        <a href="index.html">woodpeckersat.online</a>
-        <a href="part1.html">Part 1</a>
-        <a href="part2.html">Part 2</a>
-        <a href="part3.html">Part 3</a>
-        <a href="grammar.html">Grammar guide</a>
-        <a href="grammar-plan.html">Study plan</a>
+        <a href="/">woodpeckersat.online</a>
+        <a href="/sat-grammar-practice-test-1/">Part 1</a>
+        <a href="/sat-grammar-practice-test-2/">Part 2</a>
+        <a href="/sat-grammar-practice-test-3/">Part 3</a>
+        <a href="/grammar.html">Grammar guide</a>
+        <a href="/grammar-plan.html">Study plan</a>
     </nav>
     <div class="dashboard-container">
         <div class="header">
@@ -518,7 +519,7 @@
             </div>
         </div>
     </div>
-    <a class="back-btn" href="index.html">Back to home</a>
+    <a class="back-btn" href="/">Back to home</a>
 
     <script>
         let testItems = [];
@@ -533,7 +534,7 @@
         // Asynchronously call and parse external JSON asset configurations
         async function initializeQuizApp() {
             try {
-                const response = await fetch('data/quiz_data.json');
+                const response = await fetch('/data/quiz_data.json');
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
