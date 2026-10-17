@@ -15,26 +15,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Try free SAT-style grammar practice in Part 3. Review punctuation, sentence structure, and standard English conventions with answer explanations.">
+        content="Timed Digital SAT grammar quiz, Part 3: 29 free questions with 30 seconds per question, instant feedback, and explanations. No login required.">
     <link rel="canonical" href="https://woodpeckersat.online/part3.html">
     <meta name="theme-color" content="#17483e">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="WoodpeckerSAT">
-    <meta property="og:title" content="Digital SAT Grammar Practice: Part 3 | WoodpeckerSAT">
+    <meta property="og:title" content="Timed SAT Grammar Quiz Part 3 | WoodpeckerSAT">
     <meta property="og:description"
-        content="Free SAT-style grammar questions with answer explanations. Practice standard English conventions online.">
+        content="Timed Digital SAT grammar quiz, Part 3: 29 free questions with 30 seconds per question, instant feedback, and explanations. No login required.">
     <meta property="og:url" content="https://woodpeckersat.online/part3.html">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Digital SAT Grammar Practice: Part 3 | WoodpeckerSAT">
-    <meta name="twitter:description" content="Free SAT-style grammar practice with answer explanations.">
-    <title>Digital SAT Grammar Practice: Part 3 | WoodpeckerSAT</title>
+    <meta name="twitter:title" content="Timed SAT Grammar Quiz Part 3 | WoodpeckerSAT">
+    <meta name="twitter:description" content="Timed Digital SAT grammar quiz, Part 3: 29 free questions with 30 seconds per question, instant feedback, and explanations. No login required.">
+    <title>Timed SAT Grammar Quiz Part 3 | WoodpeckerSAT</title>
     <link rel="icon" type="image/png" href="/assets/favicon.png" sizes="48x48" />
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Quiz",
-        "name": "Digital SAT Grammar Practice: Part 3",
-        "description": "Free SAT-style grammar questions with answer explanations.",
+        "name": "Timed SAT Grammar Quiz Part 3",
+        "description": "29 free Digital SAT grammar questions with 30 seconds per question, instant feedback, and explanations.",
         "url": "https://woodpeckersat.online/part3.html",
         "educationalLevel": "High School",
         "inLanguage": "en-US"
@@ -101,6 +101,31 @@
             border-radius: 20px;
             font-size: 0.85rem;
             font-weight: 600;
+        }
+
+        .header-status {
+            display: flex;
+            flex-shrink: 0;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 8px;
+        }
+
+        .timer-badge {
+            min-width: 150px;
+            padding: 6px 14px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            font-size: 0.9rem;
+            font-variant-numeric: tabular-nums;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        .timer-badge.is-overtime {
+            border-color: #fecaca;
+            background: #991b1b;
         }
 
         .quiz-body {
@@ -433,6 +458,12 @@
                 font-size: 1.35rem;
             }
 
+            .header-status {
+                align-items: flex-start;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
             .quiz-body {
                 padding: 22px 18px;
             }
@@ -460,13 +491,16 @@
     </nav>
     <div class="dashboard-container">
         <div class="header">
-            <h1 id="quiz-title">Digital SAT Grammar Practice: Part 3</h1>
-            <div class="progress-badge" id="progress-text">Loading questions...</div>
+            <h1 id="quiz-title">Timed Digital SAT Grammar Practice: Part 3</h1>
+            <div class="header-status">
+                <div class="progress-badge" id="progress-text">Loading questions...</div>
+                <div class="timer-badge" id="timer-text" role="timer" aria-label="Time remaining">Time: 30 seconds</div>
+            </div>
         </div>
         <div class="quiz-body">
             <section class="practice-overview" aria-labelledby="practice-overview-title">
                 <h2 id="practice-overview-title">What you’ll practice</h2>
-                <p>This free Digital SAT Reading and Writing set contains 29 multiple-choice questions. Practice punctuation and sentence boundaries, verb agreement and tense, pronoun reference, and modifier placement. Choose an answer for immediate feedback and an explanation.</p>
+                <p>This free timed Digital SAT Reading and Writing set contains 29 multiple-choice questions, with 30 seconds per question. Practice punctuation and sentence boundaries, verb agreement and tense, pronoun reference, and modifier placement. The timer counts below zero if needed and resets when you move to another question. Choose an answer for immediate feedback and an explanation.</p>
             </section>
             <div class="question-meta" id="question-tag">...</div>
             <div class="question-text" id="question-box">Your first practice question will appear here when the set loads.</div>
@@ -491,6 +525,9 @@
         let currentQuestionIdx = 0;
         let optionSelectionLocked = false;
         let savedAnswers = {};
+        let questionTimerInterval;
+        let questionTimerDeadline = 0;
+        const questionTimeLimitSeconds = 30;
         const progressStorageKey = "woodpeckerSatPart3Progress";
 
         // Asynchronously call and parse external JSON asset configurations
@@ -553,9 +590,24 @@
             }
         }
 
+        function updateQuestionTimer() {
+            const remainingSeconds = Math.ceil((questionTimerDeadline - Date.now()) / 1000);
+            const timerElement = document.getElementById("timer-text");
+            timerElement.innerText = `Time: ${remainingSeconds} second${Math.abs(remainingSeconds) === 1 ? "" : "s"}`;
+            timerElement.classList.toggle("is-overtime", remainingSeconds < 0);
+        }
+
+        function startQuestionTimer() {
+            window.clearInterval(questionTimerInterval);
+            questionTimerDeadline = Date.now() + questionTimeLimitSeconds * 1000;
+            updateQuestionTimer();
+            questionTimerInterval = window.setInterval(updateQuestionTimer, 1000);
+        }
+
         function loadEngineQuestion() {
             if (testItems.length === 0) return;
 
+            startQuestionTimer();
             optionSelectionLocked = false;
             const currentData = testItems[currentQuestionIdx];
 
