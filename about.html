@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="page-about">
 
 <head>
     <meta charset="UTF-8">
@@ -10,130 +10,7 @@
     <meta name="theme-color" content="#17483e">
     <title>About WoodpeckerSAT | Free Digital SAT Grammar Practice</title>
     <link rel="icon" type="image/png" href="/assets/favicon.png" sizes="96x96">
-    <style>
-        :root {
-            --ink: #172b27;
-            --muted: #52645f;
-            --paper: #f4f7f2;
-            --forest: #17483e;
-            --coral: #e47755;
-            --line: #d8e1da;
-        }
-
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            min-height: 100vh;
-            margin: 0;
-            color: var(--ink);
-            background-color: var(--paper);
-            background-image: linear-gradient(rgba(23, 72, 62, 0.035) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(23, 72, 62, 0.035) 1px, transparent 1px);
-            background-size: 32px 32px;
-            font-family: "Trebuchet MS", "Segoe UI", sans-serif;
-        }
-
-        .page {
-            width: min(100% - 40px, 900px);
-            min-height: 100vh;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column;
-        }
-
-        header,
-        footer {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: space-between;
-            gap: 14px;
-            padding: 22px 0;
-        }
-
-        header {
-            border-bottom: 1px solid var(--line);
-        }
-
-        header a,
-        footer a {
-            color: var(--forest);
-        }
-
-        header a {
-            font-weight: 800;
-            text-decoration: none;
-        }
-
-        .page-links {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 18px;
-            font-size: 0.9rem;
-        }
-
-        main {
-            width: min(100%, 720px);
-            margin: auto;
-            padding: 64px 0 72px;
-        }
-
-        .eyebrow {
-            margin: 0 0 16px;
-            color: #a44a31;
-            font-size: 0.78rem;
-            font-weight: 800;
-            letter-spacing: 0.12em;
-            text-transform: uppercase;
-        }
-
-        h1 {
-            margin: 0;
-            color: var(--forest);
-            font-family: Georgia, "Times New Roman", serif;
-            font-size: clamp(2.5rem, 8vw, 4.5rem);
-            font-weight: 500;
-            line-height: 1;
-        }
-
-        h2 {
-            margin: 34px 0 10px;
-            color: var(--forest);
-            font-family: Georgia, "Times New Roman", serif;
-            font-size: 1.45rem;
-            font-weight: 500;
-        }
-
-        p {
-            max-width: 680px;
-            color: var(--muted);
-            font-size: 1.05rem;
-            line-height: 1.75;
-        }
-
-        main a {
-            color: var(--forest);
-            font-weight: 700;
-        }
-
-        footer {
-            border-top: 1px solid var(--line);
-            color: var(--muted);
-            font-size: 0.85rem;
-        }
-
-        @media (max-width: 520px) {
-            .page {
-                width: min(100% - 32px, 900px);
-            }
-
-            main {
-                padding: 52px 0;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="/styles.css">
 </head>
 
 <body>
