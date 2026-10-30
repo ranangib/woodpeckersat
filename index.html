@@ -106,6 +106,70 @@
                     </a>
                 </div>
             </section>
+            <section class="exam-countdown-card" aria-labelledby="exam-countdown-title">
+                <p class="countdown-eyebrow">Your study plan</p>
+                <h2 id="exam-countdown-title">Test date countdown</h2>
+                <label for="exam-month">Target exam month</label>
+                <select id="exam-month">
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="September">September</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+                </select>
+                <p class="countdown-readout" id="exam-countdown" aria-live="polite">Choose a month to see your countdown.</p>
+            </section>
+            <section class="personal-tools" aria-labelledby="personal-tools-title">
+                <p class="local-storage-notice" id="personal-tools-storage-status" role="note">Your review list, practice streak, saved answers, and exam-month choice are stored only in this browser on this device—not on a shared server. Clearing this site’s stored data/local storage (for example, through “Clear browsing data” when site data is selected) erases them.</p>
+                <h2 class="section-label" id="personal-tools-title">Your personal study tools</h2>
+                <div class="personal-tools-grid">
+                    <article class="personal-tool-card" aria-labelledby="question-day-title">
+                        <p class="countdown-eyebrow">Daily challenge</p>
+                        <h3 id="question-day-title">Question of the day</h3>
+                        <div id="daily-question"><p>Loading today’s question…</p></div>
+                    </article>
+                    <article class="personal-tool-card" aria-labelledby="study-streak-title">
+                        <p class="countdown-eyebrow">On this device</p>
+                        <h3 id="study-streak-title">Your practice streak</h3>
+                        <p class="streak-readout" id="practice-streak">Answer a practice question to start your streak.</p>
+                        <div id="mistake-summary"><p>Your missed-question patterns will appear here as you practice.</p></div>
+                    </article>
+                    <article class="personal-tool-card" aria-labelledby="bookmarks-title">
+                        <p class="countdown-eyebrow">Saved for later</p>
+                        <h3 id="bookmarks-title">My test-day review list</h3>
+                        <ul id="personal-bookmarks" class="personal-list">
+                            <li>Your bookmarked questions will appear here.</li>
+                        </ul>
+                    </article>
+                    <article class="personal-tool-card printable-builder" aria-labelledby="printable-title">
+                        <p class="countdown-eyebrow">Take it offline</p>
+                        <h3 id="printable-title">Printable study sheet</h3>
+                        <p>Choose rule reminders and practice questions, then print or save as PDF.</p>
+                        <fieldset class="printable-rules">
+                            <legend>Rule reminders</legend>
+                            <label><input type="checkbox" name="print-rule" value="comma"> Use a comma after an introductory dependent clause.</label>
+                            <label><input type="checkbox" name="print-rule" value="semicolon"> Join two independent clauses with a semicolon only when both sides can stand alone.</label>
+                            <label><input type="checkbox" name="print-rule" value="colon"> A colon usually follows a complete clause and introduces an explanation or list.</label>
+                            <label><input type="checkbox" name="print-rule" value="agreement"> Match the verb to the subject, not to words between them.</label>
+                            <label><input type="checkbox" name="print-rule" value="modifier"> Place a modifier next to the word or phrase it describes.</label>
+                            <label><input type="checkbox" name="print-rule" value="pronoun"> Make each pronoun’s antecedent clear and grammatically consistent.</label>
+                        </fieldset>
+                        <label for="print-question-select">Practice questions (select any)</label>
+                        <select id="print-question-select" multiple size="5" aria-describedby="print-question-help">
+                        </select>
+                        <small id="print-question-help">Hold Ctrl (Windows) or Command (Mac) to select multiple questions.</small>
+                        <button type="button" class="print-study-sheet" id="print-study-sheet">Create printable sheet</button>
+                        <p id="printable-status" class="personal-tool-status" role="status"></p>
+                    </article>
+                </div>
+            </section>
             <section class="volunteer-feature" aria-labelledby="volunteer-feature-title">
                 <h2 id="volunteer-feature-title">Earn a volunteer or NHS hour</h2>
                 <p>Create a useful SAT study sheet to help another student. Submit it for a quick review and earn
@@ -150,6 +214,7 @@
             </nav>
         </footer>
     </div>
+    <script src="/personal-tools.js"></script>
 </body>
 
 </html>

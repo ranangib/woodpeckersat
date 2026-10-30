@@ -68,6 +68,10 @@
             </section>
             <div class="question-meta" id="question-tag">...</div>
             <div class="question-text" id="question-box">Your first practice question will appear here when the set loads.</div>
+            <div class="question-personal-tools" id="question-personal-tools">
+                <p class="local-storage-inline">Bookmarks and quiz progress are stored only in this browser on this device. Clearing this site’s stored data/local storage erases them.</p>
+            </div>
+            <p class="personal-tool-status" id="question-bookmark-status" role="status"></p>
 
             <div class="options-list" id="options-box"></div>
 
@@ -84,6 +88,7 @@
     </div>
     <a class="back-btn" href="/">Back to home</a>
 
+    <script src="/personal-tools.js"></script>
     <script>
         let testItems = [];
         let currentQuestionIdx = 0;
@@ -103,6 +108,11 @@
                 }
                 testItems = await response.json();
                 restoreProgress();
+                const questionFromLink = Number.parseInt(new URLSearchParams(window.location.search).get("question"), 10);
+                if (Number.isInteger(questionFromLink) && questionFromLink >= 1 && questionFromLink <= testItems.length) {
+                    currentQuestionIdx = questionFromLink - 1;
+                    window.history.replaceState(null, "", window.location.pathname + window.location.hash);
+                }
                 loadEngineQuestion();
                 saveProgress();
             } catch (error) {
@@ -178,6 +188,7 @@
             document.getElementById("progress-text").innerText = `Question ${currentQuestionIdx + 1} of ${testItems.length}`;
             document.getElementById("question-tag").innerText = currentData.tag;
             document.getElementById("question-box").innerText = currentData.question;
+            window.WoodpeckerPersonalTools.renderQuestionBookmark(`part2-${currentQuestionIdx + 1}`);
             document.getElementById("previous-button").style.display = currentQuestionIdx > 0 ? "block" : "none";
 
             const explanationBox = document.getElementById("explanation-box");
@@ -217,6 +228,12 @@
             if (optionSelectionLocked) return;
             savedAnswers[currentQuestionIdx] = selectedIndex;
             saveProgress();
+            const questionData = testItems[currentQuestionIdx];
+            window.WoodpeckerPersonalTools.recordAnswer(
+                `part2-${currentQuestionIdx + 1}`,
+                questionData.tag,
+                selectedIndex === questionData.answerIndex
+            );
             showAnswer(selectedIndex);
         }
 
