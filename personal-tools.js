@@ -3,7 +3,6 @@
 
     const HISTORY_KEY = "woodpeckerSatStudyHistory";
     const BOOKMARKS_KEY = "woodpeckerSatReviewBookmarks";
-    const EXAM_MONTH_KEY = "woodpeckerSatExamMonth";
     const SETS = [
         { part: 1, file: "/data/quiz_data.json", progressKey: "woodpeckerSatPart1Progress" },
         { part: 2, file: "/data/quiz_data2.json", progressKey: "woodpeckerSatPart2Progress" },
@@ -67,7 +66,7 @@
     }
 
     function questionHref(question) {
-        return `/sat-grammar-practice-test-${question.part}/?question=${question.number}#question-box`;
+        return `/sat-grammar-practice-test-${question.part}/?question=${question.number}&retry=1#question-box`;
     }
 
     function renderDailyQuestion(questions) {
@@ -294,36 +293,6 @@
         writeLocalJson(HISTORY_KEY, history);
     }
 
-    function initializeCountdown() {
-        const monthSelect = document.getElementById("exam-month");
-        const countdown = document.getElementById("exam-countdown");
-        if (!monthSelect || !countdown) return;
-        const months = {
-            January: 0, February: 1, March: 2, April: 3, May: 4, June: 5,
-            July: 6, August: 7, September: 8, October: 9, November: 10, December: 11
-        };
-        const savedMonth = readLocalJson(EXAM_MONTH_KEY, null);
-        if (Object.prototype.hasOwnProperty.call(months, savedMonth)) monthSelect.value = savedMonth;
-
-        function update() {
-            const now = new Date();
-            let year = now.getFullYear();
-            let target = new Date(year, months[monthSelect.value], 1);
-            if (target <= now) {
-                year += 1;
-                target = new Date(year, months[monthSelect.value], 1);
-            }
-            const days = Math.ceil((target.getTime() - now.getTime()) / 86400000);
-            countdown.textContent = `${days} day${days === 1 ? "" : "s"} until ${monthSelect.value} ${year} (approximate; check official test dates).`;
-        }
-
-        monthSelect.addEventListener("change", function () {
-            writeLocalJson(EXAM_MONTH_KEY, monthSelect.value);
-            update();
-        });
-        update();
-    }
-
     function initializePrintableSheet(questions) {
         const questionSelect = document.getElementById("print-question-select");
         const printButton = document.getElementById("print-study-sheet");
@@ -401,7 +370,6 @@
     }
 
     async function initializeHome() {
-        initializeCountdown();
         try {
             const questions = await loadCatalog();
             renderDailyQuestion(questions);

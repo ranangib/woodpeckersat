@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" class="page-upload page-ask-scorer">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Ask a 1500+ scorer about SAT strategies, college applications, or test-day anxiety. Send a private question and get a reply by email.">
+    <link rel="canonical" href="https://woodpeckersat.online/ask-a-scorer.html">
+    <meta name="theme-color" content="#17483e">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="WoodpeckerSAT">
+    <meta property="og:title" content="Ask a 1500+ Scorer | WoodpeckerSAT">
+    <meta property="og:description"
+        content="Send a private question about SAT strategies, college applications, or test-day anxiety and get a reply by email.">
+    <meta property="og:url" content="https://woodpeckersat.online/ask-a-scorer.html">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Ask a 1500+ Scorer | WoodpeckerSAT">
+    <meta name="twitter:description"
+        content="Send a private question about SAT strategies, college applications, or test-day anxiety and get a reply by email.">
+    <title>Ask a 1500+ Scorer | WoodpeckerSAT</title>
+    <link rel="icon" type="image/png" href="/assets/favicon.png" sizes="96x96">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <div class="page">
+        <header>
+            <a href="/">woodpeckersat.online</a>
+            <nav class="header-links" aria-label="Main navigation">
+                <a href="/sat-grammar-practice-test-1/">Practice</a>
+                <a href="grammar.html">Grammar guide</a>
+                <a href="grammar-plan.html">Study plan</a>
+                <a href="upload.html">Contribute questions</a>
+                <a href="ask-a-scorer.html" aria-current="page">Ask a scorer</a>
+            </nav>
+        </header>
+        <main>
+            <p class="eyebrow">Ask a 1500+ scorer</p>
+            <h1>What’s on your mind?</h1>
+            <p class="description">Ask a specific question about SAT strategies, college applications, or test-day
+                anxiety. Your message is emailed privately to the WoodpeckerSAT site owner. This is an email-based
+                Q&amp;A, not a public forum thread. Include your email so a reply can reach you; replies may take time
+                and are not guaranteed.</p>
+            <form class="question-form" action="https://formspree.io/f/mppqloyl" method="POST">
+                <input type="hidden" name="_subject" value="Ask a 1500+ Scorer question">
+                <div class="form-field">
+                    <label for="name">Name or nickname (optional)</label>
+                    <input id="name" type="text" name="name" autocomplete="name" maxlength="80">
+                </div>
+                <div class="form-field">
+                    <label for="email">Email address for a reply</label>
+                    <input id="email" type="email" name="email" autocomplete="email" maxlength="254" required>
+                </div>
+                <div class="form-field">
+                    <label for="topic">What is your question about?</label>
+                    <select id="topic" name="topic" required>
+                        <option value="" selected disabled>Choose a topic</option>
+                        <option value="SAT strategies">SAT strategies</option>
+                        <option value="College applications">College applications</option>
+                        <option value="Test-day anxiety">Test-day anxiety</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="form-field">
+                    <label for="message">Your question</label>
+                    <textarea id="message" name="message" rows="7" maxlength="3000"
+                        aria-describedby="message-guidance" required></textarea>
+                    <small id="message-guidance">Please don’t include passwords, private application materials, or
+                        other sensitive information.</small>
+                </div>
+                <button class="submit-button" type="submit">Send your question</button>
+            </form>
+            <a class="back-link" href="/">Back to home</a>
+        </main>
+        <footer>woodpeckersat.online</footer>
+    </div>
+</body>
+
+</html>

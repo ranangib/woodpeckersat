@@ -108,9 +108,13 @@
                 }
                 testItems = await response.json();
                 restoreProgress();
-                const questionFromLink = Number.parseInt(new URLSearchParams(window.location.search).get("question"), 10);
+                const searchParams = new URLSearchParams(window.location.search);
+                const questionFromLink = Number.parseInt(searchParams.get("question"), 10);
                 if (Number.isInteger(questionFromLink) && questionFromLink >= 1 && questionFromLink <= testItems.length) {
                     currentQuestionIdx = questionFromLink - 1;
+                    if (searchParams.get("retry") === "1") {
+                        delete savedAnswers[currentQuestionIdx];
+                    }
                     window.history.replaceState(null, "", window.location.pathname + window.location.hash);
                 }
                 loadEngineQuestion();
