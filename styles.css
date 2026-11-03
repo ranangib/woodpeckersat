@@ -1002,25 +1002,7 @@ html.page-home body {
     background-image: linear-gradient(rgba(23, 72, 62, 0.035) 1px, transparent 1px),
         linear-gradient(90deg, rgba(23, 72, 62, 0.035) 1px, transparent 1px);
     background-size: 32px 32px;
-    animation: home-color-cycle 8s ease-in-out infinite alternate;
     font-family: "Trebuchet MS", "Segoe UI", sans-serif;
-}
-
-@keyframes home-color-cycle {
-    from {
-        background-color: #d7e9dc;
-    }
-
-    to {
-        background-color: #f0d7ca;
-    }
-}
-
-@media (prefers-reduced-motion: reduce) {
-    html.page-home body {
-        animation: none;
-        background-color: var(--paper);
-    }
 }
 
 html.page-home .page {
@@ -3367,5 +3349,32 @@ html.page-volunteer-hours footer {
 
     body.printing-study-sheet #printable-sheet h1 {
         color: #17483e;
+    }
+}
+
+@media screen {
+    html[class] body {
+        background-color: #d7e9dc;
+        background-image: linear-gradient(rgba(23, 72, 62, 0.035) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(23, 72, 62, 0.035) 1px, transparent 1px);
+        background-size: 32px 32px;
+        animation: site-background-cycle 8s ease-in-out infinite alternate;
+    }
+
+    @keyframes site-background-cycle {
+        from {
+            background-color: #bfd9c5;
+        }
+
+        to {
+            background-color: #edc0aa;
+        }
+    }
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+    html[class] body {
+        animation: none;
+        background-color: #f4f7f2;
     }
 }
