@@ -41,7 +41,7 @@
 		]
 	}
 	</script>
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -103,10 +103,18 @@
                     <div class="referral-signup">
                         <h3>Get your personal referral link</h3>
                         <p>Enter your email to receive a shareable link, a referral code, and a downloadable QR code.</p>
-                        <form id="referral-form" action="https://formspree.io/f/mppqloyl" method="POST" aria-busy="false">
+                        <div class="referral-gift">
+                            <strong>Claim a free gift, originally valued at $9.99</strong>
+                            <span>Received a friend’s referral link? Sign up for WoodpeckerSAT Rewards here with your
+                                email to claim the gift. It will be sent to your signup inbox after your registration
+                                is confirmed.</span>
+                        </div>
+                        <form id="referral-form" action="https://formspree.io/f/mppqloyl" method="POST"
+                            aria-busy="false">
                             <input type="hidden" name="_subject" value="WoodpeckerSAT Rewards registration">
                             <input type="hidden" name="referral_code" value="">
                             <input type="hidden" name="referred_by_code" value="none">
+                            <input type="hidden" name="gift_claim" value="no">
                             <input type="hidden" name="consent" value="yes">
                             <div class="referral-field">
                                 <label for="referral-email">Email address</label>
@@ -136,8 +144,9 @@
                         <ol>
                             <li>Join with your email to get a random referral code and link.</li>
                             <li>Share your link or QR code with a friend.</li>
-                            <li>When your friend submits their email, the referral code is sent to our Formspree
-                                dashboard.</li>
+                            <li>Your friend must also sign up here with their email using your link. That records your
+                                referral and lets them claim the free $9.99-value gift, delivered to their signup
+                                inbox.</li>
                         </ol>
                         <p>Your email is sent only to Formspree for this registration. Referral codes are not linked to
                             email addresses in a separate database.</p>
@@ -313,7 +322,7 @@
         </footer>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" defer></script>
-    <script src="/referral-rewards.js" defer></script>
+    <script src="referral-rewards.js" defer></script>
     <script src="/personal-tools.js"></script>
 </body>
 
