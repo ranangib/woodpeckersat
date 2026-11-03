@@ -61,19 +61,22 @@
             <h2>Referral rewards</h2>
             <p>If you join WoodpeckerSAT Rewards, your email, your generated referral code, and (if you used someone’s
                 referral link) that referrer’s code are sent to the site operator through Formspree. Referred
-                registrations also include a gift-claim marker so the site operator can arrange the advertised
-                $9.99-value gift by email. The QR code is generated in your browser and contains only your shareable
-                referral URL, not your email address. A referral code from a link is temporarily kept in this
-                browser’s session storage so it can be included if you register; your email address is not saved in
-                browser storage. The referral code is removed from session storage after Formspree confirms the
-                registration. The QR-code generator is loaded from cdnjs; it does not receive your email address.</p>
+                registrations also include a marker indicating that the referring person may qualify for the
+                advertised $9.99-value gift. The gift is for the person who shared the link, not the person who
+                registers through it. After a referred signup is confirmed, the site operator can match the referral
+                code to the original registration and email the gift to the referrer. The QR code is generated in your
+                browser and contains only your shareable referral URL, not your email address. A referral code from a
+                link is temporarily kept in this browser’s session storage so it can be included if you register;
+                your email address is not saved in browser storage. The referral code is removed from session storage
+                after Formspree confirms the registration. The QR-code generator is loaded from cdnjs; it does not
+                receive your email address.</p>
             <p>There is no separate rewards database or automatic code-to-email lookup. To identify a referrer, the
                 site operator can match the new registration’s <code>referred_by_code</code> to the original
                 registration’s <code>referral_code</code> in Formspree. A referral is recorded only when Formspree
                 confirms the new email registration, not when someone scans or opens a link. Codes are generated with
                 secure browser randomness, but without a central registry the site cannot check for duplicates or
-                guarantee global uniqueness. Gift emails are not sent by the referral page itself; the site operator
-                must configure Formspree autoresponders or another email workflow to deliver the gift.</p>
+                guarantee global uniqueness. Gift emails are not sent automatically by the referral page; the site
+                operator must match the confirmed referral in Formspree and send the gift to the referrer.</p>
 
             <h2>Contact</h2>
             <p>For privacy questions, email <a href="mailto:ranangib@gmail.com">ranangib@gmail.com</a>.</p>

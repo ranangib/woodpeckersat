@@ -41,7 +41,7 @@
 		]
 	}
 	</script>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=20261103-rewards">
 </head>
 
 <body>
@@ -96,25 +96,26 @@
                 <div class="referral-heading">
                     <p class="countdown-eyebrow">WoodpeckerSAT Rewards</p>
                     <h2 id="referral-rewards-title">Woodpeckersat Rewards – Share &amp; Earn</h2>
-                    <p>Invite a friend to practice. When they sign up with their email using your link, we’ll record
-                        the referral. A link visit or QR scan alone does not count.</p>
+                    <p>Share your referral link with a friend. When they sign up using it, you—the person who shared
+                        the link—become eligible for the free gift. The gift is for you, not your friend.</p>
                 </div>
                 <div class="referral-card">
                     <div class="referral-signup">
                         <h3>Get your personal referral link</h3>
                         <p>Enter your email to receive a shareable link, a referral code, and a downloadable QR code.</p>
                         <div class="referral-gift">
-                            <strong>Claim a free gift, originally valued at $9.99</strong>
-                            <span>Received a friend’s referral link? Sign up for WoodpeckerSAT Rewards here with your
-                                email to claim the gift. It will be sent to your signup inbox after your registration
-                                is confirmed.</span>
+                            <strong>Share your link to earn a free gift, originally valued at $9.99</strong>
+                            <span>The gift is for the person who shared the referral link—not the friend who receives
+                                it. To qualify, your friend must sign up for WoodpeckerSAT Rewards with their email
+                                using your link. Once their registration is confirmed and matched to your referral
+                                code, the gift will be sent to your email.</span>
                         </div>
                         <form id="referral-form" action="https://formspree.io/f/mppqloyl" method="POST"
                             aria-busy="false">
                             <input type="hidden" name="_subject" value="WoodpeckerSAT Rewards registration">
                             <input type="hidden" name="referral_code" value="">
                             <input type="hidden" name="referred_by_code" value="none">
-                            <input type="hidden" name="gift_claim" value="no">
+                            <input type="hidden" name="referrer_reward_qualified" value="no">
                             <input type="hidden" name="consent" value="yes">
                             <div class="referral-field">
                                 <label for="referral-email">Email address</label>
@@ -144,9 +145,9 @@
                         <ol>
                             <li>Join with your email to get a random referral code and link.</li>
                             <li>Share your link or QR code with a friend.</li>
-                            <li>Your friend must also sign up here with their email using your link. That records your
-                                referral and lets them claim the free $9.99-value gift, delivered to their signup
-                                inbox.</li>
+                            <li>Your friend must also sign up here with their email using your link. Once confirmed,
+                                that signup makes you eligible for the free $9.99-value gift. We’ll send the gift to
+                                your email; your friend does not receive it.</li>
                         </ol>
                         <p>Your email is sent only to Formspree for this registration. Referral codes are not linked to
                             email addresses in a separate database.</p>
@@ -322,7 +323,7 @@
         </footer>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" defer></script>
-    <script src="referral-rewards.js" defer></script>
+    <script src="referral-rewards.js?v=20261103-rewards" defer></script>
     <script src="/personal-tools.js"></script>
 </body>
 

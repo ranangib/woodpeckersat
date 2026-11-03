@@ -18,7 +18,7 @@
     const shareStatus = document.getElementById("referral-share-status");
     const referralCodeInput = form.elements.namedItem("referral_code");
     const referredByInput = form.elements.namedItem("referred_by_code");
-    const giftClaimInput = form.elements.namedItem("gift_claim");
+    const referrerRewardInput = form.elements.namedItem("referrer_reward_qualified");
     const storageKey = "woodpeckersat-referral-code";
     const codeAlphabet = "23456789ABCDEFGHJKLMNPQRSTUVWXYZ";
     const validReferralCode = /^[A-Z0-9-]{1,40}$/;
@@ -73,7 +73,7 @@
         }
     }
     referredByInput.value = capturedReferralCode || "none";
-    giftClaimInput.value = capturedReferralCode ? "yes" : "no";
+    referrerRewardInput.value = capturedReferralCode ? "yes" : "no";
     submitButton.disabled = false;
 
     function setStatus(element, message, isError = false) {
@@ -244,7 +244,7 @@
         submittedReferralUrl = `${window.location.origin}/?ref=${encodeURIComponent(referralCode)}`;
         referralCodeInput.value = referralCode;
         referredByInput.value = capturedReferralCode || "none";
-        giftClaimInput.value = capturedReferralCode ? "yes" : "no";
+        referrerRewardInput.value = capturedReferralCode ? "yes" : "no";
 
         let qrImageUrl = "";
         try {
@@ -273,7 +273,7 @@
                 throw new Error("Formspree did not confirm the registration.");
             }
 
-            const isGiftClaim = Boolean(capturedReferralCode);
+            const referredSignup = Boolean(capturedReferralCode);
             codeOutput.textContent = referralCode;
             linkOutput.href = submittedReferralUrl;
             linkOutput.textContent = submittedReferralUrl;
@@ -288,11 +288,11 @@
             }
             capturedReferralCode = null;
             referredByInput.value = "none";
-            giftClaimInput.value = "no";
+            referrerRewardInput.value = "no";
             setStatus(
                 confirmation,
-                isGiftClaim
-                    ? "Your registration was confirmed. Your free-gift claim is recorded, and your own referral link is ready."
+                referredSignup
+                    ? "Your signup was confirmed. The person who shared your link is now eligible for the free gift; it is not a gift for you. Your own referral link is ready."
                     : "Your registration was confirmed by Formspree. Share your link to invite friends."
             );
 
