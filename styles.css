@@ -1302,6 +1302,293 @@ html.page-home .volunteer-feature .actions {
     margin: 0;
 }
 
+html.page-home .referral-rewards {
+    margin-top: 40px;
+}
+
+html.page-home .referral-heading {
+    max-width: 760px;
+    margin-bottom: 18px;
+}
+
+html.page-home .referral-heading .countdown-eyebrow {
+    margin: 0 0 8px;
+    color: #a44a31;
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+html.page-home .referral-heading h2 {
+    margin: 0 0 10px;
+    color: var(--forest);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.8rem, 5vw, 2.5rem);
+    font-weight: 500;
+    line-height: 1.15;
+}
+
+html.page-home .referral-heading > p:last-child,
+html.page-home .referral-signup > p,
+html.page-home .referral-how p {
+    color: var(--muted);
+    line-height: 1.65;
+}
+
+html.page-home .referral-heading > p:last-child {
+    margin: 0;
+}
+
+html.page-home .referral-card,
+html.page-home .referral-result {
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) minmax(230px, 0.8fr);
+    gap: 28px;
+    padding: 26px;
+    border: 1px solid var(--line);
+    border-left: 5px solid var(--coral);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.88);
+}
+
+html.page-home .referral-result[hidden] {
+    display: none;
+}
+
+html.page-home .referral-signup h3,
+html.page-home .referral-how h3,
+html.page-home .referral-result h3 {
+    margin: 0 0 10px;
+    color: var(--forest);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.35rem;
+    font-weight: 500;
+}
+
+html.page-home .referral-signup > p {
+    margin: 0 0 18px;
+}
+
+html.page-home .referral-field {
+    display: grid;
+    gap: 7px;
+    margin-bottom: 16px;
+}
+
+html.page-home .referral-field label,
+html.page-home .referral-result-details > label {
+    color: var(--ink);
+    font-size: 0.94rem;
+    font-weight: 700;
+}
+
+html.page-home .referral-field input {
+    width: 100%;
+    min-height: 48px;
+    padding: 10px 12px;
+    border: 1px solid #aebeb2;
+    border-radius: 5px;
+    color: var(--ink);
+    background: white;
+    font: inherit;
+}
+
+html.page-home .referral-field input:focus-visible {
+    outline: 3px solid var(--coral);
+    outline-offset: 2px;
+}
+
+html.page-home .referral-consent {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 18px;
+    color: var(--muted);
+    font-size: 0.88rem;
+    line-height: 1.55;
+}
+
+html.page-home .referral-consent input {
+    flex: 0 0 auto;
+    width: 18px;
+    height: 18px;
+    margin: 2px 0 0;
+    accent-color: var(--forest);
+}
+
+html.page-home .referral-consent a {
+    color: var(--forest);
+    font-weight: 700;
+}
+
+html.page-home .referral-button {
+    min-height: 48px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 16px;
+    border: 1px solid var(--forest);
+    border-radius: 5px;
+    color: var(--forest);
+    background: white;
+    font: inherit;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 150ms ease, transform 150ms ease;
+}
+
+html.page-home .referral-button-primary {
+    color: white;
+    background: var(--forest);
+}
+
+html.page-home .referral-button:hover:not(:disabled) {
+    background: #236456;
+    color: white;
+    transform: translateY(-1px);
+}
+
+html.page-home .referral-button:focus-visible {
+    outline: 3px solid var(--coral);
+    outline-offset: 3px;
+}
+
+html.page-home .referral-button:disabled {
+    cursor: wait;
+    opacity: 0.7;
+}
+
+html.page-home .referral-spinner {
+    width: 17px;
+    height: 17px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-top-color: white;
+    border-radius: 50%;
+    animation: referral-spin 700ms linear infinite;
+}
+
+html.page-home .referral-spinner[hidden] {
+    display: none;
+}
+
+@keyframes referral-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+html.page-home .referral-status {
+    min-height: 1.4em;
+    margin: 12px 0 0;
+    color: var(--forest);
+    font-size: 0.92rem;
+    line-height: 1.5;
+}
+
+html.page-home .referral-status.is-error,
+html.page-home .referral-error {
+    color: #9c3327;
+}
+
+html.page-home .referral-how {
+    padding: 20px;
+    border-radius: 6px;
+    background: #f0f5ef;
+}
+
+html.page-home .referral-how ol {
+    display: grid;
+    gap: 10px;
+    margin: 0;
+    padding-left: 1.3rem;
+    color: var(--ink);
+    line-height: 1.55;
+}
+
+html.page-home .referral-how li::marker {
+    color: #a44a31;
+    font-weight: 800;
+}
+
+html.page-home .referral-how p {
+    margin: 16px 0 0;
+    font-size: 0.88rem;
+}
+
+html.page-home .referral-result {
+    grid-template-columns: minmax(0, 1fr) minmax(230px, 0.7fr);
+    margin-top: 18px;
+}
+
+html.page-home .referral-result-details > p:not(.countdown-eyebrow, .referral-status) {
+    color: var(--muted);
+}
+
+html.page-home .referral-result-details .countdown-eyebrow {
+    margin: 0 0 6px;
+    color: #a44a31;
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+html.page-home .referral-link-output {
+    display: block;
+    margin-top: 6px;
+    color: var(--forest);
+    font-weight: 700;
+    overflow-wrap: anywhere;
+}
+
+html.page-home .referral-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+html.page-home .referral-qr-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+html.page-home .referral-qr {
+    max-width: 100%;
+    padding: 12px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    background: white;
+}
+
+html.page-home .referral-qr img {
+    display: block;
+    width: min(100%, 280px);
+    height: auto;
+}
+
+html.page-home .referral-qr-actions {
+    margin-top: 4px;
+}
+
+@media (max-width: 700px) {
+    html.page-home .referral-card,
+    html.page-home .referral-result {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    html.page-home .referral-how {
+        padding: 18px;
+    }
+}
+
 html.page-home .more-links {
     display: flex;
     gap: 22px;

@@ -92,6 +92,86 @@
                         rel="noopener noreferrer">Submit your study sheet</a>
                 </nav>
             </section>
+            <section class="referral-rewards" aria-labelledby="referral-rewards-title">
+                <div class="referral-heading">
+                    <p class="countdown-eyebrow">WoodpeckerSAT Rewards</p>
+                    <h2 id="referral-rewards-title">Woodpeckersat Rewards – Share &amp; Earn</h2>
+                    <p>Invite a friend to practice. When they sign up with their email using your link, we’ll record
+                        the referral. A link visit or QR scan alone does not count.</p>
+                </div>
+                <div class="referral-card">
+                    <div class="referral-signup">
+                        <h3>Get your personal referral link</h3>
+                        <p>Enter your email to receive a shareable link, a referral code, and a downloadable QR code.</p>
+                        <form id="referral-form" action="https://formspree.io/f/mppqloyl" method="POST" aria-busy="false">
+                            <input type="hidden" name="_subject" value="WoodpeckerSAT Rewards registration">
+                            <input type="hidden" name="referral_code" value="">
+                            <input type="hidden" name="referred_by_code" value="none">
+                            <input type="hidden" name="consent" value="yes">
+                            <div class="referral-field">
+                                <label for="referral-email">Email address</label>
+                                <input id="referral-email" type="email" name="email" autocomplete="email"
+                                    maxlength="254" required>
+                            </div>
+                            <label class="referral-consent">
+                                <input id="referral-consent" type="checkbox" required>
+                                <span>I agree to send my email and referral code to WoodpeckerSAT through
+                                    <a href="https://formspree.io/legal/privacy-policy/">Formspree</a> to administer
+                                    rewards. See the <a href="privacy.html">Privacy Policy</a>.</span>
+                            </label>
+                            <button class="referral-button referral-button-primary" id="referral-submit" type="submit"
+                                disabled>
+                                <span id="referral-submit-label">Join &amp; Get Your Referral Link</span>
+                                <span class="referral-spinner" id="referral-spinner" aria-hidden="true" hidden></span>
+                            </button>
+                            <p class="referral-status" id="referral-status" role="status" aria-live="polite"></p>
+                            <noscript>
+                                <p class="referral-error">Please enable JavaScript to create your referral link and QR
+                                    code.</p>
+                            </noscript>
+                        </form>
+                    </div>
+                    <aside class="referral-how" aria-label="How the rewards program works">
+                        <h3>How it works</h3>
+                        <ol>
+                            <li>Join with your email to get a random referral code and link.</li>
+                            <li>Share your link or QR code with a friend.</li>
+                            <li>When your friend submits their email, the referral code is sent to our Formspree
+                                dashboard.</li>
+                        </ol>
+                        <p>Your email is sent only to Formspree for this registration. Referral codes are not linked to
+                            email addresses in a separate database.</p>
+                    </aside>
+                </div>
+                <div class="referral-result" id="referral-result" hidden>
+                    <div class="referral-result-details">
+                        <p class="countdown-eyebrow">You’re in</p>
+                        <h3>Your referral link is ready</h3>
+                        <p class="referral-status" id="referral-confirmation" role="status" aria-live="polite"></p>
+                        <p>Your referral code: <strong id="referral-code-output"></strong></p>
+                        <label for="referral-link-output">Share this link</label>
+                        <a id="referral-link-output" class="referral-link-output" href=""></a>
+                        <div class="referral-actions">
+                            <button class="referral-button referral-button-primary" id="referral-copy" type="button">
+                                Copy Referral Link
+                            </button>
+                            <button class="referral-button" id="referral-share" type="button">Share Link</button>
+                        </div>
+                        <p class="referral-status" id="referral-share-status" role="status" aria-live="polite"></p>
+                    </div>
+                    <div class="referral-qr-panel">
+                        <h3>Your QR code</h3>
+                        <div class="referral-qr" id="referral-qr" aria-live="polite"></div>
+                        <p class="referral-status" id="referral-qr-status" role="status" aria-live="polite"></p>
+                        <div class="referral-actions referral-qr-actions">
+                            <a class="referral-button referral-button-primary" id="referral-download" href=""
+                                download="woodpeckersat-referral.png" hidden>Download QR Code</a>
+                            <button class="referral-button" id="referral-qr-retry" type="button" hidden>Try QR
+                                again</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section aria-labelledby="practice-parts-title">
                 <h2 class="section-label" id="practice-parts-title">Choose a practice set</h2>
                 <div class="parts">
@@ -232,6 +312,8 @@
             </nav>
         </footer>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" defer></script>
+    <script src="/referral-rewards.js" defer></script>
     <script src="/personal-tools.js"></script>
 </body>
 
