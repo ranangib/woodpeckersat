@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en" class="page-practice-test">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TYN84E9PLF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-TYN84E9PLF');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Timed Digital SAT grammar quiz, Part 2: 29 free questions with 35 seconds per question, instant feedback, and explanations. No login required.">
+    <link rel="canonical" href="https://woodpeckersat.online/sat-grammar-practice-test-2.html">
+    <meta name="theme-color" content="#17483e">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="WoodpeckerSAT">
+    <meta property="og:title" content="Timed SAT Grammar Quiz Part 2 | WoodpeckerSAT">
+    <meta property="og:description"
+        content="Timed Digital SAT grammar quiz, Part 2: 29 free questions with 35 seconds per question, instant feedback, and explanations. No login required.">
+    <meta property="og:url" content="https://woodpeckersat.online/sat-grammar-practice-test-2.html">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Timed SAT Grammar Quiz Part 2 | WoodpeckerSAT">
+    <meta name="twitter:description" content="Timed Digital SAT grammar quiz, Part 2: 29 free questions with 35 seconds per question, instant feedback, and explanations. No login required.">
+    <title>Timed SAT Grammar Quiz Part 2 | WoodpeckerSAT</title>
+    <link rel="icon" type="image/png" href="/assets/favicon.png" sizes="96x96" />
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Quiz",
+        "name": "Timed SAT Grammar Quiz Part 2",
+        "description": "29 free Digital SAT grammar questions with 35 seconds per question, instant feedback, and explanations.",
+        "url": "https://woodpeckersat.online/sat-grammar-practice-test-2.html",
+        "educationalLevel": "High School",
+        "inLanguage": "en-US"
+    }
+    </script>
+    <link rel="stylesheet" href="/styles.css?v=20261103-site-gradient">
+</head>
+
+<body>
+
+    <nav class="site-nav" aria-label="Main navigation">
+        <a href="/">woodpeckersat.online</a>
+        <a href="/sat-grammar-practice-test-1.html">Part 1</a>
+        <a href="/sat-grammar-practice-test-2.html">Part 2</a>
+        <a href="/sat-grammar-practice-test-3.html">Part 3</a>
+        <a href="/grammar.html">Grammar guide</a>
+        <a href="/grammar-plan.html">Study plan</a>
+    </nav>
+    <div class="dashboard-container">
+        <div class="header">
+            <h1 id="quiz-title">Timed Digital SAT Grammar Practice: Part 2</h1>
+            <div class="header-status">
+                <div class="progress-badge" id="progress-text">Loading questions...</div>
+                <div class="timer-badge" id="timer-text" role="timer" aria-label="Time remaining">Time: 35 seconds</div>
+            </div>
+        </div>
+        <div class="quiz-body">
+            <section class="practice-overview" aria-labelledby="practice-overview-title">
+                <h2 id="practice-overview-title">What you’ll practice</h2>
+                <p>This free timed Digital SAT Reading and Writing set contains 29 multiple-choice questions, with 35 seconds per question. Practice punctuation and sentence boundaries, verb agreement and tense, pronoun reference, and modifier placement. The timer counts below zero if needed and resets when you move to another question. Choose an answer for immediate feedback and an explanation.</p>
+            </section>
+            <div class="question-meta" id="question-tag">...</div>
+            <div class="question-text" id="question-box">Your first practice question will appear here when the set loads.</div>
+            <div class="question-personal-tools" id="question-personal-tools">
+                <p class="local-storage-inline">Bookmarks and quiz progress are stored only in this browser on this device. Clearing this site’s stored data/local storage erases them.</p>
+            </div>
+            <p class="personal-tool-status" id="question-bookmark-status" role="status"></p>
+
+            <div class="options-list" id="options-box"></div>
+
+            <div class="explanation-panel" id="explanation-box">
+                <div class="exp-title" id="exp-headline">Explanation</div>
+                <div class="exp-desc" id="exp-body"></div>
+            </div>
+
+            <div class="action-container">
+                <button class="next-btn" id="previous-button" onclick="handlePreviousClick()">← Previous Question</button>
+                <button class="next-btn" id="next-button" onclick="handleNextClick()">Next Question →</button>
+            </div>
+        </div>
+    </div>
+    <a class="back-btn" href="/">Back to home</a>
+
+    <script src="/personal-tools.js"></script>
+    <script>
+        let testItems = [];
+        let currentQuestionIdx = 0;
+        let optionSelectionLocked = false;
+        let savedAnswers = {};
+        let questionTimerInterval;
+        let questionTimerDeadline = 0;
+        const questionTimeLimitSeconds = 35;
+        const progressStorageKey = "woodpeckerSatPart2Progress";
+
+        // Asynchronously call and parse external JSON asset configurations
+        async function initializeQuizApp() {
+            try {
+                const response = await fetch('/data/quiz_data2.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                testItems = await response.json();
+                restoreProgress();
+                const searchParams = new URLSearchParams(window.location.search);
+                const questionFromLink = Number.parseInt(searchParams.get("question"), 10);
+                if (Number.isInteger(questionFromLink) && questionFromLink >= 1 && questionFromLink <= testItems.length) {
+                    currentQuestionIdx = questionFromLink - 1;
+                    if (searchParams.get("retry") === "1") {
+                        delete savedAnswers[currentQuestionIdx];
+                    }
+                    window.history.replaceState(null, "", window.location.pathname + window.location.hash);
+                }
+                loadEngineQuestion();
+                saveProgress();
+            } catch (error) {
+                console.error("Could not fetch quiz data:", error);
+                document.getElementById("progress-text").innerText = "Questions unavailable";
+                document.getElementById("question-box").innerText = "Could not load Part 2 questions (data/quiz_data2.json). Please refresh the page or visit the grammar guide.";
+            }
+        }
+
+        function restoreProgress() {
+            let storedProgress;
+            try {
+                storedProgress = localStorage.getItem(progressStorageKey);
+            } catch (error) {
+                console.error("Could not read saved quiz progress:", error);
+                return;
+            }
+
+            if (!storedProgress) return;
+
+            try {
+                const progress = JSON.parse(storedProgress);
+                if (Number.isInteger(progress.currentQuestionIdx)
+                    && progress.currentQuestionIdx >= 0
+                    && progress.currentQuestionIdx < testItems.length) {
+                    currentQuestionIdx = progress.currentQuestionIdx;
+                }
+                if (progress.answers && typeof progress.answers === "object" && !Array.isArray(progress.answers)) {
+                    savedAnswers = progress.answers;
+                }
+            } catch (error) {
+                console.error("Could not parse saved quiz progress:", error);
+                try {
+                    localStorage.removeItem(progressStorageKey);
+                } catch (removeError) {
+                    console.error("Could not remove invalid saved quiz progress:", removeError);
+                }
+            }
+        }
+
+        function saveProgress() {
+            try {
+                localStorage.setItem(progressStorageKey, JSON.stringify({
+                    currentQuestionIdx,
+                    answers: savedAnswers
+                }));
+            } catch (error) {
+                console.error("Could not save quiz progress:", error);
+            }
+        }
+
+        function updateQuestionTimer() {
+            const remainingSeconds = Math.ceil((questionTimerDeadline - Date.now()) / 1000);
+            const timerElement = document.getElementById("timer-text");
+            timerElement.innerText = `Time: ${remainingSeconds} second${Math.abs(remainingSeconds) === 1 ? "" : "s"}`;
+            timerElement.classList.toggle("is-overtime", remainingSeconds < 0);
+        }
+
+        function startQuestionTimer() {
+            window.clearInterval(questionTimerInterval);
+            questionTimerDeadline = Date.now() + questionTimeLimitSeconds * 1000;
+            updateQuestionTimer();
+            questionTimerInterval = window.setInterval(updateQuestionTimer, 1000);
+        }
+
+        function loadEngineQuestion() {
+            if (testItems.length === 0) return;
+
+            startQuestionTimer();
+            optionSelectionLocked = false;
+            const currentData = testItems[currentQuestionIdx];
+
+            document.getElementById("progress-text").innerText = `Question ${currentQuestionIdx + 1} of ${testItems.length}`;
+            document.getElementById("question-tag").innerText = currentData.tag;
+            document.getElementById("question-box").innerText = currentData.question;
+            window.WoodpeckerPersonalTools.renderQuestionBookmark(`part2-${currentQuestionIdx + 1}`);
+            document.getElementById("previous-button").style.display = currentQuestionIdx > 0 ? "block" : "none";
+
+            const explanationBox = document.getElementById("explanation-box");
+            explanationBox.style.display = "none";
+            explanationBox.className = "explanation-panel";
+            document.getElementById("next-button").style.display = "none";
+
+            const optionsContainer = document.getElementById("options-box");
+            optionsContainer.innerHTML = "";
+
+            const letterArray = ["A", "B", "C", "D"];
+            currentData.options.forEach((optionText, idx) => {
+                const buttonElement = document.createElement("button");
+                buttonElement.className = "option-card";
+
+                const letterSpan = document.createElement("span");
+                letterSpan.className = "option-letter";
+                letterSpan.innerText = letterArray[idx];
+
+                const textSpan = document.createElement("span");
+                textSpan.innerText = optionText;
+
+                buttonElement.appendChild(letterSpan);
+                buttonElement.appendChild(textSpan);
+
+                buttonElement.onclick = () => validateSelection(idx);
+                optionsContainer.appendChild(buttonElement);
+            });
+
+            const savedSelection = savedAnswers[currentQuestionIdx];
+            if (Number.isInteger(savedSelection) && savedSelection >= 0 && savedSelection < currentData.options.length) {
+                showAnswer(savedSelection);
+            }
+        }
+
+        function validateSelection(selectedIndex) {
+            if (optionSelectionLocked) return;
+            savedAnswers[currentQuestionIdx] = selectedIndex;
+            saveProgress();
+            const questionData = testItems[currentQuestionIdx];
+            window.WoodpeckerPersonalTools.recordAnswer(
+                `part2-${currentQuestionIdx + 1}`,
+                questionData.tag,
+                selectedIndex === questionData.answerIndex
+            );
+            showAnswer(selectedIndex);
+        }
+
+        function showAnswer(selectedIndex) {
+            optionSelectionLocked = true;
+
+            const questionData = testItems[currentQuestionIdx];
+            const allOptionCards = document.getElementsByClassName("option-card");
+
+            for (let card of allOptionCards) {
+                card.classList.add("disabled");
+            }
+
+            const isCorrectChoice = (selectedIndex === questionData.answerIndex);
+
+            if (isCorrectChoice) {
+                allOptionCards[selectedIndex].classList.add("correct-pick");
+                triggerExplanationView(true, "Correct! Excellent choice.", questionData.explanationText);
+            } else {
+                allOptionCards[selectedIndex].classList.add("incorrect-pick");
+                allOptionCards[questionData.answerIndex].classList.add("reveal-correct");
+                triggerExplanationView(false, "Incorrect", questionData.explanationText);
+            }
+
+            document.getElementById("next-button").style.display = "block";
+        }
+
+        function triggerExplanationView(isCorrect, statusHeadline, explanationBody) {
+            const panel = document.getElementById("explanation-box");
+            const title = document.getElementById("exp-headline");
+            const body = document.getElementById("exp-body");
+
+            panel.style.display = "block";
+            body.innerText = explanationBody;
+            title.innerText = statusHeadline;
+
+            if (isCorrect) {
+                panel.classList.add("correct-style");
+            } else {
+                panel.classList.add("incorrect-style");
+            }
+        }
+
+        function handleNextClick() {
+            if (currentQuestionIdx < testItems.length - 1) {
+                currentQuestionIdx++;
+                saveProgress();
+                loadEngineQuestion();
+            } else {
+                alert("Congratulations! You have completed all the grammar practice items.");
+                try {
+                    localStorage.removeItem(progressStorageKey);
+                } catch (error) {
+                    console.error("Could not clear completed quiz progress:", error);
+                }
+                currentQuestionIdx = 0;
+                savedAnswers = {};
+                loadEngineQuestion();
+            }
+        }
+
+        function handlePreviousClick() {
+            if (currentQuestionIdx === 0) return;
+            currentQuestionIdx--;
+            saveProgress();
+            loadEngineQuestion();
+        }
+        // Launch execution pipeline on page rendering complete
+        window.onload = initializeQuizApp;
+    </script>
+</body>
