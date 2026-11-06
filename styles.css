@@ -3353,15 +3353,18 @@ html.page-volunteer-hours footer {
 }
 
 @media screen {
-    html[class] body {
-        background-color: #fbfcfb;
+    html,
+    html body {
+        background-color: #fbfcfb !important;
         background-image: radial-gradient(ellipse at top left, rgba(210, 198, 238, 0.24), transparent 58%),
-            radial-gradient(ellipse at bottom right, rgba(190, 224, 199, 0.24), transparent 58%);
+            radial-gradient(ellipse at bottom right, rgba(190, 224, 199, 0.24), transparent 58%) !important;
+        animation: none !important;
     }
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
-    html[class] body {
-        background-color: #fbfcfb;
+    html,
+    html body {
+        background-color: #fbfcfb !important;
     }
 }
