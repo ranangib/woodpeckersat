@@ -1,0 +1,129 @@
+
+name: Automatic IndexNow Submission
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  submit-to-indexnow:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Get website files
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Submit changed pages to IndexNow
+        env:
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+          SITE_DIR: "."
+        run: |
+          python - <<'PY'
+          import os
+          import json
+          import subprocess
+          import urllib.request
+          import urllib.error
+          from pathlib import Path
+          from urllib.parse import quote
+
+          key = os.environ["INDEXNOW_KEY"]
+          before = os.environ.get("BEFORE", "")
+          after = os.environ["AFTER"]
+          site_dir = Path(os.environ["SITE_DIR"])
+
+          if before and not before.startswith("0000000"):
+              result = subprocess.run(
+                  ["git", "diff", "--name-only", before, after],
+                  capture_output=True, text=True, check=True
+              )
+              changed = result.stdout.splitlines()
+          else:
+              result = subprocess.run(
+                  ["git", "ls-files"],
+                  capture_output=True, text=True, check=True
+              )
+              changed = result.stdout.splitlines()
+
+          urls = []
+
+          for name in changed:
+              path = Path(name)
+
+              if path.suffix.lower() not in (".html", ".htm"):
+                  continue
+
+              if site_dir != Path("."):
+                  try:
+                      relative = path.relative_to(site_dir)
+                  except ValueError:
+                      continue
+                  file_path = site_dir / relative
+              else:
+                  relative = path
+                  file_path = path
+
+              if not file_path.is_file():
+                  continue
+
+              parts = relative.parts
+
+              if relative.name.lower() == "index.html":
+                  page = "/".join(parts[:-1])
+                  url = "https://woodpeckersat.online/" + (
+                      quote(page, safe="/-._~") + "/" if page else ""
+                  )
+              else:
+                  url = "https://woodpeckersat.online/" + quote(
+                      relative.as_posix(), safe="/-._~"
+                  )
+
+              urls.append(url)
+
+          urls = sorted(set(urls))
+
+          if not urls:
+              print("No changed HTML pages to submit.")
+              raise SystemExit(0)
+
+          print("Submitting these pages:")
+          for url in urls:
+              print(url)
+
+          payload = {
+              "host": "woodpeckersat.online",
+              "key": key,
+              "keyLocation": (
+                  "https://woodpeckersat.online/" + key + ".txt"
+              ),
+              "urlList": urls
+          }
+
+          request = urllib.request.Request(
+              "https://api.indexnow.org/indexnow",
+              data=json.dumps(payload).encode("utf-8"),
+              headers={
+                  "Content-Type": "application/json; charset=utf-8"
+              },
+              method="POST"
+          )
+
+          try:
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  print("IndexNow HTTP status:", response.status)
+                  if response.status != 200:
+                      raise SystemExit("Submission was not confirmed.")
+          except urllib.error.HTTPError as error:
+              print("IndexNow error:", error.code)
+              print(error.read().decode("utf-8", errors="replace"))
+              raise SystemExit(1)
+          PY
