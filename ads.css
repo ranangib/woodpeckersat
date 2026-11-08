@@ -41,6 +41,26 @@
     margin: 12px auto;
 }
 
+.smartlink-side-rail a {
+    display: block;
+    min-width: 104px;
+    padding: 10px 14px;
+    border: 1px solid #d8e1da;
+    border-radius: 6px;
+    color: #17483e;
+    background: #fff;
+    font: 700 13px/1.3 "Trebuchet MS", "Segoe UI", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(23, 43, 39, 0.12);
+}
+
+.smartlink-side-rail a:hover,
+.smartlink-side-rail a:focus-visible {
+    color: #fff;
+    background: #17483e;
+}
+
 @media screen and (min-width: 1440px) and (min-height: 700px) {
     .smartlink-side-rail {
         position: fixed;
@@ -59,22 +79,4 @@
         right: 12px;
     }
 
-    .smartlink-side-rail a {
-        display: block;
-        padding: 10px 14px;
-        border: 1px solid #d8e1da;
-        border-radius: 6px;
-        color: #17483e;
-        background: #fff;
-        font: 700 13px/1.3 "Trebuchet MS", "Segoe UI", sans-serif;
-        text-align: center;
-        text-decoration: none;
-        box-shadow: 0 2px 8px rgba(23, 43, 39, 0.12);
-    }
-
-    .smartlink-side-rail a:hover,
-    .smartlink-side-rail a:focus-visible {
-        color: #fff;
-        background: #17483e;
-    }
 }
