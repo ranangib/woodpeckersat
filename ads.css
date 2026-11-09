@@ -61,6 +61,56 @@
     background: #17483e;
 }
 
+.smartlink-promo {
+    box-sizing: border-box;
+    width: calc(100% - 24px);
+    max-width: 380px;
+    margin: 12px auto;
+    padding: 16px 12px 12px;
+    border: 1px solid #dedede;
+    border-radius: 12px;
+    background: #fff;
+    color: #171717;
+    font: 16px/1.6 "Trebuchet MS", "Segoe UI", sans-serif;
+}
+
+.smartlink-promo h2 {
+    margin: 0 0 10px;
+    font: 700 16px/1.4 "Trebuchet MS", "Segoe UI", sans-serif;
+}
+
+.smartlink-promo p {
+    margin: 0 0 8px;
+}
+
+.smartlink-promo .smartlink-promo-message {
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.smartlink-promo a {
+    display: block;
+    padding: 12px;
+    border-radius: 8px;
+    background: #2b79ba;
+    color: #fff;
+    font: 700 15px/1.4 "Trebuchet MS", "Segoe UI", sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.smartlink-promo a:hover,
+.smartlink-promo a:focus-visible {
+    background: #21669f;
+}
+
+.smartlink-promo-label {
+    display: block;
+    margin-top: 8px;
+    color: #666;
+    font: 13px/1.3 "Trebuchet MS", "Segoe UI", sans-serif;
+}
+
 @media screen and (min-width: 1440px) and (min-height: 700px) {
     .smartlink-side-rail {
         position: fixed;
