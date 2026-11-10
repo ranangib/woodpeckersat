@@ -1133,6 +1133,15 @@ html.page-home .study-plan-callout .action {
     flex-shrink: 0;
 }
 
+html.page-home .sponsored-link-row {
+    margin: -28px 0 42px;
+}
+
+html.page-home .sponsored-link-row .action {
+    width: 100%;
+    justify-content: center;
+}
+
 html.page-home .action {
     min-height: 58px;
     display: inline-flex;
