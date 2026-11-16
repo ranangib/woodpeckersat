@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#17483e">
+    <title>Question Studio | WoodpeckerSAT</title>
+    <link rel="icon" type="image/png" href="../assets/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="shell">
+        <aside class="sidebar">
+            <a class="brand" href="../index.html" aria-label="WoodpeckerSAT home">
+                <img src="../assets/woodpecker-1500-instagram.svg" alt="">
+                <span>Woodpecker<span class="brand-light">SAT</span><small>QUESTION STUDIO</small></span>
+            </a>
+            <p class="nav-label">WORKSPACE</p>
+            <nav class="status-nav" aria-label="Question status">
+                <button class="nav-item active" data-status="all"><span>All questions</span><span id="nav-all">0</span></button>
+                <button class="nav-item" data-status="pending"><span>Pending review</span><span id="nav-pending">0</span></button>
+                <button class="nav-item" data-status="approved"><span>Approved</span><span id="nav-approved">0</span></button>
+                <button class="nav-item" data-status="rejected"><span>Rejected</span><span id="nav-rejected">0</span></button>
+            </nav>
+            <div class="sidebar-note">
+                <span class="lock-icon" aria-hidden="true">●</span>
+                <strong>Nothing publishes automatically.</strong>
+                <p>Only approved questions you explicitly export can be added to your website.</p>
+            </div>
+            <a class="prompt-link" href="prompts/README.md">Open Copilot prompt library <span aria-hidden="true">↗</span></a>
+            <a class="back-link" href="../index.html">← WoodpeckerSAT website</a>
+        </aside>
+
+        <main class="main">
+            <header class="topbar">
+                <div>
+                    <p class="eyebrow">READING AND WRITING · QUESTION BANK</p>
+                    <h1>Review studio</h1>
+                </div>
+                <div class="top-actions">
+                    <span id="save-indicator" class="save-indicator"><span class="save-dot"></span><span id="save-text">All changes exported</span></span>
+                    <button class="button button-outline" id="import-button" type="button">Import JSON</button>
+                    <button class="button button-primary" id="export-website" type="button">Export for website</button>
+                    <input id="file-input" type="file" accept=".json,application/json" hidden>
+                </div>
+            </header>
+
+            <section class="stat-grid" aria-label="Question totals">
+                <article class="stat-card"><span class="stat-label">Total questions</span><strong id="stat-total">0</strong><span class="stat-caption">Across all collections</span></article>
+                <article class="stat-card stat-pending"><span class="stat-label">Pending review</span><strong id="stat-pending">0</strong><span class="stat-caption">Awaiting your decision</span></article>
+                <article class="stat-card stat-approved"><span class="stat-label">Approved</span><strong id="stat-approved">0</strong><span class="stat-caption">Ready to export</span></article>
+                <article class="stat-card stat-rejected"><span class="stat-label">Rejected</span><strong id="stat-rejected">0</strong><span class="stat-caption">Kept for reference</span></article>
+            </section>
+
+            <section class="notice" role="note">
+                <span class="notice-icon" aria-hidden="true">i</span>
+                <p><strong>Human review is required.</strong> Automated checks flag format issues and possible duplicates; they do not prove academic accuracy. Approval is always your decision.</p>
+            </section>
+
+            <section class="library" aria-label="Question library">
+                <div class="library-heading">
+                    <div><h2 id="list-title">All questions</h2><p id="result-count">0 questions</p></div>
+                    <button class="button button-soft" id="new-question" type="button">＋ New draft</button>
+                </div>
+                <div class="toolbar">
+                    <label class="search-box"><span aria-hidden="true">⌕</span><input id="search-input" type="search" placeholder="Search question, passage, ID…" autocomplete="off"></label>
+                    <label class="select-wrap"><span class="sr-only">Domain</span><select id="domain-filter"><option value="">All domains</option></select></label>
+                    <label class="select-wrap"><span class="sr-only">Skill</span><select id="skill-filter" disabled><option value="">All skills</option></select></label>
+                    <label class="select-wrap"><span class="sr-only">Difficulty</span><select id="difficulty-filter"><option value="">All difficulties</option><option>Easy</option><option>Medium</option><option>Hard</option></select></label>
+                </div>
+                <div id="question-list" class="question-list" aria-live="polite"></div>
+                <div id="pagination" class="pagination"></div>
+            </section>
+
+            <footer class="footer">
+                <span>WoodpeckerSAT · Question Studio</span>
+                <div class="export-links">
+                    <button type="button" data-export="pending">Export pending</button>
+                    <button type="button" data-export="approved">Export approved backup</button>
+                    <button type="button" data-export="rejected">Export rejected</button>
+                    <button type="button" data-export="all">Export all</button>
+                </div>
+            </footer>
+        </main>
+    </div>
+
+    <dialog id="editor-dialog" class="editor-dialog">
+        <form id="editor-form" novalidate>
+            <div class="dialog-heading">
+                <div><p class="eyebrow">QUESTION EDITOR</p><h2 id="editor-title">Edit question</h2></div>
+                <button type="button" class="icon-button" id="close-editor" aria-label="Close editor">×</button>
+            </div>
+            <div id="editor-errors" class="validation-box" hidden></div>
+            <div class="editor-grid">
+                <label>Question ID<input name="id" required></label>
+                <label>Difficulty<select name="difficulty" required><option>Easy</option><option>Medium</option><option>Hard</option></select></label>
+                <label>Domain<select name="domain" id="editor-domain" required></select></label>
+                <label>Skill<select name="skill" id="editor-skill" required></select></label>
+                <label>Review status<select name="status"><option value="pending">Pending</option><option value="rejected">Rejected</option></select></label>
+            </div>
+            <label>Passage / stimulus<textarea name="passage" rows="4" required></textarea></label>
+            <label>Question<textarea name="question" rows="3" required></textarea></label>
+            <fieldset class="options-fieldset">
+                <legend>Answer choices <span>· exactly four</span></legend>
+                <div class="choice-editor">
+                    <label><span>A</span><input name="option0" required></label>
+                    <label><span>B</span><input name="option1" required></label>
+                    <label><span>C</span><input name="option2" required></label>
+                    <label><span>D</span><input name="option3" required></label>
+                </div>
+                <label class="answer-picker">Correct answer<select name="answerIndex"><option value="0">A</option><option value="1">B</option><option value="2">C</option><option value="3">D</option></select></label>
+            </fieldset>
+            <label>Explanation<textarea name="explanationText" rows="4" required></textarea></label>
+            <label>Rejection reason <span class="optional">(optional)</span><textarea name="rejectionReason" rows="2"></textarea></label>
+            <p id="editor-status" class="editor-status"></p>
+            <div class="dialog-actions">
+                <button class="button button-outline" type="button" id="cancel-editor">Cancel</button>
+                <button class="button button-primary" type="submit">Save question</button>
+            </div>
+        </form>
+    </dialog>
+
+    <dialog id="reject-dialog" class="editor-dialog">
+        <form id="reject-form">
+            <div class="dialog-heading">
+                <div><p class="eyebrow">REVIEW DECISION</p><h2>Reject question</h2></div>
+                <button type="button" class="icon-button" id="close-reject" aria-label="Close rejection form">×</button>
+            </div>
+            <p class="editor-status">The question will be moved to the rejected collection. Add a reason if you want to keep review notes with it.</p>
+            <label>Rejection reason <span class="optional">(optional)</span><textarea id="rejection-reason" rows="4"></textarea></label>
+            <div class="dialog-actions">
+                <button class="button button-outline" type="button" id="cancel-reject">Cancel</button>
+                <button class="button button-primary" type="submit">Reject question</button>
+            </div>
+        </form>
+    </dialog>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

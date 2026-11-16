@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080" fill="none">
+  <defs>
+    <linearGradient id="field" x1="140" y1="100" x2="930" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#215C4D"/>
+      <stop offset="1" stop-color="#12372F"/>
+    </linearGradient>
+    <linearGradient id="feather" x1="298" y1="302" x2="674" y2="594" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#26332E"/>
+      <stop offset="1" stop-color="#101B18"/>
+    </linearGradient>
+    <clipPath id="badge">
+      <circle cx="540" cy="540" r="472"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#field)"/>
+  <circle cx="540" cy="540" r="493" stroke="#D3AE65" stroke-opacity=".62" stroke-width="3"/>
+  <circle cx="540" cy="540" r="472" fill="#F4F0E4"/>
+  <g clip-path="url(#badge)">
+    <path d="M75 848C266 780 384 789 540 833C698 878 810 871 1008 787V1050H75V848Z" fill="#E8E1D1"/>
+    <path d="M225 854C405 820 649 820 856 854" stroke="#D4C9B4" stroke-width="3"/>
+
+    <path d="M292 555C298 490 334 422 389 384C443 347 516 348 575 383C625 413 658 467 660 521C663 582 618 636 556 651C482 669 396 634 341 609C312 596 293 580 292 555Z" fill="url(#feather)"/>
+    <path d="M344 557C394 549 424 557 459 581C482 597 498 620 503 642C449 641 389 618 349 595C335 587 329 575 344 557Z" fill="#F4F0E4"/>
+    <path d="M383 425C411 386 465 368 517 382C563 395 597 431 600 474C603 515 576 545 532 548C482 550 426 527 391 495C368 474 367 448 383 425Z" fill="#171F1B"/>
+    <path d="M388 425C393 378 427 338 470 316C494 304 518 299 544 301C526 335 525 365 539 394C504 382 474 383 451 399C425 416 413 438 410 465C394 456 386 443 388 425Z" fill="#C5483C"/>
+    <path d="M426 420C450 396 482 388 515 394C546 400 570 420 581 445C553 441 529 446 508 461C490 474 478 497 477 522C451 512 431 496 420 477C408 456 411 435 426 420Z" fill="#F4F0E4"/>
+    <path d="M480 462C496 449 520 443 543 450C562 456 575 469 579 486C559 480 540 484 525 495C512 505 505 520 507 535C488 529 475 516 470 500C466 485 469 472 480 462Z" fill="#26332E"/>
+    <circle cx="548" cy="421" r="12" fill="#F4F0E4"/>
+    <circle cx="551" cy="421" r="5.5" fill="#17211D"/>
+    <path d="M557 439L701 510L571 489L548 466L557 439Z" fill="#D3AE65"/>
+    <path d="M563 449L665 500L572 480L563 449Z" fill="#E7C47E"/>
+    <path d="M326 550C309 535 303 515 307 497C324 511 338 514 358 512C350 531 340 544 326 550Z" fill="#C5483C"/>
+
+    <path d="M702 510L726 488L719 518L749 526L717 535L728 557L705 541L688 559L694 532L671 520L698 519L702 510Z" fill="#D3AE65"/>
+    <path d="M737 478L748 461L747 483L767 490L746 493L743 514L736 496L716 496L733 487L737 478Z" fill="#C5483C"/>
+    <path d="M773 527L792 518L783 534L798 546L778 542L769 560L767 540L746 535L766 531L773 527Z" fill="#D3AE65"/>
+
+    <text x="540" y="748" text-anchor="middle" fill="#173E34" font-family="Arial, Helvetica, sans-serif" font-size="186" font-weight="800" letter-spacing="-8">1500</text>
+    <path d="M345 781H735" stroke="#D3AE65" stroke-width="4" stroke-linecap="round"/>
+    <text x="540" y="831" text-anchor="middle" fill="#315B4D" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" letter-spacing="9">WOODPECKER SAT</text>
+  </g>
+</svg>
