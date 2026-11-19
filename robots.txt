@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /question-studio/
 
 Sitemap: https://woodpeckersat.online/sitemap.xml

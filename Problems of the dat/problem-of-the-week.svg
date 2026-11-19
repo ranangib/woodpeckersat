@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350" role="img" aria-labelledby="title description">
+  <title id="title">WoodpeckerSAT Problem of the Week</title>
+  <desc id="description">A grammar question of the week, with the message New results require new initiatives.</desc>
+  <rect width="1080" height="1350" fill="#eff4ee"/>
+
+  <text x="68" y="72" fill="#17483e" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="0.5">WOODPECKER<tspan fill="#f06442">SAT</tspan></text>
+  <text x="1012" y="72" text-anchor="end" fill="#6f918a" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="4">WEEKLY CHALLENGE</text>
+  <line x1="66" y1="111" x2="1014" y2="111" stroke="#d4e2d9" stroke-width="2"/>
+
+  <text x="68" y="168" fill="#f06442" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="5">YOUR WEEKLY SAT CHALLENGE</text>
+  <text x="68" y="236" fill="#17483e" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700">Problem of the Week</text>
+  <rect x="66" y="260" width="250" height="42" rx="21" fill="#e2ece4"/>
+  <text x="87" y="287" fill="#17483e" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="1">SAT WRITING  ·  MODULE 1</text>
+
+  <rect x="66" y="326" width="948" height="344" rx="22" fill="#fffefa" stroke="#d4e2d9" stroke-width="2"/>
+  <text x="104" y="375" fill="#6f918a" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="1">QUESTION 05</text>
+  <text x="104" y="426" fill="#17483e" font-family="Georgia, 'Times New Roman', serif" font-size="25">
+    <tspan x="104" dy="0">On sunny days, dark rooftops absorb solar energy and</tspan>
+    <tspan x="104" dy="36">convert it to unwanted heat, raising the surrounding air</tspan>
+    <tspan x="104" dy="36">____________ a light-colored covering to an existing dark</tspan>
+    <tspan x="104" dy="36">roof, either by attaching prefabricated reflective sheets or</tspan>
+    <tspan x="104" dy="36">spraying on a paint-like coating, helps combat this effect.</tspan>
+  </text>
+
+  <text x="68" y="711" fill="#6f918a" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="3">CHOOSE THE BEST ANSWER</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#17483e">
+    <rect x="66" y="730" width="466" height="72" rx="16" fill="#fffefa" stroke="#d4e2d9" stroke-width="2"/>
+    <circle cx="106" cy="766" r="20" fill="#eaf1eb"/>
+    <text x="106" y="773" text-anchor="middle" font-size="16">A</text>
+    <text x="145" y="773">temperature; by adding</text>
+
+    <rect x="548" y="730" width="466" height="72" rx="16" fill="#fffefa" stroke="#d4e2d9" stroke-width="2"/>
+    <circle cx="588" cy="766" r="20" fill="#eaf1eb"/>
+    <text x="588" y="773" text-anchor="middle" font-size="16">B</text>
+    <text x="627" y="773">temperature, adding</text>
+
+    <rect x="66" y="816" width="466" height="72" rx="16" fill="#fffefa" stroke="#d4e2d9" stroke-width="2"/>
+    <circle cx="106" cy="852" r="20" fill="#eaf1eb"/>
+    <text x="106" y="859" text-anchor="middle" font-size="16">C</text>
+    <text x="145" y="859">temperature. Adding</text>
+
+    <rect x="548" y="816" width="466" height="72" rx="16" fill="#fffefa" stroke="#d4e2d9" stroke-width="2"/>
+    <circle cx="588" cy="852" r="20" fill="#eaf1eb"/>
+    <text x="588" y="859" text-anchor="middle" font-size="16">D</text>
+    <text x="627" y="859">temperature by adding</text>
+  </g>
+  <rect x="66" y="914" width="948" height="72" rx="16" fill="#17483e"/>
+  <text x="540" y="959" text-anchor="middle" fill="#fffefa" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Check the comments for the answer ↓</text>
+
+  <rect x="66" y="1042" width="948" height="270" rx="22" fill="#e7f0e9" stroke="#d4e2d9" stroke-width="2"/>
+  <text x="540" y="1087" text-anchor="middle" fill="#f06442" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">woodpeckersat.online</text>
+  <text x="540" y="1150" text-anchor="middle" fill="#17483e" font-family="Georgia, 'Times New Roman', serif" font-size="38" font-weight="700">
+    <tspan x="540" dy="0">New results require</tspan>
+    <tspan x="540" dy="48">new initiatives</tspan>
+  </text>
+  <line x1="140" y1="1222" x2="940" y2="1222" stroke="#d4e2d9" stroke-width="2"/>
+  <text x="540" y="1262" text-anchor="middle" fill="#17483e" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Keep practicing. Take one more step forward.</text>
+</svg>

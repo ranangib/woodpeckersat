@@ -1,0 +1,1872 @@
+[
+    {
+        "id":  "RW-000111",
+        "domain":  "Information and Ideas",
+        "skill":  "Central Ideas and Details",
+        "difficulty":  "Hard",
+        "passage":  "For decades, the city treated its riverfront as a boundary between downtown and the older neighborhoods to its east. A new public path did not erase that divide: it connected several streets to the water, while signs and oral-history stations presented accounts from residents whose work had depended on the river. Attendance rose most sharply at entrances near residential blocks, not at the central plaza.",
+        "question":  "Which choice best states the passage\u0027s central idea?",
+        "options":  [
+                        "The path made the riverfront more accessible while framing it through neighborhood histories.",
+                        "The path succeeded because it replaced historical displays with a central plaza.",
+                        "The city used attendance figures to prove that riverfront residents preferred downtown.",
+                        "The oral-history stations persuaded residents to abandon river-related work."
+                    ],
+        "answerIndex":  0,
+        "explanationText":  "The passage emphasizes both improved access and the decision to connect the waterfront with residents\u0027 histories. The attendance detail reinforces local use; it does not establish a preference for downtown or any change in employment.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000112",
+        "domain":  "Information and Ideas",
+        "skill":  "Central Ideas and Details",
+        "difficulty":  "Hard",
+        "passage":  "A group studying urban bats initially counted calls at a single park each night. After comparing those recordings with temperature, insect activity, and construction schedules at several sites, the researchers found that call counts varied even when the number of bats observed at dusk did not. They now report acoustic activity as one measure among several rather than treating it as a direct census.",
+        "question":  "Which choice best describes the passage\u0027s central idea?",
+        "options":  [
+                        "Bat populations decline whenever construction activity increases.",
+                        "Researchers revised how they interpret bat calls after finding that call counts do not directly measure population size.",
+                        "A dusk observation is more accurate than every acoustic measure.",
+                        "Researchers stopped recording bat calls because they were useless."
+                    ],
+        "answerIndex":  1,
+        "explanationText":  "The researchers retain acoustic recordings but interpret them alongside other evidence because call frequency varies independently of observed bat numbers. The passage neither reports a construction-driven decline nor says the recordings were abandoned.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000113",
+        "domain":  "Information and Ideas",
+        "skill":  "Central Ideas and Details",
+        "difficulty":  "Hard",
+        "passage":  "When archivists began cataloging a collection of ship manifests, they expected to organize the documents by vessel. Repeated names and inconsistent spellings made that system difficult to search, so they added fields for departure port, date, and cargo. The expanded catalog did not resolve every uncertainty: some manifests omit a destination, and the archive marks those entries as unknown rather than inferring one from later records.",
+        "question":  "Which choice best states the passage\u0027s central idea?",
+        "options":  [
+                        "Inconsistent spellings made it impossible to catalog the manifests.",
+                        "The archive reconstructed every ship\u0027s destination from later records.",
+                        "The archivists made the catalog more useful while distinguishing documented facts from uncertain ones.",
+                        "The archivists decided that cargo mattered more than departure dates."
+                    ],
+        "answerIndex":  2,
+        "explanationText":  "The catalog gained multiple search fields, and the archivists explicitly preserve uncertainty when a destination is missing. The other choices claim a complete reconstruction, impossibility, or an unsupported ranking of fields.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000114",
+        "domain":  "Information and Ideas",
+        "skill":  "Central Ideas and Details",
+        "difficulty":  "Hard",
+        "passage":  "To reduce erosion on a steep trail, park staff installed small wooden water bars across the path. Hikers initially complained that the bars interrupted an otherwise smooth route, but inspections after heavy rain found less sediment below the trail. Staff later adjusted the bars\u0027 angles at two locations where water had pooled, keeping the basic design while responding to site-specific problems.",
+        "question":  "Which choice best captures the passage\u0027s central idea?",
+        "options":  [
+                        "Hikers requested that the trail be made steeper to drain water.",
+                        "The park removed the water bars after hikers objected to them.",
+                        "The water bars prevented all erosion without requiring maintenance.",
+                        "The park retained a useful erosion-control measure but modified it where local conditions revealed flaws."
+                    ],
+        "answerIndex":  3,
+        "explanationText":  "The bars reduced sediment, but pooling at particular sites led staff to alter their angles. This shows an effective measure being refined, not removed or treated as maintenance-free.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000115",
+        "domain":  "Information and Ideas",
+        "skill":  "Central Ideas and Details",
+        "difficulty":  "Hard",
+        "passage":  "A materials laboratory compared paper made with a high proportion of recycled fiber to paper made mostly from new fiber. The recycled sheets used less wood, but some batches required additional processing to meet the laboratory\u0027s strength standard. The report therefore described recycled content as one factor in environmental impact, alongside processing energy, durability, and the number of times a sheet could be reused.",
+        "question":  "Which choice best states the passage\u0027s central idea?",
+        "options":  [
+                        "The environmental value of recycled paper depends on several factors, not recycled content alone.",
+                        "Paper made from recycled fiber is always weaker than paper made from new fiber.",
+                        "The laboratory concluded that processing energy is irrelevant to paper production.",
+                        "Reusing paper has no effect on its overall environmental impact."
+                    ],
+        "answerIndex":  0,
+        "explanationText":  "The report weighs reduced wood use against processing, durability, and reuse, so it avoids judging impact by recycled content alone. The absolute claims about weakness and irrelevance are not supported.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000116",
+        "domain":  "Information and Ideas",
+        "skill":  "Central Ideas and Details",
+        "difficulty":  "Hard",
+        "passage":  "A museum\u0027s first audio guide followed the order of its galleries, which helped visitors navigate but left little room for comparison across periods. A later version offered optional routes organized around materials, such as glass or bronze. Visitors could still use the original gallery route; the museum added the thematic paths after trial users said they wanted to follow an idea without losing their bearings.",
+        "question":  "Which choice best expresses the passage\u0027s central idea?",
+        "options":  [
+                        "Visitors preferred thematic routes so strongly that the museum removed the gallery sequence.",
+                        "The museum expanded its guide to support thematic exploration without discarding the navigational route.",
+                        "The original guide prevented visitors from understanding any exhibit.",
+                        "The museum organized the new paths by the dates of its buildings."
+                    ],
+        "answerIndex":  1,
+        "explanationText":  "The new optional routes add cross-gallery themes while preserving the original sequence for navigation. The passage does not report a universal visitor preference or removal of the earlier route.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000117",
+        "domain":  "Information and Ideas",
+        "skill":  "Central Ideas and Details",
+        "difficulty":  "Hard",
+        "passage":  "Researchers tracking a restored marsh expected the return of fish to follow the planting of native reeds. Instead, small fish appeared in survey nets before the reeds had spread widely, near channels where tidal water moved freely. The team now distinguishes the early effect of restored water circulation from the slower development of vegetation and continues monitoring both.",
+        "question":  "Which choice best states the passage\u0027s central idea?",
+        "options":  [
+                        "Researchers stopped monitoring the marsh after fish appeared.",
+                        "Native reeds were the only factor associated with fish returning to the marsh.",
+                        "Fish returned before reed growth was extensive, leading researchers to separate the effects of water flow and vegetation.",
+                        "Fish appeared only after the restored marsh became densely vegetated."
+                    ],
+        "answerIndex":  2,
+        "explanationText":  "The timing and location of early fish observations point to circulation as a possible distinct factor, while vegetation develops more slowly. The passage directly contradicts the claim that dense reeds came first.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000118",
+        "domain":  "Information and Ideas",
+        "skill":  "Central Ideas and Details",
+        "difficulty":  "Hard",
+        "passage":  "A town\u0027s library extended its evening hours during exam season, expecting most additional visitors to use study tables. The busiest new period instead occurred just before closing, when workers borrowed materials for the next day and parents picked up children\u0027s books. The library kept the later schedule but added a short staffed period at opening to serve patrons who could not arrive in the evening.",
+        "question":  "Which choice best captures the passage\u0027s central idea?",
+        "options":  [
+                        "The town found that morning hours were more popular than evening hours.",
+                        "The library ended evening service because students rarely used it.",
+                        "Parents asked the library to stop lending children\u0027s books after dark.",
+                        "The library adjusted services after usage patterns showed that extended hours served more than studying."
+                    ],
+        "answerIndex":  3,
+        "explanationText":  "The library maintained extended hours and added morning staffing based on observed patron needs, broadening its original expectation. Nothing says evening service ended or morning became more popular.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000119",
+        "domain":  "Information and Ideas",
+        "skill":  "Central Ideas and Details",
+        "difficulty":  "Hard",
+        "passage":  "An engineer tested a low-cost filter designed to capture fine particles in a workshop\u0027s exhaust. In short trials, the filter removed many particles but also reduced airflow as dust accumulated. Rather than recommend immediate installation throughout the building, the report called for longer tests that would measure cleaning intervals and determine whether the fan could maintain safe ventilation as the filter loaded.",
+        "question":  "Which choice best states the passage\u0027s central idea?",
+        "options":  [
+                        "The filter shows promise, but its effect on airflow must be assessed over longer use before broad adoption.",
+                        "The filter removes every particle and improves ventilation as it collects dust.",
+                        "The engineer recommended replacing all workshop fans immediately.",
+                        "Short trials proved that the filter never needs cleaning."
+                    ],
+        "answerIndex":  0,
+        "explanationText":  "The initial particle reduction is encouraging, yet dust buildup lowered airflow, prompting a request for longer operational testing. The report explicitly withholds a recommendation for immediate building-wide adoption.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000120",
+        "domain":  "Information and Ideas",
+        "skill":  "Central Ideas and Details",
+        "difficulty":  "Hard",
+        "passage":  "A local history project interviewed residents about a factory that had closed before many current students were born. Some interviewees emphasized lost jobs; others recalled apprenticeships, neighborhood clubs, and pollution complaints. The project did not combine these memories into a single verdict. Its exhibit pairs excerpts that differ, inviting visitors to consider how one institution could have shaped residents\u0027 lives in conflicting ways.",
+        "question":  "Which choice best describes the passage\u0027s central idea?",
+        "options":  [
+                        "The project concluded that the factory benefited every resident equally.",
+                        "The exhibit presents varied memories to show that the factory\u0027s significance was not uniform.",
+                        "Students interviewed only people who supported the factory.",
+                        "The exhibit avoids discussing pollution because memories conflict."
+                    ],
+        "answerIndex":  1,
+        "explanationText":  "The project deliberately juxtaposes different recollections rather than forcing them into one judgment. The passage includes pollution complaints and does not limit interviewees to supporters.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000121",
+        "domain":  "Information and Ideas",
+        "skill":  "Command of Evidence (Textual)",
+        "difficulty":  "Hard",
+        "passage":  "A geographer argues that the new footbridge shortened the practical route between two districts, even though it added little distance savings for people traveling to the downtown station. Before the bridge opened, residents in the eastern district had to follow the river to a vehicle crossing; afterward, a direct pedestrian link connected their street grid to a market and clinic on the opposite bank.",
+        "question":  "Which detail from the passage most directly supports the geographer\u0027s claim?",
+        "options":  [
+                        "The eastern district lies beside a river.",
+                        "The bridge added little distance savings for people traveling to the station.",
+                        "Residents gained a direct pedestrian link to the market and clinic across the river.",
+                        "The market and clinic are on the opposite bank."
+                    ],
+        "answerIndex":  2,
+        "explanationText":  "The direct link to frequently used destinations demonstrates a more practical connection between districts. The station detail concerns a route for which the bridge saved little distance, and the remaining choices provide location rather than evidence of improved access.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000122",
+        "domain":  "Information and Ideas",
+        "skill":  "Command of Evidence (Textual)",
+        "difficulty":  "Hard",
+        "passage":  "A botanist claims that a dune grass population can recover after moderate trampling if undisturbed patches remain nearby. In a field study, the team marked trampled plots and adjacent plots protected by low fences. The protected plots produced seed heads first; later, seedlings appeared in some trampled plots closest to them, while isolated trampled plots showed little change.",
+        "question":  "Which finding best supports the botanist\u0027s claim?",
+        "options":  [
+                        "Dune grass grows in sandy areas.",
+                        "Protected plots produced seed heads before any trampled plot did.",
+                        "The team placed low fences around some plots.",
+                        "Seedlings appeared in trampled plots near protected plots, whereas isolated trampled plots changed little."
+                    ],
+        "answerIndex":  3,
+        "explanationText":  "The contrast between nearby and isolated trampled plots links recovery to the presence of undisturbed patches, directly matching the claim. Seed production in protected plots alone and the study setup do not show recovery in trampled areas.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000123",
+        "domain":  "Information and Ideas",
+        "skill":  "Command of Evidence (Textual)",
+        "difficulty":  "Hard",
+        "passage":  "An education researcher contends that students used the school\u0027s new equipment checkout system because it reduced uncertainty about availability, not simply because the equipment was free. The system displayed which items were in use and when they were due back. In student interviews, several said they chose a different device when the display showed that their first choice would not return before class.",
+        "question":  "Which evidence most directly supports the researcher\u0027s explanation?",
+        "options":  [
+                        "Students reported switching devices when the display showed their preferred item would be unavailable in time.",
+                        "The equipment was free to borrow.",
+                        "The school installed a checkout system.",
+                        "Several devices were used during class."
+                    ],
+        "answerIndex":  0,
+        "explanationText":  "The interview responses directly connect students\u0027 decisions to availability information, supporting the claim about reduced uncertainty. Free access and the system\u0027s existence do not distinguish that explanation from the alternative.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000124",
+        "domain":  "Information and Ideas",
+        "skill":  "Command of Evidence (Textual)",
+        "difficulty":  "Hard",
+        "passage":  "A historian argues that the harbor\u0027s repair yards served small fishing boats as well as large commercial vessels. The town\u0027s tax ledger lists fees for several large ships, but a set of workshop receipts records replacement oars, patched nets, and short planks bought by owners identified as local fishers. The receipts span multiple years rather than a single emergency season.",
+        "question":  "Which evidence most directly supports the historian\u0027s claim?",
+        "options":  [
+                        "The tax ledger lists fees paid by several large ships.",
+                        "Multi-year workshop receipts document repairs and supplies for owners identified as local fishers.",
+                        "The harbor contained repair yards.",
+                        "Some receipts mention planks."
+                    ],
+        "answerIndex":  1,
+        "explanationText":  "The receipts tie recurring repair work to local fishers, directly showing that the yards served small fishing operations. Large-ship fees establish commercial use but not the additional use the historian asserts.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000125",
+        "domain":  "Information and Ideas",
+        "skill":  "Command of Evidence (Textual)",
+        "difficulty":  "Hard",
+        "passage":  "A climate scientist says that an unusually cool week does not by itself contradict a long-term warming trend, which concerns averages across many years and locations. A regional record shows that the week was cooler than the same week in the previous year, while the area\u0027s thirty-year average summer temperature has risen gradually.",
+        "question":  "Which choice best supports the scientist\u0027s distinction?",
+        "options":  [
+                        "The record covers one region.",
+                        "The week occurred during summer.",
+                        "The week was cooler than one recent comparison, but the long-term summer average has risen over three decades.",
+                        "The previous year had a warmer corresponding week."
+                    ],
+        "answerIndex":  2,
+        "explanationText":  "The evidence contrasts a short-term year-to-year fluctuation with a gradual rise in a multi-decade average, exactly the distinction the scientist makes. The other choices isolate one side of that comparison.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000126",
+        "domain":  "Information and Ideas",
+        "skill":  "Command of Evidence (Textual)",
+        "difficulty":  "Hard",
+        "passage":  "A conservation planner maintains that a wildlife corridor can be useful even when it does not reconnect the largest forest blocks. The proposed strip follows a stream between two smaller wooded parcels, and camera traps have already recorded animals moving along the streambank. The planner notes that the corridor would also preserve a shaded route during seasonal heat.",
+        "question":  "Which detail most directly supports the planner\u0027s claim?",
+        "options":  [
+                        "The planner mentioned seasonal heat.",
+                        "The corridor would not connect the largest forest blocks.",
+                        "The strip follows a stream.",
+                        "Camera traps recorded animals moving along the streambank between the smaller wooded parcels."
+                    ],
+        "answerIndex":  3,
+        "explanationText":  "Observed movement along the streambank is direct evidence that the route is already used by animals, supporting the corridor\u0027s potential utility. Its size and location describe the plan but do not alone demonstrate use.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000127",
+        "domain":  "Information and Ideas",
+        "skill":  "Command of Evidence (Textual)",
+        "difficulty":  "Hard",
+        "passage":  "A curator argues that a ceramic bowl\u0027s uneven rim should not automatically be interpreted as evidence of poor craftsmanship. The bowl\u0027s base is carefully balanced, and the glaze is deliberately thinner near the rim, where it would otherwise collect. Similar irregularities occur on bowls from the same workshop, whose surviving notes describe shaping each vessel by hand.",
+        "question":  "Which choice provides the strongest support for the curator\u0027s claim?",
+        "options":  [
+                        "Workshop notes describe hand shaping, and similar rim irregularities recur on bowls from the same workshop.",
+                        "The bowl\u0027s base is carefully balanced.",
+                        "The glaze is thinner near the rim.",
+                        "The bowl is made of ceramic."
+                    ],
+        "answerIndex":  0,
+        "explanationText":  "The repeated pattern across related bowls and the workshop\u0027s description of hand shaping suggest the rim\u0027s irregularity may be intentional or characteristic, not simply poor work. The other details concern quality but do not establish that interpretation.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000128",
+        "domain":  "Information and Ideas",
+        "skill":  "Command of Evidence (Textual)",
+        "difficulty":  "Hard",
+        "passage":  "A transit analyst argues that counting riders only at the central terminal understates the importance of neighborhood stops. During a week of manual counts, the terminal recorded the most boardings at one location, but the combined totals from six neighborhood stops exceeded the terminal total. Those stops also served riders who transferred to a bus rather than continuing to the terminal.",
+        "question":  "Which finding most directly supports the analyst\u0027s claim?",
+        "options":  [
+                        "The terminal had the highest count at any single location.",
+                        "The six neighborhood stops together recorded more boardings than the central terminal.",
+                        "Some riders transferred to a bus.",
+                        "The counts were collected over one week."
+                    ],
+        "answerIndex":  1,
+        "explanationText":  "The combined neighborhood total shows why a single-site count understates activity across the network. The terminal\u0027s leading individual count does not contradict the larger aggregate, while the remaining details do not compare totals.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000129",
+        "domain":  "Information and Ideas",
+        "skill":  "Command of Evidence (Textual)",
+        "difficulty":  "Hard",
+        "passage":  "A marine biologist cautions that a rise in sightings of a rare seal does not necessarily mean its population has grown; observers may simply be searching more effectively. This season, volunteers used standardized routes and logged effort, while independent tagging records also showed more distinct seals returning to the inlet than in earlier seasons.",
+        "question":  "Which detail best supports the claim that the increase may reflect more seals rather than only improved searching?",
+        "options":  [
+                        "Observers logged their search effort.",
+                        "Volunteers used standardized routes this season.",
+                        "Independent tagging records show more distinct seals returning to the inlet.",
+                        "The seal is rare."
+                    ],
+        "answerIndex":  2,
+        "explanationText":  "The tagging records are independent of the volunteer sightings and count distinct returning animals, making them the clearest evidence against a search-effort-only explanation. Standardized routes improve comparability but do not independently establish more seals.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000130",
+        "domain":  "Information and Ideas",
+        "skill":  "Command of Evidence (Textual)",
+        "difficulty":  "Hard",
+        "passage":  "An urban planner claims that shade can influence which sidewalk pedestrians choose, even when both sidewalks reach the same destination. During a hot week, observers recorded pedestrian counts and surface temperatures on two parallel streets with similar storefronts. The shaded sidewalk attracted more walkers at midday, but morning counts were nearly equal before direct sun reached either route.",
+        "question":  "Which evidence most directly supports the planner\u0027s claim?",
+        "options":  [
+                        "Observers collected data during a hot week.",
+                        "The streets had similar storefronts.",
+                        "Both sidewalks led to the same destination.",
+                        "At midday, the shaded sidewalk attracted more walkers, while morning counts were nearly equal."
+                    ],
+        "answerIndex":  3,
+        "explanationText":  "The midday difference appears under the conditions when shade matters, while the near-equal morning counts provide a useful contrast. The other details control or describe the setting but do not show a difference in route choice.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000131",
+        "domain":  "Information and Ideas",
+        "skill":  "Command of Evidence (Quantitative)",
+        "difficulty":  "Hard",
+        "passage":  "A city compared water use at four community gardens over one summer. The table shows average weekly irrigation (liters per square meter) before and after each garden installed mulch. Garden A: 12.0 before, 9.0 after; B: 10.0, 8.5; C: 14.0, 10.5; D: 8.0, 7.0. Rainfall differed somewhat among sites, and the city did not randomly assign mulch.",
+        "question":  "Which conclusion is best supported by the data?",
+        "options":  [
+                        "Irrigation use was lower after mulch installation at each of the four gardens.",
+                        "Garden C used the least irrigation after installing mulch.",
+                        "The data prove mulch alone caused every decrease.",
+                        "Garden A\u0027s irrigation fell by more liters per square meter than Garden C\u0027s."
+                    ],
+        "answerIndex":  0,
+        "explanationText":  "Every after value is lower than its corresponding before value. Garden C has the highest after value, and A\u0027s decrease is 3.0 compared with C\u0027s 3.5. Because rainfall differed and assignment was not random, the table does not prove mulch alone caused the changes.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000132",
+        "domain":  "Information and Ideas",
+        "skill":  "Command of Evidence (Quantitative)",
+        "difficulty":  "Hard",
+        "passage":  "Researchers recorded the time needed to identify a plant from photographs, comparing a reference card with an interactive key. Median time in seconds: novicesÃ¢â‚¬â€card 92, key 70; experienced observersÃ¢â‚¬â€card 48, key 45. Accuracy percentage: novicesÃ¢â‚¬â€card 76%, key 84%; experienced observersÃ¢â‚¬â€card 93%, key 94%. Participants used both tools, but the order was not randomized.",
+        "question":  "Which statement is best supported by the results?",
+        "options":  [
+                        "The key improved experienced observers\u0027 accuracy by eight percentage points.",
+                        "The interactive key was associated with shorter median identification times for both groups and higher accuracy for novices.",
+                        "Novices using the card were faster than experienced observers using the key.",
+                        "The results establish that the key will improve every user\u0027s performance."
+                    ],
+        "answerIndex":  1,
+        "explanationText":  "For both groups, the key\u0027s median time is lower; its accuracy is higher by eight points for novices and one point for experienced observers. The design\u0027s nonrandomized order and group medians do not justify a universal causal claim.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000133",
+        "domain":  "Information and Ideas",
+        "skill":  "Command of Evidence (Quantitative)",
+        "difficulty":  "Hard",
+        "passage":  "A laboratory measured how much sound three wall panels absorbed at four frequencies. Values are percentages: Panel XÃ¢â‚¬â€125 Hz: 18, 250 Hz: 31, 500 Hz: 54, 1000 Hz: 63; Panel YÃ¢â‚¬â€21, 28, 49, 66; Panel ZÃ¢â‚¬â€15, 35, 57, 60. The lab reported no measurements outside these frequencies.",
+        "question":  "Which choice accurately describes the data?",
+        "options":  [
+                        "Panel Y absorbed more sound than Z at 500 Hz.",
+                        "Panel X had the highest absorption at all four frequencies.",
+                        "Panel Z absorbed a greater share than X and Y at 250 and 500 Hz, but not at 125 or 1000 Hz.",
+                        "All three panels absorbed at least half the sound at every frequency."
+                    ],
+        "answerIndex":  2,
+        "explanationText":  "At 250 Hz, Z\u0027s 35 exceeds 31 and 28; at 500 Hz, 57 exceeds 54 and 49. X leads at 125 and Y leads at 1000, and the low-frequency values disprove the final choice.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000134",
+        "domain":  "Information and Ideas",
+        "skill":  "Command of Evidence (Quantitative)",
+        "difficulty":  "Hard",
+        "passage":  "A school compared library visits in the month before and after adding a lunchtime book club. Monthly visits by grade, before Ã¢â€ â€™ after: grade 9, 420 Ã¢â€ â€™ 455; grade 10, 390 Ã¢â€ â€™ 410; grade 11, 360 Ã¢â€ â€™ 402; grade 12, 330 Ã¢â€ â€™ 335. The club met twice weekly, but the library also extended its hours during the after-month.",
+        "question":  "Which conclusion is most directly supported by the data?",
+        "options":  [
+                        "The library\u0027s total visits decreased after its hours were extended.",
+                        "The book club alone caused the increase in visits.",
+                        "Grade 12 had the largest numerical increase.",
+                        "Visits increased in every grade during the month after the changes."
+                    ],
+        "answerIndex":  3,
+        "explanationText":  "Each after figure exceeds the corresponding before figure. Because the club and extended hours changed together, the data cannot isolate the club\u0027s effect; grade 9\u0027s increase is largest, not grade 12\u0027s.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000135",
+        "domain":  "Information and Ideas",
+        "skill":  "Command of Evidence (Quantitative)",
+        "difficulty":  "Hard",
+        "passage":  "An agricultural station compared seedling survival under three watering schedules. After six weeks, survival was 82% for daily light watering, 88% for watering every third day, and 74% for watering once weekly. Each group began with 50 seedlings. The station notes that the trial took place in one greenhouse and did not measure later growth or fruit production.",
+        "question":  "Which statement is supported by the results?",
+        "options":  [
+                        "The every-third-day group had the highest six-week survival rate among the tested schedules.",
+                        "Daily watering produced the highest survival rate.",
+                        "The experiment shows that every-third-day watering maximizes fruit production.",
+                        "The once-weekly group began with fewer seedlings."
+                    ],
+        "answerIndex":  0,
+        "explanationText":  "The reported survival rates place the every-third-day schedule first at 88%. The data cover six-week survival only in one greenhouse; they do not measure fruit production or indicate unequal starting groups.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000136",
+        "domain":  "Information and Ideas",
+        "skill":  "Command of Evidence (Quantitative)",
+        "difficulty":  "Hard",
+        "passage":  "A museum measured average visit duration for three exhibit formats. Labels only: 18 minutes; labels plus audio: 24 minutes; interactive stations: 27 minutes. The museum also recorded return visits within one month: 11%, 14%, and 13%, respectively. Visitors chose their format rather than being assigned one, and the formats appeared in different galleries.",
+        "question":  "Which choice best summarizes the measurements?",
+        "options":  [
+                        "Labels only produced the longest visits and most return visits.",
+                        "Interactive stations had the longest average visits, while labels plus audio had the highest return-visit rate.",
+                        "The interactive format caused more return visits than the other formats.",
+                        "All visitors spent exactly 27 minutes in the interactive gallery."
+                    ],
+        "answerIndex":  1,
+        "explanationText":  "The interactive group has the greatest average duration at 27 minutes, but labels plus audio has the top return rate at 14%. Self-selection and gallery differences prevent a causal claim, and averages do not describe every visitor.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000137",
+        "domain":  "Information and Ideas",
+        "skill":  "Command of Evidence (Quantitative)",
+        "difficulty":  "Hard",
+        "passage":  "A transit agency tracked on-time arrivals on two routes before and after changing their schedules. Route North improved from 71% to 79%; Route South changed from 84% to 82%. During the same period, road construction affected North but not South, and passenger counts shifted on both routes. The agency defines an on-time arrival as one within five minutes of schedule.",
+        "question":  "Which conclusion is best supported?",
+        "options":  [
+                        "The schedule change caused North\u0027s improvement despite construction.",
+                        "Both routes became more reliable after the schedule change.",
+                        "North\u0027s on-time percentage rose, whereas South\u0027s fell, during the measured period.",
+                        "South had fewer on-time arrivals because passenger counts shifted."
+                    ],
+        "answerIndex":  2,
+        "explanationText":  "The percentages show opposite changes: North gained eight points and South lost two. The simultaneous construction and passenger shifts mean the figures alone cannot attribute either change to the new schedules.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000138",
+        "domain":  "Information and Ideas",
+        "skill":  "Command of Evidence (Quantitative)",
+        "difficulty":  "Hard",
+        "passage":  "A materials team tested the compressive strength of three recycled-plastic mixtures, reporting mean strength in megapascals and the range across five samples. Mixture A: mean 31, range 28Ã¢â‚¬â€œ34; B: mean 33, range 25Ã¢â‚¬â€œ40; C: mean 30, range 29Ã¢â‚¬â€œ31. The team plans more tests because each mixture used a different proportion of reinforcing fiber.",
+        "question":  "Which statement is most accurately supported?",
+        "options":  [
+                        "The results isolate the effect of recycled plastic from reinforcing fiber.",
+                        "Mixture C had the highest mean strength and the widest range.",
+                        "Every sample of B was stronger than every sample of A.",
+                        "Mixture B had the highest mean, while mixture C showed the narrowest observed range."
+                    ],
+        "answerIndex":  3,
+        "explanationText":  "B\u0027s mean of 33 is the highest; C\u0027s observed range spans only 2 MPa, the narrowest. B\u0027s range overlaps A\u0027s, so the samples cannot be ranked without overlap, and differing fiber proportions confound the comparison.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000139",
+        "domain":  "Information and Ideas",
+        "skill":  "Command of Evidence (Quantitative)",
+        "difficulty":  "Hard",
+        "passage":  "A coastal station reported monthly counts of nesting pairs at a protected beach: April 4, May 9, June 12, July 10, and August 5. Counts refer to pairs present during a standardized survey, not the number of chicks hatched. Storms occurred in late June, and survey conditions were recorded as acceptable each month.",
+        "question":  "Which conclusion is directly supported by the data?",
+        "options":  [
+                        "The count peaked in June and was lower in both July and August.",
+                        "The June storm caused the number of nests to peak.",
+                        "More chicks hatched in June than in any other month.",
+                        "The nesting population increased steadily through August."
+                    ],
+        "answerIndex":  0,
+        "explanationText":  "June\u0027s count of 12 is the highest, followed by 10 and 5. The table measures pairs present, not chicks, and cannot show that a storm caused the pattern; the values do not rise steadily through August.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000140",
+        "domain":  "Information and Ideas",
+        "skill":  "Command of Evidence (Quantitative)",
+        "difficulty":  "Hard",
+        "passage":  "A clinic compared appointment no-show rates for three reminder methods during a quarter: text message, 8%; phone call, 11%; mailed card, 15%. The groups differed in size, and patients selected a preferred reminder method when scheduling. The clinic recorded no information about whether messages were read or whether patients had reliable phone access.",
+        "question":  "Which interpretation is best supported?",
+        "options":  [
+                        "Phone calls had a lower no-show rate than text messages.",
+                        "The text-message group had the lowest observed no-show rate, but the comparison does not establish that texts caused the difference.",
+                        "The mailed-card method prevented more missed appointments than the text method.",
+                        "The data prove that every patient received and read a text reminder."
+                    ],
+        "answerIndex":  1,
+        "explanationText":  "The observed rates rank text lowest, then calls, then mailed cards. Because group sizes and patient choices differed and message receipt was not measured, the figures cannot establish causation or delivery to every patient.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000141",
+        "domain":  "Information and Ideas",
+        "skill":  "Inferences",
+        "difficulty":  "Hard",
+        "passage":  "A conservator found that a collection of notebooks had become brittle even though they had been stored in a locked cabinet. The cabinet stood beside an exterior wall, and temperature records showed large daily swings there; humidity records, however, were incomplete. The conservator moved the notebooks to a room with steadier conditions and began monitoring both temperature and humidity before recommending a permanent storage design.",
+        "question":  "Which inference is best supported by the passage?",
+        "options":  [
+                        "Humidity played no role in the notebooks\u0027 condition.",
+                        "The locked cabinet caused the notebooks to become brittle by preventing airflow.",
+                        "The conservator suspects that the cabinet\u0027s environment may have contributed to damage but lacks enough data to identify the cause precisely.",
+                        "The conservator has already proved that temperature alone caused the damage."
+                    ],
+        "answerIndex":  2,
+        "explanationText":  "Temperature swings are documented, but incomplete humidity records leave more than one possible environmental factor. The cautious move and monitoring plan suggest a working concern, not proof of a single cause.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000142",
+        "domain":  "Information and Ideas",
+        "skill":  "Inferences",
+        "difficulty":  "Hard",
+        "passage":  "A city installed sensors at intersections where drivers had reported confusing signals. After the timing was adjusted, complaints fell at two intersections but remained frequent at a third. Engineers reviewing the logs found that the third intersection\u0027s signal worked as programmed; however, a delivery bay nearby often blocked the view of a lane marker during busy periods.",
+        "question":  "What can most reasonably be inferred about the remaining complaints?",
+        "options":  [
+                        "Drivers stopped reporting problems wherever timing was adjusted.",
+                        "The sensors failed at all three intersections.",
+                        "The delivery bay caused the signal to malfunction.",
+                        "The signal timing may not be the only source of confusion at the third intersection."
+                    ],
+        "answerIndex":  3,
+        "explanationText":  "The logs show normal signal operation, while a blocked lane marker offers another plausible source of confusion. The passage does not establish that the bay caused a malfunction or that sensors failed.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000143",
+        "domain":  "Information and Ideas",
+        "skill":  "Inferences",
+        "difficulty":  "Hard",
+        "passage":  "A historian compared two editions of a town directory. The later edition contains fewer entries for home-based trades, but it adds a category for small workshops that the earlier edition did not distinguish. Several names appearing in the first edition are listed under that new category in the second, and the publisher\u0027s introduction says the classification system was revised.",
+        "question":  "Which inference is best supported?",
+        "options":  [
+                        "At least some apparent declines in home-based trades may result from reclassification rather than businesses disappearing.",
+                        "Every home-based trade in town closed between editions.",
+                        "The later directory omitted all small workshops.",
+                        "The publisher revised the directory because fewer residents lived in town."
+                    ],
+        "answerIndex":  0,
+        "explanationText":  "Names moved into a newly distinguished workshop category, so a lower count in the old category does not necessarily indicate closures. The passage gives no evidence that all businesses closed or why the town\u0027s population changed.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000144",
+        "domain":  "Information and Ideas",
+        "skill":  "Inferences",
+        "difficulty":  "Hard",
+        "passage":  "A field team studying a nocturnal insect placed light traps at equal distances from a stream. The trap nearest a newly installed path captured fewer insects after the path opened, but traps farther away showed no consistent change. The team also noted that the path\u0027s lamps were shielded downward and that wind direction differed between survey nights.",
+        "question":  "Which conclusion is most reasonably supported?",
+        "options":  [
+                        "Shielded lamps eliminated all effects of the path on insects.",
+                        "The local decline near the path warrants further study, but the observations do not isolate lighting as its cause.",
+                        "The stream caused insect numbers to fall at every trap.",
+                        "The path reduced insect populations throughout the entire area."
+                    ],
+        "answerIndex":  1,
+        "explanationText":  "Only the nearest trap showed a decline, and wind differed between nights, so the evidence raises a localized pattern without establishing a cause or region-wide effect. Shielding alone does not prove there was no effect.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000145",
+        "domain":  "Information and Ideas",
+        "skill":  "Inferences",
+        "difficulty":  "Hard",
+        "passage":  "An engineer evaluating a footpath\u0027s surface tested it after dry weather and again after rain. The surface remained firm in both trials, but water collected along one edge where the path met a low retaining wall. The engineer recommended changing the edge drainage before opening the path to wheelchairs, although the walking surface itself met the project\u0027s traction target.",
+        "question":  "What can best be inferred about the engineer\u0027s recommendation?",
+        "options":  [
+                        "The retaining wall should be removed because it caused all drainage problems.",
+                        "The path failed its traction test after rain.",
+                        "Meeting the traction target does not resolve every accessibility concern if pooled water remains along the route.",
+                        "The engineer believes wheelchairs cannot use any firm surface."
+                    ],
+        "answerIndex":  2,
+        "explanationText":  "The surface passed the stated traction test, yet pooled water at the edge remained a concern before wheelchair access. The recommendation addresses drainage rather than claiming the surface lacked traction.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000146",
+        "domain":  "Information and Ideas",
+        "skill":  "Inferences",
+        "difficulty":  "Hard",
+        "passage":  "A linguist recorded how speakers named a recently introduced kitchen tool. In early interviews, participants used several borrowed terms; a year later, most used a shorter local expression. The borrowed terms still appeared in advertisements, and older participants were more likely than younger ones to use them in conversation. The researcher plans to compare speakers in other towns before describing the shift as regional.",
+        "question":  "Which inference is best supported?",
+        "options":  [
+                        "The new term is used identically in every town.",
+                        "Borrowed terms have disappeared from both speech and advertising.",
+                        "Older speakers introduced the local expression after younger speakers adopted it.",
+                        "The shorter local expression appears to be gaining conversational use in the studied group, though the researcher has not established a broader regional pattern."
+                    ],
+        "answerIndex":  3,
+        "explanationText":  "Later interviews show most participants using the local expression, but borrowed terms persist and the sample is local. The researcher\u0027s plan explicitly indicates that a regional claim would be premature.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000147",
+        "domain":  "Information and Ideas",
+        "skill":  "Inferences",
+        "difficulty":  "Hard",
+        "passage":  "A university\u0027s energy dashboard showed lower electricity use on days when several lecture halls were unoccupied. Yet a building manager noted that the same days often fell during mild weather, when heating and cooling equipment ran less. The university now compares similar-weather days and records room occupancy before evaluating whether the new scheduling policy reduced energy demand.",
+        "question":  "Which inference is most reasonable?",
+        "options":  [
+                        "The initial association between empty halls and lower use may partly reflect weather rather than scheduling alone.",
+                        "The scheduling policy increased electricity use on every mild day.",
+                        "The dashboard did not measure electricity consumption.",
+                        "Lecture halls consume no energy when unoccupied."
+                    ],
+        "answerIndex":  0,
+        "explanationText":  "Mild weather is a competing explanation for lower use, so comparing similar-weather days helps separate weather effects from occupancy effects. The passage does not indicate that the dashboard lacked measurements or that empty rooms use no energy.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000148",
+        "domain":  "Information and Ideas",
+        "skill":  "Inferences",
+        "difficulty":  "Hard",
+        "passage":  "A community orchestra\u0027s attendance rose after it moved rehearsals to a transit-accessible school. The increase was greatest among players who had previously traveled from outside the neighborhood, though the orchestra also added a second rehearsal time that season. The director plans to ask members which change affected their attendance before attributing the increase to either one.",
+        "question":  "Which inference is best supported?",
+        "options":  [
+                        "The second rehearsal time had no effect on attendance.",
+                        "Improved transit access may have helped some distant players attend, but the second rehearsal time could also have contributed.",
+                        "Only neighborhood residents attended before the move.",
+                        "The orchestra moved because its members refused to use transit."
+                    ],
+        "answerIndex":  1,
+        "explanationText":  "The larger increase among players traveling from farther away is consistent with a benefit from transit access, but a new rehearsal time changed concurrently. The director appropriately treats the cause as unresolved.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000149",
+        "domain":  "Information and Ideas",
+        "skill":  "Inferences",
+        "difficulty":  "Hard",
+        "passage":  "A research team found that a small island\u0027s nesting birds returned to the same beach after restoration work, even though the planted vegetation differed from the original cover. The team had not tracked individual birds before restoration, and the beach\u0027s sand profile had also been rebuilt. The report describes the return as encouraging but avoids identifying which restoration feature mattered most.",
+        "question":  "What can best be inferred from the report?",
+        "options":  [
+                        "The rebuilt sand profile prevented all other factors from affecting the birds.",
+                        "The birds returned because the planted vegetation exactly matched the original cover.",
+                        "The restoration coincided with the birds\u0027 return, but the available evidence cannot determine which change contributed most.",
+                        "The team proved that individual birds returned to their former nests."
+                    ],
+        "answerIndex":  2,
+        "explanationText":  "Vegetation and sand profile both changed, and individual birds were not tracked. The observed return is promising, but it cannot establish a particular mechanism or prove that the same birds came back.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000150",
+        "domain":  "Information and Ideas",
+        "skill":  "Inferences",
+        "difficulty":  "Hard",
+        "passage":  "A publisher released an online edition of a regional poetry collection with scans of the original pages and a searchable transcription. Search logs show that users often began with a keyword query, then opened the page image to inspect line breaks and handwritten corrections. The publisher added a note explaining that the transcription regularizes some spacing for accessibility.",
+        "question":  "Which inference is best supported?",
+        "options":  [
+                        "The online edition can reproduce every feature of the physical book.",
+                        "Users prefer the transcription and never consult the original pages.",
+                        "The publisher removed handwritten corrections from the scans.",
+                        "Users appear to rely on both searchable text and page images because each provides different kinds of access to the collection."
+                    ],
+        "answerIndex":  3,
+        "explanationText":  "Users search the transcription and then inspect scans for visual details, suggesting complementary functions. The passage says the scans remain available and notes that the transcription regularizes spacing, not that digital access reproduces every physical feature.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000151",
+        "domain":  "Craft and Structure",
+        "skill":  "Words in Context",
+        "difficulty":  "Hard",
+        "passage":  "The first map of the underground aquifer was provisional: its boundaries were drawn from a small number of wells, and the cartographers expected later measurements to alter them. After new samples arrived, the team redrew the southern edge but retained the northern estimate, which several independent tests had confirmed.",
+        "question":  "As used in the passage, what does \"provisional\" most nearly mean?",
+        "options":  [
+                        "Tentative and subject to revision",
+                        "Officially approved for permanent use",
+                        "Deliberately concealed from readers",
+                        "Unrelated to measured evidence"
+                    ],
+        "answerIndex":  0,
+        "explanationText":  "The map was based on limited measurements and was expected to change, so provisional means tentative or temporary. The team later revised part of it, while independent evidence supported another part.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000152",
+        "domain":  "Craft and Structure",
+        "skill":  "Words in Context",
+        "difficulty":  "Hard",
+        "passage":  "Although the two historians disagreed about why the port declined, their accounts were not mutually exclusive. One traced the change in shipping routes; the other examined new customs rules. The editor placed both essays together because each addressed a different mechanism and neither claimed that its explanation accounted for every loss of traffic.",
+        "question":  "As used in the passage, what does \"exclusive\" most nearly mean in \"not mutually exclusive\"?",
+        "options":  [
+                        "Unusually valuable to collectors",
+                        "Unable to coexist or both be true",
+                        "Available only to a small audience",
+                        "Written in a highly specialized style"
+                    ],
+        "answerIndex":  1,
+        "explanationText":  "The accounts can coexist because they explain different mechanisms, so exclusive here means preventing the other from also applying. The other meanings do not fit the editor\u0027s decision to present both explanations.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000153",
+        "domain":  "Craft and Structure",
+        "skill":  "Words in Context",
+        "difficulty":  "Hard",
+        "passage":  "The sculptor\u0027s design was spare, containing only a narrow arch and a shallow basin. Yet the placement was deliberate: visitors approaching from the east saw the arch frame the distant hills, while those entering from the west encountered the basin first. The critic argued that the work\u0027s apparent simplicity concealed a carefully staged sequence of views.",
+        "question":  "As used in the passage, what does \"spare\" most nearly mean?",
+        "options":  [
+                        "Damaged through repeated handling",
+                        "Kept in reserve for later use",
+                        "Unadorned and limited in elements",
+                        "Generous in its use of material"
+                    ],
+        "answerIndex":  2,
+        "explanationText":  "The description stresses that the design contains only two simple elements, making spare mean unadorned or restrained. The passage\u0027s point is that this visual restraint coexists with complex placement.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000154",
+        "domain":  "Craft and Structure",
+        "skill":  "Words in Context",
+        "difficulty":  "Hard",
+        "passage":  "The committee\u0027s initial estimate of the bridge\u0027s useful life was conservative. It assumed frequent closures for inspection and used the lower end of the range reported for similar structures. The final estimate was longer, not because the committee found the bridge unusually durable, but because its maintenance plan included repairs that the first calculation had omitted.",
+        "question":  "As used in the passage, what does \"conservative\" most nearly mean?",
+        "options":  [
+                        "Based on the most favorable possible outcome",
+                        "Politically traditional",
+                        "Designed to preserve a historic style",
+                        "Cautious and not overly optimistic"
+                    ],
+        "answerIndex":  3,
+        "explanationText":  "The first estimate used cautious assumptions, including frequent closures and a lower durability figure. It was not a favorable maximum; the later estimate increased after accounting for planned repairs.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000155",
+        "domain":  "Craft and Structure",
+        "skill":  "Words in Context",
+        "difficulty":  "Hard",
+        "passage":  "When the excavation revealed a layer of ash, the archaeologists did not immediately attribute it to a building fire. The deposit was thin and extended across several separated areas, while the nearby hearths contained thicker, localized layers. The team described the ash as diffuse and compared it with samples from windblown deposits before proposing an interpretation.",
+        "question":  "As used in the passage, what does \"diffuse\" most nearly mean?",
+        "options":  [
+                        "Spread out rather than concentrated in one place",
+                        "Recently produced by an intense fire",
+                        "Chemically identical to hearth material",
+                        "Impossible to detect without instruments"
+                    ],
+        "answerIndex":  0,
+        "explanationText":  "The ash layer was thin and distributed across separated areas, so diffuse means spread out or dispersed. The passage contrasts it with localized hearth deposits and does not establish its exact origin.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000156",
+        "domain":  "Craft and Structure",
+        "skill":  "Words in Context",
+        "difficulty":  "Hard",
+        "passage":  "A playwright\u0027s later version of the scene is more restrained than the first. The revised dialogue contains fewer explanations of the characters\u0027 motives, and pauses are indicated where the earlier script supplied additional lines. The director said the revision lets the audience infer tension from what the characters avoid saying rather than being told directly.",
+        "question":  "As used in the passage, what does \"restrained\" most nearly mean?",
+        "options":  [
+                        "Physically prevented from moving",
+                        "Controlled and deliberately limited",
+                        "Emotionally indifferent to the conflict",
+                        "Expanded to include more explanation"
+                    ],
+        "answerIndex":  1,
+        "explanationText":  "The revision removes explanatory dialogue and leaves more unsaid, so restrained means controlled or limited. The word does not mean the actors are physically held back or that the scene contains more material.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000157",
+        "domain":  "Craft and Structure",
+        "skill":  "Words in Context",
+        "difficulty":  "Hard",
+        "passage":  "The curator called the inscription ambiguous, not because its letters were illegible but because the same phrase could describe either a dedication or a record of payment. A second inscription on the reverse side names a donor, yet it does not state whether the donor funded the object or merely presented it after its completion.",
+        "question":  "As used in the passage, what does \"ambiguous\" most nearly mean?",
+        "options":  [
+                        "Clearly false according to other evidence",
+                        "Written in a language no one can identify",
+                        "Open to more than one interpretation",
+                        "Decorated with unusually elaborate lettering"
+                    ],
+        "answerIndex":  2,
+        "explanationText":  "The phrase can function as either a dedication or payment record, leaving more than one plausible meaning. The letters are legible, and the reverse inscription does not resolve the distinction.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000158",
+        "domain":  "Craft and Structure",
+        "skill":  "Words in Context",
+        "difficulty":  "Hard",
+        "passage":  "The ecologist described the wetland\u0027s response to a short drought as resilient. Several plant species lost leaves, but most produced new growth after water returned, and the soil retained its structure. The report cautioned that this observation concerned one brief dry period and should not be taken to predict recovery from repeated droughts.",
+        "question":  "As used in the passage, what does \"resilient\" most nearly mean?",
+        "options":  [
+                        "Likely to disappear after a single drought",
+                        "Unaffected by any environmental change",
+                        "Dependent on continuous human intervention",
+                        "Able to recover after a disturbance"
+                    ],
+        "answerIndex":  3,
+        "explanationText":  "The plants produced new growth and the soil retained its structure after the brief drought, indicating recovery. The explicit caution rejects the idea that the wetland is unaffected by all changes or guaranteed to withstand repeated drought.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000159",
+        "domain":  "Craft and Structure",
+        "skill":  "Words in Context",
+        "difficulty":  "Hard",
+        "passage":  "In reviewing the survey, the statistician found that the headline result was robust: excluding one unusually large neighborhood did not materially change the overall pattern. The team nevertheless reported the analysis both with and without that neighborhood, since readers needed to see how the conclusion depended on the sample\u0027s composition.",
+        "question":  "As used in the passage, what does \"robust\" most nearly mean?",
+        "options":  [
+                        "Stable under reasonable changes to the analysis",
+                        "Completely free of sampling limitations",
+                        "Presented in a forceful writing style",
+                        "Based on the largest neighborhood alone"
+                    ],
+        "answerIndex":  0,
+        "explanationText":  "The result remained materially similar when one neighborhood was excluded, so robust means stable under a change in analysis. The team still reports both versions, meaning the result is not claimed to be free of limitations.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000160",
+        "domain":  "Craft and Structure",
+        "skill":  "Words in Context",
+        "difficulty":  "Hard",
+        "passage":  "The engineer said the two measurements were discrete rather than continuous. A sensor recorded water level only when a technician visited, producing separate readings at set intervals; a second device logged the level every minute. The first record could reveal broad changes but might miss a brief surge between visits.",
+        "question":  "As used in the passage, what does \"discrete\" most nearly mean?",
+        "options":  [
+                        "Unusual and difficult to interpret",
+                        "Distinct and separated rather than continuously recorded",
+                        "Rounded to the nearest whole number",
+                        "Measured with greater precision"
+                    ],
+        "answerIndex":  1,
+        "explanationText":  "The technician\u0027s readings occur at separate visits, unlike the minute-by-minute log, so discrete means distinct or separated. The passage contrasts the sampling intervals, not precision, rounding, or difficulty.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000161",
+        "domain":  "Craft and Structure",
+        "skill":  "Text Structure and Purpose",
+        "difficulty":  "Hard",
+        "passage":  "For years, a coastal town\u0027s flood plan focused on raising seawalls. The first paragraph of a new report summarizes that approach and its limits: higher walls can protect some blocks but may redirect water toward others. The next paragraph describes a pilot project that restored a marsh behind the harbor, then presents measurements of wave height collected before and after restoration. The report concludes by comparing the cost of expanding the marsh with the cost of raising the wall again.",
+        "question":  "What is the primary function of the paragraph describing the marsh project?",
+        "options":  [
+                        "It explains why the town abandoned all forms of flood planning.",
+                        "It proves that seawalls never protect coastal neighborhoods.",
+                        "It introduces an alternative strategy and provides evidence that the report later weighs against seawall expansion.",
+                        "It lists historical examples unrelated to the report\u0027s recommendation."
+                    ],
+        "answerIndex":  2,
+        "explanationText":  "The paragraph introduces marsh restoration as another approach and supplies measurements for a later cost-and-effect comparison. It does not claim that seawalls never work or that planning has ended.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000162",
+        "domain":  "Craft and Structure",
+        "skill":  "Text Structure and Purpose",
+        "difficulty":  "Hard",
+        "passage":  "A researcher opens an essay by describing how a nineteenth-century map labels a mountain pass as impassable. She then cites travelers\u0027 journals that record repeated crossings during the same decade. Rather than treating the discrepancy as proof that one source is false, she examines who produced each document and argues that the map\u0027s label reflected the cartographer\u0027s intended route for commercial wagons.",
+        "question":  "Why does the researcher discuss the conflicting map and journals?",
+        "options":  [
+                        "To show that the cartographer personally crossed the pass.",
+                        "To demonstrate that travelers\u0027 journals are always more reliable than maps.",
+                        "To argue that the pass became impassable only after the journals were written.",
+                        "To introduce a discrepancy that motivates her analysis of how each source was made and what it was meant to show."
+                    ],
+        "answerIndex":  3,
+        "explanationText":  "The contradiction sets up the researcher\u0027s source analysis: the map addressed commercial wagons, while journals documented other crossings. She does not simply rank one source type or claim personal travel by the cartographer.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000163",
+        "domain":  "Craft and Structure",
+        "skill":  "Text Structure and Purpose",
+        "difficulty":  "Hard",
+        "passage":  "The first section of a report explains that migratory fish use chemical cues to locate their natal streams. The following section examines an apparent exception: fish raised in a hatchery sometimes return to the hatchery\u0027s outlet rather than to the stream where their parents were caught. Researchers propose that early exposure may help establish a cue preference, then describe an experiment designed to distinguish that possibility from inherited navigation.",
+        "question":  "What role does the second section play in the report?",
+        "options":  [
+                        "It complicates the initial account with an exception and frames a test between competing explanations.",
+                        "It repeats the first section\u0027s conclusion without adding a new issue.",
+                        "It establishes that inherited navigation is impossible in all fish.",
+                        "It shifts to an unrelated discussion of hatchery construction."
+                    ],
+        "answerIndex":  0,
+        "explanationText":  "The hatchery observation qualifies the general explanation and leads to competing hypotheses and a proposed experiment. The section neither dismisses inheritance outright nor abandons the topic.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000164",
+        "domain":  "Craft and Structure",
+        "skill":  "Text Structure and Purpose",
+        "difficulty":  "Hard",
+        "passage":  "An architectural historian first describes a theater\u0027s elaborate painted ceiling, which is the feature most often mentioned in tourist guides. She then turns to the building\u0027s narrow service corridors, tracing how scenery and equipment moved between the stage and storage rooms. The final section argues that these less visible spaces shaped production practices as much as the auditorium\u0027s decorative design shaped audience experience.",
+        "question":  "Why does the historian focus on the service corridors after describing the ceiling?",
+        "options":  [
+                        "To argue that the ceiling had no artistic value.",
+                        "To redirect attention from a celebrated feature to less visible spaces that also influenced how the theater functioned.",
+                        "To provide directions for tourists entering the theater.",
+                        "To show that service corridors were added after the theater closed."
+                    ],
+        "answerIndex":  1,
+        "explanationText":  "The shift contrasts a familiar decorative feature with overlooked functional spaces and supports the broader argument about the building\u0027s operation. Nothing suggests the ceiling lacked value or that the corridors were added later.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000165",
+        "domain":  "Craft and Structure",
+        "skill":  "Text Structure and Purpose",
+        "difficulty":  "Hard",
+        "passage":  "A study of neighborhood trees reports that shaded blocks had lower afternoon surface temperatures than nearby unshaded blocks. Before presenting the result, the authors explain that the blocks were selected to have similar building density and pavement coverage. Afterward, they acknowledge that residents may water trees differently and that the study did not track indoor temperatures.",
+        "question":  "What is the function of the sentence describing similar building density and pavement coverage?",
+        "options":  [
+                        "It concedes that the selected blocks had no features in common.",
+                        "It states that the authors measured indoor temperatures throughout the study.",
+                        "It identifies a design choice intended to make the temperature comparison more meaningful.",
+                        "It explains why residents watered trees at different rates."
+                    ],
+        "answerIndex":  2,
+        "explanationText":  "Matching blocks on density and pavement coverage helps limit alternative explanations for surface-temperature differences. The sentence does not address watering or indoor measurements, which are raised as limitations later.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000166",
+        "domain":  "Craft and Structure",
+        "skill":  "Text Structure and Purpose",
+        "difficulty":  "Hard",
+        "passage":  "In a chapter about a nineteenth-century printing shop, an author recounts that workers sometimes reused type after a newspaper issue had been printed. She then describes a surviving page whose reversed letters suggest that one line was assembled from type previously used elsewhere. The author presents the page as a clue to the shop\u0027s workflow, not as proof that reuse was routine in every issue.",
+        "question":  "Why does the author qualify the page as a clue rather than proof?",
+        "options":  [
+                        "Because the page was printed after the shop closed.",
+                        "Because reversed letters cannot reveal anything about printing methods.",
+                        "Because the author has shown that type was never reused.",
+                        "Because a single surviving example can suggest a practice without establishing how often it occurred."
+                    ],
+        "answerIndex":  3,
+        "explanationText":  "The page provides evidence consistent with type reuse, but one example cannot establish its frequency across all issues. The qualification preserves the distinction between an informative artifact and a general conclusion.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000167",
+        "domain":  "Craft and Structure",
+        "skill":  "Text Structure and Purpose",
+        "difficulty":  "Hard",
+        "passage":  "A report on a new ferry service begins with the agency\u0027s prediction that the route would reduce car trips to the island. It next compares vehicle counts from two summers, finding a decline on the main bridge but no change on a secondary road. The final section notes that a parking fee was introduced during the same period and recommends collecting passenger travel histories before assigning the decline to the ferry.",
+        "question":  "How does the report\u0027s structure develop its discussion?",
+        "options":  [
+                        "It moves from a prediction to mixed evidence and then identifies a competing explanation that limits the conclusion.",
+                        "It begins with a proven outcome and ends by rejecting all further data collection.",
+                        "It presents unrelated transportation statistics before recommending a parking fee.",
+                        "It shows that the ferry increased traffic on every road."
+                    ],
+        "answerIndex":  0,
+        "explanationText":  "The report tests the prediction against route-specific counts, then notes the simultaneous parking fee as a possible confound and proposes better evidence. It therefore stops short of claiming the ferry caused the decline.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000168",
+        "domain":  "Craft and Structure",
+        "skill":  "Text Structure and Purpose",
+        "difficulty":  "Hard",
+        "passage":  "A biographer describes a composer who repeatedly revised the endings of her symphonies. One letter complains that an audience expected a triumphant close; a later draft instead ends quietly, with a melody introduced earlier in the work. The biographer uses these documents to show how the composer balanced public expectations against a recurring structural idea, while noting that no letter explains the final revision directly.",
+        "question":  "What is the purpose of mentioning that no letter explains the final revision directly?",
+        "options":  [
+                        "To show that the composer never revised her symphonies.",
+                        "To limit the certainty of the biographer\u0027s interpretation even while presenting evidence for it.",
+                        "To establish that audiences disliked every quiet ending.",
+                        "To prove that the final melody was added by an editor."
+                    ],
+        "answerIndex":  1,
+        "explanationText":  "The documents support an interpretation of the composer\u0027s choices but do not explicitly confirm the motive for the final revision. The caveat prevents the argument from being presented as documented certainty.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000169",
+        "domain":  "Craft and Structure",
+        "skill":  "Text Structure and Purpose",
+        "difficulty":  "Hard",
+        "passage":  "A linguistics article first describes a pattern in which speakers omit a pronoun when its referent is obvious from context. It then examines recordings in noisy rooms, where speakers use the pronoun more often even when the referent is grammatically clear. The author suggests that redundancy may help listeners recover meaning under difficult conditions and closes by proposing a controlled listening study.",
+        "question":  "What is the main purpose of the recordings from noisy rooms?",
+        "options":  [
+                        "They show that pronouns have no grammatical function.",
+                        "They prove that speakers always omit pronouns in quiet rooms.",
+                        "They provide a case that broadens the discussion from grammatical clarity to the listener\u0027s conditions.",
+                        "They replace the article\u0027s focus on language with a study of room acoustics."
+                    ],
+        "answerIndex":  2,
+        "explanationText":  "The noisy-room recordings show that speakers\u0027 choices may depend on listening conditions as well as grammar, extending the article\u0027s explanation. The author treats this as a hypothesis for further testing, not a universal rule.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000170",
+        "domain":  "Craft and Structure",
+        "skill":  "Text Structure and Purpose",
+        "difficulty":  "Hard",
+        "passage":  "An essay about a reservoir\u0027s declining water level begins by noting that annual rainfall has remained near its long-term average. It then compares inflow from two tributaries, one of which has been diverted for irrigation upstream. In the conclusion, the author explains that the diversion coincided with the decline but that water-use records are incomplete, making the tributary evidence suggestive rather than definitive.",
+        "question":  "What does the concluding qualification primarily accomplish?",
+        "options":  [
+                        "It establishes that the reservoir\u0027s water level has returned to normal.",
+                        "It argues that rainfall is the only factor affecting reservoir levels.",
+                        "It shows that the tributary was never diverted.",
+                        "It distinguishes a plausible explanation from a proven cause by pointing to incomplete records."
+                    ],
+        "answerIndex":  3,
+        "explanationText":  "The diversion and decline coincide, but missing water-use records limit causal certainty. The conclusion therefore presents the tributary as a plausible contributor without claiming proof or reversing the reported trend.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000171",
+        "domain":  "Craft and Structure",
+        "skill":  "Cross-Text Connections",
+        "difficulty":  "Hard",
+        "passage":  "Text 1: A town should convert an unused rail spur into a continuous walking trail. A continuous route would connect distant neighborhoods and make it practical for residents to walk to the riverfront; isolated short paths, however attractive, cannot provide the same network benefit.\n\nText 2: The rail spur is an important opportunity, but a single uninterrupted trail should not be the town\u0027s first priority. Several crossings lack safe curb ramps, so improving those connections would make existing paths usable to more residents before the town invests in a long route.",
+        "question":  "How would the author of Text 2 most likely respond to Text 1\u0027s argument for prioritizing a continuous trail?",
+        "options":  [
+                        "By arguing that accessibility improvements to existing connections should precede investment in the full route.",
+                        "By agreeing that isolated paths are always more useful than connected routes.",
+                        "By claiming that the rail spur cannot be converted into a trail.",
+                        "By arguing that riverfront access should be restricted to pedestrians from nearby neighborhoods."
+                    ],
+        "answerIndex":  0,
+        "explanationText":  "Text 2 does not reject the rail spur\u0027s potential; it challenges the order of priorities because current paths have accessibility barriers. The other options invent opposition to connectivity or restrict access without textual support.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000172",
+        "domain":  "Craft and Structure",
+        "skill":  "Cross-Text Connections",
+        "difficulty":  "Hard",
+        "passage":  "Text 1: Digitizing fragile manuscripts should be the archive\u0027s main priority. High-resolution scans let researchers inspect distant collections without repeatedly handling delicate originals, and digital copies can be backed up in multiple locations.\n\nText 2: Digital access is valuable, but scanning is not a substitute for preservation. File formats and storage systems become obsolete, and an image cannot reveal every physical feature of paper or ink. Archives must budget for both digital maintenance and care of the originals.",
+        "question":  "Which statement best describes how Text 2 responds to Text 1?",
+        "options":  [
+                        "It rejects remote research because scholars should handle every manuscript.",
+                        "It accepts the value of digitization but argues that it must accompany, not replace, preservation of physical materials.",
+                        "It claims that digital files cannot be backed up.",
+                        "It argues that fragile manuscripts should be discarded once scanned."
+                    ],
+        "answerIndex":  1,
+        "explanationText":  "Text 2 recognizes benefits of digital access while emphasizing obsolescence and physical features that scans do not capture. It calls for both forms of stewardship, not rejection of digitization.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000173",
+        "domain":  "Craft and Structure",
+        "skill":  "Cross-Text Connections",
+        "difficulty":  "Hard",
+        "passage":  "Text 1: A city\u0027s pilot of reflective pavement should be expanded because measured midday surface temperatures were lower on treated blocks. The result suggests that changing pavement materials can reduce heat exposure, especially where tree planting is limited.\n\nText 2: The pilot\u0027s temperature readings are encouraging, but surface temperature alone does not show whether pedestrians felt cooler or whether nearby buildings used less energy. The city should measure those outcomes and study how the material performs after several winters before expanding it.",
+        "question":  "How would the author of Text 2 most likely respond to Text 1\u0027s recommendation?",
+        "options":  [
+                        "By claiming that tree planting is impossible in all city neighborhoods.",
+                        "By arguing that reflective pavement increased surface temperatures on every treated block.",
+                        "By agreeing that the readings are promising while calling for additional measures and longer testing before expansion.",
+                        "By agreeing that surface temperature proves lower energy use in nearby buildings."
+                    ],
+        "answerIndex":  2,
+        "explanationText":  "Text 2 acknowledges the encouraging readings but says they do not establish pedestrian comfort or energy savings and may not predict durability. Its response is cautious, not a denial of the pilot data.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000174",
+        "domain":  "Craft and Structure",
+        "skill":  "Cross-Text Connections",
+        "difficulty":  "Hard",
+        "passage":  "Text 1: School gardens should be judged by whether they improve students\u0027 understanding of ecosystems. A harvest is visible, but students who track pollination and soil changes may learn more even when weather limits the amount of produce.\n\nText 2: A garden program will not remain viable if it ignores food production. Families support the project partly because students bring home vegetables, and reliable harvests help justify staff time. Lessons matter, but the program should set practical goals for both learning and yield.",
+        "question":  "What would the author of Text 2 most likely say about Text 1\u0027s emphasis on ecosystem learning?",
+        "options":  [
+                        "It proves that yield is irrelevant to the program\u0027s future.",
+                        "It is mistaken because gardens cannot teach students about ecosystems.",
+                        "It overlooks that families oppose students bringing home vegetables.",
+                        "It is important, but the garden\u0027s educational goals should be balanced with the harvests that help sustain community support."
+                    ],
+        "answerIndex":  3,
+        "explanationText":  "Text 2 values learning but argues that harvests contribute to community support and program viability. It advocates balancing outcomes rather than substituting yield for education or rejecting garden lessons.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000175",
+        "domain":  "Craft and Structure",
+        "skill":  "Cross-Text Connections",
+        "difficulty":  "Hard",
+        "passage":  "Text 1: The museum should label an unidentified portrait as the work of the painter whose style it most closely resembles. The attribution would give visitors a useful context, and the museum can revise the label if new evidence emerges.\n\nText 2: A likely attribution should not be presented as settled fact merely because it makes an exhibit easier to explain. The museum can describe the stylistic similarities and explain the uncertainty, allowing visitors to understand both the evidence and its limits.",
+        "question":  "How would the author of Text 2 most likely respond to Text 1\u0027s proposal?",
+        "options":  [
+                        "By recommending that the museum explain the stylistic evidence without presenting the attribution as established.",
+                        "By agreeing that uncertain labels should never be revised.",
+                        "By arguing that stylistic resemblance has no value in studying art.",
+                        "By supporting a definitive attribution whenever visitors want context."
+                    ],
+        "answerIndex":  0,
+        "explanationText":  "Text 2 favors transparency about uncertainty: it would discuss similarities without turning a probable attribution into fact. The other choices contradict its careful distinction between evidence and certainty.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000176",
+        "domain":  "Craft and Structure",
+        "skill":  "Cross-Text Connections",
+        "difficulty":  "Hard",
+        "passage":  "Text 1: A neighborhood should replace its weekly printed bulletin with a mobile app. The app can deliver urgent updates quickly and reduce printing costs, while residents without smartphones can receive notices at the library.\n\nText 2: An app may speed up some announcements, but the printed bulletin is also a shared record that residents can keep and pass along. A library copy does not reach people who rarely visit it, so the neighborhood should test digital notices alongside print before ending distribution.",
+        "question":  "Which point would the author of Text 2 most likely make in response to Text 1?",
+        "options":  [
+                        "The app cannot deliver urgent updates quickly.",
+                        "The proposed library alternative may not reach all residents served by the printed bulletin, so print should continue during a trial.",
+                        "Printing costs are irrelevant to the neighborhood.",
+                        "Residents without smartphones should not receive notices."
+                    ],
+        "answerIndex":  1,
+        "explanationText":  "Text 2 questions whether a library copy is an adequate substitute for direct print distribution and recommends testing both formats. It does not deny the app\u0027s speed or dismiss cost considerations.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000177",
+        "domain":  "Craft and Structure",
+        "skill":  "Cross-Text Connections",
+        "difficulty":  "Hard",
+        "passage":  "Text 1: A town\u0027s new electric buses should be evaluated by their emissions over their full life cycle, including battery production and electricity generation. Tailpipe emissions alone make the vehicles appear cleaner than a complete accounting might show.\n\nText 2: Life-cycle analysis is useful, but it should not obscure the immediate change on crowded streets: electric buses do not emit exhaust there. The town should report both total emissions and neighborhood air-quality measurements rather than treating one scale as a replacement for the other.",
+        "question":  "How would the author of Text 2 most likely respond to Text 1?",
+        "options":  [
+                        "By arguing that only tailpipe emissions should count in every analysis.",
+                        "By claiming that battery production produces no emissions.",
+                        "By supporting full-life-cycle accounting while insisting that local air-quality effects also be reported.",
+                        "By agreeing that neighborhood measurements are unnecessary."
+                    ],
+        "answerIndex":  2,
+        "explanationText":  "Text 2 accepts the importance of total emissions but adds a local scale that captures exposure on streets. It advocates complementary measures, not ignoring battery production or neighborhood effects.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000178",
+        "domain":  "Craft and Structure",
+        "skill":  "Cross-Text Connections",
+        "difficulty":  "Hard",
+        "passage":  "Text 1: Small local newspapers should publish more stories about municipal budgets. Budget coverage may seem technical, but it reveals how public priorities translate into services, taxes, and long-term obligations.\n\nText 2: Budget stories are important, yet a paper with few reporters cannot cover every line item. It should concentrate on decisions that change residents\u0027 access to services and explain the consequences in plain language rather than publishing lengthy summaries that few readers can use.",
+        "question":  "Which idea would the author of Text 2 most likely share with the author of Text 1?",
+        "options":  [
+                        "Municipal budgets have no effect on public services.",
+                        "Budget reporting should be avoided because it is technical.",
+                        "Every line item should be reproduced without explanation.",
+                        "Budget decisions deserve coverage, but reporting should focus on consequential choices and make them accessible."
+                    ],
+        "answerIndex":  3,
+        "explanationText":  "Both texts see value in budget coverage; Text 2 narrows the recommendation to consequential decisions explained clearly. The remaining choices either oppose coverage or contradict the reason it matters.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000179",
+        "domain":  "Craft and Structure",
+        "skill":  "Cross-Text Connections",
+        "difficulty":  "Hard",
+        "passage":  "Text 1: The university should require first-year students to take a course in local history. Learning how the campus developed would help students understand the surrounding community and recognize how institutional decisions shaped it.\n\nText 2: A required local-history course could be worthwhile, but a single course cannot represent every student\u0027s interests or schedule. The university should let departments incorporate local sources into existing classes and offer an elective for students seeking deeper study.",
+        "question":  "How would the author of Text 2 most likely qualify Text 1\u0027s proposal?",
+        "options":  [
+                        "By supporting opportunities to study local history while questioning whether a separate course should be required of every student.",
+                        "By arguing that local history cannot be taught in university classes.",
+                        "By insisting that all students avoid studying the campus\u0027s development.",
+                        "By claiming that departmental courses cannot use local sources."
+                    ],
+        "answerIndex":  0,
+        "explanationText":  "Text 2 values local history but favors integration and an elective rather than a universal requirement. The other choices exaggerate the disagreement or contradict the proposed alternatives.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000180",
+        "domain":  "Craft and Structure",
+        "skill":  "Cross-Text Connections",
+        "difficulty":  "Hard",
+        "passage":  "Text 1: A city should remove a historic statue whose inscription celebrates a leader associated with forced displacement. Keeping it in a prominent plaza continues to honor that person, even if a small plaque adds context.\n\nText 2: The statue should be moved from the plaza, but the city should preserve it in a museum with records of the displacement and of the communities affected. Removal from a place of honor need not mean erasing evidence of the past.",
+        "question":  "Which position would the author of Text 2 most likely take toward Text 1\u0027s proposal?",
+        "options":  [
+                        "The statue should remain prominent because a plaque fully resolves its meaning.",
+                        "The statue should leave the plaza, but it should be preserved and interpreted in a museum rather than simply removed.",
+                        "Historical records should be destroyed along with the statue.",
+                        "The statue should be moved without documenting the affected communities."
+                    ],
+        "answerIndex":  1,
+        "explanationText":  "Both authors oppose the statue\u0027s continued place of honor, but Text 2 distinguishes removal from public memory and advocates preservation with fuller interpretation. The distractors conflict with that position.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000181",
+        "domain":  "Expression of Ideas",
+        "skill":  "Rhetorical Synthesis",
+        "difficulty":  "Hard",
+        "passage":  "A student is writing about a university study of rooftop gardens and wants to emphasize that the gardens offered measurable benefits but that the study did not establish that every building would benefit equally.\n\nNotes:\nÃ¢â‚¬Â¢ Researchers monitored 24 commercial buildings in one city for two summers.\nÃ¢â‚¬Â¢ Buildings with rooftop gardens had lower average roof-surface temperatures during afternoon measurements.\nÃ¢â‚¬Â¢ The temperature difference varied by roof design and garden coverage.\nÃ¢â‚¬Â¢ The study did not measure indoor energy use.\nÃ¢â‚¬Â¢ Several property owners reported substantial installation costs.",
+        "question":  "Which choice most effectively uses the notes to accomplish the student\u0027s goal?",
+        "options":  [
+                        "Property owners reported installation costs, so the study found no measurable environmental benefits.",
+                        "Rooftop gardens lower indoor energy costs at all commercial buildings, according to a study of 24 buildings.",
+                        "In a two-summer study of 24 commercial buildings, rooftop gardens were associated with lower afternoon roof temperatures, though the difference varied by design and the study did not measure indoor energy use.",
+                        "A university study of rooftop gardens proved that roof design has no effect on temperature."
+                    ],
+        "answerIndex":  2,
+        "explanationText":  "A accurately reports the sample, observed temperature association, variation, and limitation. B invents an energy finding and universal effect; C misstates both costs and measured results; D reverses the finding about design variation.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000182",
+        "domain":  "Expression of Ideas",
+        "skill":  "Rhetorical Synthesis",
+        "difficulty":  "Hard",
+        "passage":  "A student wants to introduce a comparison showing how two cities adapted public transit service to different commuting patterns, without implying that one approach was universally more successful.\n\nNotes:\nÃ¢â‚¬Â¢ Bellhaven added express buses during its morning peak.\nÃ¢â‚¬Â¢ In Bellhaven, most surveyed riders traveled from outer neighborhoods to a central employment district.\nÃ¢â‚¬Â¢ Larkspur extended evening service on existing routes.\nÃ¢â‚¬Â¢ Larkspur\u0027s largest ridership increase occurred after 7 p.m.\nÃ¢â‚¬Â¢ Neither city collected data on emissions.",
+        "question":  "Which choice best accomplishes the student\u0027s goal?",
+        "options":  [
+                        "Bellhaven\u0027s express buses were more successful than Larkspur\u0027s service.",
+                        "Larkspur\u0027s evening service reduced emissions more effectively than Bellhaven\u0027s express buses.",
+                        "Both cities expanded transit in the morning because most riders traveled downtown.",
+                        "Bellhaven added morning express buses for many outer-neighborhood commuters, whereas Larkspur extended existing routes into the evening as its largest ridership increase occurred after 7 p.m."
+                    ],
+        "answerIndex":  3,
+        "explanationText":  "A compares each city\u0027s distinct service change and the relevant travel pattern without ranking them. B makes an unmeasured emissions claim, C misstates Larkspur\u0027s change and timing, and D asserts a comparison of success the notes do not support.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000183",
+        "domain":  "Expression of Ideas",
+        "skill":  "Rhetorical Synthesis",
+        "difficulty":  "Hard",
+        "passage":  "A student wants to describe a museum program as expanding access to its collection while acknowledging that the new format did not replace every benefit of an in-person visit.\n\nNotes:\nÃ¢â‚¬Â¢ The museum digitized 300 letters from a regional poet.\nÃ¢â‚¬Â¢ The site allows users to search transcriptions by name and date.\nÃ¢â‚¬Â¢ Scans show handwriting, paper texture, and handwritten corrections.\nÃ¢â‚¬Â¢ The digital collection is available without charge.\nÃ¢â‚¬Â¢ Visitors still need an appointment to view the originals.",
+        "question":  "Which choice most effectively uses the notes?",
+        "options":  [
+                        "The free digital collection makes 300 letters searchable by name and date, while scans preserve visual details that transcriptions cannot convey; viewing originals still requires an appointment.",
+                        "The online collection makes every feature of the original letters available to anyone without restriction.",
+                        "Because originals require appointments, the museum did not expand access to the collection.",
+                        "The museum digitized 300 letters but removed their handwritten corrections from public view."
+                    ],
+        "answerIndex":  0,
+        "explanationText":  "A balances expanded, free search access with the visual information and appointment limits noted. B overstates access to every feature and ignores the originals; C overlooks online availability; D contradicts the presence of scans showing corrections.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000184",
+        "domain":  "Expression of Ideas",
+        "skill":  "Rhetorical Synthesis",
+        "difficulty":  "Hard",
+        "passage":  "A student wants to present a research finding that suggests a connection between street trees and pedestrian comfort, while avoiding a claim that the study proved trees caused people to choose a route.\n\nNotes:\nÃ¢â‚¬Â¢ Observers counted pedestrians on six pairs of parallel blocks.\nÃ¢â‚¬Â¢ The paired blocks had similar storefront density.\nÃ¢â‚¬Â¢ At midday, shaded blocks had more pedestrians on five of six pairs.\nÃ¢â‚¬Â¢ Morning counts were similar on most pairs.\nÃ¢â‚¬Â¢ Researchers did not assign pedestrians to routes or interview them.",
+        "question":  "Which choice best meets the student\u0027s goal?",
+        "options":  [
+                        "The researchers proved that pedestrians choose tree-lined streets because trees make them comfortable.",
+                        "On five of six pairs of similarly commercial blocks, shaded sidewalks had more midday pedestrians, a pattern consistent with a link between shade and route choice but not proof of causation.",
+                        "All six shaded blocks had more pedestrians at every time of day.",
+                        "Interviews confirmed that storefront density had no effect on pedestrian counts."
+                    ],
+        "answerIndex":  1,
+        "explanationText":  "A reports the five-of-six pattern, the matched setting, and the study\u0027s observational limit. B makes a causal claim, C overstates both the count and timing, and D invents interviews the researchers did not conduct.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000185",
+        "domain":  "Expression of Ideas",
+        "skill":  "Rhetorical Synthesis",
+        "difficulty":  "Hard",
+        "passage":  "A student wants to emphasize that a historical archive\u0027s revised catalog improves researchers\u0027 ability to search records but preserves uncertainty when source documents are incomplete.\n\nNotes:\nÃ¢â‚¬Â¢ The archive holds 1,200 shipping manifests from 1880Ã¢â‚¬â€œ1910.\nÃ¢â‚¬Â¢ The revised catalog adds fields for port, date, and cargo.\nÃ¢â‚¬Â¢ Some manifests list no destination.\nÃ¢â‚¬Â¢ Staff mark missing destinations as unknown rather than infer them.\nÃ¢â‚¬Â¢ The earlier catalog organized items only by vessel name.",
+        "question":  "Which choice most effectively uses the notes?",
+        "options":  [
+                        "Researchers can no longer search manifests by vessel name.",
+                        "The new catalog identifies the destination of every shipment from 1880 to 1910.",
+                        "The archive\u0027s revised catalog adds port, date, and cargo fields to its 1,200 manifests, while marking destinations absent from some records as unknown rather than guessing.",
+                        "The archive inferred missing destinations to make its records more complete."
+                    ],
+        "answerIndex":  2,
+        "explanationText":  "A captures the new search fields and the archive\u0027s cautious treatment of missing data. B contradicts that uncertainty; C says the earlier vessel field was removed when the notes do not say that; D reverses staff policy.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000186",
+        "domain":  "Expression of Ideas",
+        "skill":  "Rhetorical Synthesis",
+        "difficulty":  "Hard",
+        "passage":  "A student wants to illustrate that an engineering prototype reduced one problem in initial tests but introduced a concern that requires further study.\n\nNotes:\nÃ¢â‚¬Â¢ A workshop tested a low-cost exhaust filter for three weeks.\nÃ¢â‚¬Â¢ The filter captured more fine particles than the existing screen.\nÃ¢â‚¬Â¢ Airflow decreased as dust accumulated.\nÃ¢â‚¬Â¢ Technicians cleaned the filter twice during the trial.\nÃ¢â‚¬Â¢ The workshop has not tested the filter during a full production cycle.",
+        "question":  "Which choice best accomplishes the student\u0027s goal?",
+        "options":  [
+                        "Because technicians cleaned the filter twice, it captured fewer particles than the existing screen.",
+                        "The filter eliminates exhaust particles without maintenance and is ready for use in every workshop.",
+                        "The trial found that airflow increased as the filter collected dust.",
+                        "In a three-week trial, the low-cost filter captured more fine particles than the existing screen, but dust buildup reduced airflow, a trade-off that needs testing over a full production cycle."
+                    ],
+        "answerIndex":  3,
+        "explanationText":  "A presents the measured benefit and the airflow concern, then accurately notes the need for longer testing. B invents elimination and readiness, C reverses the airflow result, and D claims a comparison opposite to the notes.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000187",
+        "domain":  "Expression of Ideas",
+        "skill":  "Rhetorical Synthesis",
+        "difficulty":  "Hard",
+        "passage":  "A student wants to compare two restoration projects by highlighting their different approaches and the distinct evidence each project collected, without implying that they measured the same outcome.\n\nNotes:\nÃ¢â‚¬Â¢ Marsh project restored tidal channels; fish surveys recorded species counts.\nÃ¢â‚¬Â¢ Meadow project planted native flowers; surveys recorded pollinator visits.\nÃ¢â‚¬Â¢ Fish counts rose near two restored channels over three years.\nÃ¢â‚¬Â¢ Pollinator visits increased in the meadow during the second summer.\nÃ¢â‚¬Â¢ The projects used different survey methods and sites.",
+        "question":  "Which choice most effectively uses the notes?",
+        "options":  [
+                        "The marsh project tracked fish species near restored tidal channels, while the meadow project recorded pollinator visits after native flowers were planted; each reported increases using different measures.",
+                        "The two projects proved that every restoration method increases animal populations by the same amount.",
+                        "The meadow\u0027s fish counts rose near its restored tidal channels during the second summer.",
+                        "Because the projects used different methods, neither recorded any increase."
+                    ],
+        "answerIndex":  0,
+        "explanationText":  "A accurately contrasts the projects\u0027 interventions, outcomes, and methods without pretending their measures are comparable. B overgeneralizes, C combines details from separate sites, and D contradicts the reported increases.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000188",
+        "domain":  "Expression of Ideas",
+        "skill":  "Rhetorical Synthesis",
+        "difficulty":  "Hard",
+        "passage":  "A student wants to argue that a public library\u0027s adjusted schedule responded to observed patterns of use, while avoiding the claim that one group of patrons benefited to the exclusion of others.\n\nNotes:\nÃ¢â‚¬Â¢ During exam season, the library extended evening hours by one hour.\nÃ¢â‚¬Â¢ Late-evening use included students, workers borrowing materials, and parents collecting children\u0027s books.\nÃ¢â‚¬Â¢ The library later added a short staffed period at opening.\nÃ¢â‚¬Â¢ Staff chose the morning period after requests from patrons unable to visit at night.\nÃ¢â‚¬Â¢ The library retained the extended evening schedule.",
+        "question":  "Which choice best meets the student\u0027s goal?",
+        "options":  [
+                        "The library replaced evening service with morning hours to serve students exclusively.",
+                        "The library retained later hours after seeing varied late-evening use and added a brief staffed opening period in response to patrons who could not visit at night.",
+                        "Only students used the extended hours, so the library eliminated morning staffing.",
+                        "The library extended its hours because parents requested that children\u0027s books be removed."
+                    ],
+        "answerIndex":  1,
+        "explanationText":  "A includes the varied users, retention of evening access, and addition of morning staffing for people unable to visit at night. The other choices misrepresent who used the library or what schedule change occurred.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000189",
+        "domain":  "Expression of Ideas",
+        "skill":  "Rhetorical Synthesis",
+        "difficulty":  "Hard",
+        "passage":  "A student wants to explain why an experiment supports further study of a watering schedule but does not justify a universal recommendation for gardeners.\n\nNotes:\nÃ¢â‚¬Â¢ One greenhouse trial compared three schedules for six weeks.\nÃ¢â‚¬Â¢ Survival was 82% with daily light watering, 88% every third day, and 74% once weekly.\nÃ¢â‚¬Â¢ Each group began with 50 seedlings.\nÃ¢â‚¬Â¢ The trial did not measure growth after six weeks or fruit production.\nÃ¢â‚¬Â¢ Conditions outside the greenhouse were not tested.",
+        "question":  "Which choice most effectively uses the notes?",
+        "options":  [
+                        "Daily watering produced the highest survival and fruit yield.",
+                        "Watering every third day is the best schedule for every crop in every climate.",
+                        "In one six-week greenhouse trial, seedlings watered every third day had the highest survival rate, though the study did not test later growth, fruit production, or outdoor conditions.",
+                        "Because each group began with 50 seedlings, the experiment measured long-term garden productivity."
+                    ],
+        "answerIndex":  2,
+        "explanationText":  "A accurately states the observed ranking and boundaries of the experiment, supporting further study without overgeneralization. B extrapolates universally, C reverses the survival figures and invents yield data, and D treats a controlled starting count as a long-term outcome.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000190",
+        "domain":  "Expression of Ideas",
+        "skill":  "Rhetorical Synthesis",
+        "difficulty":  "Hard",
+        "passage":  "A student wants to emphasize that a proposed wildlife corridor may benefit animals even though it does not connect the region\u0027s largest forest blocks.\n\nNotes:\nÃ¢â‚¬Â¢ The proposed corridor follows a stream between two smaller wooded parcels.\nÃ¢â‚¬Â¢ Camera traps recorded deer and foxes moving along the streambank.\nÃ¢â‚¬Â¢ The largest forest blocks remain unconnected.\nÃ¢â‚¬Â¢ The corridor would retain shade along the stream during summer.\nÃ¢â‚¬Â¢ The planner has not yet measured population-level effects.",
+        "question":  "Which choice best accomplishes the student\u0027s goal?",
+        "options":  [
+                        "The planner proved that summer shade is the only factor affecting wildlife movement.",
+                        "The corridor has already increased deer and fox populations throughout the region.",
+                        "Because the largest forests remain separate, no animals use the proposed corridor.",
+                        "Although it would not connect the largest forests, the streamside corridor links two smaller wooded parcels already used by deer and foxes and would preserve summer shade; its population-level effects remain unmeasured."
+                    ],
+        "answerIndex":  3,
+        "explanationText":  "A presents the corridor\u0027s possible utility and the limits of existing evidence. B claims unmeasured population increases, C conflicts with camera-trap observations, and D turns one potential feature into an unsupported exclusive cause.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000191",
+        "domain":  "Expression of Ideas",
+        "skill":  "Transitions",
+        "difficulty":  "Hard",
+        "passage":  "The first survey of the cave\u0027s mineral deposits covered only passages near the entrance, where researchers could work without specialized equipment. ______ a later expedition used remote instruments to map deeper chambers, revealing that the initial sample represented only a small portion of the cave\u0027s geological variety.",
+        "question":  "Which choice completes the text with the most logical transition?",
+        "options":  [
+                        "By contrast,",
+                        "For instance,",
+                        "As a result,",
+                        "Similarly,"
+                    ],
+        "answerIndex":  0,
+        "explanationText":  "The later expedition differs in scope and method from the limited initial survey, so Ã¢â‚¬Å“By contrastÃ¢â‚¬Â signals the relevant shift. Ã¢â‚¬Å“For instanceÃ¢â‚¬Â offers an example, Ã¢â‚¬Å“As a resultÃ¢â‚¬Â asserts causation, and Ã¢â‚¬Å“SimilarlyÃ¢â‚¬Â suggests likeness.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000192",
+        "domain":  "Expression of Ideas",
+        "skill":  "Transitions",
+        "difficulty":  "Hard",
+        "passage":  "A city\u0027s first trial of permeable pavement reduced puddling on the test block after ordinary rain. The pavement\u0027s pores, however, became partly clogged where delivery trucks frequently stopped. ______ engineers recommended testing cleaning schedules before the city used the material on busier streets.",
+        "question":  "Which choice completes the text with the most logical transition?",
+        "options":  [
+                        "Nevertheless,",
+                        "Accordingly,",
+                        "For example,",
+                        "Meanwhile,"
+                    ],
+        "answerIndex":  1,
+        "explanationText":  "The observed clogging leads directly to the recommendation to test maintenance, making Ã¢â‚¬Å“AccordinglyÃ¢â‚¬Â the logical result transition. Ã¢â‚¬Å“NeverthelessÃ¢â‚¬Â would signal opposition, while the other choices do not express this consequence.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000193",
+        "domain":  "Expression of Ideas",
+        "skill":  "Transitions",
+        "difficulty":  "Hard",
+        "passage":  "A team studying an old irrigation canal initially treated each stone lining as part of one construction phase. Later, differences in mortar composition suggested that some sections had been rebuilt at different times. ______ the researchers compared those sections with dated land records to estimate when each repair occurred.",
+        "question":  "Which choice completes the text with the most logical transition?",
+        "options":  [
+                        "For that reason alone,",
+                        "In contrast,",
+                        "To investigate this possibility,",
+                        "Similarly,"
+                    ],
+        "answerIndex":  2,
+        "explanationText":  "The mortar differences raise a question about construction phases, and the land-record comparison is an investigation of that possibility. The other transitions imply contrast, unsupported certainty, or similarity.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000194",
+        "domain":  "Expression of Ideas",
+        "skill":  "Transitions",
+        "difficulty":  "Hard",
+        "passage":  "In a controlled test, a new coating slowed corrosion on metal coupons exposed to salt spray. Field structures experience more variable conditions, including abrasion and irregular drying. ______ the laboratory result is promising, it cannot yet establish how long the coating will protect a working bridge.",
+        "question":  "Which choice completes the text with the most logical transition?",
+        "options":  [
+                        "Likewise,",
+                        "Consequently,",
+                        "For example,",
+                        "Although"
+                    ],
+        "answerIndex":  3,
+        "explanationText":  "The sentence concedes a promising laboratory result while qualifying what it can establish, so Ã¢â‚¬Å“AlthoughÃ¢â‚¬Â appropriately introduces the contrast. The other choices do not connect the qualification to the preceding result.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000195",
+        "domain":  "Expression of Ideas",
+        "skill":  "Transitions",
+        "difficulty":  "Hard",
+        "passage":  "Several early maps place the settlement\u0027s market beside the eastern gate. A recently uncovered tax ledger identifies vendors by a western street name, but it does not specify where their stalls stood. ______ the ledger complicates the map-based account without conclusively disproving it.",
+        "question":  "Which choice completes the text with the most logical transition?",
+        "options":  [
+                        "Thus,",
+                        "For instance,",
+                        "Likewise,",
+                        "Instead,"
+                    ],
+        "answerIndex":  0,
+        "explanationText":  "The ledger\u0027s incomplete but relevant evidence leads to a qualified conclusion that it complicates, rather than refutes, the map account. Ã¢â‚¬Å“ThusÃ¢â‚¬Â marks that inference; the other choices imply example, similarity, or replacement.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000196",
+        "domain":  "Expression of Ideas",
+        "skill":  "Transitions",
+        "difficulty":  "Hard",
+        "passage":  "At first, the observatory scheduled public viewings on fixed dates months in advance. Cloud cover frequently prevented visitors from seeing through the telescope, and the observatory began posting conditions each afternoon. ______ it now announces evening openings only when the forecast suggests a clear sky.",
+        "question":  "Which choice completes the text with the most logical transition?",
+        "options":  [
+                        "In the meantime,",
+                        "As a result,",
+                        "For example,",
+                        "On the contrary,"
+                    ],
+        "answerIndex":  1,
+        "explanationText":  "The change in scheduling is a response to repeated cloud-related disappointments, so Ã¢â‚¬Å“As a resultÃ¢â‚¬Â expresses cause and effect. The other choices do not convey the stated progression.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000197",
+        "domain":  "Expression of Ideas",
+        "skill":  "Transitions",
+        "difficulty":  "Hard",
+        "passage":  "The first draft of the report treated every neighborhood\u0027s tree cover as a single percentage. Residents pointed out that two districts with the same overall figure could differ sharply in whether trees shaded sidewalks, courtyards, or private yards. ______ the revised report maps canopy by land use as well as by neighborhood.",
+        "question":  "Which choice completes the text with the most logical transition?",
+        "options":  [
+                        "Similarly,",
+                        "For that reason, however,",
+                        "In response,",
+                        "In particular,"
+                    ],
+        "answerIndex":  2,
+        "explanationText":  "The revised mapping approach directly addresses residents\u0027 observation that the single percentage hides important differences. Ã¢â‚¬Å“In responseÃ¢â‚¬Â signals that relation, whereas the alternatives imply contrast, similarity, or mere specificity.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000198",
+        "domain":  "Expression of Ideas",
+        "skill":  "Transitions",
+        "difficulty":  "Hard",
+        "passage":  "The archive\u0027s searchable transcription helps researchers locate names quickly. It also lets users compare how a writer spelled the same place in different letters. ______ the page scans remain important because they show crossed-out words and changes in handwriting that the transcription cannot represent.",
+        "question":  "Which choice completes the text with the most logical transition?",
+        "options":  [
+                        "Likewise,",
+                        "For example,",
+                        "Therefore,",
+                        "Even so,"
+                    ],
+        "answerIndex":  3,
+        "explanationText":  "The scans retain value despite the transcription\u0027s usefulness, so Ã¢â‚¬Å“Even soÃ¢â‚¬Â introduces a qualification. Ã¢â‚¬Å“ThereforeÃ¢â‚¬Â would suggest the scans follow from the benefits, and the remaining choices fail to mark this contrast.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000199",
+        "domain":  "Expression of Ideas",
+        "skill":  "Transitions",
+        "difficulty":  "Hard",
+        "passage":  "A study found that visitors spent longer in galleries with interactive displays than in galleries with labels alone. Because visitors chose their route and the exhibits differed in subject matter, the study cannot show that interactivity caused the longer visits. ______ the museum plans a trial in which comparable exhibits alternate between formats.",
+        "question":  "Which choice completes the text with the most logical transition?",
+        "options":  [
+                        "To address this limitation,",
+                        "In other words,",
+                        "For instance,",
+                        "Nevertheless,"
+                    ],
+        "answerIndex":  0,
+        "explanationText":  "The planned trial is designed to respond to the limitations in the observational comparison, so Ã¢â‚¬Å“To address this limitationÃ¢â‚¬Â provides the logical link. It is not simply a restatement or example of the first finding.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000200",
+        "domain":  "Expression of Ideas",
+        "skill":  "Transitions",
+        "difficulty":  "Hard",
+        "passage":  "A marine survey recorded fewer juvenile fish in one inlet after construction began nearby. The team also found that water temperature rose during the same period, and its monitoring stations were moved farther from the shoreline. ______ the researchers are comparing earlier records and adding new stations before attributing the decline to construction.",
+        "question":  "Which choice completes the text with the most logical transition?",
+        "options":  [
+                        "In contrast,",
+                        "Given these complications,",
+                        "For example,",
+                        "As a result of the construction,"
+                    ],
+        "answerIndex":  1,
+        "explanationText":  "Multiple changes make the cause uncertain, prompting additional comparisons and monitoring. Ã¢â‚¬Å“Given these complicationsÃ¢â‚¬Â captures that caution; the last option wrongly assigns causation, while the others express unrelated relations.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000201",
+        "domain":  "Standard English Conventions",
+        "skill":  "Boundaries",
+        "difficulty":  "Hard",
+        "passage":  "The archive\u0027s new index links each photograph to the street, date, and photographer recorded in the ledger; ______ several entries remain uncertain because the original captions were damaged.",
+        "question":  "Which choice completes the text so that it conforms to the conventions of Standard English?",
+        "options":  [
+                        "however",
+                        "however;",
+                        "however,",
+                        "and however;"
+                    ],
+        "answerIndex":  2,
+        "explanationText":  "The semicolon already separates two independent clauses. The conjunctive adverb Ã¢â‚¬Å“howeverÃ¢â‚¬Â needs a comma after it, yielding Ã¢â‚¬Å“; however, several entries.Ã¢â‚¬Â A second semicolon, no comma, or an added conjunction creates an incorrect boundary.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000202",
+        "domain":  "Standard English Conventions",
+        "skill":  "Boundaries",
+        "difficulty":  "Hard",
+        "passage":  "Because the first set of soil samples came from only the upper slope ______ the ecologists returned after the thaw to collect material from the valley floor as well.",
+        "question":  "Which choice completes the text so that it conforms to the conventions of Standard English?",
+        "options":  [
+                        ".",
+                        ";",
+                        "Ã¢â‚¬â€,",
+                        ","
+                    ],
+        "answerIndex":  3,
+        "explanationText":  "The introductory dependent clause beginning with Ã¢â‚¬Å“BecauseÃ¢â‚¬Â must be followed by a comma before the main clause. A semicolon or period cannot separate this dependent clause from the main clause in this construction.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000203",
+        "domain":  "Standard English Conventions",
+        "skill":  "Boundaries",
+        "difficulty":  "Hard",
+        "passage":  "The report distinguishes three possible causes of the decline ______ habitat loss near the inlet, unusually warm water, and changes in the survey route.",
+        "question":  "Which choice completes the text so that it conforms to the conventions of Standard English?",
+        "options":  [
+                        "Ã¢â‚¬â€",
+                        ";",
+                        "and,",
+                        "."
+                    ],
+        "answerIndex":  0,
+        "explanationText":  "A colon or dash can introduce the list that specifies the three possible causes; among these choices, the em dash correctly connects the sentence to its list. A semicolon incorrectly separates the list fragment, and the other punctuation does not form the intended boundary.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000204",
+        "domain":  "Standard English Conventions",
+        "skill":  "Boundaries",
+        "difficulty":  "Hard",
+        "passage":  "The observatory\u0027s first model used a constant estimate for cloud cover ______ the revised model updates that estimate as satellite observations arrive.",
+        "question":  "Which choice completes the text so that it conforms to the conventions of Standard English?",
+        "options":  [
+                        "; but,",
+                        ", but",
+                        "but;",
+                        "and, but"
+                    ],
+        "answerIndex":  1,
+        "explanationText":  "The sentence has two independent clauses, so a comma plus coordinating conjunction Ã¢â‚¬Å“butÃ¢â‚¬Â correctly joins them. A semicolon before Ã¢â‚¬Å“butÃ¢â‚¬Â is not the standard pairing here, and the other choices misplace punctuation or add an unnecessary conjunction.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000205",
+        "domain":  "Standard English Conventions",
+        "skill":  "Boundaries",
+        "difficulty":  "Hard",
+        "passage":  "The field team recorded the water\u0027s conductivity at dawn ______ and again at midday, when evaporation was strongest.",
+        "question":  "Which choice completes the text so that it conforms to the conventions of Standard English?",
+        "options":  [
+                        ": after rainfall",
+                        "; after rainfall",
+                        ", after rainfall",
+                        " after rainfall;"
+                    ],
+        "answerIndex":  2,
+        "explanationText":  "The phrase Ã¢â‚¬Å“after rainfallÃ¢â‚¬Â adds a third measurement time in the series: at dawn, after rainfall, and again at midday. The comma correctly separates the series elements; the semicolon and colon do not belong between these items.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000206",
+        "domain":  "Standard English Conventions",
+        "skill":  "Boundaries",
+        "difficulty":  "Hard",
+        "passage":  "The committee reviewed the trial\u0027s temperature readings ______ it did not treat them as proof that the material would reduce household energy use.",
+        "question":  "Which choice completes the text so that it conforms to the conventions of Standard English?",
+        "options":  [
+                        "but;",
+                        "; but,",
+                        "; however",
+                        ", but"
+                    ],
+        "answerIndex":  3,
+        "explanationText":  "The two independent clauses are contrasted with the coordinating conjunction Ã¢â‚¬Å“but,Ã¢â‚¬Â which follows a comma. Ã¢â‚¬Å“; howeverÃ¢â‚¬Â would require a comma after however and is not one of the options; the other choices create incorrect punctuation.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000207",
+        "domain":  "Standard English Conventions",
+        "skill":  "Boundaries",
+        "difficulty":  "Hard",
+        "passage":  "The ceramic fragments were sorted by color, thickness, and surface finish ______ characteristics that may reveal whether they came from the same vessel.",
+        "question":  "Which choice completes the text so that it conforms to the conventions of Standard English?",
+        "options":  [
+                        "Ã¢â‚¬â€",
+                        ";",
+                        "and,",
+                        "."
+                    ],
+        "answerIndex":  0,
+        "explanationText":  "The phrase after the blank renames and explains the preceding list, so an em dash appropriately introduces the elaboration. A semicolon would separate a fragment, while Ã¢â‚¬Å“and,Ã¢â‚¬Â or a period fails to attach the explanatory phrase correctly.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000208",
+        "domain":  "Standard English Conventions",
+        "skill":  "Boundaries",
+        "difficulty":  "Hard",
+        "passage":  "Although the instrument detected a sharp change in pressure ______ the engineers postponed their conclusion until a second sensor confirmed the reading.",
+        "question":  "Which choice completes the text so that it conforms to the conventions of Standard English?",
+        "options":  [
+                        ";",
+                        ",",
+                        "Ã¢â‚¬â€;",
+                        "."
+                    ],
+        "answerIndex":  1,
+        "explanationText":  "The dependent clause introduced by Ã¢â‚¬Å“AlthoughÃ¢â‚¬Â must be followed by a comma before the independent clause. A semicolon cannot join that dependent clause directly to the main clause, and the other punctuation marks do not form the required boundary.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000209",
+        "domain":  "Standard English Conventions",
+        "skill":  "Boundaries",
+        "difficulty":  "Hard",
+        "passage":  "The migration model incorporates wind direction, daylight duration, and local temperature ______ in the latest version, it also accounts for the timing of storms.",
+        "question":  "Which choice completes the text so that it conforms to the conventions of Standard English?",
+        "options":  [
+                        "Ã¢â‚¬â€,",
+                        "; and",
+                        ";",
+                        "."
+                    ],
+        "answerIndex":  2,
+        "explanationText":  "The first clause is independent, and the next begins with an introductory phrase followed by another independent clause. A semicolon correctly separates them; Ã¢â‚¬Å“andÃ¢â‚¬Â after the semicolon is unnecessary, and the other choices create faulty boundaries.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000210",
+        "domain":  "Standard English Conventions",
+        "skill":  "Boundaries",
+        "difficulty":  "Hard",
+        "passage":  "The historian\u0027s conclusion is cautious ______ the ledger identifies the ship\u0027s owner but not the destination of its cargo.",
+        "question":  "Which choice completes the text so that it conforms to the conventions of Standard English?",
+        "options":  [
+                        "Ã¢â‚¬â€because;",
+                        "; because,",
+                        ";",
+                        "because"
+                    ],
+        "answerIndex":  3,
+        "explanationText":  "Ã¢â‚¬Å“BecauseÃ¢â‚¬Â introduces a dependent clause that explains why the historian is cautious; it joins directly to the preceding independent clause without a comma. A semicolon before a dependent clause would leave it improperly attached, and the other options add incorrect boundaries.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000211",
+        "domain":  "Standard English Conventions",
+        "skill":  "Form, Structure, and Sense",
+        "difficulty":  "Hard",
+        "passage":  "The collection of field notebooks, along with two boxes of unlabeled photographs, ______ transferred to the climate-controlled room after conservators confirmed that the paper was drying unevenly.",
+        "question":  "Which choice completes the text so that it conforms to the conventions of Standard English?",
+        "options":  [
+                        "was",
+                        "were",
+                        "have been",
+                        "are"
+                    ],
+        "answerIndex":  0,
+        "explanationText":  "The subject is the singular noun Ã¢â‚¬Å“collectionÃ¢â‚¬Â; the intervening phrase Ã¢â‚¬Å“along with two boxesÃ¢â‚¬Â does not change its number. The singular past-tense verb Ã¢â‚¬Å“wasÃ¢â‚¬Â agrees with the subject and fits the completed transfer.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000212",
+        "domain":  "Standard English Conventions",
+        "skill":  "Form, Structure, and Sense",
+        "difficulty":  "Hard",
+        "passage":  "By the time the survey vessel reached the northern inlet, the research team ______ the sensor array twice, first to replace a damaged cable and then to recalibrate its depth readings.",
+        "question":  "Which choice completes the text so that it conforms to the conventions of Standard English?",
+        "options":  [
+                        "has inspected",
+                        "had inspected",
+                        "will inspect",
+                        "inspects"
+                    ],
+        "answerIndex":  1,
+        "explanationText":  "The inspections occurred before the vessel reached the inlet, so the past perfect Ã¢â‚¬Å“had inspectedÃ¢â‚¬Â clearly marks the earlier completed actions. The present perfect, future, and simple present do not fit the past-time sequence.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000213",
+        "domain":  "Standard English Conventions",
+        "skill":  "Form, Structure, and Sense",
+        "difficulty":  "Hard",
+        "passage":  "The regional archive invited several historians to examine the newly cataloged letters, each of ______ specializes in a different period of the port\u0027s history.",
+        "question":  "Which choice completes the text so that it conforms to the conventions of Standard English?",
+        "options":  [
+                        "which",
+                        "who",
+                        "whom",
+                        "whose"
+                    ],
+        "answerIndex":  2,
+        "explanationText":  "The preposition Ã¢â‚¬Å“ofÃ¢â‚¬Â requires the objective pronoun Ã¢â‚¬Å“whom,Ã¢â‚¬Â referring to the historians. Ã¢â‚¬Å“WhoÃ¢â‚¬Â is subjective, Ã¢â‚¬Å“whichÃ¢â‚¬Â refers to things, and Ã¢â‚¬Å“whoseÃ¢â‚¬Â would express possession rather than serve as the object of Ã¢â‚¬Å“of.Ã¢â‚¬Â",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000214",
+        "domain":  "Standard English Conventions",
+        "skill":  "Form, Structure, and Sense",
+        "difficulty":  "Hard",
+        "passage":  "After mapping the tide channels, the ecologists discovered that the narrow western passage, unlike the broader channels closer to the shore, ______ water into the marsh even during unusually low tides.",
+        "question":  "Which choice completes the text so that it conforms to the conventions of Standard English?",
+        "options":  [
+                        "were carrying",
+                        "carry",
+                        "have carried",
+                        "carries"
+                    ],
+        "answerIndex":  3,
+        "explanationText":  "The singular subject is Ã¢â‚¬Å“passageÃ¢â‚¬Â; the plural noun Ã¢â‚¬Å“channelsÃ¢â‚¬Â appears inside an interrupting comparison and does not control agreement. The simple present Ã¢â‚¬Å“carriesÃ¢â‚¬Â expresses the recurring condition described.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000215",
+        "domain":  "Standard English Conventions",
+        "skill":  "Form, Structure, and Sense",
+        "difficulty":  "Hard",
+        "passage":  "The report describes the archive\u0027s new catalog as ______ because researchers can search by vessel, departure port, or cargo rather than relying on a single alphabetized list.",
+        "question":  "Which choice completes the text so that it conforms to the conventions of Standard English?",
+        "options":  [
+                        "more useful",
+                        "most usefully",
+                        "usefuler",
+                        "the more useful"
+                    ],
+        "answerIndex":  0,
+        "explanationText":  "The predicate adjective after Ã¢â‚¬Å“asÃ¢â‚¬Â describes the catalog, and the comparison is between the new system and the former single-list method; Ã¢â‚¬Å“more usefulÃ¢â‚¬Â is the standard comparative form. The other options are ungrammatical or do not fit the comparison.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000216",
+        "domain":  "Standard English Conventions",
+        "skill":  "Form, Structure, and Sense",
+        "difficulty":  "Hard",
+        "passage":  "The engineers tested the redesigned joint under repeated vibration, ______ whether the small change in its angle would prevent cracks from forming near the support.",
+        "question":  "Which choice completes the text so that it conforms to the conventions of Standard English?",
+        "options":  [
+                        "determined",
+                        "to determine",
+                        "and determining",
+                        "having determine"
+                    ],
+        "answerIndex":  1,
+        "explanationText":  "The infinitive phrase Ã¢â‚¬Å“to determine whetherÃ¢â‚¬Â¦Ã¢â‚¬Â states the purpose of testing and attaches smoothly to the main clause. Ã¢â‚¬Å“DeterminedÃ¢â‚¬Â lacks a finite subject-verb structure, Ã¢â‚¬Å“and determiningÃ¢â‚¬Â creates a faulty parallel construction, and Ã¢â‚¬Å“having determineÃ¢â‚¬Â is ungrammatical.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000217",
+        "domain":  "Standard English Conventions",
+        "skill":  "Form, Structure, and Sense",
+        "difficulty":  "Hard",
+        "passage":  "Unlike the first draft, which treated all three neighborhoods as equally vulnerable, the revised model ______ differences in tree cover, building age, and access to cooling centers.",
+        "question":  "Which choice completes the text so that it conforms to the conventions of Standard English?",
+        "options":  [
+                        "accounting for",
+                        "account for",
+                        "accounts for",
+                        "have accounted for"
+                    ],
+        "answerIndex":  2,
+        "explanationText":  "The main subject is the singular Ã¢â‚¬Å“model,Ã¢â‚¬Â so it takes the singular verb Ã¢â‚¬Å“accounts.Ã¢â‚¬Â The introductory comparison does not alter the subject, and the other options either fail to agree or leave the clause without a finite verb.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000218",
+        "domain":  "Standard English Conventions",
+        "skill":  "Form, Structure, and Sense",
+        "difficulty":  "Hard",
+        "passage":  "The curator placed the letters in acid-free folders and stored them in a cabinet with stable humidity, ______ the paper from further deterioration while the conservation team assessed the ink.",
+        "question":  "Which choice completes the text so that it conforms to the conventions of Standard English?",
+        "options":  [
+                        "and to protect",
+                        "protected",
+                        "protects",
+                        "protecting"
+                    ],
+        "answerIndex":  3,
+        "explanationText":  "The participial phrase Ã¢â‚¬Å“protecting the paperÃ¢â‚¬Â¦Ã¢â‚¬Â correctly expresses the result of placing and storing the letters. Ã¢â‚¬Å“ProtectedÃ¢â‚¬Â creates a misplaced finite verb, Ã¢â‚¬Å“protectsÃ¢â‚¬Â lacks a coordinated subject structure, and Ã¢â‚¬Å“and to protectÃ¢â‚¬Â is not parallel with the preceding past-tense verbs.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000219",
+        "domain":  "Standard English Conventions",
+        "skill":  "Form, Structure, and Sense",
+        "difficulty":  "Hard",
+        "passage":  "The committee agreed that the final report should distinguish what the measurements demonstrate, what remains uncertain, and ______ additional evidence would be needed to resolve the question.",
+        "question":  "Which choice completes the text so that it conforms to the conventions of Standard English?",
+        "options":  [
+                        "what",
+                        "which",
+                        "that",
+                        "whose"
+                    ],
+        "answerIndex":  0,
+        "explanationText":  "The list coordinates three parallel content clauses: what the data show, what is uncertain, and what evidence is needed. Ã¢â‚¬Å“WhatÃ¢â‚¬Â introduces the third clause; Ã¢â‚¬Å“which,Ã¢â‚¬Â Ã¢â‚¬Å“that,Ã¢â‚¬Â and Ã¢â‚¬Å“whoseÃ¢â‚¬Â do not provide the required parallel construction and meaning.",
+        "status":  "pending"
+    },
+    {
+        "id":  "RW-000220",
+        "domain":  "Standard English Conventions",
+        "skill":  "Form, Structure, and Sense",
+        "difficulty":  "Hard",
+        "passage":  "Having compared the two temperature records, the researchers concluded that the apparent difference between the sites ______ once the measurements were adjusted for the hour of observation.",
+        "question":  "Which choice completes the text so that it conforms to the conventions of Standard English?",
+        "options":  [
+                        "diminishing",
+                        "diminished",
+                        "have diminished",
+                        "to diminish"
+                    ],
+        "answerIndex":  1,
+        "explanationText":  "The sentence reports a completed conclusion in the past, so Ã¢â‚¬Å“diminishedÃ¢â‚¬Â is the finite verb that agrees with the singular subject Ã¢â‚¬Å“difference.Ã¢â‚¬Â The other choices are participial, disagree in number or tense, or infinitive forms that cannot complete the clause.",
+        "status":  "pending"
+    }
+]
