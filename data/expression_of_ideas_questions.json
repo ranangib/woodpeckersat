@@ -15,7 +15,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-002",
@@ -33,7 +33,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-003",
@@ -51,7 +51,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-004",
@@ -69,7 +69,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-005",
@@ -87,7 +87,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-006",
@@ -105,7 +105,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-007",
@@ -123,7 +123,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-008",
@@ -141,7 +141,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-009",
@@ -159,7 +159,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-010",
@@ -177,7 +177,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-011",
@@ -195,7 +195,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-012",
@@ -213,7 +213,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-013",
@@ -231,7 +231,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-014",
@@ -249,7 +249,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-015",
@@ -267,7 +267,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-016",
@@ -285,7 +285,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-017",
@@ -303,7 +303,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-018",
@@ -321,7 +321,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-019",
@@ -339,7 +339,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-020",
@@ -357,7 +357,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-021",
@@ -375,7 +375,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-022",
@@ -393,7 +393,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-023",
@@ -411,7 +411,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-024",
@@ -429,7 +429,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-025",
@@ -447,7 +447,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-026",
@@ -465,7 +465,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-027",
@@ -483,7 +483,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-028",
@@ -501,7 +501,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-029",
@@ -519,7 +519,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-030",
@@ -537,7 +537,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-031",
@@ -555,7 +555,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-032",
@@ -573,7 +573,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-033",
@@ -591,7 +591,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-034",
@@ -609,7 +609,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-035",
@@ -627,7 +627,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-036",
@@ -645,7 +645,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-037",
@@ -663,7 +663,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-038",
@@ -681,7 +681,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-039",
@@ -699,7 +699,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-040",
@@ -717,7 +717,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-041",
@@ -735,7 +735,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-042",
@@ -753,7 +753,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-043",
@@ -771,7 +771,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-044",
@@ -789,7 +789,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-045",
@@ -807,7 +807,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-046",
@@ -825,7 +825,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-047",
@@ -843,7 +843,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-048",
@@ -861,7 +861,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-049",
@@ -879,7 +879,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-050",
@@ -897,7 +897,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-051",
@@ -915,7 +915,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-052",
@@ -933,7 +933,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-053",
@@ -951,7 +951,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-054",
@@ -969,7 +969,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-055",
@@ -987,7 +987,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-056",
@@ -1005,7 +1005,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-057",
@@ -1023,7 +1023,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-058",
@@ -1041,7 +1041,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-059",
@@ -1059,7 +1059,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-060",
@@ -1077,7 +1077,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-061",
@@ -1095,7 +1095,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-062",
@@ -1113,7 +1113,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-063",
@@ -1131,7 +1131,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-064",
@@ -1149,7 +1149,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-065",
@@ -1167,7 +1167,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-066",
@@ -1185,7 +1185,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-067",
@@ -1203,7 +1203,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-068",
@@ -1221,7 +1221,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-069",
@@ -1239,7 +1239,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-070",
@@ -1257,7 +1257,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-071",
@@ -1275,7 +1275,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-072",
@@ -1293,7 +1293,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-073",
@@ -1311,7 +1311,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-074",
@@ -1329,7 +1329,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-075",
@@ -1347,7 +1347,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-076",
@@ -1365,7 +1365,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-077",
@@ -1383,7 +1383,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-078",
@@ -1401,7 +1401,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-079",
@@ -1419,7 +1419,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-080",
@@ -1437,7 +1437,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-081",
@@ -1455,7 +1455,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-082",
@@ -1473,7 +1473,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-083",
@@ -1491,7 +1491,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-084",
@@ -1509,7 +1509,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-085",
@@ -1527,7 +1527,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-086",
@@ -1545,7 +1545,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-087",
@@ -1563,7 +1563,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-088",
@@ -1581,7 +1581,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-089",
@@ -1599,7 +1599,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-090",
@@ -1617,7 +1617,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-091",
@@ -1635,7 +1635,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-092",
@@ -1653,7 +1653,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-093",
@@ -1671,7 +1671,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-094",
@@ -1689,7 +1689,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-095",
@@ -1707,7 +1707,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-096",
@@ -1725,7 +1725,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-097",
@@ -1743,7 +1743,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-098",
@@ -1761,7 +1761,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-099",
@@ -1779,7 +1779,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-100",
@@ -1797,7 +1797,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-101",
@@ -1815,7 +1815,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It compares the start and end readings at North Path; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-102",
@@ -1833,7 +1833,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It compares the start and end readings at Harbor Table; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-103",
@@ -1851,7 +1851,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-104",
@@ -1865,11 +1865,11 @@
                         "At Room 14, the measure for oral reading rate moved from 84 to 107 words per minute, without describing the midpoint reading.",
                         "At Room 14, the recorded measure for oral reading rate decreased at each checkpoint, from 84 through 96 to 107 words per minute.",
                         "At Room 14, the recorded measure for oral reading rate increased at each checkpoint: it was 84, 96, and 107 words per minute at the three checkpoints.",
-                        "The results prove that paired reading practice will produce the same pattern—84, 96, and 107 words per minute—at every site."
+                        "The results prove that paired reading practice will produce the same patternâ€”84, 96, and 107 words per minuteâ€”at every site."
                     ],
         "answerIndex":  2,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-105",
@@ -1887,7 +1887,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-106",
@@ -1905,7 +1905,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-107",
@@ -1923,7 +1923,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-108",
@@ -1941,7 +1941,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-109",
@@ -1952,14 +1952,14 @@
         "passageWordCount":  71,
         "question":  "To describe how the outcome changed across the three checkpoints in a report on solar path lights at Garden Path, which choice best uses the notes?",
         "options":  [
-                        "The results prove that solar path lights will produce the same pattern—5.3, 6.6, and 7.5 hours per night—at every site.",
+                        "The results prove that solar path lights will produce the same patternâ€”5.3, 6.6, and 7.5 hours per nightâ€”at every site.",
                         "At Garden Path, the recorded measure for hours of usable light decreased at each checkpoint, from 5.3 through 6.6 to 7.5 hours per night.",
                         "At Garden Path, the recorded measure for hours of usable light increased at each checkpoint: it was 5.3, 6.6, and 7.5 hours per night at the three checkpoints.",
                         "At Garden Path, the measure for hours of usable light moved from 5.3 to 7.5 hours per night, without describing the midpoint reading."
                     ],
         "answerIndex":  2,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-110",
@@ -1977,7 +1977,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-111",
@@ -1995,7 +1995,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-112",
@@ -2013,7 +2013,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-113",
@@ -2031,7 +2031,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-114",
@@ -2049,7 +2049,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-115",
@@ -2067,7 +2067,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It compares the start and end readings at North Branch; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-116",
@@ -2085,7 +2085,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-117",
@@ -2098,12 +2098,12 @@
         "options":  [
                         "At Elm Street, the recorded measure for food rescued decreased at each checkpoint, from 40 through 49 to 58 kilograms per week.",
                         "At Elm Street, the recorded measure for food rescued increased at each checkpoint: it was 40, 49, and 58 kilograms per week at the three checkpoints.",
-                        "The results prove that restaurant food-rescue pickup will produce the same pattern—40, 49, and 58 kilograms per week—at every site.",
+                        "The results prove that restaurant food-rescue pickup will produce the same patternâ€”40, 49, and 58 kilograms per weekâ€”at every site.",
                         "At Elm Street, the measure for food rescued moved from 40 to 58 kilograms per week, without describing the midpoint reading."
                     ],
         "answerIndex":  1,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-118",
@@ -2121,7 +2121,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-119",
@@ -2133,13 +2133,13 @@
         "question":  "To describe how the outcome changed across the three checkpoints in a report on bus signal priority at Canal Street, which choice best uses the notes?",
         "options":  [
                         "At Canal Street, the recorded measure for route travel time increased at each checkpoint, from 33 through 30 to 26 minutes.",
-                        "The results prove that bus signal priority will produce the same pattern—33, 30, and 26 minutes—at every site.",
+                        "The results prove that bus signal priority will produce the same patternâ€”33, 30, and 26 minutesâ€”at every site.",
                         "At Canal Street, the recorded measure for route travel time declined at each checkpoint: it was 33, 30, and 26 minutes at the three checkpoints.",
                         "At Canal Street, the measure for route travel time moved from 33 to 26 minutes, without describing the midpoint reading."
                     ],
         "answerIndex":  2,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-120",
@@ -2157,7 +2157,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-121",
@@ -2175,7 +2175,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It compares the start and end readings at Science Hall; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-122",
@@ -2193,7 +2193,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-123",
@@ -2211,7 +2211,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-124",
@@ -2223,13 +2223,13 @@
         "question":  "To describe how the outcome changed across the three checkpoints in a report on campus bottle refill stations at Arts Hall, which choice best uses the notes?",
         "options":  [
                         "At Arts Hall, the measure for discarded bottles collected moved from 188 to 123 bottles per day, without describing the midpoint reading.",
-                        "The results prove that campus bottle refill stations will produce the same pattern—188, 155, and 123 bottles per day—at every site.",
+                        "The results prove that campus bottle refill stations will produce the same patternâ€”188, 155, and 123 bottles per dayâ€”at every site.",
                         "At Arts Hall, the recorded measure for discarded bottles collected increased at each checkpoint, from 188 through 155 to 123 bottles per day.",
                         "At Arts Hall, the recorded measure for discarded bottles collected declined at each checkpoint: it was 188, 155, and 123 bottles per day at the three checkpoints."
                     ],
         "answerIndex":  3,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-125",
@@ -2247,7 +2247,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It compares the start and end readings at Oak Street; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-126",
@@ -2265,7 +2265,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-127",
@@ -2283,7 +2283,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-128",
@@ -2294,14 +2294,14 @@
         "passageWordCount":  65,
         "question":  "To describe how the outcome changed across the three checkpoints in a report on library self-check coaching at East Branch, which choice best uses the notes?",
         "options":  [
-                        "The results prove that library self-check coaching will produce the same pattern—8.6, 6.8, and 5.4 minutes—at every site.",
+                        "The results prove that library self-check coaching will produce the same patternâ€”8.6, 6.8, and 5.4 minutesâ€”at every site.",
                         "At East Branch, the recorded measure for average checkout wait increased at each checkpoint, from 8.6 through 6.8 to 5.4 minutes.",
                         "At East Branch, the measure for average checkout wait moved from 8.6 to 5.4 minutes, without describing the midpoint reading.",
                         "At East Branch, the recorded measure for average checkout wait declined at each checkpoint: it was 8.6, 6.8, and 5.4 minutes at the three checkpoints."
                     ],
         "answerIndex":  3,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-129",
@@ -2319,7 +2319,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-130",
@@ -2337,7 +2337,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-131",
@@ -2355,7 +2355,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-132",
@@ -2369,11 +2369,11 @@
                         "At Maple School, the measure for water used per garden bed moved from 99 to 66 liters per week, without describing the midpoint reading.",
                         "At Maple School, the recorded measure for water used per garden bed increased at each checkpoint, from 99 through 81 to 66 liters per week.",
                         "At Maple School, the recorded measure for water used per garden bed declined at each checkpoint: it was 99, 81, and 66 liters per week at the three checkpoints.",
-                        "The results prove that garden-bed straw mulch will produce the same pattern—99, 81, and 66 liters per week—at every site."
+                        "The results prove that garden-bed straw mulch will produce the same patternâ€”99, 81, and 66 liters per weekâ€”at every site."
                     ],
         "answerIndex":  2,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-133",
@@ -2384,14 +2384,14 @@
         "passageWordCount":  67,
         "question":  "To describe how the outcome changed across the three checkpoints in a report on protected bike-lane markings at Pine Street, which choice best uses the notes?",
         "options":  [
-                        "The results prove that protected bike-lane markings will produce the same pattern—131, 153, and 178 trips per day—at every site.",
+                        "The results prove that protected bike-lane markings will produce the same patternâ€”131, 153, and 178 trips per dayâ€”at every site.",
                         "At Pine Street, the recorded measure for weekday bicycle trips increased at each checkpoint: it was 131, 153, and 178 trips per day at the three checkpoints.",
                         "At Pine Street, the recorded measure for weekday bicycle trips decreased at each checkpoint, from 131 through 153 to 178 trips per day.",
                         "At Pine Street, the measure for weekday bicycle trips moved from 131 to 178 trips per day, without describing the midpoint reading."
                     ],
         "answerIndex":  1,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-134",
@@ -2405,11 +2405,11 @@
                         "At River Gallery, the recorded measure for correct artifact identifications decreased at each checkpoint, from 59 through 70 to 78 percent.",
                         "At River Gallery, the recorded measure for correct artifact identifications increased at each checkpoint: it was 59, 70, and 78 percent at the three checkpoints.",
                         "At River Gallery, the measure for correct artifact identifications moved from 59 to 78 percent, without describing the midpoint reading.",
-                        "The results prove that museum tactile exhibit labels will produce the same pattern—59, 70, and 78 percent—at every site."
+                        "The results prove that museum tactile exhibit labels will produce the same patternâ€”59, 70, and 78 percentâ€”at every site."
                     ],
         "answerIndex":  1,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-135",
@@ -2423,11 +2423,11 @@
                         "At Clover Park, the measure for afternoon pavement temperature moved from 41.5 to 34.5 degrees Celsius, without describing the midpoint reading.",
                         "At Clover Park, the recorded measure for afternoon pavement temperature declined at each checkpoint: it was 41.5, 37.5, and 34.5 degrees Celsius at the three checkpoints.",
                         "At Clover Park, the recorded measure for afternoon pavement temperature increased at each checkpoint, from 41.5 through 37.5 to 34.5 degrees Celsius.",
-                        "The results prove that street-tree shade sails will produce the same pattern—41.5, 37.5, and 34.5 degrees Celsius—at every site."
+                        "The results prove that street-tree shade sails will produce the same patternâ€”41.5, 37.5, and 34.5 degrees Celsiusâ€”at every site."
                     ],
         "answerIndex":  1,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-136",
@@ -2445,7 +2445,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-137",
@@ -2458,12 +2458,12 @@
         "options":  [
                         "At Canal Plot, the recorded measure for bee visits increased at each checkpoint: it was 8, 12, and 17 visits per 20-minute survey at the three checkpoints.",
                         "At Canal Plot, the recorded measure for bee visits decreased at each checkpoint, from 8 through 12 to 17 visits per 20-minute survey.",
-                        "The results prove that native-flower curb plots will produce the same pattern—8, 12, and 17 visits per 20-minute survey—at every site.",
+                        "The results prove that native-flower curb plots will produce the same patternâ€”8, 12, and 17 visits per 20-minute surveyâ€”at every site.",
                         "At Canal Plot, the measure for bee visits moved from 8 to 17 visits per 20-minute survey, without describing the midpoint reading."
                     ],
         "answerIndex":  0,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-138",
@@ -2481,7 +2481,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It compares the start and end readings at Juniper Park; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-139",
@@ -2499,7 +2499,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-140",
@@ -2517,7 +2517,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-141",
@@ -2535,7 +2535,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-142",
@@ -2553,7 +2553,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-143",
@@ -2571,7 +2571,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It compares the start and end readings at Cedar School; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-144",
@@ -2589,7 +2589,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-145",
@@ -2607,7 +2607,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It compares the start and end readings at Room 12; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-146",
@@ -2620,12 +2620,12 @@
         "options":  [
                         "At Lake Clinic, the recorded measure for appointments attended decreased at each checkpoint, from 73 through 80 to 86 percent.",
                         "At Lake Clinic, the measure for appointments attended moved from 73 to 86 percent, without describing the midpoint reading.",
-                        "The results prove that clinic appointment reminders will produce the same pattern—73, 80, and 86 percent—at every site.",
+                        "The results prove that clinic appointment reminders will produce the same patternâ€”73, 80, and 86 percentâ€”at every site.",
                         "At Lake Clinic, the recorded measure for appointments attended increased at each checkpoint: it was 73, 80, and 86 percent at the three checkpoints."
                     ],
         "answerIndex":  3,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-147",
@@ -2643,7 +2643,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-148",
@@ -2661,7 +2661,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-149",
@@ -2679,7 +2679,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It compares the start and end readings at Reed Trail; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-150",
@@ -2697,7 +2697,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-151",
@@ -2715,7 +2715,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It compares the start and end readings at Cafeteria A; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-152",
@@ -2733,7 +2733,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-153",
@@ -2751,7 +2751,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-154",
@@ -2769,7 +2769,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-155",
@@ -2787,7 +2787,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-156",
@@ -2800,12 +2800,12 @@
         "options":  [
                         "At Cafeteria B, the recorded measure for contamination increased at each checkpoint, from 30 through 21 to 14 percent.",
                         "At Cafeteria B, the measure for contamination moved from 30 to 14 percent, without describing the midpoint reading.",
-                        "The results prove that compost-bin picture signs will produce the same pattern—30, 21, and 14 percent—at every site.",
+                        "The results prove that compost-bin picture signs will produce the same patternâ€”30, 21, and 14 percentâ€”at every site.",
                         "At Cafeteria B, the recorded measure for contamination declined at each checkpoint: it was 30, 21, and 14 percent at the three checkpoints."
                     ],
         "answerIndex":  3,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-157",
@@ -2823,7 +2823,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It compares the start and end readings at Pine Clinic; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-158",
@@ -2841,7 +2841,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It compares the start and end readings at Willow Plot; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-159",
@@ -2859,7 +2859,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-160",
@@ -2873,11 +2873,11 @@
                         "At Heron Trail, the measure for off-trail footprints moved from 48 to 23 footprints per day, without describing the midpoint reading.",
                         "At Heron Trail, the recorded measure for off-trail footprints increased at each checkpoint, from 48 through 36 to 23 footprints per day.",
                         "At Heron Trail, the recorded measure for off-trail footprints declined at each checkpoint: it was 48, 36, and 23 footprints per day at the three checkpoints.",
-                        "The results prove that boardwalk trail markers will produce the same pattern—48, 36, and 23 footprints per day—at every site."
+                        "The results prove that boardwalk trail markers will produce the same patternâ€”48, 36, and 23 footprints per dayâ€”at every site."
                     ],
         "answerIndex":  2,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-161",
@@ -2895,7 +2895,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It compares the start and end readings at West Gallery; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-162",
@@ -2913,7 +2913,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It compares the start and end readings at Oak Avenue; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-163",
@@ -2931,7 +2931,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-164",
@@ -2949,7 +2949,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-165",
@@ -2967,7 +2967,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-166",
@@ -2985,7 +2985,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-167",
@@ -3003,7 +3003,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-168",
@@ -3021,7 +3021,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-169",
@@ -3039,7 +3039,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-170",
@@ -3057,7 +3057,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-171",
@@ -3075,7 +3075,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-172",
@@ -3093,7 +3093,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-173",
@@ -3111,7 +3111,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-174",
@@ -3129,7 +3129,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-175",
@@ -3147,7 +3147,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-176",
@@ -3165,7 +3165,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-177",
@@ -3183,7 +3183,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-178",
@@ -3201,7 +3201,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-179",
@@ -3219,7 +3219,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-180",
@@ -3237,7 +3237,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-181",
@@ -3255,7 +3255,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-182",
@@ -3273,7 +3273,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-183",
@@ -3291,7 +3291,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-184",
@@ -3309,7 +3309,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-185",
@@ -3327,7 +3327,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-186",
@@ -3345,7 +3345,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-187",
@@ -3363,7 +3363,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-188",
@@ -3381,7 +3381,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-189",
@@ -3399,7 +3399,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-190",
@@ -3417,7 +3417,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-191",
@@ -3435,7 +3435,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-192",
@@ -3453,7 +3453,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-193",
@@ -3471,7 +3471,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-194",
@@ -3489,7 +3489,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-195",
@@ -3507,7 +3507,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-196",
@@ -3525,7 +3525,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-197",
@@ -3543,7 +3543,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-198",
@@ -3561,7 +3561,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-199",
@@ -3579,7 +3579,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-200",
@@ -3597,7 +3597,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-201",
@@ -3615,7 +3615,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-202",
@@ -3633,7 +3633,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-203",
@@ -3651,7 +3651,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-204",
@@ -3669,7 +3669,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-205",
@@ -3687,7 +3687,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-206",
@@ -3705,7 +3705,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-207",
@@ -3723,7 +3723,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-208",
@@ -3741,7 +3741,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-209",
@@ -3759,7 +3759,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-210",
@@ -3777,7 +3777,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-211",
@@ -3795,7 +3795,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-212",
@@ -3813,7 +3813,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-213",
@@ -3831,7 +3831,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-214",
@@ -3849,7 +3849,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-215",
@@ -3867,7 +3867,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-216",
@@ -3885,7 +3885,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-217",
@@ -3903,7 +3903,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-218",
@@ -3921,7 +3921,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-219",
@@ -3939,7 +3939,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-220",
@@ -3957,7 +3957,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-221",
@@ -3975,7 +3975,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-222",
@@ -3993,7 +3993,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-223",
@@ -4011,7 +4011,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-224",
@@ -4029,7 +4029,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-225",
@@ -4047,7 +4047,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-226",
@@ -4065,7 +4065,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-227",
@@ -4083,7 +4083,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-228",
@@ -4101,7 +4101,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-229",
@@ -4119,7 +4119,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-230",
@@ -4137,7 +4137,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-231",
@@ -4155,7 +4155,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-232",
@@ -4173,7 +4173,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-233",
@@ -4191,7 +4191,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-234",
@@ -4209,7 +4209,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-235",
@@ -4227,7 +4227,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-236",
@@ -4245,7 +4245,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-237",
@@ -4263,7 +4263,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-238",
@@ -4281,7 +4281,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-239",
@@ -4299,7 +4299,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-240",
@@ -4317,7 +4317,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-241",
@@ -4335,7 +4335,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-242",
@@ -4353,7 +4353,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-243",
@@ -4371,7 +4371,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-244",
@@ -4389,7 +4389,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-245",
@@ -4407,7 +4407,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-246",
@@ -4425,7 +4425,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-247",
@@ -4443,7 +4443,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-248",
@@ -4461,14 +4461,14 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-249",
         "domain":  "Expression of Ideas",
         "skill":  "Transitions",
         "difficulty":  "Medium",
-        "passage":  "The café moved dessert preparation to the afternoon. _____, cooks mix the pastry, next chill it, and later add the filling. A consistent record makes this particular change easier to verify. The recorded result is specific to the conditions described.",
+        "passage":  "The cafÃ© moved dessert preparation to the afternoon. _____, cooks mix the pastry, next chill it, and later add the filling. A consistent record makes this particular change easier to verify. The recorded result is specific to the conditions described.",
         "passageWordCount":  40,
         "question":  "Which choice completes the text with the most logical transition?",
         "options":  [
@@ -4479,7 +4479,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-250",
@@ -4497,7 +4497,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-251",
@@ -4515,7 +4515,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-252",
@@ -4533,7 +4533,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-253",
@@ -4551,7 +4551,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-254",
@@ -4569,7 +4569,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-255",
@@ -4587,7 +4587,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-256",
@@ -4605,7 +4605,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-257",
@@ -4623,7 +4623,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-258",
@@ -4641,7 +4641,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-259",
@@ -4659,7 +4659,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-260",
@@ -4677,7 +4677,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-261",
@@ -4695,7 +4695,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-262",
@@ -4713,7 +4713,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-263",
@@ -4731,7 +4731,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-264",
@@ -4749,7 +4749,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-265",
@@ -4767,7 +4767,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-266",
@@ -4785,7 +4785,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-267",
@@ -4803,7 +4803,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-268",
@@ -4821,7 +4821,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-269",
@@ -4839,7 +4839,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-270",
@@ -4857,7 +4857,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-271",
@@ -4875,7 +4875,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-272",
@@ -4889,11 +4889,11 @@
                         "At West Team, the measure for reported muscle complaints moved from 19 to 11 reports per month, without describing the midpoint reading.",
                         "At West Team, the recorded measure for reported muscle complaints increased at each checkpoint, from 19 through 15 to 11 reports per month.",
                         "At West Team, the recorded measure for reported muscle complaints declined at each checkpoint: it was 19, 15, and 11 reports per month at the three checkpoints.",
-                        "The results prove that structured warm-up routine will produce the same pattern—19, 15, and 11 reports per month—at every site."
+                        "The results prove that structured warm-up routine will produce the same patternâ€”19, 15, and 11 reports per monthâ€”at every site."
                     ],
         "answerIndex":  2,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-273",
@@ -4911,7 +4911,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It compares the start and end readings at Maple Locker; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-274",
@@ -4929,7 +4929,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-275",
@@ -4947,7 +4947,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-276",
@@ -4965,7 +4965,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-277",
@@ -4983,7 +4983,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-278",
@@ -4997,11 +4997,11 @@
                         "At Garden Gallery, the recorded measure for tracks completed decreased at each checkpoint, from 46 through 58 to 67 percent of started tracks.",
                         "At Garden Gallery, the recorded measure for tracks completed increased at each checkpoint: it was 46, 58, and 67 percent of started tracks at the three checkpoints.",
                         "At Garden Gallery, the measure for tracks completed moved from 46 to 67 percent of started tracks, without describing the midpoint reading.",
-                        "The results prove that museum audio-guide chapter marks will produce the same pattern—46, 58, and 67 percent of started tracks—at every site."
+                        "The results prove that museum audio-guide chapter marks will produce the same patternâ€”46, 58, and 67 percent of started tracksâ€”at every site."
                     ],
         "answerIndex":  1,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-279",
@@ -5019,7 +5019,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It compares the start and end readings at East Channel; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-280",
@@ -5037,7 +5037,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-281",
@@ -5055,7 +5055,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-282",
@@ -5069,11 +5069,11 @@
                         "At South Channel, the recorded measure for boat speed declined at each checkpoint: it was 8.4, 7.3, and 6.5 knots at the three checkpoints.",
                         "At South Channel, the recorded measure for boat speed increased at each checkpoint, from 8.4 through 7.3 to 6.5 knots.",
                         "At South Channel, the measure for boat speed moved from 8.4 to 6.5 knots, without describing the midpoint reading.",
-                        "The results prove that harbor quiet-zone signs will produce the same pattern—8.4, 7.3, and 6.5 knots—at every site."
+                        "The results prove that harbor quiet-zone signs will produce the same patternâ€”8.4, 7.3, and 6.5 knotsâ€”at every site."
                     ],
         "answerIndex":  0,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-283",
@@ -5086,12 +5086,12 @@
         "options":  [
                         "At South Block, the recorded measure for water per tree increased at each checkpoint, from 35 through 30 to 25 liters per week.",
                         "At South Block, the recorded measure for water per tree declined at each checkpoint: it was 35, 30, and 25 liters per week at the three checkpoints.",
-                        "The results prove that orchard drip irrigation will produce the same pattern—35, 30, and 25 liters per week—at every site.",
+                        "The results prove that orchard drip irrigation will produce the same patternâ€”35, 30, and 25 liters per weekâ€”at every site.",
                         "At South Block, the measure for water per tree moved from 35 to 25 liters per week, without describing the midpoint reading."
                     ],
         "answerIndex":  1,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-284",
@@ -5109,7 +5109,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-285",
@@ -5127,7 +5127,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It compares the start and end readings at South Branch; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-286",
@@ -5145,7 +5145,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-287",
@@ -5156,14 +5156,14 @@
         "passageWordCount":  77,
         "question":  "To describe how the outcome changed across the three checkpoints in a report on rail platform queue markings at Museum Platform, which choice best uses the notes?",
         "options":  [
-                        "The results prove that rail platform queue markings will produce the same pattern—96, 85, and 76 seconds per train—at every site.",
+                        "The results prove that rail platform queue markings will produce the same patternâ€”96, 85, and 76 seconds per trainâ€”at every site.",
                         "At Museum Platform, the recorded measure for boarding time increased at each checkpoint, from 96 through 85 to 76 seconds per train.",
                         "At Museum Platform, the measure for boarding time moved from 96 to 76 seconds per train, without describing the midpoint reading.",
                         "At Museum Platform, the recorded measure for boarding time declined at each checkpoint: it was 96, 85, and 76 seconds per train at the three checkpoints."
                     ],
         "answerIndex":  3,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-288",
@@ -5181,7 +5181,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-289",
@@ -5199,7 +5199,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-290",
@@ -5217,7 +5217,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-291",
@@ -5235,7 +5235,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-292",
@@ -5253,7 +5253,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-293",
@@ -5271,7 +5271,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-294",
@@ -5289,7 +5289,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It compares the start and end readings at Stone Gallery; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-295",
@@ -5307,7 +5307,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It compares the start and end readings at Fern Trailhead; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-296",
@@ -5325,7 +5325,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-297",
@@ -5343,7 +5343,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-298",
@@ -5356,12 +5356,12 @@
         "options":  [
                         "At Elm School, the measure for food waste moved from 32 to 23 kilograms per lunch period, without describing the midpoint reading.",
                         "At Elm School, the recorded measure for food waste declined at each checkpoint: it was 32, 28, and 23 kilograms per lunch period at the three checkpoints.",
-                        "The results prove that reusable lunch trays will produce the same pattern—32, 28, and 23 kilograms per lunch period—at every site.",
+                        "The results prove that reusable lunch trays will produce the same patternâ€”32, 28, and 23 kilograms per lunch periodâ€”at every site.",
                         "At Elm School, the recorded measure for food waste increased at each checkpoint, from 32 through 28 to 23 kilograms per lunch period."
                     ],
         "answerIndex":  1,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-299",
@@ -5374,12 +5374,12 @@
         "options":  [
                         "At Hill Market, the recorded measure for tastings that led to a purchase increased at each checkpoint: it was 19, 25, and 32 percent of tastings at the three checkpoints.",
                         "At Hill Market, the measure for tastings that led to a purchase moved from 19 to 32 percent of tastings, without describing the midpoint reading.",
-                        "The results prove that market produce sampling will produce the same pattern—19, 25, and 32 percent of tastings—at every site.",
+                        "The results prove that market produce sampling will produce the same patternâ€”19, 25, and 32 percent of tastingsâ€”at every site.",
                         "At Hill Market, the recorded measure for tastings that led to a purchase decreased at each checkpoint, from 19 through 25 to 32 percent of tastings."
                     ],
         "answerIndex":  0,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-300",
@@ -5397,7 +5397,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It compares the start and end readings at North Row; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-301",
@@ -5415,7 +5415,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It compares the start and end readings at Cedar School; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-302",
@@ -5433,7 +5433,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It compares the start and end readings at North Block; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-303",
@@ -5444,14 +5444,14 @@
         "passageWordCount":  76,
         "question":  "To describe how the outcome changed across the three checkpoints in a report on archive page-feeding scanners at Harbor News, which choice best uses the notes?",
         "options":  [
-                        "The results prove that archive page-feeding scanners will produce the same pattern—435, 525, and 600 pages per hour—at every site.",
+                        "The results prove that archive page-feeding scanners will produce the same patternâ€”435, 525, and 600 pages per hourâ€”at every site.",
                         "At Harbor News, the measure for pages digitized moved from 435 to 600 pages per hour, without describing the midpoint reading.",
                         "At Harbor News, the recorded measure for pages digitized increased at each checkpoint: it was 435, 525, and 600 pages per hour at the three checkpoints.",
                         "At Harbor News, the recorded measure for pages digitized decreased at each checkpoint, from 435 through 525 to 600 pages per hour."
                     ],
         "answerIndex":  2,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-304",
@@ -5469,7 +5469,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-305",
@@ -5487,7 +5487,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-306",
@@ -5498,14 +5498,14 @@
         "passageWordCount":  87,
         "question":  "To describe how the outcome changed across the three checkpoints in a report on winter cover cropping at South Row, which choice best uses the notes?",
         "options":  [
-                        "The results prove that winter cover cropping will produce the same pattern—67, 45, and 28 kilograms per hectare per storm—at every site.",
+                        "The results prove that winter cover cropping will produce the same patternâ€”67, 45, and 28 kilograms per hectare per stormâ€”at every site.",
                         "At South Row, the measure for soil loss moved from 67 to 28 kilograms per hectare per storm, without describing the midpoint reading.",
                         "At South Row, the recorded measure for soil loss increased at each checkpoint, from 67 through 45 to 28 kilograms per hectare per storm.",
                         "At South Row, the recorded measure for soil loss declined at each checkpoint: it was 67, 45, and 28 kilograms per hectare per storm at the three checkpoints."
                     ],
         "answerIndex":  3,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-307",
@@ -5523,7 +5523,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-308",
@@ -5541,7 +5541,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It compares the start and end readings at Riverside Market; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-309",
@@ -5559,7 +5559,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-310",
@@ -5577,7 +5577,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-311",
@@ -5595,7 +5595,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-312",
@@ -5613,7 +5613,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-313",
@@ -5631,7 +5631,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It compares the start and end readings at Local News; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-314",
@@ -5649,7 +5649,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-315",
@@ -5667,7 +5667,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-316",
@@ -5685,7 +5685,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-317",
@@ -5703,7 +5703,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-318",
@@ -5721,7 +5721,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-319",
@@ -5739,7 +5739,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It compares the start and end readings at Birch Block; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-320",
@@ -5757,7 +5757,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-321",
@@ -5775,7 +5775,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-322",
@@ -5788,12 +5788,12 @@
         "options":  [
                         "At Cedar Trailhead, the recorded measure for hikers taking the correct fork increased at each checkpoint: it was 68, 77, and 85 percent of observed groups at the three checkpoints.",
                         "At Cedar Trailhead, the recorded measure for hikers taking the correct fork decreased at each checkpoint, from 68 through 77 to 85 percent of observed groups.",
-                        "The results prove that trailhead map kiosks will produce the same pattern—68, 77, and 85 percent of observed groups—at every site.",
+                        "The results prove that trailhead map kiosks will produce the same patternâ€”68, 77, and 85 percent of observed groupsâ€”at every site.",
                         "At Cedar Trailhead, the measure for hikers taking the correct fork moved from 68 to 85 percent of observed groups, without describing the midpoint reading."
                     ],
         "answerIndex":  0,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-323",
@@ -5811,7 +5811,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-324",
@@ -5829,7 +5829,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-325",
@@ -5842,12 +5842,12 @@
         "options":  [
                         "At Lake Branch, the recorded measure for holds picked up within two days increased at each checkpoint: it was 62, 71, and 79 percent at the three checkpoints.",
                         "At Lake Branch, the recorded measure for holds picked up within two days decreased at each checkpoint, from 62 through 71 to 79 percent.",
-                        "The results prove that library hold-pickup shelves will produce the same pattern—62, 71, and 79 percent—at every site.",
+                        "The results prove that library hold-pickup shelves will produce the same patternâ€”62, 71, and 79 percentâ€”at every site.",
                         "At Lake Branch, the measure for holds picked up within two days moved from 62 to 79 percent, without describing the midpoint reading."
                     ],
         "answerIndex":  0,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-326",
@@ -5860,12 +5860,12 @@
         "options":  [
                         "At Cedar Locker, the recorded measure for tools borrowed increased at each checkpoint: it was 26, 38, and 51 loans per week at the three checkpoints.",
                         "At Cedar Locker, the recorded measure for tools borrowed decreased at each checkpoint, from 26 through 38 to 51 loans per week.",
-                        "The results prove that neighborhood tool-lending lockers will produce the same pattern—26, 38, and 51 loans per week—at every site.",
+                        "The results prove that neighborhood tool-lending lockers will produce the same patternâ€”26, 38, and 51 loans per weekâ€”at every site.",
                         "At Cedar Locker, the measure for tools borrowed moved from 26 to 51 loans per week, without describing the midpoint reading."
                     ],
         "answerIndex":  0,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-327",
@@ -5879,11 +5879,11 @@
                         "At Willow Block, the recorded measure for runoff entering the drain increased at each checkpoint, from 760 through 610 to 450 liters per storm.",
                         "At Willow Block, the measure for runoff entering the drain moved from 760 to 450 liters per storm, without describing the midpoint reading.",
                         "At Willow Block, the recorded measure for runoff entering the drain declined at each checkpoint: it was 760, 610, and 450 liters per storm at the three checkpoints.",
-                        "The results prove that rain-garden curb cuts will produce the same pattern—760, 610, and 450 liters per storm—at every site."
+                        "The results prove that rain-garden curb cuts will produce the same patternâ€”760, 610, and 450 liters per stormâ€”at every site."
                     ],
         "answerIndex":  2,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-328",
@@ -5901,7 +5901,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It compares the start and end readings at Central Platform; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-329",
@@ -5919,7 +5919,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-330",
@@ -5937,7 +5937,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It compares the start and end readings at East Team; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-331",
@@ -5955,7 +5955,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-332",
@@ -5973,7 +5973,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-333",
@@ -5991,7 +5991,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-334",
@@ -6009,7 +6009,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-335",
@@ -6027,7 +6027,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-336",
@@ -6045,7 +6045,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-337",
@@ -6063,7 +6063,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-338",
@@ -6081,7 +6081,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-339",
@@ -6099,7 +6099,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-340",
@@ -6117,7 +6117,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-341",
@@ -6135,7 +6135,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-342",
@@ -6153,7 +6153,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-343",
@@ -6171,7 +6171,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-344",
@@ -6189,7 +6189,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-345",
@@ -6207,7 +6207,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-346",
@@ -6225,7 +6225,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-347",
@@ -6243,7 +6243,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-348",
@@ -6261,7 +6261,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-349",
@@ -6279,7 +6279,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-350",
@@ -6297,7 +6297,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-351",
@@ -6315,7 +6315,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-352",
@@ -6333,7 +6333,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-353",
@@ -6351,7 +6351,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-354",
@@ -6369,7 +6369,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-355",
@@ -6387,7 +6387,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-356",
@@ -6405,7 +6405,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-357",
@@ -6423,7 +6423,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-358",
@@ -6441,7 +6441,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-359",
@@ -6459,7 +6459,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-360",
@@ -6477,7 +6477,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-361",
@@ -6495,7 +6495,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-362",
@@ -6513,7 +6513,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-363",
@@ -6531,7 +6531,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-364",
@@ -6549,7 +6549,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-365",
@@ -6567,7 +6567,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-366",
@@ -6585,7 +6585,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-367",
@@ -6603,7 +6603,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-368",
@@ -6621,14 +6621,14 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-369",
         "domain":  "Expression of Ideas",
         "skill":  "Transitions",
         "difficulty":  "Hard",
-        "passage":  "The café moved dessert preparation to the afternoon. _____, the manager also prepared a small reserve for canceled orders. A consistent record makes this particular change easier to verify. The recorded result is specific to the conditions described. The team kept enough detail to distinguish this effect from a later change.",
+        "passage":  "The cafÃ© moved dessert preparation to the afternoon. _____, the manager also prepared a small reserve for canceled orders. A consistent record makes this particular change easier to verify. The recorded result is specific to the conditions described. The team kept enough detail to distinguish this effect from a later change.",
         "passageWordCount":  51,
         "question":  "Which transition best completes the text?",
         "options":  [
@@ -6639,7 +6639,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-370",
@@ -6657,7 +6657,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-371",
@@ -6675,7 +6675,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-372",
@@ -6693,7 +6693,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-373",
@@ -6711,7 +6711,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-374",
@@ -6729,7 +6729,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-375",
@@ -6747,7 +6747,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-376",
@@ -6765,7 +6765,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-377",
@@ -6783,7 +6783,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-378",
@@ -6801,7 +6801,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-379",
@@ -6819,7 +6819,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-380",
@@ -6837,7 +6837,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-381",
@@ -6855,7 +6855,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-382",
@@ -6873,7 +6873,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-383",
@@ -6891,7 +6891,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-384",
@@ -6909,7 +6909,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-385",
@@ -6927,7 +6927,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-386",
@@ -6945,7 +6945,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-387",
@@ -6963,7 +6963,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-388",
@@ -6981,7 +6981,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-389",
@@ -6999,7 +6999,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-390",
@@ -7017,7 +7017,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-391",
@@ -7035,7 +7035,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-392",
@@ -7053,7 +7053,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-393",
@@ -7071,7 +7071,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-394",
@@ -7089,7 +7089,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-395",
@@ -7107,14 +7107,14 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-396",
         "domain":  "Expression of Ideas",
         "skill":  "Transitions",
         "difficulty":  "Hard",
-        "passage":  "The café moved dessert preparation to the afternoon. _____, afternoon preparation improves freshness, though it requires an accurate demand estimate. The finding offers a useful basis for a narrower, well-defined comparison. Its practical value depends on interpreting the result within the stated scope. The measure is useful because it captures a difference ordinary estimates could miss.",
+        "passage":  "The cafÃ© moved dessert preparation to the afternoon. _____, afternoon preparation improves freshness, though it requires an accurate demand estimate. The finding offers a useful basis for a narrower, well-defined comparison. Its practical value depends on interpreting the result within the stated scope. The measure is useful because it captures a difference ordinary estimates could miss.",
         "passageWordCount":  56,
         "question":  "Which choice most logically completes the text?",
         "options":  [
@@ -7125,7 +7125,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-397",
@@ -7143,7 +7143,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-398",
@@ -7161,7 +7161,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-399",
@@ -7179,7 +7179,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-400",
@@ -7197,7 +7197,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-401",
@@ -7215,7 +7215,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-402",
@@ -7233,7 +7233,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-403",
@@ -7251,7 +7251,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-404",
@@ -7269,7 +7269,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-405",
@@ -7287,7 +7287,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-406",
@@ -7305,7 +7305,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-407",
@@ -7323,7 +7323,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-408",
@@ -7341,7 +7341,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-409",
@@ -7359,7 +7359,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-410",
@@ -7377,7 +7377,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-411",
@@ -7395,7 +7395,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-412",
@@ -7413,7 +7413,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The final judgment is an inference drawn from the observations that come before it.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-413",
@@ -7431,7 +7431,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-414",
@@ -7449,7 +7449,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-415",
@@ -7467,7 +7467,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-416",
@@ -7485,7 +7485,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-417",
@@ -7503,7 +7503,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-418",
@@ -7521,7 +7521,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-419",
@@ -7539,7 +7539,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-420",
@@ -7557,7 +7557,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-421",
@@ -7575,14 +7575,14 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-422",
         "domain":  "Expression of Ideas",
         "skill":  "Transitions",
         "difficulty":  "Hard",
-        "passage":  "The café moved dessert preparation to the afternoon. _____, cooks mix the pastry, next chill it, and later add the filling. The finding offers a useful basis for a narrower, well-defined comparison. Its practical value depends on interpreting the result within the stated scope. The measure is useful because it captures a difference ordinary estimates could miss.",
+        "passage":  "The cafÃ© moved dessert preparation to the afternoon. _____, cooks mix the pastry, next chill it, and later add the filling. The finding offers a useful basis for a narrower, well-defined comparison. Its practical value depends on interpreting the result within the stated scope. The measure is useful because it captures a difference ordinary estimates could miss.",
         "passageWordCount":  57,
         "question":  "Which choice completes the text with the most logical transition?",
         "options":  [
@@ -7593,7 +7593,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-423",
@@ -7611,7 +7611,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-424",
@@ -7629,7 +7629,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The last clause limits or complicates the benefit or claim established before the blank.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-425",
@@ -7647,7 +7647,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-426",
@@ -7665,7 +7665,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The final clause gives a particular case that illustrates the preceding general idea.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-427",
@@ -7683,7 +7683,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-428",
@@ -7701,7 +7701,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The passage moves from an initial action to a later step in a clear order.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-429",
@@ -7719,7 +7719,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-430",
@@ -7737,7 +7737,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-431",
@@ -7755,7 +7755,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The following detail adds another feature or benefit to the point just made.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-432",
@@ -7773,7 +7773,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-433",
@@ -7791,7 +7791,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "The second idea presents a limitation or difference that conflicts with the initial observation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-434",
@@ -7809,7 +7809,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "The stated outcome follows from the preceding condition, making a cause-and-effect transition appropriate.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-435",
@@ -7827,7 +7827,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It compares the start and end readings at Civic Station; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-436",
@@ -7845,7 +7845,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-437",
@@ -7857,13 +7857,13 @@
         "question":  "To describe how the outcome changed across the three checkpoints in a report on metro elevator arrival displays at Library Station, which choice best uses the notes?",
         "options":  [
                         "At Library Station, the recorded measure for average wait at the busiest entrance declined at each checkpoint: it was 80, 72, and 64 seconds at the three checkpoints.",
-                        "The results prove that metro elevator arrival displays will produce the same pattern—80, 72, and 64 seconds—at every site.",
+                        "The results prove that metro elevator arrival displays will produce the same patternâ€”80, 72, and 64 secondsâ€”at every site.",
                         "At Library Station, the recorded measure for average wait at the busiest entrance increased at each checkpoint, from 80 through 72 to 64 seconds.",
                         "At Library Station, the measure for average wait at the busiest entrance moved from 80 to 64 seconds, without describing the midpoint reading."
                     ],
         "answerIndex":  0,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-438",
@@ -7881,7 +7881,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-439",
@@ -7899,7 +7899,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-440",
@@ -7917,7 +7917,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-441",
@@ -7935,7 +7935,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-442",
@@ -7946,14 +7946,14 @@
         "passageWordCount":  81,
         "question":  "To describe how the outcome changed across the three checkpoints in a report on pollinator median planting at Cedar Median, which choice best uses the notes?",
         "options":  [
-                        "The results prove that pollinator median planting will produce the same pattern—5, 7, and 10 species per survey—at every site.",
+                        "The results prove that pollinator median planting will produce the same patternâ€”5, 7, and 10 species per surveyâ€”at every site.",
                         "At Cedar Median, the recorded measure for native bee species increased at each checkpoint: it was 5, 7, and 10 species per survey at the three checkpoints.",
                         "At Cedar Median, the measure for native bee species moved from 5 to 10 species per survey, without describing the midpoint reading.",
                         "At Cedar Median, the recorded measure for native bee species decreased at each checkpoint, from 5 through 7 to 10 species per survey."
                     ],
         "answerIndex":  1,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-443",
@@ -7971,7 +7971,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-444",
@@ -7989,7 +7989,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-445",
@@ -8007,7 +8007,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-446",
@@ -8025,7 +8025,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-447",
@@ -8043,7 +8043,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-448",
@@ -8061,7 +8061,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-449",
@@ -8075,11 +8075,11 @@
                         "At Library Plaza, the recorded measure for performances logged increased at each checkpoint: it was 11, 16, and 22 performances per week at the three checkpoints.",
                         "At Library Plaza, the measure for performances logged moved from 11 to 22 performances per week, without describing the midpoint reading.",
                         "At Library Plaza, the recorded measure for performances logged decreased at each checkpoint, from 11 through 16 to 22 performances per week.",
-                        "The results prove that public piano placement will produce the same pattern—11, 16, and 22 performances per week—at every site."
+                        "The results prove that public piano placement will produce the same patternâ€”11, 16, and 22 performances per weekâ€”at every site."
                     ],
         "answerIndex":  0,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-450",
@@ -8097,7 +8097,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-451",
@@ -8115,7 +8115,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-452",
@@ -8133,7 +8133,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It compares the start and end readings at Box A; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-453",
@@ -8151,7 +8151,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-454",
@@ -8169,7 +8169,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-455",
@@ -8187,7 +8187,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-456",
@@ -8205,7 +8205,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-457",
@@ -8217,13 +8217,13 @@
         "question":  "To describe how the outcome changed across the three checkpoints in a report on brewery rinse-water recovery at Tank Two, which choice best uses the notes?",
         "options":  [
                         "At Tank Two, the recorded measure for fresh rinse water declined at each checkpoint: it was 530, 440, and 360 liters per tank at the three checkpoints.",
-                        "The results prove that brewery rinse-water recovery will produce the same pattern—530, 440, and 360 liters per tank—at every site.",
+                        "The results prove that brewery rinse-water recovery will produce the same patternâ€”530, 440, and 360 liters per tankâ€”at every site.",
                         "At Tank Two, the measure for fresh rinse water moved from 530 to 360 liters per tank, without describing the midpoint reading.",
                         "At Tank Two, the recorded measure for fresh rinse water increased at each checkpoint, from 530 through 440 to 360 liters per tank."
                     ],
         "answerIndex":  0,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-458",
@@ -8241,7 +8241,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It compares the start and end readings at Mesa Station; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-459",
@@ -8259,7 +8259,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It compares the start and end readings at Tank One; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-460",
@@ -8277,7 +8277,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It compares the start and end readings at Lincoln School; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-461",
@@ -8295,7 +8295,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It compares the start and end readings at Class 2A; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-462",
@@ -8306,14 +8306,14 @@
         "passageWordCount":  77,
         "question":  "To describe how the outcome changed across the three checkpoints in a report on archive handwriting transcription at Box B, which choice best uses the notes?",
         "options":  [
-                        "The results prove that archive handwriting transcription will produce the same pattern—36, 45, and 53 letters per day—at every site.",
+                        "The results prove that archive handwriting transcription will produce the same patternâ€”36, 45, and 53 letters per dayâ€”at every site.",
                         "At Box B, the recorded measure for letters transcribed increased at each checkpoint: it was 36, 45, and 53 letters per day at the three checkpoints.",
                         "At Box B, the measure for letters transcribed moved from 36 to 53 letters per day, without describing the midpoint reading.",
                         "At Box B, the recorded measure for letters transcribed decreased at each checkpoint, from 36 through 45 to 53 letters per day."
                     ],
         "answerIndex":  1,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-463",
@@ -8331,7 +8331,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-464",
@@ -8349,7 +8349,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-465",
@@ -8367,7 +8367,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-466",
@@ -8378,14 +8378,14 @@
         "passageWordCount":  76,
         "question":  "To describe how the outcome changed across the three checkpoints in a report on school crossing beacons at Cedar School, which choice best uses the notes?",
         "options":  [
-                        "The results prove that school crossing beacons will produce the same pattern—51, 65, and 76 percent of observed vehicles—at every site.",
+                        "The results prove that school crossing beacons will produce the same patternâ€”51, 65, and 76 percent of observed vehiclesâ€”at every site.",
                         "At Cedar School, the recorded measure for vehicles yielding decreased at each checkpoint, from 51 through 65 to 76 percent of observed vehicles.",
                         "At Cedar School, the measure for vehicles yielding moved from 51 to 76 percent of observed vehicles, without describing the midpoint reading.",
                         "At Cedar School, the recorded measure for vehicles yielding increased at each checkpoint: it was 51, 65, and 76 percent of observed vehicles at the three checkpoints."
                     ],
         "answerIndex":  3,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-467",
@@ -8403,7 +8403,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-468",
@@ -8421,7 +8421,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It compares the start and end readings at Pine Median; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-469",
@@ -8433,13 +8433,13 @@
         "question":  "To describe how the outcome changed across the three checkpoints in a report on desert field-station shade roofs at Dune Station, which choice best uses the notes?",
         "options":  [
                         "At Dune Station, the recorded measure for hours without a temperature shutdown decreased at each checkpoint, from 6.5 through 8 to 9.3 hours per day.",
-                        "The results prove that desert field-station shade roofs will produce the same pattern—6.5, 8, and 9.3 hours per day—at every site.",
+                        "The results prove that desert field-station shade roofs will produce the same patternâ€”6.5, 8, and 9.3 hours per dayâ€”at every site.",
                         "At Dune Station, the recorded measure for hours without a temperature shutdown increased at each checkpoint: it was 6.5, 8, and 9.3 hours per day at the three checkpoints.",
                         "At Dune Station, the measure for hours without a temperature shutdown moved from 6.5 to 9.3 hours per day, without describing the midpoint reading."
                     ],
         "answerIndex":  2,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-470",
@@ -8452,12 +8452,12 @@
         "options":  [
                         "At Studio Stage, the recorded measure for caption lines read before scene changes decreased at each checkpoint, from 69 through 78 to 86 percent of lines.",
                         "At Studio Stage, the recorded measure for caption lines read before scene changes increased at each checkpoint: it was 69, 78, and 86 percent of lines at the three checkpoints.",
-                        "The results prove that theater caption displays will produce the same pattern—69, 78, and 86 percent of lines—at every site.",
+                        "The results prove that theater caption displays will produce the same patternâ€”69, 78, and 86 percent of linesâ€”at every site.",
                         "At Studio Stage, the measure for caption lines read before scene changes moved from 69 to 86 percent of lines, without describing the midpoint reading."
                     ],
         "answerIndex":  1,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-471",
@@ -8475,7 +8475,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-472",
@@ -8493,7 +8493,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-473",
@@ -8507,11 +8507,11 @@
                         "At East Orchard, the recorded measure for annual branch growth decreased at each checkpoint, from 25 through 30 to 36 centimeters per tree.",
                         "At East Orchard, the measure for annual branch growth moved from 25 to 36 centimeters per tree, without describing the midpoint reading.",
                         "At East Orchard, the recorded measure for annual branch growth increased at each checkpoint: it was 25, 30, and 36 centimeters per tree at the three checkpoints.",
-                        "The results prove that community orchard pruning will produce the same pattern—25, 30, and 36 centimeters per tree—at every site."
+                        "The results prove that community orchard pruning will produce the same patternâ€”25, 30, and 36 centimeters per treeâ€”at every site."
                     ],
         "answerIndex":  2,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-474",
@@ -8529,7 +8529,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-475",
@@ -8547,7 +8547,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-476",
@@ -8565,7 +8565,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It compares the start and end readings at West Frame; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-477",
@@ -8583,7 +8583,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-478",
@@ -8601,7 +8601,7 @@
                     ],
         "answerIndex":  2,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-479",
@@ -8619,7 +8619,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-480",
@@ -8637,7 +8637,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-481",
@@ -8655,7 +8655,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-482",
@@ -8673,7 +8673,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-483",
@@ -8691,7 +8691,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It compares the start and end readings at East Launch; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-484",
@@ -8709,7 +8709,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-485",
@@ -8727,7 +8727,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It compares the start and end readings at Group A; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-486",
@@ -8745,7 +8745,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It compares the start and end readings at Town Plaza; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-487",
@@ -8756,14 +8756,14 @@
         "passageWordCount":  81,
         "question":  "To describe how the outcome changed across the three checkpoints in a report on classroom annotation tools at Class 2B, which choice best uses the notes?",
         "options":  [
-                        "The results prove that classroom annotation tools will produce the same pattern—54, 66, and 75 percent of responses—at every site.",
+                        "The results prove that classroom annotation tools will produce the same patternâ€”54, 66, and 75 percent of responsesâ€”at every site.",
                         "At Class 2B, the recorded measure for responses citing a relevant passage increased at each checkpoint: it was 54, 66, and 75 percent of responses at the three checkpoints.",
                         "At Class 2B, the recorded measure for responses citing a relevant passage decreased at each checkpoint, from 54 through 66 to 75 percent of responses.",
                         "At Class 2B, the measure for responses citing a relevant passage moved from 54 to 75 percent of responses, without describing the midpoint reading."
                     ],
         "answerIndex":  1,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-488",
@@ -8781,7 +8781,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It compares the start and end readings at Main Stage; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-489",
@@ -8793,13 +8793,13 @@
         "question":  "To describe how the outcome changed across the three checkpoints in a report on reservoir kayak booking at South Launch, which choice best uses the notes?",
         "options":  [
                         "At South Launch, the recorded measure for launches completed within reserved windows increased at each checkpoint: it was 64, 75, and 83 percent of bookings at the three checkpoints.",
-                        "The results prove that reservoir kayak booking will produce the same pattern—64, 75, and 83 percent of bookings—at every site.",
+                        "The results prove that reservoir kayak booking will produce the same patternâ€”64, 75, and 83 percent of bookingsâ€”at every site.",
                         "At South Launch, the measure for launches completed within reserved windows moved from 64 to 83 percent of bookings, without describing the midpoint reading.",
                         "At South Launch, the recorded measure for launches completed within reserved windows decreased at each checkpoint, from 64 through 75 to 83 percent of bookings."
                     ],
         "answerIndex":  0,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-490",
@@ -8817,7 +8817,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-491",
@@ -8835,7 +8835,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-492",
@@ -8853,7 +8853,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-493",
@@ -8867,11 +8867,11 @@
                         "At East Frame, the recorded measure for coral-fragment survival rate increased at each checkpoint: it was 72, 80, and 87 percent at the three checkpoints.",
                         "At East Frame, the measure for coral-fragment survival rate moved from 72 to 87 percent, without describing the midpoint reading.",
                         "At East Frame, the recorded measure for coral-fragment survival rate decreased at each checkpoint, from 72 through 80 to 87 percent.",
-                        "The results prove that coral nursery shade screens will produce the same pattern—72, 80, and 87 percent—at every site."
+                        "The results prove that coral nursery shade screens will produce the same patternâ€”72, 80, and 87 percentâ€”at every site."
                     ],
         "answerIndex":  0,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-494",
@@ -8885,11 +8885,11 @@
                         "At Group B, the measure for students meeting their own bedtime target moved from 18 to 29 students out of 40, without describing the midpoint reading.",
                         "At Group B, the recorded measure for students meeting their own bedtime target decreased at each checkpoint, from 18 through 24 to 29 students out of 40.",
                         "At Group B, the recorded measure for students meeting their own bedtime target increased at each checkpoint: it was 18, 24, and 29 students out of 40 at the three checkpoints.",
-                        "The results prove that sleep-habit workshops will produce the same pattern—18, 24, and 29 students out of 40—at every site."
+                        "The results prove that sleep-habit workshops will produce the same patternâ€”18, 24, and 29 students out of 40â€”at every site."
                     ],
         "answerIndex":  2,
         "explanationText":  "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-495",
@@ -8907,7 +8907,7 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-496",
@@ -8925,7 +8925,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-497",
@@ -8943,7 +8943,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It compares the start and end readings at North Orchard; the other choices substitute a midpoint, report method alone, or overgeneralize.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-498",
@@ -8961,7 +8961,7 @@
                     ],
         "answerIndex":  1,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-499",
@@ -8979,7 +8979,7 @@
                     ],
         "answerIndex":  3,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     },
     {
         "id":  "EI-500",
@@ -8997,6 +8997,6 @@
                     ],
         "answerIndex":  0,
         "explanationText":  "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
-        "status":  "pending"
+        "status":  "approved"
     }
 ]
