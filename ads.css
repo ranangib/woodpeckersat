@@ -1,4 +1,142 @@
-/* Advertisement side rails — desktop/large screens only */
+/* ---------- Homepage theme applied site-wide ---------- */
+html.page-about,
+html.page-ask-scorer,
+html.page-best-sat-resources,
+html.page-contact,
+html.page-grammar-plan,
+html.page-grammar,
+html.page-learn-sat-regression,
+html.page-privacy,
+html.page-reading-practice,
+html.page-practice-test,
+html.page-sat-grammar-videos,
+html.page-upload,
+html.page-volunteer-hours {
+    --ink: #141b2e;
+    --muted: #657087;
+    --paper: #f5f7fb;
+    --forest: #202a43;
+    --coral: #7357ff;
+    --line: #e0e5ef;
+    --home-lime: #c4ff72;
+    --home-purple: #7357ff;
+}
+
+html.page-about body,
+html.page-ask-scorer body,
+html.page-best-sat-resources body,
+html.page-contact body,
+html.page-grammar-plan body,
+html.page-grammar body,
+html.page-learn-sat-regression body,
+html.page-privacy body,
+html.page-reading-practice body,
+html.page-practice-test body,
+html.page-sat-grammar-videos body,
+html.page-upload body,
+html.page-volunteer-hours body {
+    color: #f7f8ff !important;
+    background-color: #12182b !important;
+    background-image:
+        radial-gradient(ellipse at 9% 8%, rgba(128, 104, 255, 0.09), transparent 34%),
+        radial-gradient(ellipse at 92% 38%, rgba(146, 208, 99, 0.11), transparent 30%) !important;
+    font-family: Inter, "Segoe UI", Arial, sans-serif !important;
+}
+
+html.page-about h1,
+html.page-about h2,
+html.page-ask-scorer h1,
+html.page-ask-scorer h2,
+html.page-best-sat-resources h1,
+html.page-best-sat-resources h2,
+html.page-contact h1,
+html.page-contact h2,
+html.page-grammar-plan h1,
+html.page-grammar-plan h2,
+html.page-grammar-plan h3,
+html.page-grammar h1,
+html.page-grammar h2,
+html.page-grammar h3,
+html.page-learn-sat-regression h1,
+html.page-learn-sat-regression h2,
+html.page-privacy h1,
+html.page-privacy h2,
+html.page-reading-practice h1,
+html.page-reading-practice h2,
+html.page-practice-test h1,
+html.page-practice-test h2,
+html.page-sat-grammar-videos h1,
+html.page-sat-grammar-videos h2,
+html.page-upload h1,
+html.page-upload h2,
+html.page-volunteer-hours h1,
+html.page-volunteer-hours h2 {
+    color: #f8f9ff !important;
+    font-family: Inter, "Segoe UI", Arial, sans-serif !important;
+}
+
+html.page-about p,
+html.page-ask-scorer p,
+html.page-best-sat-resources p,
+html.page-contact p,
+html.page-grammar-plan p,
+html.page-grammar p,
+html.page-learn-sat-regression p,
+html.page-privacy p,
+html.page-reading-practice p,
+html.page-practice-test p,
+html.page-sat-grammar-videos p,
+html.page-upload p,
+html.page-volunteer-hours p,
+html.page-about li,
+html.page-ask-scorer li,
+html.page-best-sat-resources li,
+html.page-contact li,
+html.page-grammar-plan li,
+html.page-grammar li,
+html.page-learn-sat-regression li,
+html.page-privacy li,
+html.page-reading-practice li,
+html.page-practice-test li,
+html.page-sat-grammar-videos li,
+html.page-upload li,
+html.page-volunteer-hours li {
+    color: #cbd2e2 !important;
+}
+
+html.page-about a,
+html.page-ask-scorer a,
+html.page-best-sat-resources a,
+html.page-contact a,
+html.page-grammar-plan a,
+html.page-grammar a,
+html.page-learn-sat-regression a,
+html.page-privacy a,
+html.page-reading-practice a,
+html.page-practice-test a,
+html.page-sat-grammar-videos a,
+html.page-upload a,
+html.page-volunteer-hours a {
+    color: var(--home-purple) !important;
+}
+
+html.page-about .eyebrow,
+html.page-ask-scorer .eyebrow,
+html.page-best-sat-resources .eyebrow,
+html.page-contact .eyebrow,
+html.page-grammar-plan .eyebrow,
+html.page-grammar .eyebrow,
+html.page-learn-sat-regression .eyebrow,
+html.page-privacy .eyebrow,
+html.page-reading-practice .eyebrow,
+html.page-practice-test .eyebrow,
+html.page-sat-grammar-videos .eyebrow,
+html.page-upload .eyebrow,
+html.page-volunteer-hours .eyebrow {
+    color: var(--home-lime) !important;
+}
+
+/* ---------- Advertisement side rails — desktop screens only ---------- */
 .ad-side-rail {
     display: none;
 }
@@ -6,12 +144,12 @@
 .ad-side-rail-label {
     display: block;
     margin-bottom: 6px;
-    color: #66766f;
-    font: 11px/1.2 Arial, sans-serif;
+    color: #cbd2e2;
+    font: 11px/1.2 Inter, "Segoe UI", sans-serif;
     text-align: center;
 }
 
-@media screen and (min-width: 1024px) and (min-height: 700px) {
+@media screen and (min-width: 1024px) {
     .ad-side-rail {
         position: fixed;
         z-index: 10;
@@ -37,6 +175,7 @@
     }
 }
 
+/* ---------- Sponsorship smart-link side rails ---------- */
 .smartlink-side-rail {
     display: none;
 }
@@ -44,8 +183,8 @@
 .sponsorship-label {
     display: block;
     margin-bottom: 6px;
-    color: #66766f;
-    font: 11px/1.2 Arial, sans-serif;
+    color: #cbd2e2;
+    font: 11px/1.2 Inter, "Segoe UI", sans-serif;
     text-align: center;
 }
 
@@ -53,20 +192,21 @@
     display: inline-block;
     min-width: 104px;
     padding: 10px 14px;
-    border: 1px solid #d8e1da;
+    border: 1px solid var(--home-purple);
     border-radius: 6px;
-    color: #17483e;
-    background: #fff;
-    font: 700 13px/1.3 "Trebuchet MS", "Segoe UI", sans-serif;
+    color: #f7f8ff;
+    background: var(--home-purple);
+    font: 700 13px/1.3 Inter, "Segoe UI", sans-serif;
     text-align: center;
     text-decoration: none;
-    box-shadow: 0 2px 8px rgba(23, 43, 39, 0.12);
+    box-shadow: 0 2px 8px rgba(115, 87, 255, 0.3);
 }
 
 .sponsorship-button:hover,
 .sponsorship-button:focus-visible {
-    color: #fff;
-    background: #17483e;
+    color: #151b2d;
+    background: var(--home-lime);
+    border-color: transparent;
 }
 
 .home-sponsorship {
@@ -83,115 +223,158 @@
     font-size: 1rem;
 }
 
-/* Shared page hero — homepage-style banner on every page */
+/* Shared page hero — homepage-style banner on every page (dark theme) */
 .site-hero {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
+    position: relative;
+    isolation: isolate;
+    display: grid;
+    grid-template-columns: minmax(0, 1.3fr) minmax(280px, 0.7fr);
     align-items: center;
-    padding: 52px 0 34px;
-    border-bottom: 1px solid #d8e1da;
+    gap: clamp(30px, 5vw, 76px);
+    overflow: hidden;
+    padding: clamp(30px, 5vw, 70px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 30px;
+    color: #f7f8ff;
+    background:
+        radial-gradient(ellipse at 5% 2%, rgba(117, 83, 255, 0.42), transparent 48%),
+        radial-gradient(ellipse at 92% 100%, rgba(92, 161, 130, 0.24), transparent 44%),
+        linear-gradient(132deg, #12182b 0%, #1c2741 54%, #182b36 100%);
+    box-shadow: 0 28px 80px rgba(27, 38, 67, 0.17);
+    margin-bottom: 34px;
 }
 
-.site-hero-copy {
-    flex: 1 1 320px;
+.site-hero::after {
+    position: absolute;
+    z-index: -1;
+    top: -190px;
+    right: 24%;
+    width: 420px;
+    height: 420px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 50%;
+    content: "";
+    box-shadow: 0 0 0 44px rgba(255, 255, 255, 0.025), 0 0 0 90px rgba(255, 255, 255, 0.02);
+}
+
+.site-hero-copy,
+.site-hero-card {
+    position: relative;
+    z-index: 1;
 }
 
 .site-hero-eyebrow {
-    margin: 0 0 10px;
-    color: #a44a31;
-    font: 800 0.78rem/1.2 "Trebuchet MS", "Segoe UI", sans-serif;
-    letter-spacing: 0.12em;
+    margin: 0 0 16px;
+    color: #c5f58f;
+    font-size: 0.75rem;
+    letter-spacing: 0.15em;
+    font-weight: 750;
     text-transform: uppercase;
+    font-family: Inter, "Segoe UI", Arial, sans-serif;
 }
 
 .site-hero h1 {
-    margin: 0 0 14px;
-    color: #17483e;
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: clamp(2rem, 6vw, 3.4rem);
-    font-weight: 500;
-    line-height: 1.05;
+    max-width: 760px;
+    margin: 0;
+    color: #f8f9ff;
+    font-family: Inter, "Segoe UI", Arial, sans-serif;
+    font-size: clamp(2.75rem, 6.1vw, 5.2rem);
+    font-weight: 760;
+    letter-spacing: -0.065em;
+    line-height: 0.99;
 }
 
 .site-hero h1 span {
-    color: #e47755;
+    color: var(--home-lime);
 }
 
 .site-hero-lede {
     margin: 0 0 20px;
-    color: #52645f;
-    font-size: 1.05rem;
+    color: #cbd2e2;
+    font-size: clamp(1.02rem, 1.5vw, 1.16rem);
     line-height: 1.7;
-    max-width: 660px;
+    max-width: 650px;
 }
 
 .site-hero-actions {
     display: flex;
     flex-wrap: wrap;
-    gap: 12px;
-    margin-bottom: 18px;
+    align-items: center;
+    gap: 12px 20px;
+    margin-top: 28px;
 }
 
 .site-hero-cta {
+    min-height: 52px;
     display: inline-flex;
     align-items: center;
-    gap: 8px;
-    min-height: 56px;
-    padding: 0 22px;
-    border: 1px solid #17483e;
-    border-radius: 5px;
-    color: #fff;
-    background: #17483e;
-    font-size: 1rem;
-    font-weight: 700;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 20px;
+    border-radius: 12px;
+    font-size: 0.96rem;
+    font-weight: 750;
     text-decoration: none;
-    font-family: inherit;
+    color: #151b2d;
+    background: var(--home-lime);
+    box-shadow: 0 8px 24px rgba(196, 255, 114, 0.16);
+    font-family: Inter, "Segoe UI", Arial, sans-serif;
 }
 
 .site-hero-cta:hover {
-    background: #236456;
+    background: #d3ff9a;
+    transform: translateY(-2px);
 }
 
 .site-hero-cta.secondary {
-    color: #17483e;
-    background: rgba(255, 255, 255, 0.78);
-    border-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    color: #f7f8ff;
+    background: rgba(255, 255, 255, 0.04);
 }
 
 .site-hero-cta.secondary:hover {
-    color: #fff;
-    background: #17483e;
+    border-color: rgba(255, 255, 255, 0.52);
+    background: rgba(255, 255, 255, 0.09);
 }
 
 .site-hero-trust {
     display: flex;
     flex-wrap: wrap;
-    gap: 14px;
-    list-style: none;
-    margin: 6px 0 0;
+    gap: 10px 24px;
+    margin: 26px 0 0;
     padding: 0;
-    color: #52645f;
-    font-size: 0.92rem;
+    color: #cbd2e2;
+    font-size: 0.84rem;
+    list-style: none;
+    font-family: Inter, "Segoe UI", Arial, sans-serif;
 }
 
 .site-hero-trust li {
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 7px;
 }
 
 .site-hero-trust li::before {
+    color: var(--home-lime);
     content: "✓";
-    color: #17483e;
     font-weight: 800;
+}
+
+@media (max-width: 980px) {
+    .site-hero {
+        grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr);
+        gap: 28px;
+        padding: clamp(24px, 5vw, 60px);
+    }
 }
 
 @media (max-width: 700px) {
     .site-hero {
-        flex-direction: column;
+        grid-template-columns: 1fr;
         text-align: center;
-        padding: 40px 0 26px;
+        padding: 30px 20px;
+        border-radius: 24px;
     }
 
     .site-hero-lede {
@@ -208,7 +391,7 @@
     }
 }
 
-@media screen and (min-width: 1024px) and (min-height: 700px) {
+@media screen and (min-width: 1024px) {
     .smartlink-side-rail {
         position: fixed;
         z-index: 11;
