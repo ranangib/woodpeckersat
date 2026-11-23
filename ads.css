@@ -273,56 +273,114 @@ html.page-sat-grammar-videos .resource-links a:hover {
     border: 1px solid rgba(255, 255, 255, 0.22) !important;
 }
 
-/* ---------- Advertisement side rails — desktop screens only ---------- */
-.ad-side-rail {
+/* ---------- Advertisement and sponsorship side rails — large screens only ---------- */
+.ad-side-rail,
+.smartlink-side-rail {
+    --page-half: 512px;
     display: none;
 }
 
-.ad-side-rail-label {
+.ad-side-rail-label,
+.sponsorship-label {
     display: block;
-    margin-bottom: 6px;
-    color: #cbd2e2;
-    font: 11px/1.2 Inter, "Segoe UI", sans-serif;
+    margin: 0 0 6px;
+    color: #9aa6ba;
+    font: 800 9px/1.2 Inter, "Segoe UI", sans-serif;
+    letter-spacing: 0.18em;
     text-align: center;
+    text-transform: uppercase;
 }
 
-@media screen and (min-width: 768px) {
-    .ad-side-rail {
+@media screen and (min-width: 1400px) and (min-height: 720px) {
+    .ad-side-rail,
+    .smartlink-side-rail {
         position: fixed;
         z-index: 10;
-        top: 50%;
-        transform: translateY(-50%);
+        display: block;
         width: 160px;
         text-align: center;
     }
 
-    .ad-side-rail-left {
-        left: 12px;
+    .ad-side-rail {
+        top: calc(50% - 336px);
+        min-height: 617px;
     }
 
-    .ad-side-rail-right {
-        right: 12px;
+    .smartlink-side-rail {
+        top: calc(50% + 298px);
+    }
+
+    .ad-side-rail-left,
+    .smartlink-side-rail-left {
+        left: calc(50% - var(--page-half) - 176px);
+    }
+
+    .ad-side-rail-right,
+    .smartlink-side-rail-right {
+        right: calc(50% - var(--page-half) - 176px);
     }
 
     .ad-side-rail iframe {
-        max-width: 100%;
-        height: auto;
         display: block;
+        width: 160px;
+        height: 600px;
         margin: 0 auto;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        background: rgba(255, 255, 255, 0.035);
+        box-shadow: 0 18px 44px rgba(4, 8, 18, 0.35);
+    }
+
+    /* The button already names the sponsorship, so the rail label is redundant */
+    .smartlink-side-rail .sponsorship-label {
+        display: none;
+    }
+
+    .smartlink-side-rail .sponsorship-button {
+        display: block;
+        width: 100%;
+        min-width: 0;
+        padding: 10px 8px;
+        border-radius: 10px;
+        font-size: 12px;
+        color: #f7f8ff !important;
+        background: linear-gradient(135deg, #7357ff, #9b86ff);
+        box-shadow: 0 10px 26px rgba(115, 87, 255, 0.32);
+    }
+
+    .smartlink-side-rail .sponsorship-button:hover,
+    .smartlink-side-rail .sponsorship-button:focus-visible {
+        border-color: transparent;
+        color: #151b2d !important;
+        background: var(--home-lime);
+        box-shadow: 0 10px 26px rgba(196, 255, 114, 0.28);
     }
 }
 
-/* ---------- Sponsorship smart-link side rails ---------- */
-.smartlink-side-rail {
-    display: none;
+/* The reading library uses a 1440px shell, so its rails need much wider screens */
+html.page-reading-practice .ad-side-rail,
+html.page-reading-practice .smartlink-side-rail {
+    --page-half: 720px;
 }
 
-.sponsorship-label {
-    display: block;
-    margin-bottom: 6px;
-    color: #cbd2e2;
-    font: 11px/1.2 Inter, "Segoe UI", sans-serif;
-    text-align: center;
+@media screen and (max-width: 1829px) {
+    html.page-reading-practice .ad-side-rail,
+    html.page-reading-practice .smartlink-side-rail {
+        display: none;
+    }
+}
+
+/* Homepage sits on the light background, so its rail labels use dark ink */
+html.page-home .ad-side-rail-label,
+html.page-home .smartlink-side-rail .sponsorship-label {
+    color: #657087;
+}
+
+@media print {
+    .ad-side-rail,
+    .smartlink-side-rail {
+        display: none !important;
+    }
 }
 
 .sponsorship-button {
@@ -525,25 +583,6 @@ html.page-sat-grammar-videos .resource-links a:hover {
 
     .site-hero-trust {
         justify-content: center;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .smartlink-side-rail {
-        position: fixed;
-        z-index: 11;
-        width: 160px;
-        text-align: center;
-    }
-
-    .smartlink-side-rail-left {
-        left: 12px;
-        top: 40px;
-    }
-
-    .smartlink-side-rail-right {
-        right: 12px;
-        top: 40px;
     }
 }
 
