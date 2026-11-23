@@ -102,7 +102,7 @@ html.page-practice-test li,
 html.page-sat-grammar-videos li,
 html.page-upload li,
 html.page-volunteer-hours li {
-    color: #cbd2e2 !important;
+    color: #e8ecf2 !important;
 }
 
 html.page-about a,
@@ -153,6 +153,9 @@ html.page-sat-grammar-videos .page,
 html.page-upload .page,
 html.page-volunteer-hours .page {
     background-color: transparent !important;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 html.page-home main,
@@ -172,7 +175,9 @@ html.page-volunteer-hours main {
     background: rgba(255, 255, 255, 0.04) !important;
     border-radius: 18px !important;
     border: 1px solid rgba(255, 255, 255, 0.08) !important;
-    color: #cbd2e2 !important;
+    color: #e8ecf2 !important;
+    max-width: 900px !important;
+    margin: 0 auto !important;
 }
 
 html.page-home header,
@@ -210,7 +215,28 @@ html.page-upload footer,
 html.page-volunteer-hours footer {
     background: rgba(255, 255, 255, 0.03) !important;
     border-top-color: rgba(255, 255, 255, 0.1) !important;
-    color: #cbd2e2 !important;
+    color: #e8ecf2 !important;
+}
+
+/* ---------- Readability fixes — dark text on light card backgrounds ---------- */
+html.page-home .home-hero-card p,
+html.page-home .home-hero-card span,
+html.page-home .home-card-footnote,
+html.page-grammar-plan .info-card p,
+html.page-best-sat-resources .resource-card p,
+html.page-reading-practice .reading-intro p,
+html.page-contact p,
+html.page-privacy p,
+html.page-upload p,
+html.page-volunteer-hours p,
+html.page-best-sat-resources .resource-card h2,
+html.page-grammar-plan .schedule-title,
+html.page-grammar-plan h4,
+html.page-contact h1,
+html.page-privacy h1,
+html.page-upload h1,
+html.page-volunteer-hours h1 {
+    color: #e8ecf2 !important;
 }
 
 /* Primary action buttons — lime */
