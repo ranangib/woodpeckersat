@@ -1,4 +1,5 @@
 /* ---------- Homepage theme applied site-wide ---------- */
+html.page-home,
 html.page-about,
 html.page-ask-scorer,
 html.page-best-sat-resources,
@@ -136,6 +137,116 @@ html.page-volunteer-hours .eyebrow {
     color: var(--home-lime) !important;
 }
 
+/* ---------- Structural overrides — dark theme site-wide ---------- */
+html.page-home .page,
+html.page-about .page,
+html.page-ask-scorer .page,
+html.page-best-sat-resources .page,
+html.page-contact .page,
+html.page-grammar-plan .page,
+html.page-grammar .page,
+html.page-learn-sat-regression .page,
+html.page-privacy .page,
+html.page-reading-practice .page,
+html.page-practice-test .page,
+html.page-sat-grammar-videos .page,
+html.page-upload .page,
+html.page-volunteer-hours .page {
+    background-color: transparent !important;
+}
+
+html.page-home main,
+html.page-about main,
+html.page-ask-scorer main,
+html.page-best-sat-resources main,
+html.page-contact main,
+html.page-grammar-plan main,
+html.page-grammar main,
+html.page-learn-sat-regression main,
+html.page-privacy main,
+html.page-reading-practice main,
+html.page-practice-test main,
+html.page-sat-grammar-videos main,
+html.page-upload main,
+html.page-volunteer-hours main {
+    background: rgba(255, 255, 255, 0.04) !important;
+    border-radius: 18px !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    color: #cbd2e2 !important;
+}
+
+html.page-home header,
+html.page-about header,
+html.page-ask-scorer header,
+html.page-best-sat-resources header,
+html.page-contact header,
+html.page-grammar-plan header,
+html.page-grammar header,
+html.page-learn-sat-regression header,
+html.page-privacy header,
+html.page-reading-practice header,
+html.page-practice-test header,
+html.page-sat-grammar-videos header,
+html.page-upload header,
+html.page-volunteer-hours header {
+    background: rgba(255, 255, 255, 0.03) !important;
+    border-bottom-color: rgba(255, 255, 255, 0.1) !important;
+    color: #f7f8ff !important;
+}
+
+html.page-home footer,
+html.page-about footer,
+html.page-ask-scorer footer,
+html.page-best-sat-resources footer,
+html.page-contact footer,
+html.page-grammar-plan footer,
+html.page-grammar footer,
+html.page-learn-sat-regression footer,
+html.page-privacy footer,
+html.page-reading-practice footer,
+html.page-practice-test footer,
+html.page-sat-grammar-videos footer,
+html.page-upload footer,
+html.page-volunteer-hours footer {
+    background: rgba(255, 255, 255, 0.03) !important;
+    border-top-color: rgba(255, 255, 255, 0.1) !important;
+    color: #cbd2e2 !important;
+}
+
+/* Primary action buttons — lime */
+html.page-home .action,
+html.page-about .action,
+html.page-ask-scorer .submit-button,
+html.page-best-sat-resources .resource-card a,
+html.page-contact .action,
+html.page-grammar-plan .part-link,
+html.page-grammar .practice-links a,
+html.page-learn-sat-regression .action,
+html.page-privacy .action,
+html.page-reading-practice .action,
+html.page-practice-test .next-btn,
+html.page-practice-test .previous-button,
+html.page-sat-grammar-videos .resource-links a,
+html.page-upload .submit-button,
+html.page-upload .back-link,
+html.page-volunteer-hours .form-notice {
+    color: #151b2d !important;
+    background: var(--home-lime) !important;
+    border-color: transparent !important;
+    border-radius: 12px !important;
+    font-weight: 750 !important;
+}
+
+/* Secondary action buttons — light on dark */
+html.page-home .action.secondary,
+html.page-grammar-plan .part-link:hover,
+html.page-grammar .practice-links a:hover,
+html.page-sat-grammar-videos .resource-links a:hover {
+    background: rgba(255, 255, 255, 0.04) !important;
+    color: #f7f8ff !important;
+    border: 1px solid rgba(255, 255, 255, 0.22) !important;
+}
+
 /* ---------- Advertisement side rails — desktop screens only ---------- */
 .ad-side-rail {
     display: none;
@@ -149,7 +260,7 @@ html.page-volunteer-hours .eyebrow {
     text-align: center;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
     .ad-side-rail {
         position: fixed;
         z-index: 10;
@@ -391,7 +502,7 @@ html.page-volunteer-hours .eyebrow {
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
     .smartlink-side-rail {
         position: fixed;
         z-index: 11;
