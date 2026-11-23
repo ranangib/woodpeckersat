@@ -546,3 +546,373 @@ html.page-sat-grammar-videos .resource-links a:hover {
         top: 40px;
     }
 }
+
+/* ---------- Page heroes: no side card, so let the copy fill the banner ---------- */
+
+.site-hero {
+    grid-template-columns: minmax(0, 1fr);
+}
+
+.site-hero h1 {
+    max-width: 720px;
+    font-size: clamp(2.1rem, 4.4vw, 3.5rem);
+}
+
+@media (max-width: 980px) {
+    .site-hero {
+        grid-template-columns: minmax(0, 1fr);
+    }
+}
+
+/* ============================================================
+   Dark surfaces — content pages
+   The site-wide dark theme above paints all body copy light,
+   but the older content components still had light card, table
+   and form surfaces. Everything below moves those surfaces onto
+   the dark palette so the text on them stays visible.
+   ============================================================ */
+
+html:is(.page-about,
+    .page-ask-scorer,
+    .page-best-sat-resources,
+    .page-contact,
+    .page-grammar-plan,
+    .page-grammar,
+    .page-learn-sat-regression,
+    .page-privacy,
+    .page-reading-practice,
+    .page-practice-test,
+    .page-sat-grammar-videos,
+    .page-upload,
+    .page-volunteer-hours) {
+    --ink: #eef1f7;
+    --muted: #a9b4c7;
+    --line: rgba(255, 255, 255, 0.13);
+    --card: rgba(255, 255, 255, 0.055);
+    --surface: rgba(255, 255, 255, 0.055);
+    --surface-strong: rgba(255, 255, 255, 0.1);
+    --surface-line: rgba(255, 255, 255, 0.14);
+    --link-on-dark: #beb3ff;
+}
+
+/* ---------- Grammar guide ---------- */
+
+html.page-grammar .quick-rule,
+html.page-grammar .contents,
+html.page-grammar .lesson,
+html.page-grammar .practice-note {
+    background: var(--surface) !important;
+    border-color: var(--surface-line) !important;
+}
+
+html.page-grammar .quick-rule {
+    border-left-color: var(--coral) !important;
+}
+
+html.page-grammar .example {
+    background: rgba(255, 255, 255, 0.07) !important;
+    border-left-color: rgba(255, 255, 255, 0.24) !important;
+}
+
+html.page-grammar .quick-rule strong,
+html.page-grammar .rule,
+html.page-grammar .contents h2,
+html.page-grammar .lesson h3,
+html.page-grammar .practice-note h2 {
+    color: #f3f6fc !important;
+}
+
+html.page-grammar .wrong {
+    color: #ffb3a6 !important;
+}
+
+html.page-grammar .right {
+    color: #93f0c0 !important;
+}
+
+html.page-grammar .contents a,
+html.page-grammar .lesson a,
+html.page-grammar .quick-rule a,
+html.page-grammar .practice-note a,
+html.page-grammar-plan .info-card a,
+html.page-learn-sat-regression .video-card a,
+html.page-sat-grammar-videos .video-card a,
+html.page-volunteer-hours main a {
+    color: var(--link-on-dark) !important;
+}
+
+/* Resource links read as buttons on the dark cards */
+html.page-best-sat-resources .resource-card a {
+    display: inline-block;
+    padding: 8px 14px;
+    text-decoration: none;
+}
+
+/* Keep real calls to action as lime buttons, not body links */
+html.page-grammar .practice-links a,
+html.page-grammar .action,
+html.page-grammar-plan .part-link,
+html.page-sat-grammar-videos .resource-links a,
+html.page-sat-grammar-videos .action,
+html.page-volunteer-hours .site-hero-cta,
+html.page-volunteer-hours .form-notice {
+    color: #151b2d !important;
+}
+
+/* ---------- Grammar study plan ---------- */
+
+html.page-grammar-plan .info-card {
+    background: var(--surface) !important;
+    border-color: var(--surface-line) !important;
+    box-shadow: none !important;
+}
+
+html.page-grammar-plan .info-card p:last-child {
+    background: rgba(196, 255, 114, 0.12) !important;
+    color: #e9fbd9 !important;
+}
+
+html.page-grammar-plan .schedule-title {
+    color: #f3f6fc !important;
+}
+
+html.page-grammar-plan .schedule-table {
+    background: var(--surface) !important;
+    border-color: var(--surface-line) !important;
+    box-shadow: none !important;
+}
+
+html.page-grammar-plan .schedule-table th {
+    background: rgba(255, 255, 255, 0.09) !important;
+    border-color: rgba(255, 255, 255, 0.1) !important;
+    color: #eef1f7 !important;
+}
+
+html.page-grammar-plan .schedule-table td {
+    border-color: rgba(255, 255, 255, 0.09) !important;
+    color: #e7ecf5 !important;
+}
+
+html.page-grammar-plan .day-column {
+    background: rgba(255, 255, 255, 0.045) !important;
+    border-color: rgba(255, 255, 255, 0.09) !important;
+    color: #f2f6fc !important;
+}
+
+html.page-grammar-plan .rest-day,
+html.page-grammar-plan .link-separator {
+    color: #a3aec2 !important;
+}
+
+/* ---------- Volunteer hours ---------- */
+
+html.page-volunteer-hours .hour-callout {
+    background: var(--surface) !important;
+    border-color: var(--surface-line) !important;
+    border-left-color: var(--coral) !important;
+}
+
+/* ---------- Upload and Ask a scorer forms ---------- */
+
+html.page-upload .question-form input,
+html.page-upload .question-form select,
+html.page-upload .question-form textarea {
+    border-color: rgba(255, 255, 255, 0.2) !important;
+    color: #eef1f7 !important;
+    background: rgba(255, 255, 255, 0.06) !important;
+}
+
+html.page-upload .question-form input::placeholder,
+html.page-upload .question-form textarea::placeholder {
+    color: #8e9cb2 !important;
+}
+
+html.page-upload .question-form option {
+    color: #eef1f7;
+    background: #131b2e;
+}
+
+html.page-upload .form-field label,
+html.page-upload .field-label {
+    color: #e6ebf4 !important;
+}
+
+html.page-ask-scorer .question-form input,
+html.page-ask-scorer .question-form select,
+html.page-ask-scorer .question-form textarea {
+    border-color: rgba(255, 255, 255, 0.2) !important;
+    color: #eef1f7 !important;
+    background: rgba(255, 255, 255, 0.06) !important;
+}
+
+html.page-ask-scorer .question-form input::placeholder,
+html.page-ask-scorer .question-form textarea::placeholder {
+    color: #8e9cb2 !important;
+}
+
+html.page-ask-scorer .form-field label,
+html.page-ask-scorer .field-label {
+    color: #e6ebf4 !important;
+}
+
+/* ---------- Timed practice tests ---------- */
+
+html.page-practice-test {
+    --card-bg: rgba(255, 255, 255, 0.055);
+    --border-color: rgba(255, 255, 255, 0.14);
+    --text-main: #eef1f7;
+    --text-muted: #a3aec2;
+    --success-bg: rgba(22, 132, 95, 0.18);
+    --error-bg: rgba(207, 88, 75, 0.16);
+}
+
+html.page-practice-test .dashboard-container {
+    box-shadow: none !important;
+}
+
+html.page-practice-test .practice-overview {
+    border-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+html.page-practice-test .question-meta {
+    color: #ffb59b !important;
+}
+
+html.page-practice-test .question-text {
+    color: #f1f4fa !important;
+}
+
+html.page-practice-test .progress-badge,
+html.page-practice-test .timer-badge {
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    color: #f6f9fd !important;
+    background: rgba(255, 255, 255, 0.12) !important;
+}
+
+html.page-practice-test .option-card {
+    border-color: rgba(255, 255, 255, 0.16) !important;
+    color: #e9eef7 !important;
+    background: rgba(255, 255, 255, 0.05) !important;
+}
+
+html.page-practice-test .option-card:hover:not(.disabled) {
+    border-color: rgba(255, 255, 255, 0.3) !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+}
+
+html.page-practice-test .option-letter {
+    color: #d8f9b0 !important;
+    background: rgba(255, 255, 255, 0.12) !important;
+}
+
+html.page-practice-test .option-card.correct-pick,
+html.page-practice-test .option-card.reveal-correct {
+    border-color: #2fbb8c !important;
+    color: #c8f7e4 !important;
+    background: rgba(22, 132, 95, 0.2) !important;
+}
+
+html.page-practice-test .option-card.incorrect-pick {
+    border-color: #f07267 !important;
+    color: #ffd6d1 !important;
+    background: rgba(207, 88, 75, 0.2) !important;
+}
+
+html.page-practice-test .option-card.correct-pick .option-letter,
+html.page-practice-test .option-card.reveal-correct .option-letter {
+    color: #0b2b21 !important;
+    background: #2fbb8c !important;
+}
+
+html.page-practice-test .option-card.incorrect-pick .option-letter {
+    color: #2b0d0b !important;
+    background: #f07267 !important;
+}
+
+html.page-practice-test .explanation-panel.correct-style {
+    color: #c8f7e4 !important;
+}
+
+html.page-practice-test .explanation-panel.incorrect-style {
+    color: #ffd6d1 !important;
+}
+
+html.page-practice-test .question-personal-tools {
+    border-color: rgba(255, 255, 255, 0.12) !important;
+    background: rgba(255, 255, 255, 0.05) !important;
+}
+
+html.page-practice-test .question-personal-tools button {
+    border-color: rgba(255, 255, 255, 0.24) !important;
+    color: #eafbd9 !important;
+    background: rgba(255, 255, 255, 0.08) !important;
+}
+
+html.page-practice-test .question-personal-tools button.is-bookmarked {
+    border-color: transparent !important;
+    color: #151b2d !important;
+    background: var(--home-lime) !important;
+}
+
+html.page-practice-test .local-storage-inline,
+html.page-practice-test .local-storage-notice {
+    color: #a3aec2 !important;
+}
+
+html.page-practice-test .dashboard-container + a {
+    padding: 11px 20px;
+    border-radius: 10px;
+    color: #151b2d !important;
+    background: var(--home-lime) !important;
+    font-weight: 750 !important;
+    text-decoration: none;
+}
+
+html.page-practice-test .dashboard-container + a:hover {
+    background: #d3ff9a !important;
+}
+
+/* ---------- Reading practice navigation ---------- */
+
+html.page-reading-practice .reading-header nav a {
+    color: #aab6c7 !important;
+}
+
+html.page-reading-practice .reading-header nav a:hover,
+html.page-reading-practice .reading-header nav a.current {
+    color: #ddf8c5 !important;
+}
+
+/* ---------- Homepage: light panels keep dark text ---------- */
+
+html.page-home .action.secondary {
+    border-color: rgba(32, 42, 67, 0.4) !important;
+    color: #1b2a3f !important;
+    background: transparent !important;
+}
+
+html.page-home .home-sponsorship .sponsorship-label,
+html.page-home .sponsorship-label {
+    color: #657087 !important;
+}
+
+html.page-home footer {
+    color: #52645f !important;
+}
+
+html.page-home .study-plan-callout,
+html.page-home .personal-tool-card,
+html.page-home .referral-card,
+html.page-home .referral-result,
+html.page-home .referral-how,
+html.page-home .volunteer-feature,
+html.page-home .sat-motivation,
+html.page-home .part-card,
+html.page-home .question-library {
+    color: #1a2334 !important;
+}
+
+html.page-home .personal-tool-card small,
+html.page-home .personal-tool-card .local-storage-notice {
+    color: #52645f !important;
+}
