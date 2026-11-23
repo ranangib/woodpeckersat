@@ -76,7 +76,7 @@
             && question.question.trim()
             && Array.isArray(question.options)
             && question.options.length >= 3
-            && question.options.every(option => typeof option === "string" && option.trim())
+            && question.options.every(option => typeof option === "string" && option.length > 0)
             && Number.isInteger(question.answerIndex)
             && question.answerIndex >= 0
             && question.answerIndex < question.options.length
