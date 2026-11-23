@@ -11,7 +11,7 @@
     text-align: center;
 }
 
-@media screen and (min-width: 1440px) and (min-height: 700px) {
+@media screen and (min-width: 1024px) and (min-height: 700px) {
     .ad-side-rail {
         position: fixed;
         z-index: 10;
@@ -83,7 +83,132 @@
     font-size: 1rem;
 }
 
-@media screen and (min-width: 1440px) and (min-height: 700px) {
+/* Shared page hero — homepage-style banner on every page */
+.site-hero {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    padding: 52px 0 34px;
+    border-bottom: 1px solid #d8e1da;
+}
+
+.site-hero-copy {
+    flex: 1 1 320px;
+}
+
+.site-hero-eyebrow {
+    margin: 0 0 10px;
+    color: #a44a31;
+    font: 800 0.78rem/1.2 "Trebuchet MS", "Segoe UI", sans-serif;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.site-hero h1 {
+    margin: 0 0 14px;
+    color: #17483e;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(2rem, 6vw, 3.4rem);
+    font-weight: 500;
+    line-height: 1.05;
+}
+
+.site-hero h1 span {
+    color: #e47755;
+}
+
+.site-hero-lede {
+    margin: 0 0 20px;
+    color: #52645f;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    max-width: 660px;
+}
+
+.site-hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 18px;
+}
+
+.site-hero-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 56px;
+    padding: 0 22px;
+    border: 1px solid #17483e;
+    border-radius: 5px;
+    color: #fff;
+    background: #17483e;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: inherit;
+}
+
+.site-hero-cta:hover {
+    background: #236456;
+}
+
+.site-hero-cta.secondary {
+    color: #17483e;
+    background: rgba(255, 255, 255, 0.78);
+    border-color: transparent;
+}
+
+.site-hero-cta.secondary:hover {
+    color: #fff;
+    background: #17483e;
+}
+
+.site-hero-trust {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    list-style: none;
+    margin: 6px 0 0;
+    padding: 0;
+    color: #52645f;
+    font-size: 0.92rem;
+}
+
+.site-hero-trust li {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.site-hero-trust li::before {
+    content: "✓";
+    color: #17483e;
+    font-weight: 800;
+}
+
+@media (max-width: 700px) {
+    .site-hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 0 26px;
+    }
+
+    .site-hero-lede {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .site-hero-actions {
+        justify-content: center;
+    }
+
+    .site-hero-trust {
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1024px) and (min-height: 700px) {
     .smartlink-side-rail {
         position: fixed;
         z-index: 11;
@@ -93,11 +218,11 @@
 
     .smartlink-side-rail-left {
         left: 12px;
-        top: calc(50% + 320px);
+        top: 40px;
     }
 
     .smartlink-side-rail-right {
         right: 12px;
-        top: calc(50% + 320px);
+        top: 40px;
     }
 }
