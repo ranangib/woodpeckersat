@@ -75,11 +75,11 @@
             && typeof question.question === "string"
             && question.question.trim()
             && Array.isArray(question.options)
-            && question.options.length === 4
+            && question.options.length >= 3
             && question.options.every(option => typeof option === "string" && option.trim())
             && Number.isInteger(question.answerIndex)
             && question.answerIndex >= 0
-            && question.answerIndex <= 3
+            && question.answerIndex < question.options.length
             && typeof question.explanationText === "string"
             && question.explanationText.trim();
     }
@@ -325,7 +325,13 @@
             answersById = new Map();
             restoreProgress();
             const validIds = new Set(approvedQuestions.map(question => question.id));
-            answersById = new Map([...answersById].filter(([id]) => validIds.has(id)));
+            const optionCountById = new Map(approvedQuestions.map(question => [question.id, question.options.length]));
+            answersById = new Map([...answersById].filter(
+                ([id, selectedIndex]) => validIds.has(id)
+                    && Number.isInteger(selectedIndex)
+                    && selectedIndex >= 0
+                    && selectedIndex < (optionCountById.get(id) ?? 0)
+            ));
             filterQuestions();
         } catch (error) {
             console.error("Could not load approved reading questions:", error);

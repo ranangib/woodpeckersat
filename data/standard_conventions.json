@@ -1036,7 +1036,8 @@
         "options": [
             " so",
             ", so",
-            "; so"
+            "; so",
+            ". so"
         ],
         "answerIndex": 1,
         "explanationText": "Two independent clauses joined by ?so? require a comma before the coordinating conjunction.",
@@ -1053,7 +1054,8 @@
         "options": [
             " but",
             ", but",
-            "; but"
+            "; but",
+            ". but"
         ],
         "answerIndex": 1,
         "explanationText": "Two independent clauses joined by ?but? require a comma before the coordinating conjunction.",
