@@ -310,6 +310,12 @@ html.page-sat-grammar-videos .resource-links a:hover {
         top: calc(50% + 298px);
     }
 
+    /* The homepage carries sponsorship rails only, so they sit centred in the gutter */
+    html.page-home .smartlink-side-rail {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
     .ad-side-rail-left,
     .smartlink-side-rail-left {
         left: calc(50% - var(--page-half) - 176px);
@@ -368,12 +374,6 @@ html.page-reading-practice .smartlink-side-rail {
     html.page-reading-practice .smartlink-side-rail {
         display: none;
     }
-}
-
-/* Homepage sits on the light background, so its rail labels use dark ink */
-html.page-home .ad-side-rail-label,
-html.page-home .smartlink-side-rail .sponsorship-label {
-    color: #657087;
 }
 
 @media print {
