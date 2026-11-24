@@ -20,9 +20,11 @@
     <meta name="twitter:description" content="Watch a helpful video to learn SAT grammar.">
     <title>Helpful SAT Grammar Video | WoodpeckerSAT</title>
     <link rel="icon" type="image/png" href="/assets/favicon.png" sizes="96x96">
-    <link rel="stylesheet" href="/styles.css?v=20261105-static-bg-v2">
-
-    <link rel="stylesheet" href="./ads.css?v=20261124-home-no-ads">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./ads.css?v=20261124-site-theme">
+    <link rel="stylesheet" href="/styles.css?v=20261124-site-theme">
 </head>
 
 <body>
@@ -62,16 +64,22 @@
         <a href="https://araplhn.org/4/fed91e992ebec395efa5ecbc4bd4d062" target="_blank" rel="noopener noreferrer" class="sponsorship-button">Sponsorship</a>
     </div>
     <div class="page">
-        <nav class="site-nav" aria-label="Main navigation">
-            <a href="/">woodpeckersat.online</a>
-            <div class="nav-links">
-                <a href="/sat-grammar-practice-test-1.html">Practice</a>
-                <a href="grammar.html">Grammar guide</a>
-                <a href="grammar-plan.html">Study plan</a>
-                <a href="learn-sat-regression.html">SAT regression video</a>
-                <a href="best-sat-resources.html">Best SAT resources</a>
-            </div>
-        </nav>
+        <header class="topbar" aria-label="Site header">
+            <a class="wordmark" href="/" aria-label="WoodpeckerSAT home">Woodpecker<span>SAT</span></a>
+            <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav-list" aria-label="Open menu">
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+            </button>
+            <nav class="home-nav" id="primary-nav-list" aria-label="Primary navigation">
+                <a href="reading-practice.html">Practice Questions</a>
+                <a href="ask-a-scorer.html">Free Mentorship</a>
+                <a href="best-sat-resources.html">Study Resources</a>
+                <a href="about.html">About</a>
+                <a href="rewards.html">Rewards</a>
+            </nav>
+            <a class="nav-cta" href="reading-practice.html">Start Practicing →</a>
+        </header>
         <main>
             <header class="hero">
                 <p class="eyebrow">Digital SAT Reading and Writing</p>
@@ -98,14 +106,36 @@
             </section>
         </main>
         <footer>
-            <span>woodpeckersat.online</span>
-            <nav class="footer-links" aria-label="About and policies">
+            <span class="footer-brand">Woodpecker<span>SAT</span></span>
+            <nav class="footer-links" aria-label="Footer navigation">
+                <a href="reading-practice.html">Practice Questions</a>
+                <a href="ask-a-scorer.html">Free Mentorship</a>
+                <a href="best-sat-resources.html">Study Resources</a>
                 <a href="about.html">About</a>
                 <a href="contact.html">Contact</a>
-                <a href="privacy.html">Privacy</a>
+                <a href="privacy.html">Privacy Policy</a>
             </nav>
         </footer>
     </div>
+    <script>
+    (function () {
+        var toggle = document.querySelector('.nav-toggle');
+        var nav = document.getElementById('primary-nav-list');
+        if (toggle && nav) {
+            toggle.addEventListener('click', function () {
+                var open = toggle.getAttribute('aria-expanded') === 'true';
+                toggle.setAttribute('aria-expanded', String(!open));
+                nav.classList.toggle('open', !open);
+            });
+            nav.querySelectorAll('a').forEach(function (link) {
+                link.addEventListener('click', function () {
+                    toggle.setAttribute('aria-expanded', 'false');
+                    nav.classList.remove('open');
+                });
+            });
+        }
+    })();
+    </script>
 <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "bd4a1d1de0cb4bd38383245229f64444"}'></script><!-- End Cloudflare Web Analytics -->
 
 

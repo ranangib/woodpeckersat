@@ -5181,3 +5181,1728 @@ html.page-home .woodpecker-mascot,
 html.page-home .hero-visual {
     display: none !important;
 }
+
+/* ============================================================
+   Site-wide homepage theme (forest palette)
+   Applied to every page via html.page-* scoping.
+   Loads after ads.css; !important overrides win.
+   ============================================================ */
+
+html.page-home,
+html.page-about,
+html.page-ask-scorer,
+html.page-best-sat-resources,
+html.page-contact,
+html.page-grammar,
+html.page-grammar-plan,
+html.page-learn-sat-regression,
+html.page-privacy,
+html.page-reading-practice,
+html.page-practice-test,
+html.page-sat-grammar-videos,
+html.page-upload,
+html.page-volunteer-hours,
+html.page-question-studio {
+    --ink: #172b27;
+    --muted: #52645f;
+    --paper: #f4f7f2;
+    --forest: #17483e;
+    --coral: #e47755;
+    --line: #d8e1da;
+}
+
+html.page-home,
+html.page-about,
+html.page-ask-scorer,
+html.page-best-sat-resources,
+html.page-contact,
+html.page-grammar,
+html.page-grammar-plan,
+html.page-learn-sat-regression,
+html.page-privacy,
+html.page-reading-practice,
+html.page-practice-test,
+html.page-sat-grammar-videos,
+html.page-upload,
+html.page-volunteer-hours,
+html.page-question-studio,
+html.page-home *,
+html.page-about *,
+html.page-ask-scorer *,
+html.page-best-sat-resources *,
+html.page-contact *,
+html.page-grammar *,
+html.page-grammar-plan *,
+html.page-learn-sat-regression *,
+html.page-privacy *,
+html.page-reading-practice *,
+html.page-practice-test *,
+html.page-sat-grammar-videos *,
+html.page-upload *,
+html.page-volunteer-hours *,
+html.page-question-studio * {
+    box-sizing: border-box;
+}
+
+html.page-home body,
+html.page-about body,
+html.page-ask-scorer body,
+html.page-best-sat-resources body,
+html.page-contact body,
+html.page-grammar body,
+html.page-grammar-plan body,
+html.page-learn-sat-regression body,
+html.page-privacy body,
+html.page-reading-practice body,
+html.page-practice-test body,
+html.page-sat-grammar-videos body,
+html.page-upload body,
+html.page-volunteer-hours body,
+html.page-question-studio body {
+    color: var(--ink) !important;
+    background-color: var(--paper) !important;
+    background-image: linear-gradient(rgba(23, 72, 62, 0.035) 1px, transparent 1px), linear-gradient(90deg, rgba(23, 72, 62, 0.035) 1px, transparent 1px) !important;
+    background-size: 32px 32px !important;
+    font-family: Inter, "Segoe UI", Arial, sans-serif !important;
+    line-height: 1.6 !important;
+}
+
+html.page-home h1,
+html.page-about h1,
+html.page-ask-scorer h1,
+html.page-best-sat-resources h1,
+html.page-contact h1,
+html.page-grammar h1,
+html.page-grammar-plan h1,
+html.page-learn-sat-regression h1,
+html.page-privacy h1,
+html.page-reading-practice h1,
+html.page-practice-test h1,
+html.page-sat-grammar-videos h1,
+html.page-upload h1,
+html.page-volunteer-hours h1,
+html.page-question-studio h1,
+html.page-home h2,
+html.page-about h2,
+html.page-ask-scorer h2,
+html.page-best-sat-resources h2,
+html.page-contact h2,
+html.page-grammar h2,
+html.page-grammar-plan h2,
+html.page-learn-sat-regression h2,
+html.page-privacy h2,
+html.page-reading-practice h2,
+html.page-practice-test h2,
+html.page-sat-grammar-videos h2,
+html.page-upload h2,
+html.page-volunteer-hours h2,
+html.page-question-studio h2,
+html.page-home h3,
+html.page-about h3,
+html.page-ask-scorer h3,
+html.page-best-sat-resources h3,
+html.page-contact h3,
+html.page-grammar h3,
+html.page-grammar-plan h3,
+html.page-learn-sat-regression h3,
+html.page-privacy h3,
+html.page-reading-practice h3,
+html.page-practice-test h3,
+html.page-sat-grammar-videos h3,
+html.page-upload h3,
+html.page-volunteer-hours h3,
+html.page-question-studio h3 {
+    font-family: Inter, "Segoe UI", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.02em !important;
+    color: var(--ink) !important;
+}
+
+html.page-home p,
+html.page-about p,
+html.page-ask-scorer p,
+html.page-best-sat-resources p,
+html.page-contact p,
+html.page-grammar p,
+html.page-grammar-plan p,
+html.page-learn-sat-regression p,
+html.page-privacy p,
+html.page-reading-practice p,
+html.page-practice-test p,
+html.page-sat-grammar-videos p,
+html.page-upload p,
+html.page-volunteer-hours p,
+html.page-question-studio p,
+html.page-home li,
+html.page-about li,
+html.page-ask-scorer li,
+html.page-best-sat-resources li,
+html.page-contact li,
+html.page-grammar li,
+html.page-grammar-plan li,
+html.page-learn-sat-regression li,
+html.page-privacy li,
+html.page-reading-practice li,
+html.page-practice-test li,
+html.page-sat-grammar-videos li,
+html.page-upload li,
+html.page-volunteer-hours li,
+html.page-question-studio li {
+    color: var(--ink) !important;
+}
+
+html.page-home a,
+html.page-about a,
+html.page-ask-scorer a,
+html.page-best-sat-resources a,
+html.page-contact a,
+html.page-grammar a,
+html.page-grammar-plan a,
+html.page-learn-sat-regression a,
+html.page-privacy a,
+html.page-reading-practice a,
+html.page-practice-test a,
+html.page-sat-grammar-videos a,
+html.page-upload a,
+html.page-volunteer-hours a,
+html.page-question-studio a {
+    color: var(--forest) !important;
+    text-decoration: none;
+}
+
+html.page-home a:hover,
+html.page-about a:hover,
+html.page-ask-scorer a:hover,
+html.page-best-sat-resources a:hover,
+html.page-contact a:hover,
+html.page-grammar a:hover,
+html.page-grammar-plan a:hover,
+html.page-learn-sat-regression a:hover,
+html.page-privacy a:hover,
+html.page-reading-practice a:hover,
+html.page-practice-test a:hover,
+html.page-sat-grammar-videos a:hover,
+html.page-upload a:hover,
+html.page-volunteer-hours a:hover,
+html.page-question-studio a:hover {
+    text-decoration: underline;
+}
+
+html.page-home .muted,
+html.page-about .muted,
+html.page-ask-scorer .muted,
+html.page-best-sat-resources .muted,
+html.page-contact .muted,
+html.page-grammar .muted,
+html.page-grammar-plan .muted,
+html.page-learn-sat-regression .muted,
+html.page-privacy .muted,
+html.page-reading-practice .muted,
+html.page-practice-test .muted,
+html.page-sat-grammar-videos .muted,
+html.page-upload .muted,
+html.page-volunteer-hours .muted,
+html.page-question-studio .muted,
+html.page-home [class*="muted"],
+html.page-about [class*="muted"],
+html.page-ask-scorer [class*="muted"],
+html.page-best-sat-resources [class*="muted"],
+html.page-contact [class*="muted"],
+html.page-grammar [class*="muted"],
+html.page-grammar-plan [class*="muted"],
+html.page-learn-sat-regression [class*="muted"],
+html.page-privacy [class*="muted"],
+html.page-reading-practice [class*="muted"],
+html.page-practice-test [class*="muted"],
+html.page-sat-grammar-videos [class*="muted"],
+html.page-upload [class*="muted"],
+html.page-volunteer-hours [class*="muted"],
+html.page-question-studio [class*="muted"] {
+    color: var(--muted) !important;
+}
+
+html.page-home main,
+html.page-about main,
+html.page-ask-scorer main,
+html.page-best-sat-resources main,
+html.page-contact main,
+html.page-grammar main,
+html.page-grammar-plan main,
+html.page-learn-sat-regression main,
+html.page-privacy main,
+html.page-reading-practice main,
+html.page-practice-test main,
+html.page-sat-grammar-videos main,
+html.page-upload main,
+html.page-volunteer-hours main,
+html.page-question-studio main {
+    color: var(--ink) !important;
+}
+
+html.page-home header,
+html.page-about header,
+html.page-ask-scorer header,
+html.page-best-sat-resources header,
+html.page-contact header,
+html.page-grammar header,
+html.page-grammar-plan header,
+html.page-learn-sat-regression header,
+html.page-privacy header,
+html.page-reading-practice header,
+html.page-practice-test header,
+html.page-sat-grammar-videos header,
+html.page-upload header,
+html.page-volunteer-hours header,
+html.page-question-studio header,
+html.page-home .topbar,
+html.page-about .topbar,
+html.page-ask-scorer .topbar,
+html.page-best-sat-resources .topbar,
+html.page-contact .topbar,
+html.page-grammar .topbar,
+html.page-grammar-plan .topbar,
+html.page-learn-sat-regression .topbar,
+html.page-privacy .topbar,
+html.page-reading-practice .topbar,
+html.page-practice-test .topbar,
+html.page-sat-grammar-videos .topbar,
+html.page-upload .topbar,
+html.page-volunteer-hours .topbar,
+html.page-question-studio .topbar {
+    color: var(--ink) !important;
+    background: transparent !important;
+    border-bottom-color: var(--line) !important;
+}
+
+html.page-home footer,
+html.page-about footer,
+html.page-ask-scorer footer,
+html.page-best-sat-resources footer,
+html.page-contact footer,
+html.page-grammar footer,
+html.page-grammar-plan footer,
+html.page-learn-sat-regression footer,
+html.page-privacy footer,
+html.page-reading-practice footer,
+html.page-practice-test footer,
+html.page-sat-grammar-videos footer,
+html.page-upload footer,
+html.page-volunteer-hours footer,
+html.page-question-studio footer {
+    color: var(--muted) !important;
+    background-color: var(--paper) !important;
+    border-top-color: var(--line) !important;
+}
+
+/* Navigation — topbar */
+html.page-home .topbar,
+html.page-about .topbar,
+html.page-ask-scorer .topbar,
+html.page-best-sat-resources .topbar,
+html.page-contact .topbar,
+html.page-grammar .topbar,
+html.page-grammar-plan .topbar,
+html.page-learn-sat-regression .topbar,
+html.page-privacy .topbar,
+html.page-reading-practice .topbar,
+html.page-practice-test .topbar,
+html.page-sat-grammar-videos .topbar,
+html.page-upload .topbar,
+html.page-volunteer-hours .topbar,
+html.page-question-studio .topbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--line);
+}
+
+html.page-home .wordmark,
+html.page-about .wordmark,
+html.page-ask-scorer .wordmark,
+html.page-best-sat-resources .wordmark,
+html.page-contact .wordmark,
+html.page-grammar .wordmark,
+html.page-grammar-plan .wordmark,
+html.page-learn-sat-regression .wordmark,
+html.page-privacy .wordmark,
+html.page-reading-practice .wordmark,
+html.page-practice-test .wordmark,
+html.page-sat-grammar-videos .wordmark,
+html.page-upload .wordmark,
+html.page-volunteer-hours .wordmark,
+html.page-question-studio .wordmark {
+    color: var(--forest) !important;
+    font-family: Inter, "Segoe UI", Arial, sans-serif !important;
+    font-size: 1.25rem !important;
+    font-weight: 800 !important;
+    letter-spacing: -0.03em !important;
+    text-decoration: none;
+}
+
+html.page-home .wordmark span,
+html.page-about .wordmark span,
+html.page-ask-scorer .wordmark span,
+html.page-best-sat-resources .wordmark span,
+html.page-contact .wordmark span,
+html.page-grammar .wordmark span,
+html.page-grammar-plan .wordmark span,
+html.page-learn-sat-regression .wordmark span,
+html.page-privacy .wordmark span,
+html.page-reading-practice .wordmark span,
+html.page-practice-test .wordmark span,
+html.page-sat-grammar-videos .wordmark span,
+html.page-upload .wordmark span,
+html.page-volunteer-hours .wordmark span,
+html.page-question-studio .wordmark span {
+    font-weight: 600 !important;
+}
+
+html.page-home .home-nav,
+html.page-about .home-nav,
+html.page-ask-scorer .home-nav,
+html.page-best-sat-resources .home-nav,
+html.page-contact .home-nav,
+html.page-grammar .home-nav,
+html.page-grammar-plan .home-nav,
+html.page-learn-sat-regression .home-nav,
+html.page-privacy .home-nav,
+html.page-reading-practice .home-nav,
+html.page-practice-test .home-nav,
+html.page-sat-grammar-videos .home-nav,
+html.page-upload .home-nav,
+html.page-volunteer-hours .home-nav,
+html.page-question-studio .home-nav {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+html.page-home .home-nav a,
+html.page-about .home-nav a,
+html.page-ask-scorer .home-nav a,
+html.page-best-sat-resources .home-nav a,
+html.page-contact .home-nav a,
+html.page-grammar .home-nav a,
+html.page-grammar-plan .home-nav a,
+html.page-learn-sat-regression .home-nav a,
+html.page-privacy .home-nav a,
+html.page-reading-practice .home-nav a,
+html.page-practice-test .home-nav a,
+html.page-sat-grammar-videos .home-nav a,
+html.page-upload .home-nav a,
+html.page-volunteer-hours .home-nav a,
+html.page-question-studio .home-nav a {
+    color: var(--forest) !important;
+    font-size: 0.95rem !important;
+    font-weight: 600 !important;
+    text-decoration: none;
+    padding: 8px 0;
+}
+
+html.page-home .home-nav a:hover,
+html.page-about .home-nav a:hover,
+html.page-ask-scorer .home-nav a:hover,
+html.page-best-sat-resources .home-nav a:hover,
+html.page-contact .home-nav a:hover,
+html.page-grammar .home-nav a:hover,
+html.page-grammar-plan .home-nav a:hover,
+html.page-learn-sat-regression .home-nav a:hover,
+html.page-privacy .home-nav a:hover,
+html.page-reading-practice .home-nav a:hover,
+html.page-practice-test .home-nav a:hover,
+html.page-sat-grammar-videos .home-nav a:hover,
+html.page-upload .home-nav a:hover,
+html.page-volunteer-hours .home-nav a:hover,
+html.page-question-studio .home-nav a:hover {
+    color: var(--coral) !important;
+}
+
+html.page-home .nav-cta,
+html.page-about .nav-cta,
+html.page-ask-scorer .nav-cta,
+html.page-best-sat-resources .nav-cta,
+html.page-contact .nav-cta,
+html.page-grammar .nav-cta,
+html.page-grammar-plan .nav-cta,
+html.page-learn-sat-regression .nav-cta,
+html.page-privacy .nav-cta,
+html.page-reading-practice .nav-cta,
+html.page-practice-test .nav-cta,
+html.page-sat-grammar-videos .nav-cta,
+html.page-upload .nav-cta,
+html.page-volunteer-hours .nav-cta,
+html.page-question-studio .nav-cta {
+    color: var(--ink) !important;
+    background: #f0f5ef !important;
+    border: 1px solid var(--line) !important;
+    border-radius: 8px !important;
+    font-size: 0.95rem !important;
+    font-weight: 700 !important;
+    text-decoration: none;
+    padding: 10px 20px !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+html.page-home .nav-cta:hover,
+html.page-about .nav-cta:hover,
+html.page-ask-scorer .nav-cta:hover,
+html.page-best-sat-resources .nav-cta:hover,
+html.page-contact .nav-cta:hover,
+html.page-grammar .nav-cta:hover,
+html.page-grammar-plan .nav-cta:hover,
+html.page-learn-sat-regression .nav-cta:hover,
+html.page-privacy .nav-cta:hover,
+html.page-reading-practice .nav-cta:hover,
+html.page-practice-test .nav-cta:hover,
+html.page-sat-grammar-videos .nav-cta:hover,
+html.page-upload .nav-cta:hover,
+html.page-volunteer-hours .nav-cta:hover,
+html.page-question-studio .nav-cta:hover {
+    background: var(--forest) !important;
+    color: #fff !important;
+}
+
+/* Hamburger menu */
+html.page-home .nav-toggle,
+html.page-about .nav-toggle,
+html.page-ask-scorer .nav-toggle,
+html.page-best-sat-resources .nav-toggle,
+html.page-contact .nav-toggle,
+html.page-grammar .nav-toggle,
+html.page-grammar-plan .nav-toggle,
+html.page-learn-sat-regression .nav-toggle,
+html.page-privacy .nav-toggle,
+html.page-reading-practice .nav-toggle,
+html.page-practice-test .nav-toggle,
+html.page-sat-grammar-videos .nav-toggle,
+html.page-upload .nav-toggle,
+html.page-volunteer-hours .nav-toggle,
+html.page-question-studio .nav-toggle {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none !important;
+    border: none !important;
+    cursor: pointer;
+    padding: 8px;
+    z-index: 1000;
+}
+
+html.page-home .nav-toggle-bar,
+html.page-about .nav-toggle-bar,
+html.page-ask-scorer .nav-toggle-bar,
+html.page-best-sat-resources .nav-toggle-bar,
+html.page-contact .nav-toggle-bar,
+html.page-grammar .nav-toggle-bar,
+html.page-grammar-plan .nav-toggle-bar,
+html.page-learn-sat-regression .nav-toggle-bar,
+html.page-privacy .nav-toggle-bar,
+html.page-reading-practice .nav-toggle-bar,
+html.page-practice-test .nav-toggle-bar,
+html.page-sat-grammar-videos .nav-toggle-bar,
+html.page-upload .nav-toggle-bar,
+html.page-volunteer-hours .nav-toggle-bar,
+html.page-question-studio .nav-toggle-bar {
+    width: 24px;
+    height: 2px;
+    border-radius: 2px;
+    background: var(--ink);
+}
+
+html.page-home .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(1),
+html.page-about .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(1),
+html.page-ask-scorer .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(1),
+html.page-best-sat-resources .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(1),
+html.page-contact .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(1),
+html.page-grammar .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(1),
+html.page-grammar-plan .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(1),
+html.page-learn-sat-regression .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(1),
+html.page-privacy .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(1),
+html.page-reading-practice .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(1),
+html.page-practice-test .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(1),
+html.page-sat-grammar-videos .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(1),
+html.page-upload .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(1),
+html.page-volunteer-hours .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(1),
+html.page-question-studio .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+html.page-home .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(2),
+html.page-about .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(2),
+html.page-ask-scorer .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(2),
+html.page-best-sat-resources .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(2),
+html.page-contact .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(2),
+html.page-grammar .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(2),
+html.page-grammar-plan .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(2),
+html.page-learn-sat-regression .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(2),
+html.page-privacy .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(2),
+html.page-reading-practice .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(2),
+html.page-practice-test .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(2),
+html.page-sat-grammar-videos .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(2),
+html.page-upload .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(2),
+html.page-volunteer-hours .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(2),
+html.page-question-studio .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(2) {
+    opacity: 0;
+}
+
+html.page-home .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(3),
+html.page-about .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(3),
+html.page-ask-scorer .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(3),
+html.page-best-sat-resources .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(3),
+html.page-contact .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(3),
+html.page-grammar .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(3),
+html.page-grammar-plan .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(3),
+html.page-learn-sat-regression .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(3),
+html.page-privacy .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(3),
+html.page-reading-practice .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(3),
+html.page-practice-test .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(3),
+html.page-sat-grammar-videos .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(3),
+html.page-upload .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(3),
+html.page-volunteer-hours .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(3),
+html.page-question-studio .nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Buttons */
+html.page-home .btn-primary,
+html.page-about .btn-primary,
+html.page-ask-scorer .btn-primary,
+html.page-best-sat-resources .btn-primary,
+html.page-contact .btn-primary,
+html.page-grammar .btn-primary,
+html.page-grammar-plan .btn-primary,
+html.page-learn-sat-regression .btn-primary,
+html.page-privacy .btn-primary,
+html.page-reading-practice .btn-primary,
+html.page-practice-test .btn-primary,
+html.page-sat-grammar-videos .btn-primary,
+html.page-upload .btn-primary,
+html.page-volunteer-hours .btn-primary,
+html.page-question-studio .btn-primary,
+html.page-home .btn-secondary,
+html.page-about .btn-secondary,
+html.page-ask-scorer .btn-secondary,
+html.page-best-sat-resources .btn-secondary,
+html.page-contact .btn-secondary,
+html.page-grammar .btn-secondary,
+html.page-grammar-plan .btn-secondary,
+html.page-learn-sat-regression .btn-secondary,
+html.page-privacy .btn-secondary,
+html.page-reading-practice .btn-secondary,
+html.page-practice-test .btn-secondary,
+html.page-sat-grammar-videos .btn-secondary,
+html.page-upload .btn-secondary,
+html.page-volunteer-hours .btn-secondary,
+html.page-question-studio .btn-secondary,
+html.page-home .btn-small,
+html.page-about .btn-small,
+html.page-ask-scorer .btn-small,
+html.page-best-sat-resources .btn-small,
+html.page-contact .btn-small,
+html.page-grammar .btn-small,
+html.page-grammar-plan .btn-small,
+html.page-learn-sat-regression .btn-small,
+html.page-privacy .btn-small,
+html.page-reading-practice .btn-small,
+html.page-practice-test .btn-small,
+html.page-sat-grammar-videos .btn-small,
+html.page-upload .btn-small,
+html.page-volunteer-hours .btn-small,
+html.page-question-studio .btn-small {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.95rem;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+html.page-home .btn-primary,
+html.page-about .btn-primary,
+html.page-ask-scorer .btn-primary,
+html.page-best-sat-resources .btn-primary,
+html.page-contact .btn-primary,
+html.page-grammar .btn-primary,
+html.page-grammar-plan .btn-primary,
+html.page-learn-sat-regression .btn-primary,
+html.page-privacy .btn-primary,
+html.page-reading-practice .btn-primary,
+html.page-practice-test .btn-primary,
+html.page-sat-grammar-videos .btn-primary,
+html.page-upload .btn-primary,
+html.page-volunteer-hours .btn-primary,
+html.page-question-studio .btn-primary,
+html.page-home .btn-secondary,
+html.page-about .btn-secondary,
+html.page-ask-scorer .btn-secondary,
+html.page-best-sat-resources .btn-secondary,
+html.page-contact .btn-secondary,
+html.page-grammar .btn-secondary,
+html.page-grammar-plan .btn-secondary,
+html.page-learn-sat-regression .btn-secondary,
+html.page-privacy .btn-secondary,
+html.page-reading-practice .btn-secondary,
+html.page-practice-test .btn-secondary,
+html.page-sat-grammar-videos .btn-secondary,
+html.page-upload .btn-secondary,
+html.page-volunteer-hours .btn-secondary,
+html.page-question-studio .btn-secondary {
+    min-height: 52px;
+    padding: 0 24px;
+}
+
+html.page-home .btn-small,
+html.page-about .btn-small,
+html.page-ask-scorer .btn-small,
+html.page-best-sat-resources .btn-small,
+html.page-contact .btn-small,
+html.page-grammar .btn-small,
+html.page-grammar-plan .btn-small,
+html.page-learn-sat-regression .btn-small,
+html.page-privacy .btn-small,
+html.page-reading-practice .btn-small,
+html.page-practice-test .btn-small,
+html.page-sat-grammar-videos .btn-small,
+html.page-upload .btn-small,
+html.page-volunteer-hours .btn-small,
+html.page-question-studio .btn-small {
+    min-height: 40px;
+    padding: 0 16px;
+    font-size: 0.875rem;
+}
+
+html.page-home .btn-primary,
+html.page-about .btn-primary,
+html.page-ask-scorer .btn-primary,
+html.page-best-sat-resources .btn-primary,
+html.page-contact .btn-primary,
+html.page-grammar .btn-primary,
+html.page-grammar-plan .btn-primary,
+html.page-learn-sat-regression .btn-primary,
+html.page-privacy .btn-primary,
+html.page-reading-practice .btn-primary,
+html.page-practice-test .btn-primary,
+html.page-sat-grammar-videos .btn-primary,
+html.page-upload .btn-primary,
+html.page-volunteer-hours .btn-primary,
+html.page-question-studio .btn-primary {
+    color: var(--ink) !important;
+    background: var(--forest) !important;
+    border-color: var(--forest) !important;
+}
+
+html.page-home .btn-primary:hover,
+html.page-about .btn-primary:hover,
+html.page-ask-scorer .btn-primary:hover,
+html.page-best-sat-resources .btn-primary:hover,
+html.page-contact .btn-primary:hover,
+html.page-grammar .btn-primary:hover,
+html.page-grammar-plan .btn-primary:hover,
+html.page-learn-sat-regression .btn-primary:hover,
+html.page-privacy .btn-primary:hover,
+html.page-reading-practice .btn-primary:hover,
+html.page-practice-test .btn-primary:hover,
+html.page-sat-grammar-videos .btn-primary:hover,
+html.page-upload .btn-primary:hover,
+html.page-volunteer-hours .btn-primary:hover,
+html.page-question-studio .btn-primary:hover {
+    background: #236456 !important;
+    transform: translateY(-2px);
+}
+
+html.page-home .btn-secondary,
+html.page-about .btn-secondary,
+html.page-ask-scorer .btn-secondary,
+html.page-best-sat-resources .btn-secondary,
+html.page-contact .btn-secondary,
+html.page-grammar .btn-secondary,
+html.page-grammar-plan .btn-secondary,
+html.page-learn-sat-regression .btn-secondary,
+html.page-privacy .btn-secondary,
+html.page-reading-practice .btn-secondary,
+html.page-practice-test .btn-secondary,
+html.page-sat-grammar-videos .btn-secondary,
+html.page-upload .btn-secondary,
+html.page-volunteer-hours .btn-secondary,
+html.page-question-studio .btn-secondary {
+    color: var(--forest) !important;
+    background: rgba(255, 255, 255, 0.78) !important;
+    border-color: var(--forest) !important;
+}
+
+html.page-home .btn-secondary:hover,
+html.page-about .btn-secondary:hover,
+html.page-ask-scorer .btn-secondary:hover,
+html.page-best-sat-resources .btn-secondary:hover,
+html.page-contact .btn-secondary:hover,
+html.page-grammar .btn-secondary:hover,
+html.page-grammar-plan .btn-secondary:hover,
+html.page-learn-sat-regression .btn-secondary:hover,
+html.page-privacy .btn-secondary:hover,
+html.page-reading-practice .btn-secondary:hover,
+html.page-practice-test .btn-secondary:hover,
+html.page-sat-grammar-videos .btn-secondary:hover,
+html.page-upload .btn-secondary:hover,
+html.page-volunteer-hours .btn-secondary:hover,
+html.page-question-studio .btn-secondary:hover {
+    background: var(--forest) !important;
+    color: #fff !important;
+}
+
+/* Cards */
+html.page-home [class*="-card"],
+html.page-about [class*="-card"],
+html.page-ask-scorer [class*="-card"],
+html.page-best-sat-resources [class*="-card"],
+html.page-contact [class*="-card"],
+html.page-grammar [class*="-card"],
+html.page-grammar-plan [class*="-card"],
+html.page-learn-sat-regression [class*="-card"],
+html.page-privacy [class*="-card"],
+html.page-reading-practice [class*="-card"],
+html.page-practice-test [class*="-card"],
+html.page-sat-grammar-videos [class*="-card"],
+html.page-upload [class*="-card"],
+html.page-volunteer-hours [class*="-card"],
+html.page-question-studio [class*="-card"] {
+    border: 1px solid var(--line) !important;
+    border-radius: 10px !important;
+    background: rgba(255, 255, 255, 0.84) !important;
+    color: var(--ink) !important;
+}
+
+html.page-home [class*="-card"]:hover,
+html.page-about [class*="-card"]:hover,
+html.page-ask-scorer [class*="-card"]:hover,
+html.page-best-sat-resources [class*="-card"]:hover,
+html.page-contact [class*="-card"]:hover,
+html.page-grammar [class*="-card"]:hover,
+html.page-grammar-plan [class*="-card"]:hover,
+html.page-learn-sat-regression [class*="-card"]:hover,
+html.page-privacy [class*="-card"]:hover,
+html.page-reading-practice [class*="-card"]:hover,
+html.page-practice-test [class*="-card"]:hover,
+html.page-sat-grammar-videos [class*="-card"]:hover,
+html.page-upload [class*="-card"]:hover,
+html.page-volunteer-hours [class*="-card"]:hover,
+html.page-question-studio [class*="-card"]:hover {
+    transform: translateY(-3px);
+}
+
+/* Footer */
+html.page-home footer,
+html.page-about footer,
+html.page-ask-scorer footer,
+html.page-best-sat-resources footer,
+html.page-contact footer,
+html.page-grammar footer,
+html.page-grammar-plan footer,
+html.page-learn-sat-regression footer,
+html.page-privacy footer,
+html.page-reading-practice footer,
+html.page-practice-test footer,
+html.page-sat-grammar-videos footer,
+html.page-upload footer,
+html.page-volunteer-hours footer,
+html.page-question-studio footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 32px 0 40px;
+    border-top: 1px solid var(--line);
+}
+
+html.page-home .footer-brand,
+html.page-about .footer-brand,
+html.page-ask-scorer .footer-brand,
+html.page-best-sat-resources .footer-brand,
+html.page-contact .footer-brand,
+html.page-grammar .footer-brand,
+html.page-grammar-plan .footer-brand,
+html.page-learn-sat-regression .footer-brand,
+html.page-privacy .footer-brand,
+html.page-reading-practice .footer-brand,
+html.page-practice-test .footer-brand,
+html.page-sat-grammar-videos .footer-brand,
+html.page-upload .footer-brand,
+html.page-volunteer-hours .footer-brand,
+html.page-question-studio .footer-brand {
+    color: var(--forest) !important;
+    font-family: Inter, "Segoe UI", Arial, sans-serif !important;
+    font-size: 1.25rem !important;
+    font-weight: 800 !important;
+    letter-spacing: -0.03em !important;
+    text-decoration: none;
+}
+
+html.page-home .footer-brand span,
+html.page-about .footer-brand span,
+html.page-ask-scorer .footer-brand span,
+html.page-best-sat-resources .footer-brand span,
+html.page-contact .footer-brand span,
+html.page-grammar .footer-brand span,
+html.page-grammar-plan .footer-brand span,
+html.page-learn-sat-regression .footer-brand span,
+html.page-privacy .footer-brand span,
+html.page-reading-practice .footer-brand span,
+html.page-practice-test .footer-brand span,
+html.page-sat-grammar-videos .footer-brand span,
+html.page-upload .footer-brand span,
+html.page-volunteer-hours .footer-brand span,
+html.page-question-studio .footer-brand span {
+    font-weight: 600 !important;
+}
+
+html.page-home .footer-links,
+html.page-about .footer-links,
+html.page-ask-scorer .footer-links,
+html.page-best-sat-resources .footer-links,
+html.page-contact .footer-links,
+html.page-grammar .footer-links,
+html.page-grammar-plan .footer-links,
+html.page-learn-sat-regression .footer-links,
+html.page-privacy .footer-links,
+html.page-reading-practice .footer-links,
+html.page-practice-test .footer-links,
+html.page-sat-grammar-videos .footer-links,
+html.page-upload .footer-links,
+html.page-volunteer-hours .footer-links,
+html.page-question-studio .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+html.page-home .footer-links a,
+html.page-about .footer-links a,
+html.page-ask-scorer .footer-links a,
+html.page-best-sat-resources .footer-links a,
+html.page-contact .footer-links a,
+html.page-grammar .footer-links a,
+html.page-grammar-plan .footer-links a,
+html.page-learn-sat-regression .footer-links a,
+html.page-privacy .footer-links a,
+html.page-reading-practice .footer-links a,
+html.page-practice-test .footer-links a,
+html.page-sat-grammar-videos .footer-links a,
+html.page-upload .footer-links a,
+html.page-volunteer-hours .footer-links a,
+html.page-question-studio .footer-links a {
+    color: var(--forest) !important;
+    font-size: 0.9rem !important;
+    font-weight: 600 !important;
+    text-decoration: none;
+}
+
+html.page-home .footer-links a:hover,
+html.page-about .footer-links a:hover,
+html.page-ask-scorer .footer-links a:hover,
+html.page-best-sat-resources .footer-links a:hover,
+html.page-contact .footer-links a:hover,
+html.page-grammar .footer-links a:hover,
+html.page-grammar-plan .footer-links a:hover,
+html.page-learn-sat-regression .footer-links a:hover,
+html.page-privacy .footer-links a:hover,
+html.page-reading-practice .footer-links a:hover,
+html.page-practice-test .footer-links a:hover,
+html.page-sat-grammar-videos .footer-links a:hover,
+html.page-upload .footer-links a:hover,
+html.page-volunteer-hours .footer-links a:hover,
+html.page-question-studio .footer-links a:hover {
+    color: var(--coral) !important;
+}
+
+/* Mobile navigation */
+@media (max-width: 640px) {
+    html.page-home .home-nav,
+    html.page-about .home-nav,
+    html.page-ask-scorer .home-nav,
+    html.page-best-sat-resources .home-nav,
+    html.page-contact .home-nav,
+    html.page-grammar .home-nav,
+    html.page-grammar-plan .home-nav,
+    html.page-learn-sat-regression .home-nav,
+    html.page-privacy .home-nav,
+    html.page-reading-practice .home-nav,
+    html.page-practice-test .home-nav,
+    html.page-sat-grammar-videos .home-nav,
+    html.page-upload .home-nav,
+    html.page-volunteer-hours .home-nav,
+    html.page-question-studio .home-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 32px;
+        padding: 40px 24px;
+        transform: translateX(100%);
+        transition: transform 0.3s ease;
+        z-index: 999;
+        background: var(--paper);
+    }
+
+    html.page-home .home-nav.open,
+    html.page-about .home-nav.open,
+    html.page-ask-scorer .home-nav.open,
+    html.page-best-sat-resources .home-nav.open,
+    html.page-contact .home-nav.open,
+    html.page-grammar .home-nav.open,
+    html.page-grammar-plan .home-nav.open,
+    html.page-learn-sat-regression .home-nav.open,
+    html.page-privacy .home-nav.open,
+    html.page-reading-practice .home-nav.open,
+    html.page-practice-test .home-nav.open,
+    html.page-sat-grammar-videos .home-nav.open,
+    html.page-upload .home-nav.open,
+    html.page-volunteer-hours .home-nav.open,
+    html.page-question-studio .home-nav.open {
+        transform: translateX(0);
+    }
+
+    html.page-home .nav-toggle,
+    html.page-about .nav-toggle,
+    html.page-ask-scorer .nav-toggle,
+    html.page-best-sat-resources .nav-toggle,
+    html.page-contact .nav-toggle,
+    html.page-grammar .nav-toggle,
+    html.page-grammar-plan .nav-toggle,
+    html.page-learn-sat-regression .nav-toggle,
+    html.page-privacy .nav-toggle,
+    html.page-reading-practice .nav-toggle,
+    html.page-practice-test .nav-toggle,
+    html.page-sat-grammar-videos .nav-toggle,
+    html.page-upload .nav-toggle,
+    html.page-volunteer-hours .nav-toggle,
+    html.page-question-studio .nav-toggle {
+        display: flex;
+    }
+
+    html.page-home .nav-cta,
+    html.page-about .nav-cta,
+    html.page-ask-scorer .nav-cta,
+    html.page-best-sat-resources .nav-cta,
+    html.page-contact .nav-cta,
+    html.page-grammar .nav-cta,
+    html.page-grammar-plan .nav-cta,
+    html.page-learn-sat-regression .nav-cta,
+    html.page-privacy .nav-cta,
+    html.page-reading-practice .nav-cta,
+    html.page-practice-test .nav-cta,
+    html.page-sat-grammar-videos .nav-cta,
+    html.page-upload .nav-cta,
+    html.page-volunteer-hours .nav-cta,
+    html.page-question-studio .nav-cta {
+        display: none;
+    }
+
+    html.page-home footer,
+    html.page-about footer,
+    html.page-ask-scorer footer,
+    html.page-best-sat-resources footer,
+    html.page-contact footer,
+    html.page-grammar footer,
+    html.page-grammar-plan footer,
+    html.page-learn-sat-regression footer,
+    html.page-privacy footer,
+    html.page-reading-practice footer,
+    html.page-practice-test footer,
+    html.page-sat-grammar-videos footer,
+    html.page-upload footer,
+    html.page-volunteer-hours footer,
+    html.page-question-studio footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    html.page-home .footer-links,
+    html.page-about .footer-links,
+    html.page-ask-scorer .footer-links,
+    html.page-best-sat-resources .footer-links,
+    html.page-contact .footer-links,
+    html.page-grammar .footer-links,
+    html.page-grammar-plan .footer-links,
+    html.page-learn-sat-regression .footer-links,
+    html.page-privacy .footer-links,
+    html.page-reading-practice .footer-links,
+    html.page-practice-test .footer-links,
+    html.page-sat-grammar-videos .footer-links,
+    html.page-upload .footer-links,
+    html.page-volunteer-hours .footer-links,
+    html.page-question-studio .footer-links {
+        justify-content: center;
+    }
+}
+
+/* ============================================================
+   Site Theme — Shared page hero (light)
+   Replaces the dark hero that used to live in ads.css.
+   Used by about, contact, privacy, ask-a-scorer, upload and
+   volunteer-hours.
+   ============================================================ */
+
+html:is(.page-home, .page-about, .page-ask-scorer, .page-best-sat-resources,
+    .page-contact, .page-grammar, .page-grammar-plan, .page-learn-sat-regression,
+    .page-privacy, .page-reading-practice, .page-practice-test, .page-sat-grammar-videos,
+    .page-upload, .page-volunteer-hours) .site-hero {
+    position: relative;
+    isolation: isolate;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+    overflow: hidden;
+    margin: 0 0 34px;
+    padding: clamp(28px, 4vw, 52px);
+    border: 1px solid var(--line) !important;
+    border-radius: 16px !important;
+    background: rgba(255, 255, 255, 0.86) !important;
+    box-shadow: 0 18px 44px rgba(23, 55, 46, 0.07);
+}
+
+html:is(.page-home, .page-about, .page-ask-scorer, .page-best-sat-resources,
+    .page-contact, .page-grammar, .page-grammar-plan, .page-learn-sat-regression,
+    .page-privacy, .page-reading-practice, .page-practice-test, .page-sat-grammar-videos,
+    .page-upload, .page-volunteer-hours) .site-hero-eyebrow {
+    margin: 0 0 14px;
+    color: var(--coral) !important;
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+
+html:is(.page-home, .page-about, .page-ask-scorer, .page-best-sat-resources,
+    .page-contact, .page-grammar, .page-grammar-plan, .page-learn-sat-regression,
+    .page-privacy, .page-reading-practice, .page-practice-test, .page-sat-grammar-videos,
+    .page-upload, .page-volunteer-hours) .site-hero h1 {
+    max-width: 720px;
+    margin: 0 0 20px;
+    color: var(--forest) !important;
+    font-size: clamp(2.1rem, 4.4vw, 3.25rem);
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+}
+
+html:is(.page-home, .page-about, .page-ask-scorer, .page-best-sat-resources,
+    .page-contact, .page-grammar, .page-grammar-plan, .page-learn-sat-regression,
+    .page-privacy, .page-reading-practice, .page-practice-test, .page-sat-grammar-videos,
+    .page-upload, .page-volunteer-hours) .site-hero h1 span {
+    color: var(--coral) !important;
+}
+
+html:is(.page-home, .page-about, .page-ask-scorer, .page-best-sat-resources,
+    .page-contact, .page-grammar, .page-grammar-plan, .page-learn-sat-regression,
+    .page-privacy, .page-reading-practice, .page-practice-test, .page-sat-grammar-videos,
+    .page-upload, .page-volunteer-hours) .site-hero-lede {
+    max-width: 620px;
+    margin: 0 0 20px;
+    color: var(--muted) !important;
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+html:is(.page-home, .page-about, .page-ask-scorer, .page-best-sat-resources,
+    .page-contact, .page-grammar, .page-grammar-plan, .page-learn-sat-regression,
+    .page-privacy, .page-reading-practice, .page-practice-test, .page-sat-grammar-videos,
+    .page-upload, .page-volunteer-hours) .site-hero-lede a {
+    color: var(--forest) !important;
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+html:is(.page-home, .page-about, .page-ask-scorer, .page-best-sat-resources,
+    .page-contact, .page-grammar, .page-grammar-plan, .page-learn-sat-regression,
+    .page-privacy, .page-reading-practice, .page-practice-test, .page-sat-grammar-videos,
+    .page-upload, .page-volunteer-hours) .site-hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px 16px;
+    margin-top: 26px;
+}
+
+html:is(.page-home, .page-about, .page-ask-scorer, .page-best-sat-resources,
+    .page-contact, .page-grammar, .page-grammar-plan, .page-learn-sat-regression,
+    .page-privacy, .page-reading-practice, .page-practice-test, .page-sat-grammar-videos,
+    .page-upload, .page-volunteer-hours) .site-hero-cta {
+    min-height: 52px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 0 24px;
+    border: 1px solid var(--forest) !important;
+    border-radius: 8px !important;
+    color: #f4f7f2 !important;
+    background: var(--forest) !important;
+    font-size: 0.95rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+html:is(.page-home, .page-about, .page-ask-scorer, .page-best-sat-resources,
+    .page-contact, .page-grammar, .page-grammar-plan, .page-learn-sat-regression,
+    .page-privacy, .page-reading-practice, .page-practice-test, .page-sat-grammar-videos,
+    .page-upload, .page-volunteer-hours) .site-hero-cta:hover {
+    background: #236456 !important;
+    border-color: #236456 !important;
+    color: #fff !important;
+    transform: translateY(-2px);
+    text-decoration: none;
+}
+
+html:is(.page-home, .page-about, .page-ask-scorer, .page-best-sat-resources,
+    .page-contact, .page-grammar, .page-grammar-plan, .page-learn-sat-regression,
+    .page-privacy, .page-reading-practice, .page-practice-test, .page-sat-grammar-videos,
+    .page-upload, .page-volunteer-hours) .site-hero-cta.secondary {
+    color: var(--forest) !important;
+    background: rgba(255, 255, 255, 0.78) !important;
+    border-color: var(--forest) !important;
+}
+
+html:is(.page-home, .page-about, .page-ask-scorer, .page-best-sat-resources,
+    .page-contact, .page-grammar, .page-grammar-plan, .page-learn-sat-regression,
+    .page-privacy, .page-reading-practice, .page-practice-test, .page-sat-grammar-videos,
+    .page-upload, .page-volunteer-hours) .site-hero-cta.secondary:hover {
+    color: #fff !important;
+    background: var(--forest) !important;
+}
+
+html:is(.page-home, .page-about, .page-ask-scorer, .page-best-sat-resources,
+    .page-contact, .page-grammar, .page-grammar-plan, .page-learn-sat-regression,
+    .page-privacy, .page-reading-practice, .page-practice-test, .page-sat-grammar-videos,
+    .page-upload, .page-volunteer-hours) .site-hero-trust {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 24px;
+    margin: 26px 0 0;
+    padding: 0;
+    border: none !important;
+    background: none !important;
+    color: var(--muted) !important;
+    font-size: 0.85rem;
+    list-style: none;
+}
+
+html:is(.page-home, .page-about, .page-ask-scorer, .page-best-sat-resources,
+    .page-contact, .page-grammar, .page-grammar-plan, .page-learn-sat-regression,
+    .page-privacy, .page-reading-practice, .page-practice-test, .page-sat-grammar-videos,
+    .page-upload, .page-volunteer-hours) .site-hero-trust li {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: var(--muted) !important;
+    font-size: 0.85rem;
+}
+
+html:is(.page-home, .page-about, .page-ask-scorer, .page-best-sat-resources,
+    .page-contact, .page-grammar, .page-grammar-plan, .page-learn-sat-regression,
+    .page-privacy, .page-reading-practice, .page-practice-test, .page-sat-grammar-videos,
+    .page-upload, .page-volunteer-hours) .site-hero-trust li::before {
+    content: "✓";
+    color: var(--coral);
+    font-weight: 800;
+}
+
+@media (max-width: 700px) {
+    .site-hero {
+        text-align: center;
+        padding: 30px 22px;
+    }
+
+    .site-hero-lede {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .site-hero-actions,
+    .site-hero-trust {
+        justify-content: center;
+    }
+}
+
+/* ============================================================
+   Site Theme — Sponsorship buttons
+   The generic link rule above paints every <a> forest, so the
+   sponsorship buttons need an explicit later override.
+   ============================================================ */
+
+html:is(.page-home, .page-about, .page-ask-scorer, .page-best-sat-resources,
+    .page-contact, .page-grammar, .page-grammar-plan, .page-learn-sat-regression,
+    .page-privacy, .page-reading-practice, .page-practice-test, .page-sat-grammar-videos,
+    .page-upload, .page-volunteer-hours) .sponsorship-button {
+    color: #f4f7f2 !important;
+    background: var(--forest) !important;
+    border-color: var(--forest) !important;
+}
+
+html:is(.page-home, .page-about, .page-ask-scorer, .page-best-sat-resources,
+    .page-contact, .page-grammar, .page-grammar-plan, .page-learn-sat-regression,
+    .page-privacy, .page-reading-practice, .page-practice-test, .page-sat-grammar-videos,
+    .page-upload, .page-volunteer-hours) .sponsorship-button:hover,
+html:is(.page-home, .page-about, .page-ask-scorer, .page-best-sat-resources,
+    .page-contact, .page-grammar, .page-grammar-plan, .page-learn-sat-regression,
+    .page-privacy, .page-reading-practice, .page-practice-test, .page-sat-grammar-videos,
+    .page-upload, .page-volunteer-hours) .sponsorship-button:focus-visible {
+    color: #fff !important;
+    background: var(--coral) !important;
+    border-color: var(--coral) !important;
+    text-decoration: none;
+}
+
+/* ============================================================
+   Site Theme — Button contrast fix
+   --ink on --forest is unreadable; solid forest buttons need
+   light text.
+   ============================================================ */
+
+html:is(.page-home, .page-about, .page-ask-scorer, .page-best-sat-resources,
+    .page-contact, .page-grammar, .page-grammar-plan, .page-learn-sat-regression,
+    .page-privacy, .page-reading-practice, .page-practice-test, .page-sat-grammar-videos,
+    .page-upload, .page-volunteer-hours) .btn-primary {
+    color: #f4f7f2 !important;
+    background: var(--forest) !important;
+    border-color: var(--forest) !important;
+}
+
+html:is(.page-home, .page-about, .page-ask-scorer, .page-best-sat-resources,
+    .page-contact, .page-grammar, .page-grammar-plan, .page-learn-sat-regression,
+    .page-privacy, .page-reading-practice, .page-practice-test, .page-sat-grammar-videos,
+    .page-upload, .page-volunteer-hours) .btn-primary:hover {
+    color: #fff !important;
+    background: #236456 !important;
+}
+
+/* ============================================================
+   Site Theme — Timed practice test answer states
+   The generic [class*="-card"] rule above would flatten the
+   correct/incorrect feedback, so those states are restored here.
+   ============================================================ */
+
+html.page-practice-test .option-card {
+    background: #ffffff !important;
+    border: 2px solid var(--border-color) !important;
+    color: var(--text-main) !important;
+    border-radius: 8px !important;
+}
+
+html.page-practice-test .option-card:hover:not(.disabled) {
+    background: #f2f6f2 !important;
+    border-color: #a9beb0 !important;
+    transform: none;
+}
+
+html.page-practice-test .option-letter {
+    background: #edf4ef !important;
+    color: var(--primary) !important;
+}
+
+html.page-practice-test .option-card.correct-pick,
+html.page-practice-test .option-card.reveal-correct {
+    background: var(--success-bg) !important;
+    border-color: var(--success) !important;
+    color: #065f46 !important;
+}
+
+html.page-practice-test .option-card.correct-pick .option-letter,
+html.page-practice-test .option-card.reveal-correct .option-letter {
+    background: var(--success) !important;
+    color: #fff !important;
+}
+
+html.page-practice-test .option-card.incorrect-pick {
+    background: var(--error-bg) !important;
+    border-color: var(--error) !important;
+    color: #991b1b !important;
+}
+
+html.page-practice-test .option-card.incorrect-pick .option-letter {
+    background: var(--error) !important;
+    color: #fff !important;
+}
+
+html.page-practice-test .question-personal-tools button.is-bookmarked {
+    color: #f4f7f2 !important;
+    background: var(--forest) !important;
+    border-color: var(--forest) !important;
+}
+
+/* ============================================================
+   Site Theme — Reading practice app
+   This page keeps its own stylesheet, whose dark section is now
+   superseded. These rules live in the last-loaded sheet so they
+   win over both reading-practice.css and the generic rules above.
+   ============================================================ */
+
+html.page-reading-practice .reading-intro {
+    border: 1px solid var(--line) !important;
+    background: linear-gradient(115deg, #ffffff, #f1f6f1) !important;
+    box-shadow: 0 18px 44px rgba(23, 55, 46, 0.07) !important;
+}
+
+html.page-reading-practice .reading-intro::after {
+    border-color: rgba(23, 72, 62, 0.08);
+    box-shadow: 0 0 0 34px rgba(23, 72, 62, 0.025), 0 0 0 70px rgba(23, 72, 62, 0.02);
+}
+
+html.page-reading-practice .eyebrow {
+    color: var(--coral) !important;
+}
+
+html.page-reading-practice .reading-intro h1 {
+    color: var(--forest) !important;
+}
+
+html.page-reading-practice .reading-intro h1 span {
+    color: var(--coral) !important;
+}
+
+html.page-reading-practice .reading-intro > p:last-of-type {
+    color: var(--muted) !important;
+}
+
+html.page-reading-practice .practice-summary > div {
+    border: 1px solid var(--line) !important;
+    background: rgba(255, 255, 255, 0.7) !important;
+}
+
+html.page-reading-practice .practice-summary strong {
+    color: var(--forest) !important;
+}
+
+html.page-reading-practice .practice-summary span {
+    color: var(--muted) !important;
+}
+
+html.page-reading-practice .reading-filters {
+    border: 1px solid var(--line) !important;
+    background: rgba(255, 255, 255, 0.72) !important;
+}
+
+html.page-reading-practice .reading-filters label {
+    color: var(--muted) !important;
+}
+
+html.page-reading-practice .reading-filters input,
+html.page-reading-practice .reading-filters select {
+    border: 1px solid #cfdcd3 !important;
+    color: var(--ink) !important;
+    background-color: #fff !important;
+}
+
+html.page-reading-practice .reading-filters input::placeholder {
+    color: #8a988f !important;
+}
+
+html.page-reading-practice .reading-filters input:focus,
+html.page-reading-practice .reading-filters select:focus {
+    border-color: var(--forest) !important;
+    box-shadow: 0 0 0 3px rgba(23, 72, 62, 0.12);
+}
+
+html.page-reading-practice .storage-status {
+    border: 1px solid #e4c48f !important;
+    color: #8a5a1f !important;
+    background: #fdf6e8 !important;
+}
+
+html.page-reading-practice .question-browser,
+html.page-reading-practice .practice-panel {
+    border: 1px solid var(--line) !important;
+    background: rgba(255, 255, 255, 0.88) !important;
+    box-shadow: 0 12px 34px rgba(23, 55, 46, 0.06) !important;
+}
+
+html.page-reading-practice .browser-heading h2 {
+    color: var(--forest) !important;
+}
+
+html.page-reading-practice .browser-heading p {
+    color: var(--muted) !important;
+}
+
+html.page-reading-practice .reset-button {
+    border: 1px solid #cfdcd3 !important;
+    color: var(--muted) !important;
+    background: transparent;
+}
+
+html.page-reading-practice .reset-button:hover {
+    border-color: var(--coral) !important;
+    color: #b4472c !important;
+}
+
+html.page-reading-practice .difficulty-legend {
+    color: var(--muted) !important;
+}
+
+html.page-reading-practice .difficulty-dot.easy {
+    background: #3f9d6b;
+}
+
+html.page-reading-practice .difficulty-dot.medium {
+    background: #cf9433;
+}
+
+html.page-reading-practice .difficulty-dot.hard {
+    background: #c0564f;
+}
+
+html.page-reading-practice .question-list {
+    scrollbar-color: #c3d0c6 #eef3ee;
+}
+
+html.page-reading-practice .question-nav-item {
+    color: #46564f !important;
+    background: transparent;
+}
+
+html.page-reading-practice .question-nav-item:hover {
+    background: rgba(23, 72, 62, 0.06) !important;
+}
+
+html.page-reading-practice .question-nav-item.is-current {
+    border-color: rgba(23, 72, 62, 0.35) !important;
+    color: var(--forest) !important;
+    background: #e9f1ea !important;
+}
+
+html.page-reading-practice .question-nav-number {
+    color: #fff !important;
+    background: #9fb0a6 !important;
+}
+
+html.page-reading-practice .question-nav-item.difficulty-easy .question-nav-number {
+    background: #3f9d6b !important;
+}
+
+html.page-reading-practice .question-nav-item.difficulty-medium .question-nav-number {
+    background: #cf9433 !important;
+}
+
+html.page-reading-practice .question-nav-item.difficulty-hard .question-nav-number {
+    background: #c0564f !important;
+}
+
+html.page-reading-practice .question-nav-item.is-complete .question-nav-number {
+    background: var(--forest) !important;
+}
+
+html.page-reading-practice .question-nav-item.is-incorrect .question-nav-number {
+    background: #b0554e !important;
+}
+
+html.page-reading-practice .question-nav-status {
+    color: #97a69c !important;
+}
+
+html.page-reading-practice .question-nav-item.is-correct .question-nav-status {
+    color: #2f8f5b !important;
+}
+
+html.page-reading-practice .question-nav-item.is-incorrect .question-nav-status {
+    color: #c0564f !important;
+}
+
+html.page-reading-practice .tag {
+    color: #2f6b4f !important;
+    background: #e6f2ea !important;
+}
+
+html.page-reading-practice .tag-skill,
+html.page-reading-practice .tag-difficulty {
+    color: var(--muted) !important;
+    background: #eef2ee !important;
+}
+
+html.page-reading-practice .tag-difficulty.difficulty-easy {
+    color: #2f7a52 !important;
+    background: #e6f4ec !important;
+}
+
+html.page-reading-practice .tag-difficulty.difficulty-medium {
+    color: #8a5f16 !important;
+    background: #fbf1dd !important;
+}
+
+html.page-reading-practice .tag-difficulty.difficulty-hard {
+    color: #8f3b35 !important;
+    background: #fbeae8 !important;
+}
+
+html.page-reading-practice .question-count,
+html.page-reading-practice .score-text,
+html.page-reading-practice .review-note {
+    color: var(--muted) !important;
+}
+
+html.page-reading-practice .progress-track {
+    background: #e2eae3 !important;
+}
+
+html.page-reading-practice #progress-bar {
+    background: linear-gradient(90deg, #17483e, #4f9b7c) !important;
+}
+
+html.page-reading-practice .question-passage {
+    color: var(--ink) !important;
+}
+
+html.page-reading-practice .question-prompt {
+    color: var(--ink) !important;
+}
+
+html.page-reading-practice .answer-option {
+    border: 1px solid #d5e0d7 !important;
+    color: var(--ink) !important;
+    background: #fff !important;
+}
+
+html.page-reading-practice .answer-option:hover:not(:disabled) {
+    border-color: var(--forest) !important;
+    background: #f1f6f1 !important;
+}
+
+html.page-reading-practice .answer-letter {
+    border-color: #cfdcd3 !important;
+    color: var(--muted) !important;
+}
+
+html.page-reading-practice .answer-option.is-correct {
+    border-color: #2f8f5b !important;
+    color: #14532d !important;
+    background: #e9f7ee !important;
+}
+
+html.page-reading-practice .answer-option.is-correct .answer-letter {
+    border-color: #2f8f5b !important;
+    background: #2f8f5b !important;
+    color: #fff !important;
+}
+
+html.page-reading-practice .answer-option.is-wrong {
+    border-color: #c0564f !important;
+    color: #7f1d1d !important;
+    background: #fdecea !important;
+}
+
+html.page-reading-practice .feedback {
+    border-color: #2f8f5b !important;
+    color: #1f5136 !important;
+    background: #e9f7ee !important;
+}
+
+html.page-reading-practice .feedback strong {
+    color: #1f6b45 !important;
+}
+
+html.page-reading-practice .feedback.is-incorrect {
+    border-color: #c0564f !important;
+    color: #7a2b26 !important;
+    background: #fdecea !important;
+}
+
+html.page-reading-practice .feedback.is-incorrect strong {
+    color: #a83f38 !important;
+}
+
+html.page-reading-practice .practice-controls {
+    border-color: var(--line) !important;
+}
+
+html.page-reading-practice .control-button {
+    border: 1px solid #cfdcd3 !important;
+    color: var(--forest) !important;
+    background: #fff !important;
+}
+
+html.page-reading-practice .control-button:hover:not(:disabled) {
+    background: #eef4ef !important;
+}
+
+html.page-reading-practice .control-button.control-primary {
+    border-color: var(--forest) !important;
+    color: #f4f7f2 !important;
+    background: var(--forest) !important;
+}
+
+html.page-reading-practice .control-button.control-primary:hover:not(:disabled) {
+    background: #236456 !important;
+}
+
+html.page-reading-practice .loading-state,
+html.page-reading-practice .empty-state,
+html.page-reading-practice .error-state {
+    color: var(--muted) !important;
+}
+
+html.page-reading-practice .empty-state strong,
+html.page-reading-practice .error-state strong {
+    color: var(--ink) !important;
+}
+
+html.page-reading-practice button:focus-visible,
+html.page-reading-practice a:focus-visible,
+html.page-reading-practice input:focus-visible,
+html.page-reading-practice select:focus-visible {
+    outline: 2px solid var(--forest);
+    outline-offset: 3px;
+}
+
+/* ============================================================
+   Site Theme — Timed practice test chrome
+   The quiz header band and its buttons use the slate palette;
+   they move onto forest so the page reads as one brand.
+   ============================================================ */
+
+html.page-practice-test .header {
+    background: var(--forest) !important;
+    border-bottom-color: var(--coral) !important;
+}
+
+html.page-practice-test .header h1 {
+    color: #f4f7f2 !important;
+}
+
+html.page-practice-test .next-btn,
+html.page-practice-test .back-btn {
+    color: #f4f7f2 !important;
+    background: var(--forest) !important;
+    border-color: var(--forest) !important;
+}
+
+html.page-practice-test .next-btn:hover,
+html.page-practice-test .back-btn:hover {
+    color: #fff !important;
+    background: #236456 !important;
+    border-color: #236456 !important;
+}
+
+html.page-practice-test .next-btn:disabled,
+html.page-practice-test .back-btn:disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
+}
+
+html.page-practice-test .dashboard-container {
+    border: 1px solid var(--line) !important;
+    box-shadow: 0 12px 34px rgba(23, 55, 46, 0.06) !important;
+}

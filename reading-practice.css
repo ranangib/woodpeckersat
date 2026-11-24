@@ -471,15 +471,18 @@ html.page-reading-practice .reading-footer a:hover {
     }
 }
 
+/* Palette override: the site theme (forest + paper) now wins from styles.css,
+   which loads after this file. These tokens keep the native form controls,
+   scrollbars and page ground consistent with the rest of the site. */
 html.page-reading-practice {
-    --forest: #a7f36a;
-    --deep: #f4f7fb;
-    --ink: #e7edf5;
-    --muted: #91a0b3;
-    --line: #28364b;
-    --paper: #0c1422;
-    --coral: #a7f36a;
-    color-scheme: dark;
+    --forest: #17483e;
+    --deep: #12392f;
+    --ink: #172b27;
+    --muted: #52645f;
+    --line: #d8e1da;
+    --paper: #f4f7f2;
+    --coral: #e47755;
+    color-scheme: light;
     background: var(--paper);
 }
 
