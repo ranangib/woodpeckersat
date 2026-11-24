@@ -491,6 +491,12 @@ html.page-home .smartlink-side-rail .sponsorship-label {
     max-width: 650px;
 }
 
+.site-hero .site-hero-lede a {
+    color: #d9d2ff !important;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
 .site-hero-actions {
     display: flex;
     flex-wrap: wrap;
@@ -592,9 +598,11 @@ html.page-home .smartlink-side-rail .sponsorship-label {
     grid-template-columns: minmax(0, 1fr);
 }
 
-.site-hero h1 {
+html .site-hero h1 {
     max-width: 720px;
+    margin: 0 0 24px;
     font-size: clamp(2.1rem, 4.4vw, 3.5rem);
+    line-height: 1.1;
 }
 
 @media (max-width: 980px) {
