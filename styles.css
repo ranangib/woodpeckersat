@@ -5175,3 +5175,9 @@ html.page-home .referral-button {
 html.page-home a {
     color: var(--forest) !important;
 }
+
+/* Hide mascot */
+html.page-home .woodpecker-mascot,
+html.page-home .hero-visual {
+    display: none !important;
+}
