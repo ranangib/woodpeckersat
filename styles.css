@@ -5071,3 +5071,107 @@ html.page-home .referral-qr img {
         padding: 24px;
     }
 }
+
+/* ============================================================
+   Homepage Redesign — Text Color & Brand Fixes
+   Ensures readable dark text on light backgrounds
+   ============================================================ */
+
+html.page-home main,
+html.page-home .page,
+html.page-home body {
+    color: var(--ink) !important;
+    background-color: var(--paper) !important;
+}
+
+html.page-home h1,
+html.page-home h2,
+html.page-home h3,
+html.page-home h4,
+html.page-home p,
+html.page-home span,
+html.page-home li,
+html.page-home a,
+html.page-home section,
+html.page-home div {
+    color: var(--ink) !important;
+}
+
+html.page-home .muted,
+html.page-home .muted-text,
+html.page-home [class*="muted"] {
+    color: var(--muted) !important;
+}
+
+/* Hero section text */
+html.page-home .hero-lede,
+html.page-home .hero-eyebrow,
+html.page-home .hero-stats span,
+html.page-home .hero-caption {
+    color: var(--ink) !important;
+}
+
+/* Section text */
+html.page-home .section-lede,
+html.page-home .section-eyebrow,
+html.page-home .journey-lede,
+html.page-home .mentorship-copy .section-lede,
+html.page-home .mentorship-note {
+    color: var(--ink) !important;
+}
+
+/* Card text */
+html.page-home .domain-card h3,
+html.page-home .domain-card p,
+html.page-home .domain-count,
+html.page-home .resource-card h3,
+html.page-home .resource-card p,
+html.page-home .feature-card h3,
+html.page-home .feature-card p,
+html.page-home .mentorship-benefits li,
+html.page-home .benefit-icon {
+    color: var(--ink) !important;
+}
+
+/* Personal tools brand colors */
+html.page-home .personal-tool-card,
+html.page-home .personal-tool-card h3,
+html.page-home .streak-readout,
+html.page-home #mistake-summary,
+html.page-home .personal-list,
+html.page-home .printable-rules label,
+html.page-home #printable-status,
+html.page-home .countdown-eyebrow {
+    color: var(--ink) !important;
+}
+
+html.page-home .personal-tool-card {
+    border: 1px solid var(--line) !important;
+    background: var(--paper) !important;
+}
+
+/* Mascot fix */
+html.page-home .woodpecker-mascot {
+    width: 140px !important;
+    height: 140px !important;
+    max-width: 140px !important;
+    max-height: 140px !important;
+}
+
+html.page-home .hero-visual {
+    opacity: 0.6;
+}
+
+/* Ensure buttons remain visible */
+html.page-home .btn-primary,
+html.page-home .btn-secondary,
+html.page-home .btn-small,
+html.page-home .nav-cta,
+html.page-home .referral-button {
+    color: var(--ink) !important;
+}
+
+/* Links */
+html.page-home a {
+    color: var(--forest) !important;
+}
