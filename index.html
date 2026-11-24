@@ -4,23 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Practice 2,000 original Digital SAT Reading and Writing questions for free across all four domains. No account or subscription required.">
+    <meta name="description" content="Practice 2,000+ free Digital SAT Reading & Writing questions, get free mentorship from a 1500 scorer, and improve your score. No account required.">
     <link rel="canonical" href="https://woodpeckersat.online/">
     <meta name="theme-color" content="#10172b">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="WoodpeckerSAT">
     <meta property="og:title" content="Free SAT Reading &amp; Writing Practice | WoodpeckerSAT">
-    <meta property="og:description"
-        content="Practice 2,000 original Digital SAT Reading and Writing questions for free across all four domains. No account or subscription required.">
+    <meta property="og:description" content="Practice 2,000+ free Digital SAT Reading & Writing questions, get free mentorship from a 1500 scorer. No account required.">
     <meta property="og:url" content="https://woodpeckersat.online/">
     <meta property="og:image" content="https://woodpeckersat.online/assets/woodpecker-1500-instagram.png">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Free SAT Reading &amp; Writing Practice | WoodpeckerSAT">
-    <meta name="twitter:description"
-        content="Practice 2,000 original Digital SAT Reading and Writing questions for free across all four domains. No account or subscription required.">
+    <meta name="twitter:description" content="Practice 2,000+ free Digital SAT Reading & Writing questions, get free mentorship from a 1500 scorer. No account required.">
     <title>Free SAT Reading &amp; Writing Practice | WoodpeckerSAT</title>
     <link rel="icon" type="image/png" href="assets/favicon.png" sizes="96x96" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <script type="application/ld+json">
 	{
 		"@context": "https://schema.org",
@@ -42,7 +42,7 @@
 		]
 	}
 	</script>
-    <link rel="stylesheet" href="./styles.css?v=20261122-practice-home">
+    <link rel="stylesheet" href="./styles.css?v=20261124-redesign">
 
     <link rel="stylesheet" href="./ads.css?v=20261124-home-no-ads">
 </head>
@@ -59,330 +59,313 @@
     </div>
 
     <div class="page">
-        <header class="topbar">
+        <header class="topbar" aria-label="Site header">
             <a class="wordmark" href="/" aria-label="WoodpeckerSAT home">Woodpecker<span>SAT</span></a>
-            <nav class="home-nav" aria-label="Primary navigation">
-                <a href="#question-library">Question bank</a>
-                <a href="#timed-sets">Timed practice</a>
-                <a href="grammar.html">Study guides</a>
+            <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav-list" aria-label="Open menu">
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+            </button>
+            <nav class="home-nav" id="primary-nav-list" aria-label="Primary navigation">
+                <a href="reading-practice.html">Practice Questions</a>
+                <a href="ask-a-scorer.html">Free Mentorship</a>
+                <a href="best-sat-resources.html">Study Resources</a>
+                <a href="about.html">About</a>
+                <a href="rewards.html">Rewards</a>
             </nav>
+            <a class="nav-cta" href="reading-practice.html">Start Practicing →</a>
         </header>
         <main>
-            <section class="home-hero" aria-labelledby="home-hero-title">
-                <div class="home-hero-copy">
-                    <p class="eyebrow">Free Digital SAT Reading &amp; Writing practice</p>
-                    <h1 id="home-hero-title">Practice SAT Reading &amp; Writing <span>for free.</span></h1>
-                    <p class="home-hero-lede">Build confidence with 2,000 original questions across every Reading and
-                        Writing domain. Practice at your pace, learn from clear explanations, and keep moving forward.</p>
-                    <div class="home-hero-actions">
-                        <a class="home-cta" href="reading-practice.html">Start free practice <span aria-hidden="true">↗</span></a>
-                        <a class="home-cta-secondary" href="#question-library">Explore the question bank <span aria-hidden="true">↓</span></a>
+            <!-- Hero Section -->
+            <section class="hero" aria-labelledby="hero-title">
+                <div class="hero-grid">
+                    <div class="hero-copy">
+                        <p class="hero-eyebrow">Free Digital SAT Reading &amp; Writing</p>
+                        <h1 id="hero-title">Your Path to a Higher SAT Score Starts Here.</h1>
+                        <p class="hero-lede">2,000+ SAT Reading &amp; Writing practice questions, detailed explanations, and FREE mentorship from a 1500 scorer.</p>
+                        <div class="hero-actions">
+                            <a class="btn-primary" href="reading-practice.html">Start Practicing Free →</a>
+                            <a class="btn-secondary" href="ask-a-scorer.html">Get Free Mentorship →</a>
+                        </div>
+                        <ul class="hero-stats">
+                            <li><strong>2,000+</strong><span>Practice Questions</span></li>
+                            <li><strong>FREE</strong><span>Mentorship</span></li>
+                            <li><strong>1500</strong><span>SAT Score</span></li>
+                        </ul>
                     </div>
-                    <ul class="home-trust-row" aria-label="Practice benefits">
-                        <li>Free to use</li>
-                        <li>No account needed</li>
-                        <li>Four SAT domains</li>
-                    </ul>
+                    <div class="hero-visual">
+                        <svg class="woodpecker-mascot" viewBox="0 0 200 200" aria-label="WoodpeckerSAT mascot" role="img">
+                            <path d="M100 20c-44 0-80 36-80 80s36 80 80 80 80-36 80-80-36-80-80-80zm0 140c-33 0-60-27-60-60s27-60 60-60 60 27 60 60-27 60-60 60z" fill="#c4ff72"/>
+                            <path d="M70 80c-2 0-4 1-5 2s-2 3-2 5 1 4 2 5 3 2 5 2 4-1 5-2 2-3 2-5-1-4-2-5-3-2-5-2zM130 80c2 0 4 1 5 2s2 3 2 5-1 4-2 5-3 2-5 2-4-1-5-2-2-3-2-5 1-4 2-5 3-2 5-2z" fill="#12182b"/>
+                            <path d="M90 100c-1 0-2 1-3 2l-10 10c-1 1-1 3 0 4s2 1 4 0l10-10c1-1 1-3 0-4s-2-1-3-2z" fill="#c4ff72"/>
+                            <path d="M110 100c1 0 2 1 3 2l10 10c1 1 1 3 0 4s-2 1-4 0l-10-10c-1-1-1-3 0-4s2-1 3-2z" fill="#c4ff72"/>
+                        </svg>
+                        <p class="hero-caption">WoodpeckerSAT mascot</p>
+                    </div>
                 </div>
-                <aside class="home-hero-card" aria-label="Question bank overview">
-                    <div class="home-hero-card-top">
-                        <span>THE FREE QUESTION BANK</span>
-                        <span class="home-status-dot" aria-hidden="true"></span>
-                    </div>
-                    <p class="home-question-total">2,000</p>
-                    <p class="home-question-caption">original practice questions</p>
-                    <div class="home-domain-summary">
-                        <span>Information &amp; Ideas</span><strong>500</strong>
-                        <span>Craft &amp; Structure</span><strong>500</strong>
-                        <span>Expression of Ideas</span><strong>500</strong>
-                        <span>Standard English Conventions</span><strong>500</strong>
-                    </div>
-                    <p class="home-card-footnote">All four Reading and Writing domains. One free place to practice.</p>
-                </aside>
             </section>
             <div class="home-sponsorship" aria-label="Sponsorship">
                 <p class="sponsorship-label">Sponsorship</p>
                 <a href="https://araplhn.org/4/fed91e992ebec395efa5ecbc4bd4d062" target="_blank" rel="noopener noreferrer" class="sponsorship-button">Sponsorship</a>
             </div>
-            <section class="home-domain-section" id="question-library" aria-labelledby="question-library-title">
-                <div class="home-section-heading">
-                    <div>
-                        <p class="eyebrow">Find your focus</p>
-                        <h2 id="question-library-title">Practice every part of SAT Reading &amp; Writing</h2>
-                    </div>
-                    <a href="reading-practice.html">Browse the question library <span aria-hidden="true">↗</span></a>
+            <!-- Practice Questions Section -->
+            <section class="practice-questions" aria-labelledby="practice-title">
+                <div class="section-header">
+                    <p class="section-eyebrow">Main Feature</p>
+                    <h2 id="practice-title">2,000+ SAT Practice Questions</h2>
+                    <p class="section-lede">Find your weaknesses. Practice smarter. Improve your score.</p>
                 </div>
-                <div class="home-domain-grid">
-                    <a class="home-domain-card" href="reading-practice.html?domain=Information%20and%20Ideas">
-                        <span class="home-domain-number">01 / 04</span>
+                <div class="domain-grid">
+                    <a class="domain-card" href="reading-practice.html?domain=Information%20and%20Ideas">
+                        <div class="domain-icon">I</div>
                         <h3>Information &amp; Ideas</h3>
-                        <p>Read closely, understand evidence, and draw supported conclusions.</p>
-                        <span class="home-domain-count">500 questions</span>
+                        <p>Read closely, understand evidence, draw conclusions.</p>
+                        <span class="domain-count">500 questions</span>
+                        <span class="card-arrow">→</span>
                     </a>
-                    <a class="home-domain-card" href="reading-practice.html?domain=Craft%20and%20Structure">
-                        <span class="home-domain-number">02 / 04</span>
+                    <a class="domain-card" href="reading-practice.html?domain=Craft%20and%20Structure">
+                        <div class="domain-icon">C</div>
                         <h3>Craft &amp; Structure</h3>
-                        <p>Explore word meaning, text purpose, and connections between texts.</p>
-                        <span class="home-domain-count">500 questions</span>
+                        <p>Word meaning, text purpose, connections between texts.</p>
+                        <span class="domain-count">500 questions</span>
+                        <span class="card-arrow">→</span>
                     </a>
-                    <a class="home-domain-card" href="reading-practice.html?domain=Expression%20of%20Ideas">
-                        <span class="home-domain-number">03 / 04</span>
+                    <a class="domain-card" href="reading-practice.html?domain=Expression%20of%20Ideas">
+                        <div class="domain-icon">E</div>
                         <h3>Expression of Ideas</h3>
-                        <p>Choose transitions and synthesize information to meet a goal.</p>
-                        <span class="home-domain-count">500 questions</span>
+                        <p>Transitions, synthesis, rhetorical goals.</p>
+                        <span class="domain-count">500 questions</span>
+                        <span class="card-arrow">→</span>
                     </a>
-                    <a class="home-domain-card" href="reading-practice.html?domain=Standard%20English%20Conventions">
-                        <span class="home-domain-number">04 / 04</span>
+                    <a class="domain-card" href="reading-practice.html?domain=Standard%20English%20Conventions">
+                        <div class="domain-icon">S</div>
                         <h3>Standard English Conventions</h3>
-                        <p>Strengthen sentence boundaries, grammar, and punctuation.</p>
-                        <span class="home-domain-count">500 questions</span>
+                        <p>Sentence boundaries, grammar, punctuation.</p>
+                        <span class="domain-count">500 questions</span>
+                        <span class="card-arrow">→</span>
                     </a>
                 </div>
-            </section>
-            <section class="study-plan-callout" aria-label="Study plan encouragement">
-                <blockquote>
-                    <p>One day you will look back and wish you had done more today.</p>
-                    <p>So do more, push for greatness.</p>
-                </blockquote>
-                <a class="action" href="grammar-plan.html">Explore the study plan <span class="arrow"
-                        aria-hidden="true">&rarr;</span></a>
-            </section>
-            <section class="volunteer-feature" aria-labelledby="volunteer-feature-title">
-                <h2 id="volunteer-feature-title">Earn a volunteer or NHS hour</h2>
-                <p>Create a useful SAT study sheet to help another student. Submit it for a quick review and earn
-                    one service hour after it’s verified.</p>
-                <nav class="actions" aria-label="Volunteer hours options">
-                    <a class="action" href="volunteer-hours.html">See how it works <span class="arrow"
-                            aria-hidden="true">&rarr;</span></a>
-                    <a class="action secondary" href="https://forms.gle/dZcBS9RM6PcwvQzN9" target="_blank"
-                        rel="noopener noreferrer">Submit your study sheet</a>
-                </nav>
-            </section>
-            <section class="referral-rewards" aria-labelledby="referral-rewards-title">
-                <div class="referral-heading">
-                    <p class="countdown-eyebrow">WoodpeckerSAT Rewards</p>
-                    <h2 id="referral-rewards-title">Woodpeckersat Rewards – Share &amp; Earn</h2>
-                    <!-- <p>Share your referral link with a friend. When they sign up using it, you—the person who shared
-                        the link—become eligible for the free gift. The gift is for you, not your friend.</p> -->
+                <div class="domain-footer">
+                    <a class="btn-primary" href="reading-practice.html">Explore All 2,000+ Questions →</a>
                 </div>
-                <div class="referral-card">
-                    <div class="referral-signup">
-                        <h3>Get your personal referral link</h3>
-                        <p>Enter your email to receive a shareable link, a referral code, and a downloadable QR code.
-                        </p>
-                        <!-- <div class="referral-gift">
-                            <strong>Share your link to earn a free gift, originally valued at $9.99</strong>
-                            <span>The gift is for the person who shared the referral link—not the friend who receives
-                                it. To qualify, your friend must sign up for WoodpeckerSAT Rewards with their email
-                                using your link. Once their registration is confirmed and matched to your referral
-                                code, the gift will be sent to your email.</span>
-                        </div> -->
-                        <form id="referral-form" action="https://formspree.io/f/mppqloyl" method="POST"
-                            aria-busy="false">
-                            <input type="hidden" name="_subject" value="WoodpeckerSAT Rewards registration">
-                            <input type="hidden" name="referral_code" value="">
-                            <input type="hidden" name="referred_by_code" value="none">
-                            <input type="hidden" name="referrer_reward_qualified" value="no">
-                            <input type="hidden" name="consent" value="yes">
-                            <div class="referral-field">
-                                <label for="referral-email">Email address</label>
-                                <input id="referral-email" type="email" name="email" autocomplete="email"
-                                    maxlength="254" required>
+            </section>
+            <!-- Free Mentorship Section -->
+            <section class="mentorship" aria-labelledby="mentorship-title">
+                <div class="mentorship-grid">
+                    <div class="mentorship-copy">
+                        <p class="section-eyebrow">Second Feature</p>
+                        <h2 id="mentorship-title">Get Free SAT Mentorship.</h2>
+                        <p class="section-lede">Learn directly from a student who went from 1300 to 1500.</p>
+                        <ul class="mentorship-benefits">
+                            <li><span class="benefit-icon">★</span><span>Personalized SAT Advice</span></li>
+                            <li><span class="benefit-icon">◆</span><span>Identify Your Weaknesses</span></li>
+                            <li><span class="benefit-icon">▲</span><span>Smarter Study Strategies</span></li>
+                        </ul>
+                        <a class="btn-primary" href="ask-a-scorer.html">Apply for Free Mentorship →</a>
+                        <p class="mentorship-note">100% free. No subscription required.</p>
+                    </div>
+                    <div class="mentorship-visual">
+                        <div class="score-card">
+                            <div class="score-before">1300</div>
+                            <div class="score-arrow">→</div>
+                            <div class="score-after">1500</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Daily SAT Challenge Section -->
+            <section class="daily-challenge" aria-labelledby="daily-title">
+                <div class="challenge-card">
+                    <div class="challenge-header">
+                        <p class="section-eyebrow">Daily Challenge</p>
+                        <h2 id="daily-title">Can You Solve Today's SAT Question?</h2>
+                    </div>
+                    <div id="daily-question">
+                        <p>Loading today's question…</p>
+                    </div>
+                    <div class="challenge-actions">
+                        <a class="btn-secondary" href="reading-practice.html">Explore More Questions →</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- My SAT Journey Section -->
+            <section class="journey" aria-labelledby="journey-title">
+                <div class="journey-grid">
+                    <div class="journey-copy">
+                        <p class="section-eyebrow">Personal Story</p>
+                        <h2 id="journey-title">1300 → 1500. My SAT Journey.</h2>
+                        <p class="journey-lede">Thousands of practice questions, countless mistakes, and lessons that changed how I studied.</p>
+                        <a class="btn-secondary" href="about.html">Read My Story →</a>
+                    </div>
+                    <div class="journey-visual">
+                        <div class="score-comparison">
+                            <div class="score-block">
+                                <span class="score-label">Before</span>
+                                <span class="score-value">1300</span>
                             </div>
-                            <label class="referral-consent">
-                                <input id="referral-consent" type="checkbox" required>
-                                <span>I agree to send my email and referral code to WoodpeckerSAT through
-                                    <a href="https://formspree.io/legal/privacy-policy/">Formspree</a> to administer
-                                    rewards. See the <a href="privacy.html">Privacy Policy</a>.</span>
-                            </label>
-                            <button class="referral-button referral-button-primary" id="referral-submit" type="submit"
-                                disabled>
-                                <span id="referral-submit-label">Join &amp; Get Your Referral Link</span>
-                                <span class="referral-spinner" id="referral-spinner" aria-hidden="true" hidden></span>
-                            </button>
-                            <p class="referral-status" id="referral-status" role="status" aria-live="polite"></p>
-                            <noscript>
-                                <p class="referral-error">Please enable JavaScript to create your referral link and QR
-                                    code.</p>
-                            </noscript>
-                        </form>
-                    </div>
-                    <aside class="referral-how" aria-label="How the rewards program works">
-                        <h3>How it works</h3>
-                        <ol>
-                            <li>Join with your email to get a random referral code and link.</li>
-                            <li>Share your link or QR code with a friend.</li>
-                            <li><strong>Your friend must also sign up here and join the referral program. </strong>Once
-                                confirmed,
-                                that signup makes you eligible for the free pdf guide "The Bad Habit that makes students
-                                Distracted during the SAT". We’ll send the gift to
-                                your email.</li>
-                        </ol>
-                        <p>Your email is sent only to Formspree for this registration. Referral codes are not linked to
-                            email addresses in a separate database.</p>
-                    </aside>
-                </div>
-                <div class="referral-result" id="referral-result" hidden>
-                    <div class="referral-result-details">
-                        <p class="countdown-eyebrow">You’re in</p>
-                        <h3>Your referral link is ready</h3>
-                        <p class="referral-status" id="referral-confirmation" role="status" aria-live="polite"></p>
-                        <p>Your referral code: <strong id="referral-code-output"></strong></p>
-                        <label for="referral-link-output">Share this link</label>
-                        <a id="referral-link-output" class="referral-link-output" href=""></a>
-                        <div class="referral-actions">
-                            <button class="referral-button referral-button-primary" id="referral-copy" type="button">
-                                Copy Referral Link
-                            </button>
-                            <button class="referral-button" id="referral-share" type="button">Share Link</button>
-                        </div>
-                        <p class="referral-status" id="referral-share-status" role="status" aria-live="polite"></p>
-                    </div>
-                    <div class="referral-qr-panel">
-                        <h3>Your QR code</h3>
-                        <div class="referral-qr" id="referral-qr" aria-live="polite"></div>
-                        <p class="referral-status" id="referral-qr-status" role="status" aria-live="polite"></p>
-                        <div class="referral-actions referral-qr-actions">
-                            <a class="referral-button referral-button-primary" id="referral-download" href=""
-                                download="woodpeckersat-referral.png" hidden>Download QR Code</a>
-                            <button class="referral-button" id="referral-qr-retry" type="button" hidden>Try QR
-                                again</button>
+                            <div class="score-block">
+                                <span class="score-label">After</span>
+                                <span class="score-value">1500</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section id="timed-sets" aria-labelledby="practice-parts-title">
-                <h2 class="section-label" id="practice-parts-title">Want a timed grammar drill?</h2>
-                <div class="parts">
-                    <a class="part-card" href="/sat-grammar-practice-test-1.html">
-                        <strong>Part 1</strong>
-                        <span>29 questions · 40 seconds each · Instant explanations.</span>
+            <!-- Additional Resources Section -->
+            <section class="resources" aria-labelledby="resources-title">
+                <div class="section-header">
+                    <p class="section-eyebrow">More Tools</p>
+                    <h2 id="resources-title">More Ways to Improve.</h2>
+                </div>
+                <div class="resource-grid">
+                    <a class="resource-card" href="grammar.html">
+                        <div class="resource-icon">📖</div>
+                        <h3>SAT Study Guides</h3>
+                        <p>Full grammar guide.</p>
+                        <span class="card-arrow">→</span>
                     </a>
-                    <a class="part-card" href="/sat-grammar-practice-test-2.html">
-                        <strong>Part 2</strong>
-                        <span>29 questions · 35 seconds each · Instant explanations.</span>
+                    <a class="resource-card" href="grammar.html">
+                        <div class="resource-icon">📝</div>
+                        <h3>Grammar Resources</h3>
+                        <p>Rules and explanations.</p>
+                        <span class="card-arrow">→</span>
                     </a>
-                    <a class="part-card" href="/sat-grammar-practice-test-3.html">
-                        <strong>Part 3</strong>
-                        <span>29 questions · 30 seconds each · Instant explanations.</span>
+                    <a class="resource-card" href="grammar-plan.html">
+                        <div class="resource-icon">📅</div>
+                        <h3>Study Plans</h3>
+                        <p>11-day grammar plan.</p>
+                        <span class="card-arrow">→</span>
+                    </a>
+                    <a class="resource-card" href="volunteer-hours.html">
+                        <div class="resource-icon">🤝</div>
+                        <h3>Volunteer Opportunities</h3>
+                        <p>Earn service hours.</p>
+                        <span class="card-arrow">→</span>
                     </a>
                 </div>
             </section>
-            <section class="sat-motivation" aria-labelledby="sat-motivation-title">
-                <h2 id="sat-motivation-title">Built for students who are ready to improve.</h2>
-                <p>Consistent practice helped me move from a 1300 to a 1500. WoodpeckerSAT makes focused SAT Reading and
-                    Writing practice easier to access—with a free question bank, useful explanations, and tools that
-                    help you keep track of your progress.</p>
-                <a class="action" href="reading-practice.html">Start practicing <span class="arrow"
-                        aria-hidden="true">&rarr;</span></a>
+            <!-- Core Features Section -->
+            <section class="core-features" aria-labelledby="core-title">
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🎯</div>
+                        <h3>Free Mentorship</h3>
+                        <p>Get guidance from a 1500 scorer.</p>
+                        <a class="btn-small" href="ask-a-scorer.html">Apply →</a>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">❓</div>
+                        <h3>Ask a Question</h3>
+                        <p>Send a question to a scorer.</p>
+                        <a class="btn-small" href="ask-a-scorer.html">Ask →</a>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🤝</div>
+                        <h3>Service Hours</h3>
+                        <p>Earn volunteer/NHS hours.</p>
+                        <a class="btn-small" href="volunteer-hours.html">Start →</a>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎁</div>
+                        <h3>Referral Rewards</h3>
+                        <p>Share and earn rewards.</p>
+                        <a class="btn-small" href="rewards.html">Join →</a>
+                    </div>
+                </div>
             </section>
+
+            <!-- Final CTA Section -->
+            <section class="final-cta" aria-labelledby="cta-title">
+                <div class="cta-card">
+                    <h2 id="cta-title">Ready to Improve Your SAT Score?</h2>
+                    <p>2,000+ questions. Free mentorship. Start today.</p>
+                    <a class="btn-primary" href="reading-practice.html">Start Practicing Free →</a>
+                </div>
+            </section>
+            <!-- Personal Study Tools -->
             <section class="personal-tools" aria-labelledby="personal-tools-title">
-                <p class="local-storage-notice" id="personal-tools-storage-status" role="note">Your review list,
-                    practice streak, and saved answers are stored only in this browser on this
-                    device—not on a shared server. Clearing this site’s stored data/local storage (for example, through
-                    “Clear browsing data” when site data is selected) erases them.</p>
-                <h2 class="section-label" id="personal-tools-title">Your personal study tools</h2>
+                <p class="local-storage-notice" id="personal-tools-storage-status" role="note">Your review list, practice streak, and saved answers are stored only in this browser on this device—not on a shared server. Clearing this site’s stored data/local storage erases them.</p>
+                <h2 class="section-label" id="personal-tools-title">Your Personal Study Tools</h2>
                 <div class="personal-tools-grid">
-                    <article class="personal-tool-card" aria-labelledby="question-day-title">
-                        <p class="countdown-eyebrow">Daily challenge</p>
-                        <h3 id="question-day-title">Question of the day</h3>
-                        <div id="daily-question">
-                            <p>Loading today’s question…</p>
-                        </div>
-                    </article>
                     <article class="personal-tool-card" aria-labelledby="study-streak-title">
                         <p class="countdown-eyebrow">On this device</p>
-                        <h3 id="study-streak-title">Your practice streak</h3>
-                        <p class="streak-readout" id="practice-streak">Answer a practice question to start your streak.
-                        </p>
+                        <h3 id="study-streak-title">Your Practice Streak</h3>
+                        <p class="streak-readout" id="practice-streak">Answer a practice question to start your streak.</p>
                         <div id="mistake-summary">
                             <p>Your missed-question patterns will appear here as you practice.</p>
                         </div>
                     </article>
                     <article class="personal-tool-card" aria-labelledby="bookmarks-title">
                         <p class="countdown-eyebrow">Saved for later</p>
-                        <h3 id="bookmarks-title">My test-day review list</h3>
+                        <h3 id="bookmarks-title">My Test-Day Review List</h3>
                         <ul id="personal-bookmarks" class="personal-list">
                             <li>Your bookmarked questions will appear here.</li>
                         </ul>
                     </article>
                     <article class="personal-tool-card printable-builder" aria-labelledby="printable-title">
                         <p class="countdown-eyebrow">Take it offline</p>
-                        <h3 id="printable-title">Printable study sheet</h3>
+                        <h3 id="printable-title">Printable Study Sheet</h3>
                         <p>Choose rule reminders and practice questions, then print or save as PDF.</p>
                         <fieldset class="printable-rules">
                             <legend>Rule reminders</legend>
-                            <label><input type="checkbox" name="print-rule" value="comma"> Use a comma after an
-                                introductory dependent clause.</label>
-                            <label><input type="checkbox" name="print-rule" value="semicolon"> Join two independent
-                                clauses with a semicolon only when both sides can stand alone.</label>
-                            <label><input type="checkbox" name="print-rule" value="colon"> A colon usually follows a
-                                complete clause and introduces an explanation or list.</label>
-                            <label><input type="checkbox" name="print-rule" value="agreement"> Match the verb to the
-                                subject, not to words between them.</label>
-                            <label><input type="checkbox" name="print-rule" value="modifier"> Place a modifier next to
-                                the word or phrase it describes.</label>
-                            <label><input type="checkbox" name="print-rule" value="pronoun"> Make each pronoun’s
-                                antecedent clear and grammatically consistent.</label>
+                            <label><input type="checkbox" name="print-rule" value="comma"> Use a comma after an introductory dependent clause.</label>
+                            <label><input type="checkbox" name="print-rule" value="semicolon"> Join two independent clauses with a semicolon only when both sides can stand alone.</label>
+                            <label><input type="checkbox" name="print-rule" value="colon"> A colon usually follows a complete clause and introduces an explanation or list.</label>
+                            <label><input type="checkbox" name="print-rule" value="agreement"> Match the verb to the subject, not to words between them.</label>
+                            <label><input type="checkbox" name="print-rule" value="modifier"> Place a modifier next to the word or phrase it describes.</label>
+                            <label><input type="checkbox" name="print-rule" value="pronoun"> Make each pronoun’s antecedent clear and grammatically consistent.</label>
                         </fieldset>
                         <label for="print-question-select">Practice questions (select any)</label>
-                        <select id="print-question-select" multiple size="5" aria-describedby="print-question-help">
-                        </select>
-                        <small id="print-question-help">Hold Ctrl (Windows) or Command (Mac) to select multiple
-                            questions.</small>
-                        <button type="button" class="print-study-sheet" id="print-study-sheet">Create printable
-                            sheet</button>
+                        <select id="print-question-select" multiple size="5" aria-describedby="print-question-help"></select>
+                        <small id="print-question-help">Hold Ctrl (Windows) or Command (Mac) to select multiple questions.</small>
+                        <button type="button" class="print-study-sheet" id="print-study-sheet">Create printable sheet</button>
                         <p id="printable-status" class="personal-tool-status" role="status"></p>
                     </article>
                 </div>
             </section>
-            <section class="benefits" aria-label="How the practice works">
-                <div>
-                    <h2>Practice what’s tested</h2>
-                    <p>Focus on punctuation, sentence structure, and standard English conventions from SAT Reading and
-                        Writing.</p>
-                </div>
-                <div>
-                    <h2>Learn from every answer</h2>
-                    <p>Get immediate right-or-wrong feedback and an explanation after each choice.</p>
-                </div>
-                <div>
-                    <h2>Pick up anytime</h2>
-                    <p>No account or subscription—your progress stays in your browser on this device.</p>
-                </div>
-            </section>
-            <div class="more-links">
-                <a href="upload.html">Contribute SAT questions</a>
-                <a href="ask-a-scorer.html">Ask a 1500+ scorer</a>
-                <a href="grammar.html">Explore the full grammar guide</a>
-                <a href="grammar-plan.html">Follow the 11-day grammar plan</a>
-                <a href="sat-grammar-videos.html">Watch a helpful SAT grammar video</a>
-                <a href="learn-sat-regression.html">Learn SAT regression</a>
-                <a href="best-sat-resources.html">Browse the best SAT resources</a>
-            </div>
         </main>
         <nav class="primary-nav" aria-label="Main navigation">
-            <a href="reading-practice.html">SAT Reading &amp; Writing practice</a>
-            <a href="#timed-sets">Timed grammar sets</a>
-            <a href="grammar.html">Grammar guide</a>
-            <a href="grammar-plan.html">Study plan</a>
-            <a href="sat-grammar-videos.html">Helpful video</a>
-            <a href="learn-sat-regression.html">Learn SAT regression</a>
-            <a href="best-sat-resources.html">Best SAT resources</a>
-            <a href="ask-a-scorer.html">Ask a 1500+ scorer</a>
+            <a href="reading-practice.html">Practice Questions</a>
+            <a href="ask-a-scorer.html">Free Mentorship</a>
+            <a href="best-sat-resources.html">Study Resources</a>
+            <a href="about.html">About</a>
+            <a href="rewards.html">Rewards</a>
         </nav>
         <footer>
-            <span>WoodpeckerSAT</span>
-            <nav class="footer-links" aria-label="About and policies">
+            <span class="footer-brand">Woodpecker<span>SAT</span></span>
+            <nav class="footer-links" aria-label="Footer navigation">
+                <a href="reading-practice.html">Practice Questions</a>
+                <a href="ask-a-scorer.html">Free Mentorship</a>
+                <a href="best-sat-resources.html">Study Resources</a>
                 <a href="about.html">About</a>
                 <a href="contact.html">Contact</a>
-                <a href="privacy.html">Privacy</a>
+                <a href="privacy.html">Privacy Policy</a>
             </nav>
         </footer>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" defer></script>
-    <script src="referral-rewards.js?v=20261103-rewards" defer></script>
     <script src="personal-tools.js"></script>
+    <script>
+    (function () {
+        var toggle = document.querySelector('.nav-toggle');
+        var nav = document.getElementById('primary-nav-list');
+        if (toggle && nav) {
+            toggle.addEventListener('click', function () {
+                var open = toggle.getAttribute('aria-expanded') === 'true';
+                toggle.setAttribute('aria-expanded', String(!open));
+                nav.classList.toggle('open', !open);
+            });
+            nav.querySelectorAll('a').forEach(function (link) {
+                link.addEventListener('click', function () {
+                    toggle.setAttribute('aria-expanded', 'false');
+                    nav.classList.remove('open');
+                });
+            });
+        }
+    })();
+    </script>
 <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "bd4a1d1de0cb4bd38383245229f64444"}'></script><!-- End Cloudflare Web Analytics -->
 
 
