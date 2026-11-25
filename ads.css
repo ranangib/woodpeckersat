@@ -30,6 +30,7 @@
 }
 
 @media screen and (min-width: 1400px) and (min-height: 720px) {
+
     .ad-side-rail,
     .smartlink-side-rail {
         position: fixed;
@@ -56,12 +57,12 @@
 
     .ad-side-rail-left,
     .smartlink-side-rail-left {
-        left: calc(50% - var(--page-half) - 176px);
+        left: calc(40% - var(--page-half) - 176px);
     }
 
     .ad-side-rail-right,
     .smartlink-side-rail-right {
-        right: calc(50% - var(--page-half) - 176px);
+        right: calc(40% - var(--page-half) - 176px);
     }
 
     .ad-side-rail iframe {
@@ -97,6 +98,7 @@ html.page-reading-practice .smartlink-side-rail {
 }
 
 @media screen and (max-width: 1829px) {
+
     html.page-reading-practice .ad-side-rail,
     html.page-reading-practice .smartlink-side-rail {
         display: none;
@@ -104,6 +106,7 @@ html.page-reading-practice .smartlink-side-rail {
 }
 
 @media print {
+
     .ad-side-rail,
     .smartlink-side-rail {
         display: none !important;
