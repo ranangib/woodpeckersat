@@ -55,6 +55,17 @@
         transform: translateY(-50%);
     }
 
+    /* Homepage: push sponsorship rails further outward off the page edges */
+    html.page-home .ad-side-rail-left,
+    html.page-home .smartlink-side-rail-left {
+        left: calc(40% - var(--page-half) - 240px);
+    }
+
+    html.page-home .ad-side-rail-right,
+    html.page-home .smartlink-side-rail-right {
+        right: calc(40% - var(--page-half) - 240px);
+    }
+
     .ad-side-rail-left,
     .smartlink-side-rail-left {
         left: calc(40% - var(--page-half) - 176px);
