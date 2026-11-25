@@ -1,0 +1,47 @@
+
+Step 1: Create a "Thank You" Page
+
+You need a webpage that people only see after they do what you want them to do (like filling out a sign-up form or a contact form).
+• Create a new HTML file called thank-you.html.
+• Make your website's form automatically redirect users to this page when they click "Submit".
+• Why this matters: If a user lands on this page, it proves they successfully signed up.
+
+Step 2: Make Sure Google Analytics is on Every Page
+
+Google Analytics can only track people if its code is on your pages.
+• Open your HTML files in your code editor.
+• Make sure your Google Analytics tracking script (the block of code they gave you) is pasted inside the <head> section of both your main page (index.html) and your new thank-you.html page.
+
+Step 3: Tell Google to Track Sign-Ups
+
+Now, tell Google Analytics that visiting the "Thank You" page is a big deal.
+1. Log into your Google Analytics dashboard.
+2. Click the gear icon (Admin) in the bottom left corner.
+3. Under Data display, click on Events, then click Create event.
+4. Name your event something like successful_signup.
+5. Set the matching conditions so it triggers when the page_location contains /thank-you.html.
+6. Save it. Finally, look at your events list and flip the switch to Mark as key event (this used to be called a conversion).
+
+Step 4: Create the Special Links for Your Promoters
+
+You cannot give all your promoters the same link. You must give them custom links so Google knows who sent who. Let's say you have a friend named Alex who wants to promote your site.
+1. Go to Google's free Campaign URL Builder website.
+2. Fill out the form exactly like this:
+	• Website URL: https://yourwebsite.com
+	• Campaign Source: alex (This is the promoter's name)
+	• Campaign Medium: affiliate
+	• Campaign Name: reward_program
+3. Scroll down and copy the long link it generates for you. It will look like this:
+https://yourwebsite.com
+4. Send that exact long link to Alex. Tell them they must use this link when sharing your site.
+(Repeat this step for your next promoter, just change the Campaign Source to their name, like sarah or mike).
+
+Step 5: Check Who to Reward
+
+When Alex and Sarah start sharing their links, people will visit your site and sign up. Here is how you see who brought them in:
+1. Log into Google Analytics.
+2. Go to Reports > Acquisition > Traffic acquisition.
+3. In the table, look for a small blue + icon next to the words Session default channel group. Click it.
+4. Go to Traffic source and select Session source/medium.
+5. Look at the table. You will now see lines like alex / affiliate and sarah / affiliate.
+6. Scroll all the way to the right side of that table to the Key events column. Look at the row for alex / affiliate. The number right there tells you exactly how many people Alex successfully got to sign up!
