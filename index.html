@@ -477,15 +477,25 @@
     </div>
     <script>
 (function() {
+  var STORAGE_KEY = 'woodpeckersat-popup-shown';
+  try {
+    if (localStorage.getItem(STORAGE_KEY) === '1') return;
+  } catch (e) {}
+
   var modal = document.getElementById('pass-it-forward-modal');
   if (!modal) return;
   var popupShown = false;
   var pendingUrl = null;
 
+  function markShown() {
+    try { localStorage.setItem(STORAGE_KEY, '1'); } catch (e) {}
+  }
+
   function showModal() {
     if (popupShown) return;
     popupShown = true;
     modal.style.display = 'flex';
+    markShown();
   }
 
   // 10-second timer
