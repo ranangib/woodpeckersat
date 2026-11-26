@@ -411,7 +411,7 @@
           <label for="referral-email" style="display:block;font-weight:600;margin:0 0 4px;">Email address</label>
           <input id="referral-email" type="email" name="email" autocomplete="email" maxlength="254" required style="width:100%;padding:10px 12px;border:1px solid #d8e1da;border-radius:8px;font-size:15px;">
         </div>
-        <button class="referral-button referral-button-primary" id="referral-submit" type="submit" disabled style="background:#17483e;color:#fff;border:none;padding:12px 24px;border-radius:8px;font-size:15px;font-weight:700;cursor:pointer;width:100%;">
+        <button class="referral-button referral-button-primary" id="referral-submit" type="submit" disabled style="background:#e47755;color:#fff;border:none;padding:12px 24px;border-radius:8px;font-size:15px;font-weight:700;cursor:pointer;width:100%;">
           <span id="referral-submit-label">Join &amp; Get Your Referral Link</span>
           <span id="referral-spinner" aria-hidden="true" hidden></span>
         </button>
@@ -420,6 +420,7 @@
     </div>
     <div id="referral-result" hidden>
       <p style="font-weight:700;margin:0 0 8px;">You're in! Your referral link is ready.</p>
+      <p class="referral-status" id="referral-confirmation" role="status" aria-live="polite" style="margin:0 0 8px;font-size:14px;color:#52645f;"></p>
       <p>Your referral code: <strong id="referral-code-output"></strong></p>
       <label for="referral-link-output" style="display:block;font-weight:600;margin:8px 0 4px;">Share this link</label>
       <a id="referral-link-output" class="referral-link-output" href="" style="display:block;padding:10px 12px;background:#f4f7f2;border-radius:8px;word-break:break-all;margin:0 0 12px;color:#17483e;"></a>
@@ -432,6 +433,10 @@
       </div>
       <p class="referral-status" id="referral-share-status" role="status" aria-live="polite" style="font-size:14px;color:#52645f;"></p>
       <div id="referral-qr" style="margin:12px 0;"></div>
+      <div class="referral-actions referral-qr-actions" style="display:flex;gap:8px;flex-wrap:wrap;margin:8px 0;">
+        <a class="referral-button referral-button-primary" id="referral-download" href="" download="woodpeckersat-referral.png" hidden style="background:#17483e;color:#fff;border:none;padding:10px 16px;border-radius:8px;font-size:14px;font-weight:700;text-decoration:none;display:inline-block;">Download QR Code</a>
+        <button class="referral-button" id="referral-qr-retry" type="button" hidden style="background:#52645f;color:#fff;border:none;padding:10px 16px;border-radius:8px;font-size:14px;font-weight:700;cursor:pointer;">Try QR again</button>
+      </div>
       <p class="referral-status" id="referral-qr-status" role="status" aria-live="polite" style="font-size:14px;color:#52645f;"></p>
     </div>
     <p style="font-size:12px;color:#52645f;margin:16px 0 0;">Your email is sent only to Formspree for this registration. Referral codes are not linked to email addresses in a separate database.</p>
@@ -470,5 +475,7 @@ setTimeout(function() {
 </body>
 
 </html>
+
+
 
 
