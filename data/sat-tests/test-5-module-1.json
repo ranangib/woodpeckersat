@@ -1,0 +1,488 @@
+[
+  {
+    "id": "CS-005",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Easy",
+    "passage": "The volunteers brought ample sandwiches, leaving enough food for everyone who stayed late. This concrete detail shows that ample means more than enough rather than a conflicting or unrelated sense. The chosen sense follows directly from how ample is used in the observation.",
+    "passageWordCount": 43,
+    "question": "As used in the passage, \"ample\" most nearly means",
+    "options": [
+      "more than enough",
+      "barely adequate when used more generally",
+      "carefully hidden",
+      "newly discovered"
+    ],
+    "answerIndex": 0,
+    "explanationText": "The clueÃ¢â‚¬â€\"The volunteers brought ample sandwiches, leaving enough food for everyone who stayed late.\"Ã¢â‚¬â€shows that ample means more than enough in this passage. That interpretation matches the concrete circumstance described.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-184",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Medium",
+    "passage": "The passage uses distill to describe the circumstance immediately being discussed. In this context, distill carries the sense of reduce to essence. Disguise with jargon or increase in volume would describe a different situation, and neither accounts for the stated detail. The chosen sense follows directly from how distill is used in the observation.",
+    "passageWordCount": 54,
+    "question": "As used in the passage, \"distill\" most nearly means",
+    "options": [
+      "reject completely",
+      "disguise with jargon",
+      "reduce to essence",
+      "increase in volume"
+    ],
+    "answerIndex": 2,
+    "explanationText": "The clueÃ¢â‚¬â€\"The passage uses distill to describe the circumstance immediately being discussed.\"Ã¢â‚¬â€shows that distill means reduce to essence in this passage. That interpretation matches the concrete circumstance described.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-185",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Medium",
+    "passage": "The chosen sense follows directly from how defer is used in the observation. In this context, defer carries the sense of postpone. Oppose or recommend would describe a different situation, and neither accounts for the stated detail. The chosen sense follows directly from how defer is used in the observation.",
+    "passageWordCount": 50,
+    "question": "As used in the passage, \"defer\" most nearly means",
+    "options": [
+      "postpone",
+      "oppose",
+      "display",
+      "recommend"
+    ],
+    "answerIndex": 0,
+    "explanationText": "The clueÃ¢â‚¬â€\"The chosen sense follows directly from how defer is used in the observation.\"Ã¢â‚¬â€shows that defer means postpone in this passage. That interpretation matches the concrete circumstance described.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-186",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Medium",
+    "passage": "The scientist had to concede that the initial model could not explain the result. In this context, concede carries the sense of acknowledge. Overlook or guarantee would describe a different situation, and neither accounts for the stated detail. The chosen sense follows directly from how concede is used in the observation.",
+    "passageWordCount": 51,
+    "question": "As used in the passage, \"concede\" most nearly means",
+    "options": [
+      "guarantee",
+      "deny when used more generally",
+      "overlook",
+      "acknowledge"
+    ],
+    "answerIndex": 3,
+    "explanationText": "The clueÃ¢â‚¬â€\"The scientist had to concede that the initial model could not explain the result.\"Ã¢â‚¬â€shows that concede means acknowledge in this passage. That interpretation matches the concrete circumstance described.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-355",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Hard",
+    "passage": "Consider the specific case in this account: Consider the specific case in this account: Consider the specific case in this account: The claim was tenuous because it depended on a single diary entry. The specific consequences in this case require the sense weakly supported. Although carefully designed and physically thick could apply in a separate context, they do not fit the relationship established by the passage.",
+    "passageWordCount": 66,
+    "question": "As used in the passage, \"tenuous\" most nearly means",
+    "options": [
+      "strongly proven",
+      "weakly supported",
+      "physically thick",
+      "carefully designed"
+    ],
+    "answerIndex": 1,
+    "explanationText": "The clueÃ¢â‚¬â€\"Consider the specific case in this account: Consider the specific case in this account: Consider the specific case in this account: The claim was tenuous because it depended on a single diary entry.\"Ã¢â‚¬â€shows that tenuous means weakly supported in this passage. That interpretation matches the concrete circumstance described.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-243",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Medium",
+    "passage": "At an orchard cooperative, relying on pruning every tree on one pass had made routine decisions convenient, but it left an important local difference unclear. The team therefore began recording blossom dates before scheduling pruning rather than treating every case alike. This approach supplied a specific finding: late-flowering branches remained longer. That finding suggests that fewer blossoms were lost to spring frost, although limited to this setting. The method was thus useful where pruning every tree on one pass concealed variation and where a targeted response could reduce frost damage.",
+    "passageWordCount": 90,
+    "question": "Which choice best describes how the passage is organized?",
+    "options": [
+      "It argues against its own evidence and ends by reversing the projectÃ¢â‚¬â„¢s purpose. This description goes beyond the relationship established in the passage.",
+      "It presents a practical but incomplete approach, describes a targeted alternative, and qualifies the result.",
+      "It compares unrelated locations before offering a method for none of them",
+      "It gives the final result first and then supplies contradictory procedures"
+    ],
+    "answerIndex": 1,
+    "explanationText": "The passage begins with the convenience of pruning every tree on one pass, introduces recording blossom dates before scheduling pruning, and then qualifies the finding that late-flowering branches remained longer. It therefore favors a targeted approach to reduce frost damage where local variation matters.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-409",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Hard",
+    "passage": "At an orchard cooperative, advocates of pruning every tree on one pass regarded a broad, uniform procedure as adequate because it was easier to repeat. That view did not account for a difference exposed by recording blossom dates before scheduling pruning. The project found that late-flowering branches remained longer; fewer blossoms were lost to spring frost. These observations support a limited conclusion rather than a universal rule: the project's setting was not evidence that every site must respond identically. Instead, the uniform procedure may remain useful for simple comparisons, while recording blossom dates before scheduling pruning provides a more discriminating way to reduce frost damage.",
+    "passageWordCount": 105,
+    "question": "In the context of the passage, the finding that late-flowering branches remained longer mainly serves to",
+    "options": [
+      "challenge the assumption underlying pruning every tree on one pass by demonstrating a relevant local difference",
+      "prove that every use of pruning every tree on one pass is necessarily useless. The passage gives no evidence for this broader interpretation.",
+      "show that an orchard cooperative is representative of every setting",
+      "replace the projectÃ¢â‚¬â„¢s method with an unsupported prediction"
+    ],
+    "answerIndex": 0,
+    "explanationText": "The uniform approach and recording blossom dates before scheduling pruning are distinguished through the evidence that late-flowering branches remained longer. Because the passage limits that evidence to the tested setting, the argument supports efforts to reduce frost damage in specific contexts rather than a universal rule.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-122",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "Easy",
+    "passage": "Text 1: A review of an urban tree-planting campaign says the new approach works better than the previous one because its recent maps show improvement. In particular, figures for the pilot exceed the corresponding baseline.\n\nText 2: A separate commentator says the comparison is persuasive only for outcomes and groups represented in the trial. The commentator points out that the measure may capture activity without capturing the intended outcome, so this evidence does not settle the broader question.",
+    "passageWordCount": 74,
+    "question": "How does Text 2 build on or challenge Text 1's position?",
+    "options": [
+      "The commentator would reject the result entirely and claim that an urban tree-planting campaign has produced no benefit.",
+      "The commentator would accept the reported result only with a qualification: the comparison is persuasive only for outcomes and groups represented in the trial.",
+      "The commentator would agree that the new approach works better than the previous one in every setting and for every group.",
+      "The commentator would treat the measure may capture activity without capturing the intended outcome as proof that the Text 1 approach is universally ineffective."
+    ],
+    "answerIndex": 1,
+    "explanationText": "Text 1 reports figures for the pilot exceed the corresponding baseline and concludes that the new approach works better than the previous one. Text 2 adds a qualification: the comparison is persuasive only for outcomes and groups represented in the trial; its evidence is the measure may capture activity without capturing the intended outcome. The second author challenges the strength of the comparison rather than rejecting it outright.",
+    "status": "approved"
+  },
+  {
+    "id": "II-073",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
+    "passage": "At Briar Hill, researchers examined rain garden drainage. Earlier accounts claimed rain gardens prevent all nearby street flooding. The team used water-depth markers on streets with and without garden beds and found nearby puddles cleared 24 minutes sooner after moderate rain, but severe storms flooded both street types. These findings suggest gardens improved moderate-rain drainage but did not prevent severe flooding. However, only three storms met the severe category. Other data may change this interpretation.",
+    "passageWordCount": 75,
+    "question": "Which choice best states the passage's central idea?",
+    "options": [
+      "The study found that gardens improved moderate-rain drainage but did not prevent severe flooding.",
+      "The study confirmed that rain gardens prevent all nearby street flooding at every site and season, including locations the researchers never sampled.",
+      "The results establish that gardens stopped flooding during every storm, under every relevant condition.",
+      "The researchers avoided collecting evidence about rain garden drainage altogether."
+    ],
+    "answerIndex": 0,
+    "explanationText": "The passage emphasizes that gardens improved moderate-rain drainage but did not prevent severe flooding. It also notes that only three storms met the severe category, so the broader and absolute claims are unsupported.",
+    "status": "approved"
+  },
+  {
+    "id": "II-076",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
+    "passage": "At Redfern Branch, researchers examined library reading program. Earlier accounts claimed weekly meetings raise every participant's reading score. The team used scores tracked for attendees and nonattendees across one semester and found attendees gained 6 points on average, compared with 4 for nonattendees. These findings suggest participants showed a larger average gain, but assignment was not random. However, students chose whether to attend and had different starting scores. The findings describe a pattern, not causation.",
+    "passageWordCount": 75,
+    "question": "Which choice best states the passage's central idea?",
+    "options": [
+      "The study confirmed that weekly meetings raise every participant's reading score, without needing further comparisons.",
+      "The results establish that every attendee gained exactly 6 points because of meetings, under every relevant condition.",
+      "The researchers avoided collecting evidence about library reading program altogether.",
+      "The study found that participants showed a larger average gain, but assignment was not random."
+    ],
+    "answerIndex": 3,
+    "explanationText": "The passage emphasizes that participants showed a larger average gain, but assignment was not random. It also notes that students chose whether to attend and had different starting scores, so the broader and absolute claims are unsupported.",
+    "status": "approved"
+  },
+  {
+    "id": "II-079",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
+    "passage": "At Mesa Creek School, researchers examined solar panel orientation. Earlier accounts claimed east-facing panels produce less energy all year. The team used monthly output from matched panel arrays and found east-facing panels produced 8 percent less annually but exceeded south-facing output on some cloudy mornings. These findings suggest annual totals and time-specific production favored different orientations. However, the trial lasted one year on one roof. The measured result remains open to interpretation. More evidence helps.",
+    "passageWordCount": 75,
+    "question": "Which choice best states the passage's central idea?",
+    "options": [
+      "The study confirmed that east-facing panels produce less energy all year at every site and season, including locations the researchers never sampled.",
+      "The results establish that east-facing panels produced less in every month under every relevant condition, even those the study did not examine.",
+      "The study found that annual totals and time-specific production favored different orientations.",
+      "The researchers avoided collecting evidence about solar panel orientation, so the reported measurements cannot support any conclusion."
+    ],
+    "answerIndex": 2,
+    "explanationText": "The passage emphasizes that annual totals and time-specific production favored different orientations. It also notes that the trial lasted one year on one roof, so the broader and absolute claims are unsupported.",
+    "status": "approved"
+  },
+  {
+    "id": "II-035",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "Medium",
+    "passage": "At Mill Street Station, researchers examined transit transfers. Earlier accounts claimed a sheltered transfer area eliminates missed connections. The team used missed-connection logs on stormy days before and after construction and found missed connections fell from 14 to 9 monthly while scheduled bus frequency stayed constant. These findings suggest the shelter may have improved transfers, but missed connections continued. However, the station changed its reporting form during the study. Researchers also checked whether the bus timetable changed. This comparison helped clarify the reported result but did not remove the stated limitation. The report treats the finding as evidence about the tested settings rather than a universal rule. The findings describe a pattern, not causation. The measured result remains open to interpretation. More data may help.",
+    "passageWordCount": 125,
+    "question": "Which result from the passage most directly supports the researchers' conclusion?",
+    "options": [
+      "The team used missed-connection logs on stormy days before and after construction, but this alone does not establish what the results show.",
+      "Earlier accounts had suggested that a sheltered transfer area eliminates missed connections, but the study does not establish it for every setting.",
+      "The team found missed connections fell from 14 to 9 monthly while scheduled bus frequency stayed constant.",
+      "The researchers cautioned that the station changed its reporting form during the study, so the study could not reach any conclusion."
+    ],
+    "answerIndex": 2,
+    "explanationText": "The reported finding that missed connections fell from 14 to 9 monthly while scheduled bus frequency stayed constant directly supports the conclusion that the shelter may have improved transfers, but missed connections continued. The other details provide context or a limitation.",
+    "status": "approved"
+  },
+  {
+    "id": "II-098",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "Medium",
+    "passage": "At Cobalt City, researchers examined drought-tolerant landscaping. Earlier accounts claimed native plantings require no irrigation. The team used monthly water use and plant survival at three redesigned beds and found water use fell 32 percent, while plant survival ranged from 72 to 94 percent. These findings suggest native plantings reduced irrigation demand but still needed some watering. However, beds differed in soil and sun exposure. Researchers also logged replacement plants separately. This comparison helped clarify the reported result but did not remove the stated limitation. The report treats the finding as evidence about the tested settings rather than a universal rule. This comparison cannot establish cause by itself. Results remain specific to the tested conditions. Other conditions may produce a different result. More evidence helps.",
+    "passageWordCount": 125,
+    "question": "Which choice accurately describes the quantitative evidence in the passage?",
+    "options": [
+      "The measurements prove that all planted species survived without water, including in conditions beyond those the team actually tested.",
+      "The measurements show that water use fell 32 percent, while plant survival ranged from 72 to 94 percent.",
+      "The comparison showed no difference in any measure, although the passage reports a numerical change.",
+      "The team described monthly water use and plant survival at three redesigned beds instead of reporting the numeric result."
+    ],
+    "answerIndex": 1,
+    "explanationText": "The passage reports that water use fell 32 percent, while plant survival ranged from 72 to 94 percent. The study notes that beds differed in soil and sun exposure, so the figures do not prove a universal rule.",
+    "status": "approved"
+  },
+  {
+    "id": "II-051",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Hard",
+    "passage": "At Old Mill District, researchers examined rooftop gardens more closely. Earlier accounts claimed roof gardens cool every building floor equally. The team used sensors on roofs and in upper-floor rooms and found planted roofs averaged 5 degrees cooler, while indoor readings differed by less than 1 degree. These findings suggest plantings changed roof conditions more clearly than indoor temperatures. However, buildings had different insulation and ventilation. Researchers also logged ventilation during measurement periods. At first glance, a reader might conclude that indoor rooms cooled by 5 degrees; however, the reported measurements show a narrower pattern. The study also notes that buildings had different insulation and ventilation. Consequently, conclusions must remain within the sampled conditions, and the observed association should not be treated as proof of cause. The measured result remains open to interpretation. The data support only a limited conclusion. This comparison cannot establish cause by itself. Results remain specific to the tested conditions. Other conditions may produce a different result. The findings describe a pattern, not causation. The measured result remains open to interpretation.",
+    "passageWordCount": 175,
+    "question": "Which inference is best supported by the passage?",
+    "options": [
+      "The evidence confirms that indoor rooms cooled by 5 degrees, with no meaningful exceptions, including in unmeasured settings.",
+      "The study shows that roof gardens cool every building floor equally, regardless of conditions or differences among the sites examined.",
+      "The evidence suggests surface cooling should not be equated with comparable indoor cooling, but does not establish a universal effect.",
+      "Because buildings had different insulation and ventilation, the reported measurements have no value and cannot support even a limited inference."
+    ],
+    "answerIndex": 2,
+    "explanationText": "The pattern supports the narrower inference that surface cooling should not be equated with comparable indoor cooling. Because buildings had different insulation and ventilation, it cannot support the universal claims in the distractors.",
+    "status": "approved"
+  },
+  {
+    "id": "II-054",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Hard",
+    "passage": "At Graystone Prairie, researchers examined prairie burns more closely. Earlier accounts claimed prescribed burns increase every native species. The team used plant counts in burned and unburned plots over four springs and found one grass increased 30 percent in burned plots, while two uncommon flowers showed no reliable difference. These findings suggest the burn benefited one measured grass, but effects varied by species. However, plots differed slightly in soil moisture. Researchers also repeated counts on the same spring dates. At first glance, a reader might conclude that all native plants increased by 30 percent; however, the reported measurements show a narrower pattern. The study also notes that plots differed slightly in soil moisture. Consequently, conclusions must remain within the sampled conditions, and the observed association should not be treated as proof of cause. The data support only a limited conclusion. This comparison cannot establish cause by itself. Results remain specific to the tested conditions. Other conditions may produce a different result. The findings describe a pattern, not causation. The measured result remains open to interpretation.",
+    "passageWordCount": 175,
+    "question": "Which inference is best supported by the passage?",
+    "options": [
+      "The evidence confirms that all native plants increased by 30 percent, with no meaningful exceptions, including in unmeasured settings.",
+      "The evidence suggests one plant's response cannot establish a benefit for all prairie species, but does not establish a universal effect.",
+      "The study shows that prescribed burns increase every native species, regardless of conditions or differences among the sites examined.",
+      "Because plots differed slightly in soil moisture, the reported measurements have no interpretive value."
+    ],
+    "answerIndex": 1,
+    "explanationText": "The pattern supports the narrower inference that one plant's response cannot establish a benefit for all prairie species. Because plots differed slightly in soil moisture, it cannot support the universal claims in the distractors.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-109",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
+    "passage": "The meeting schedule offered a solution _____ brief reviews replaced lengthy lectures.",
+    "passageWordCount": 12,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      ":",
+      ",",
+      ";",
+      "?"
+    ],
+    "answerIndex": 0,
+    "explanationText": "A colon introduces and frames the specific problem, change, principle, solution, or items that follow.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-193",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
+    "passage": "Before the exhibit opened _____ the staff checked every label.",
+    "passageWordCount": 10,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      ",",
+      "?",
+      " ",
+      ";"
+    ],
+    "answerIndex": 0,
+    "explanationText": "The introductory dependent clause is separated from the independent main clause with a comma.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-110",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
+    "passage": "The final shipment contained two essentials _____ work gloves and protective glasses.",
+    "passageWordCount": 12,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      ";",
+      ",",
+      "?",
+      ":"
+    ],
+    "answerIndex": 3,
+    "explanationText": "A colon introduces and frames the specific problem, change, principle, solution, or items that follow.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-194",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
+    "passage": "While the children practiced _____ their instructor adjusted the tempo.",
+    "passageWordCount": 10,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "?",
+      " ",
+      ";",
+      ","
+    ],
+    "answerIndex": 3,
+    "explanationText": "The introductory dependent clause is separated from the independent main clause with a comma.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-342",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Medium",
+    "passage": "By the end of the month, the farm apprentices _____ a detailed report of the findings.",
+    "passageWordCount": 16,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "was completing",
+      "will have completed",
+      "has completed",
+      "completes"
+    ],
+    "answerIndex": 1,
+    "explanationText": "The future completion point calls for the future perfect verb phrase \"will have completed.\"",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-434",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Hard",
+    "passage": "Designed for frequent use, _____ made the debate team more resistant to damage.",
+    "passageWordCount": 13,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "having reinforced",
+      "its design was",
+      "a reinforced frame",
+      "the frame was"
+    ],
+    "answerIndex": 2,
+    "explanationText": "The opening modifier logically describes the reinforced frame that follows.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-435",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Hard",
+    "passage": "Designed for frequent use, _____ made the volunteer tutors more resistant to damage.",
+    "passageWordCount": 13,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "a reinforced frame",
+      "the frame was",
+      "having reinforced",
+      "its design was"
+    ],
+    "answerIndex": 0,
+    "explanationText": "The opening modifier logically describes the reinforced frame that follows.",
+    "status": "approved"
+  },
+  {
+    "id": "EI-180",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Medium",
+    "passage": "The ecologist placed sensors in a shaded wetland. _____, technicians inserted sensors, next confirmed locations, and later downloaded readings. The team kept enough detail to distinguish this effect from a later change. Later checks will need to use the same observation method.",
+    "passageWordCount": 42,
+    "question": "Which choice most logically completes the text?",
+    "options": [
+      "Therefore",
+      "However",
+      "Moreover",
+      "Afterward"
+    ],
+    "answerIndex": 3,
+    "explanationText": "The passage moves from an initial action to a later step in a clear order.",
+    "status": "approved"
+  },
+  {
+    "id": "EI-181",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Medium",
+    "passage": "The orchestra added a short spoken introduction before each new work. _____, the conductor described the folk source behind one theme. The measure is useful because it captures a difference ordinary estimates could miss. The result should be reviewed alongside earlier measurements rather than in isolation.",
+    "passageWordCount": 46,
+    "question": "Which choice completes the text with the most logical transition?",
+    "options": [
+      "Nevertheless",
+      "Consequently",
+      "For instance",
+      "Next"
+    ],
+    "answerIndex": 2,
+    "explanationText": "The final clause gives a particular case that illustrates the preceding general idea.",
+    "status": "approved"
+  },
+  {
+    "id": "EI-347",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Hard",
+    "passage": "The planning office released the proposed bicycle route with a one-week comment period. _____, planners drafted the route, next opened comments, and then revised the crossings. A consistent record makes this particular change easier to verify. The recorded result is specific to the conditions described.",
+    "passageWordCount": 45,
+    "question": "Which choice most logically completes the text?",
+    "options": [
+      "However",
+      "Afterward",
+      "Moreover",
+      "Therefore"
+    ],
+    "answerIndex": 1,
+    "explanationText": "The passage moves from an initial action to a later step in a clear order.",
+    "status": "approved"
+  },
+  {
+    "id": "EI-276",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "Medium",
+    "passage": "Notes:\n- Staff at Central Market piloted market produce sampling in response to shoppers passing unfamiliar fruit stalls.\n- For tastings that led to a purchase, readings were 20 percent of tastings initially, 26 midway, and 33 finally.\n- The sample comprised tastings at two Saturday markets on six market days; vendors tallied samples and same-visit purchases.\n- The study was confined to two markets on Saturday mornings, and weather and market attendance varied by day.\n- Later purchases were not tracked. The observation period lasted three weeks.",
+    "passageWordCount": 82,
+    "question": "At Central Market, the student studied market produce sampling and wants to emphasize a limitation on interpreting the measured result. Which choice most effectively meets that goal?",
+    "options": [
+      "At Central Market, the recorded measure for tastings that led to a purchase changed from 20 to 33 percent of tastings, proving the intervention works in all settings.",
+      "At Central Market, the recorded measure for tastings that led to a purchase changed from 20 to 33 percent of tastings, but weather and market attendance varied by day.",
+      "Despite the listed procedure, no measurement of tastings that led to a purchase was collected at Central Market or at any other point in the study.",
+      "The staff recorded tastings that led to a purchase at three checkpoints, but this summary leaves out the study's limitation."
+    ],
+    "answerIndex": 1,
+    "explanationText": "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
+    "status": "approved"
+  },
+  {
+    "id": "EI-277",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "Medium",
+    "passage": "Notes:\n- At City News, staff piloted archive page-feeding scanners after noting slow digitization of local newspapers.\n- The first, middle, and final readings for pages digitized were 480, 570, and 645 pages per hour, respectively.\n- The analysis used newspaper pages processed by two technicians; the archive logged completed, legible scans.\n- The evidence is specific to two technicians at the county archive; the test used only one newspaper format.\n- Quality reviewers still checked each scanned page. The observation period lasted three weeks.",
+    "passageWordCount": 79,
+    "question": "In describing the pilot of archive page-feeding scanners at City News, the student wants to highlight the final measurement in relation to the starting value. Which choice accomplishes that purpose?",
+    "options": [
+      "At City News, the final recorded measure for pages digitized was 570 pages per hour, the midpoint reading.",
+      "At City News, the final recorded measure for pages digitized was 645 pages per hour, compared with 480 at the start.",
+      "At City News, the starting measure for pages digitized was 645 pages per hour, and the final reading was 480.",
+      "The trial proves that archive page-feeding scanners will produce 645 pages per hour at City News and at every other site, too."
+    ],
+    "answerIndex": 1,
+    "explanationText": "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
+    "status": "approved"
+  }
+]

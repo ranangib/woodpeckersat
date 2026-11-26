@@ -1,0 +1,488 @@
+[
+  {
+    "id": "CS-179",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Medium",
+    "passage": "In this context, tractable carries the sense of easy to control or manage. In this context, tractable carries the sense of easy to control or manage. Costly to replace or likely to revolt would describe a different situation, and neither accounts for the stated detail. The chosen sense follows directly from how tractable is used in the observation.",
+    "passageWordCount": 58,
+    "question": "As used in the passage, \"tractable\" most nearly means",
+    "options": [
+      "likely to revolt in a different context",
+      "easy to control or manage",
+      "costly to replace",
+      "impossible to observe"
+    ],
+    "answerIndex": 1,
+    "explanationText": "The clueÃ¢â‚¬â€\"In this context, tractable carries the sense of easy to control or manage.\"Ã¢â‚¬â€shows that tractable means easy to control or manage in this passage. That interpretation matches the concrete circumstance described.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-346",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Hard",
+    "passage": "Consider the specific case in this account: Consider the specific case in this account: Consider the specific case in this account: The cost of framing became peripheral after the museum secured a larger grant. The specific consequences in this case require the sense of secondary importance. Although of central importance and of immediate urgency could apply in a separate context, they do not fit the relationship established by the passage.",
+    "passageWordCount": 70,
+    "question": "As used in the passage, \"peripheral\" most nearly means",
+    "options": [
+      "of central importance",
+      "of private origin when used more generally",
+      "of immediate urgency",
+      "of secondary importance"
+    ],
+    "answerIndex": 3,
+    "explanationText": "The clueÃ¢â‚¬â€\"Consider the specific case in this account: Consider the specific case in this account: Consider the specific case in this account: The cost of framing became peripheral after the museum secured a larger grant.\"Ã¢â‚¬â€shows that peripheral means of secondary importance in this passage. That interpretation matches the concrete circumstance described.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-347",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Hard",
+    "passage": "Consider the specific case in this account: Consider the specific case in this account: Consider the specific case in this account: The first explanation seemed plausible, though later data weakened it. The specific consequences in this case require the sense apparently reasonable. Although physically large and proved false could apply in a separate context, they do not fit the relationship established by the passage.",
+    "passageWordCount": 64,
+    "question": "As used in the passage, \"plausible\" most nearly means",
+    "options": [
+      "proved false under a broader interpretation",
+      "apparently reasonable",
+      "physically large",
+      "historically unique"
+    ],
+    "answerIndex": 1,
+    "explanationText": "The clueÃ¢â‚¬â€\"Consider the specific case in this account: Consider the specific case in this account: Consider the specific case in this account: The first explanation seemed plausible, though later data weakened it.\"Ã¢â‚¬â€shows that plausible means apparently reasonable in this passage. That interpretation matches the concrete circumstance described.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-348",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Hard",
+    "passage": "Consider the specific case in this account: Consider the specific case in this account: Consider the specific case in this account: The letter was poignant because its author had never seen the rebuilt town. The specific consequences in this case require the sense emotionally moving. Although technically advanced and politically neutral could apply in a separate context, they do not fit the relationship established by the passage.",
+    "passageWordCount": 67,
+    "question": "As used in the passage, \"poignant\" most nearly means",
+    "options": [
+      "politically neutral",
+      "technically advanced",
+      "emotionally moving",
+      "amusing"
+    ],
+    "answerIndex": 2,
+    "explanationText": "The clueÃ¢â‚¬â€\"Consider the specific case in this account: Consider the specific case in this account: Consider the specific case in this account: The letter was poignant because its author had never seen the rebuilt town.\"Ã¢â‚¬â€shows that poignant means emotionally moving in this passage. That interpretation matches the concrete circumstance described.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-349",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Hard",
+    "passage": "Consider the specific case in this account: Consider the specific case in this account: Consider the specific case in this account: A pragmatic compromise preserved services while reducing construction costs. The specific consequences in this case require the sense focused on practical results. Although focused on ideals and focused on appearance could apply in a separate context, they do not fit the relationship established by the passage.",
+    "passageWordCount": 67,
+    "question": "As used in the passage, \"pragmatic\" most nearly means",
+    "options": [
+      "focused on practical results",
+      "focused on appearance",
+      "focused on ideals when used more generally",
+      "focused on tradition"
+    ],
+    "answerIndex": 0,
+    "explanationText": "The clueÃ¢â‚¬â€\"Consider the specific case in this account: Consider the specific case in this account: Consider the specific case in this account: A pragmatic compromise preserved services while reducing construction costs.\"Ã¢â‚¬â€shows that pragmatic means focused on practical results in this passage. That interpretation matches the concrete circumstance described.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-240",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Medium",
+    "passage": "At a language workshop, relying on correcting every pronunciation immediately had made routine decisions convenient, but it left an important local difference unclear. The team therefore began waiting until a phrase was repeated rather than treating every case alike. This approach supplied a specific finding: discussion continued without repeated interruptions. That finding suggests that participants spoke more often, although limited to this setting. The method was thus useful where correcting every pronunciation immediately concealed variation and where a targeted response could create room for sustained practice.",
+    "passageWordCount": 86,
+    "question": "Which choice best describes how the passage is organized?",
+    "options": [
+      "It argues against its own evidence and ends by reversing the projectÃ¢â‚¬â„¢s purpose. This description goes beyond the relationship established in the passage.",
+      "It compares unrelated locations before offering a method for none of them",
+      "It presents a practical but incomplete approach, describes a targeted alternative, and qualifies the result.",
+      "It gives the final result first and then supplies contradictory procedures"
+    ],
+    "answerIndex": 2,
+    "explanationText": "The passage begins with the convenience of correcting every pronunciation immediately, introduces waiting until a phrase was repeated, and then qualifies the finding that discussion continued without repeated interruptions. It therefore favors a targeted approach to create room for sustained practice where local variation matters.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-406",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Hard",
+    "passage": "At a language workshop, advocates of correcting every pronunciation immediately regarded a broad, uniform procedure as adequate because it was easier to repeat. That view did not account for a difference exposed by waiting until a phrase was repeated. The project found that discussion continued without repeated interruptions; participants spoke more often. These observations support a limited conclusion rather than a universal rule: the project's setting was not evidence that every site must respond identically. Instead, the uniform procedure may remain useful for simple comparisons, while waiting until a phrase was repeated provides a more discriminating way to create room for sustained practice.",
+    "passageWordCount": 103,
+    "question": "In the context of the passage, the finding that discussion continued without repeated interruptions mainly serves to",
+    "options": [
+      "challenge the assumption underlying correcting every pronunciation immediately by demonstrating a relevant local difference",
+      "prove that every use of correcting every pronunciation immediately is necessarily useless. The passage gives no evidence for this broader interpretation.",
+      "show that a language workshop is representative of every setting",
+      "replace the projectÃ¢â‚¬â„¢s method with an unsupported prediction"
+    ],
+    "answerIndex": 0,
+    "explanationText": "The uniform approach and waiting until a phrase was repeated are distinguished through the evidence that discussion continued without repeated interruptions. Because the passage limits that evidence to the tested setting, the argument supports efforts to create room for sustained practice in specific contexts rather than a universal rule.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-453",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "Hard",
+    "passage": "Text 1: A review of a pollinator habitat along highways argues that participation data show that the target population values the change because mapped habitat show improvement. It supports this judgment with survey comments and usage records point in the same direction. It also presents maintenance contracts as evidence that the proposed change is practical.\n\nText 2: A separate commentator offers a qualified assessment: participation may reflect convenience or outreach rather than preference. The commentator cautions that staffing and publicity differed during the trial and that pollinator abundance may differ from the result reported here. A change in participation should not be conflated with a change in satisfaction or preference.",
+    "passageWordCount": 106,
+    "question": "Which response by Text 2 most accurately engages the point made in Text 1?",
+    "options": [
+      "The commentator would accept the reported result only with a qualification: participation may reflect convenience or outreach rather than preference.",
+      "The commentator would reject the result entirely and claim that a pollinator habitat along highways has produced no benefit.",
+      "The commentator would agree that participation data show that the target population values the change in every setting and for every group.",
+      "The commentator would treat staffing and publicity differed during the trial as proof that the Text 1 approach is universally ineffective."
+    ],
+    "answerIndex": 0,
+    "explanationText": "Text 1 reports survey comments and usage records point in the same direction and concludes that participation data show that the target population values the change. Text 2 adds a qualification: participation may reflect convenience or outreach rather than preference; its evidence is staffing and publicity differed during the trial. The second author distinguishes measured use from underlying preference.",
+    "status": "approved"
+  },
+  {
+    "id": "II-046",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
+    "passage": "At Calder Art Museum, researchers examined museum visitor routes. Earlier accounts claimed new signs make every gallery easier to navigate. The team used visitor paths tracked before and after signs were installed and found east-gallery visits rose 15 percent, but time searching for the west gallery was unchanged. These findings suggest signs helped direct some visitors but not every route measure. However, a popular exhibit opened during the second period. Further observations may change this.",
+    "passageWordCount": 75,
+    "question": "Which choice best states the passage's central idea?",
+    "options": [
+      "The study confirmed that new signs make every gallery easier to navigate at every site and season, including locations the researchers never sampled.",
+      "The study found that signs helped direct some visitors but not every route measure.",
+      "The results establish that every gallery received 15 percent more visitors under every relevant condition, even those the study did not examine.",
+      "The researchers avoided collecting evidence about museum visitor routes altogether."
+    ],
+    "answerIndex": 1,
+    "explanationText": "The passage emphasizes that signs helped direct some visitors but not every route measure. It also notes that a popular exhibit opened during the second period, so the broader and absolute claims are unsupported.",
+    "status": "approved"
+  },
+  {
+    "id": "II-049",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
+    "passage": "At Old Mill District, researchers examined rooftop gardens. Earlier accounts claimed roof gardens cool every building floor equally. The team used sensors on roofs and in upper-floor rooms and found planted roofs averaged 5 degrees cooler, while indoor readings differed by less than 1 degree. These findings suggest plantings changed roof conditions more clearly than indoor temperatures. However, buildings had different insulation and ventilation. This comparison cannot establish cause by itself. More data may help.",
+    "passageWordCount": 75,
+    "question": "Which choice best states the passage's central idea?",
+    "options": [
+      "The study found that plantings changed roof conditions more clearly than indoor temperatures.",
+      "The study confirmed that roof gardens cool every building floor equally at every site and season, including locations the researchers never sampled.",
+      "The results establish that indoor rooms cooled by 5 degrees, under every relevant condition.",
+      "The researchers avoided collecting evidence about rooftop gardens altogether."
+    ],
+    "answerIndex": 0,
+    "explanationText": "The passage emphasizes that plantings changed roof conditions more clearly than indoor temperatures. It also notes that buildings had different insulation and ventilation, so the broader and absolute claims are unsupported.",
+    "status": "approved"
+  },
+  {
+    "id": "II-052",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
+    "passage": "At Graystone Prairie, researchers examined prairie burns. Earlier accounts claimed prescribed burns increase every native species. The team used plant counts in burned and unburned plots over four springs and found one grass increased 30 percent in burned plots, while two uncommon flowers showed no reliable difference. These findings suggest the burn benefited one measured grass, but effects varied by species. However, plots differed slightly in soil moisture. The findings describe a pattern, not causation.",
+    "passageWordCount": 75,
+    "question": "Which choice best states the passage's central idea?",
+    "options": [
+      "The study confirmed that prescribed burns increase every native species, without needing further comparisons.",
+      "The results establish that all native plants increased by 30 percent, under every relevant condition.",
+      "The researchers avoided collecting evidence about prairie burns altogether.",
+      "The study found that the burn benefited one measured grass, but effects varied by species."
+    ],
+    "answerIndex": 3,
+    "explanationText": "The passage emphasizes that the burn benefited one measured grass, but effects varied by species. It also notes that plots differed slightly in soil moisture, so the broader and absolute claims are unsupported.",
+    "status": "approved"
+  },
+  {
+    "id": "II-023",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "Medium",
+    "passage": "At Easton Middle School, researchers examined school tutoring more closely. Earlier accounts claimed more tutoring necessarily improves every student's score. The team used score records for students attending different numbers of sessions and found students attending six or more sessions gained 7 points on average; others gained 5. These findings suggest attendance was associated with different average gains but was not randomly assigned. However, frequent attendees may have differed in motivation or preparation. Researchers also compared baseline scores before calculating gains. This comparison helped clarify the reported result but did not remove the stated limitation. The report treats the finding as evidence about the tested settings rather than a universal rule. The data support only a limited conclusion. This comparison cannot establish cause by itself.",
+    "passageWordCount": 125,
+    "question": "Which result from the passage most directly supports the researchers' conclusion?",
+    "options": [
+      "The team used score records for students attending different numbers of sessions, but this alone does not establish what the results show.",
+      "Earlier accounts had suggested that more tutoring necessarily improves every student's score, but the study does not establish it for every setting.",
+      "The team found students attending six or more sessions gained 7 points on average; others gained 5.",
+      "The researchers cautioned that frequent attendees may have differed in motivation or preparation, so the study could not reach any conclusion."
+    ],
+    "answerIndex": 2,
+    "explanationText": "The reported finding that students attending six or more sessions gained 7 points on average; others gained 5 directly supports the conclusion that attendance was associated with different average gains but was not randomly assigned. The other details provide context or a limitation.",
+    "status": "approved"
+  },
+  {
+    "id": "II-062",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "Medium",
+    "passage": "At Westhaven Canal, researchers examined historic canal repairs. Earlier accounts claimed original stone lining prevented later leaks. The team used repair maps compared with seepage reports across canal sections and found lined sections had fewer reported leaks but were also inspected more often. These findings suggest inspection patterns complicate the association in the records. However, older reports may omit small leaks in less monitored areas. Researchers also compared sections with similar water pressure. This comparison helped clarify the reported result but did not remove the stated limitation. The report treats the finding as evidence about the tested settings rather than a universal rule. This comparison cannot establish cause by itself. Results remain specific to the tested conditions. These findings remain limited to the tested settings.",
+    "passageWordCount": 125,
+    "question": "Which choice accurately describes the quantitative evidence in the passage?",
+    "options": [
+      "The measurements prove that the lining eliminated every leak, including in conditions beyond those the team actually tested.",
+      "The measurements show that lined sections had fewer reported leaks but were also inspected more often.",
+      "The comparison showed no difference in any measure, although the passage reports a numerical change.",
+      "The team described repair maps compared with seepage reports across canal sections instead of reporting the numeric result."
+    ],
+    "answerIndex": 1,
+    "explanationText": "The passage reports that lined sections had fewer reported leaks but were also inspected more often. The study notes that older reports may omit small leaks in less monitored areas, so the figures do not prove a universal rule.",
+    "status": "approved"
+  },
+  {
+    "id": "II-033",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Hard",
+    "passage": "At Dovetail Farms, researchers examined pollinator corridor. Earlier accounts claimed flower strips increase visits on every crop. The team used bee visits recorded on paired fields with and without strips and found strip-side fields had 22 percent more visits early in summer, but the gap later narrowed. These findings suggest the observed association with visits varied over the season. However, crops differed and yields were not measured. Researchers also used equal-length observation periods at each field. At first glance, a reader might conclude that strips raised crop yields 22 percent all season; however, the reported measurements show a narrower pattern. The study also notes that crops differed and yields were not measured. Consequently, conclusions must remain within the sampled conditions, and the observed association should not be treated as proof of cause. The measured result remains open to interpretation. The data support only a limited conclusion. This comparison cannot establish cause by itself. Results remain specific to the tested conditions. Other conditions may produce a different result. These findings remain limited to the tested settings.",
+    "passageWordCount": 175,
+    "question": "Which inference is best supported by the passage?",
+    "options": [
+      "The evidence suggests the data show a seasonal visit pattern, not a proven harvest increase, but does not establish a universal effect.",
+      "The evidence confirms that strips raised crop yields 22 percent all season, with no meaningful exceptions, including in unmeasured settings.",
+      "The study shows that flower strips increase visits on every crop, regardless of the conditions examined.",
+      "Because crops differed and yields were not measured, the reported measurements have no interpretive value."
+    ],
+    "answerIndex": 0,
+    "explanationText": "The pattern supports the narrower inference that the data show a seasonal visit pattern, not a proven harvest increase. Because crops differed and yields were not measured, it cannot support the universal claims in the distractors.",
+    "status": "approved"
+  },
+  {
+    "id": "II-036",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Hard",
+    "passage": "At Mill Street Station, researchers examined transit transfers. Earlier accounts claimed a sheltered transfer area eliminates missed connections. The team used missed-connection logs on stormy days before and after construction and found missed connections fell from 14 to 9 monthly while scheduled bus frequency stayed constant. These findings suggest the shelter may have improved transfers, but missed connections continued. However, the station changed its reporting form during the study. Researchers also checked whether the bus timetable changed. At first glance, a reader might conclude that the shelter eliminated all missed connections; however, the reported measurements show a narrower pattern. The study also notes that the station changed its reporting form during the study. Consequently, conclusions must remain within the sampled conditions, and the observed association should not be treated as proof of cause. The data support only a limited conclusion. This comparison cannot establish cause by itself. Results remain specific to the tested conditions. Other conditions may produce a different result. The findings describe a pattern, not causation. The findings describe a pattern, not causation.",
+    "passageWordCount": 175,
+    "question": "Which inference is best supported by the passage?",
+    "options": [
+      "The evidence confirms that the shelter eliminated all missed connections, with no meaningful exceptions.",
+      "The study shows that a sheltered transfer area eliminates missed connections, regardless of the conditions examined.",
+      "Because the station changed its reporting form during the study, the reported measurements have no interpretive value.",
+      "The evidence suggests the reduction is consistent with improvement but cannot be attributed to shelter alone, but does not establish a universal effect."
+    ],
+    "answerIndex": 3,
+    "explanationText": "The pattern supports the narrower inference that the reduction is consistent with improvement but cannot be attributed to shelter alone. Because the station changed its reporting form during the study, it cannot support the universal claims in the distractors.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-183",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
+    "passage": "Before the exhibit opened _____ the staff checked every label.",
+    "passageWordCount": 10,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      ",",
+      ";",
+      " ",
+      "?"
+    ],
+    "answerIndex": 0,
+    "explanationText": "The introductory dependent clause is separated from the independent main clause with a comma.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-105",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
+    "passage": "The final shipment contained two essentials _____ work gloves and protective glasses.",
+    "passageWordCount": 12,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      ":",
+      "?",
+      ";",
+      ","
+    ],
+    "answerIndex": 0,
+    "explanationText": "A colon introduces and frames the specific problem, change, principle, solution, or items that follow.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-184",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
+    "passage": "While the children practiced _____ their instructor adjusted the tempo.",
+    "passageWordCount": 10,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      ";",
+      " ",
+      ",",
+      "?"
+    ],
+    "answerIndex": 2,
+    "explanationText": "The introductory dependent clause is separated from the independent main clause with a comma.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-186",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
+    "passage": "After the instruments were calibrated _____ the technician began the trial.",
+    "passageWordCount": 11,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      " ",
+      ";",
+      ",",
+      "?"
+    ],
+    "answerIndex": 2,
+    "explanationText": "The introductory dependent clause is separated from the independent main clause with a comma.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-428",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Hard",
+    "passage": "Designed for frequent use, _____ made the neighborhood association more resistant to damage.",
+    "passageWordCount": 13,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "its design was",
+      "a reinforced frame",
+      "having reinforced",
+      "the frame was"
+    ],
+    "answerIndex": 1,
+    "explanationText": "The opening modifier logically describes the reinforced frame that follows.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-339",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Medium",
+    "passage": "By the end of the month, the orchestra section _____ a detailed report of the findings.",
+    "passageWordCount": 16,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "will have completed",
+      "completes",
+      "was completing",
+      "has completed"
+    ],
+    "answerIndex": 0,
+    "explanationText": "The future completion point calls for the future perfect verb phrase \"will have completed.\"",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-429",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Hard",
+    "passage": "Designed for frequent use, _____ made the archive staff more resistant to damage.",
+    "passageWordCount": 13,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "its design was",
+      "a reinforced frame",
+      "having reinforced",
+      "the frame was"
+    ],
+    "answerIndex": 1,
+    "explanationText": "The opening modifier logically describes the reinforced frame that follows.",
+    "status": "approved"
+  },
+  {
+    "id": "EI-342",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Hard",
+    "passage": "The museum's conservation lab recorded the humidity around a wooden sculpture. _____, conservators calibrated monitors, next adjusted vents, and later compared readings. The team kept enough detail to distinguish this effect from a later change. Later checks will need to use the same observation method.",
+    "passageWordCount": 45,
+    "question": "Which choice completes the text with the most logical transition?",
+    "options": [
+      "Therefore",
+      "However",
+      "Moreover",
+      "Afterward"
+    ],
+    "answerIndex": 3,
+    "explanationText": "The passage moves from an initial action to a later step in a clear order.",
+    "status": "approved"
+  },
+  {
+    "id": "EI-176",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Medium",
+    "passage": "The zoo shifted a meerkat feeding schedule by thirty minutes. _____, the later feeding reduced crowding but moved the activity outside peak visitor hours. A consistent record makes this particular change easier to verify. The recorded result is specific to the conditions described.",
+    "passageWordCount": 43,
+    "question": "Which choice most logically completes the text?",
+    "options": [
+      "Moreover",
+      "Therefore",
+      "However",
+      "For example"
+    ],
+    "answerIndex": 2,
+    "explanationText": "The second idea presents a limitation or difference that conflicts with the initial observation.",
+    "status": "approved"
+  },
+  {
+    "id": "EI-343",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Hard",
+    "passage": "The soccer coach divided practice into short skill stations. _____, players rotated among stations, next joined the scrimmage, and later cooled down. The team kept enough detail to distinguish this effect from a later change. Later checks will need to use the same observation method.",
+    "passageWordCount": 45,
+    "question": "Which transition best completes the text?",
+    "options": [
+      "Therefore",
+      "However",
+      "Moreover",
+      "Afterward"
+    ],
+    "answerIndex": 3,
+    "explanationText": "The passage moves from an initial action to a later step in a clear order.",
+    "status": "approved"
+  },
+  {
+    "id": "EI-439",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "Hard",
+    "passage": "Notes:\n- Staff at Reef Frame piloted coral nursery shade screens in response to heat stress on young nursery corals.\n- For coral-fragment survival rate, readings were 73 percent initially, 81 midway, and 88 finally.\n- The sample comprised fragments in six matched nursery frames; divers counted living fragments at each visit.\n- The study was confined to one shallow-water nursery site, and the nursery had no unscreened frame at one depth.\n- Growth rate was measured separately from survival. The observation period lasted twelve weeks.",
+    "passageWordCount": 80,
+    "question": "At Reef Frame, the student studied coral nursery shade screens and wants to emphasize a limitation on interpreting the measured result. Which choice most effectively meets that goal?",
+    "options": [
+      "At Reef Frame, the recorded measure for coral-fragment survival rate changed from 73 to 88 percent, but the nursery had no unscreened frame at one depth.",
+      "At Reef Frame, the recorded measure for coral-fragment survival rate changed from 73 to 88 percent, proving the intervention works in all settings.",
+      "The staff recorded coral-fragment survival rate at three checkpoints, but this summary leaves out the study's limitation.",
+      "Despite the listed procedure, no measurement of coral-fragment survival rate was collected at Reef Frame or at any other point in the study."
+    ],
+    "answerIndex": 0,
+    "explanationText": "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
+    "status": "approved"
+  },
+  {
+    "id": "EI-440",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "Hard",
+    "passage": "Notes:\n- At Class 4A, staff piloted classroom annotation tools after noting students overlooking cited evidence.\n- The first, middle, and final readings for responses citing a relevant passage were 60, 72, and 81 percent of responses, respectively.\n- The analysis used written responses from two history classes across six assignments; teachers scored work with a shared rubric.\n- The evidence is specific to two classes during one unit; the same teachers introduced the tool.\n- The study did not compare end-of-year exam scores. The observation period lasted six weeks.",
+    "passageWordCount": 84,
+    "question": "In describing the pilot of classroom annotation tools at Class 4A, the student wants to highlight the final measurement in relation to the starting value. Which choice accomplishes that purpose?",
+    "options": [
+      "At Class 4A, the starting measure for responses citing a relevant passage was 81 percent of responses, and the final reading was 60.",
+      "At Class 4A, the final recorded measure for responses citing a relevant passage was 81 percent of responses, compared with 60 at the start.",
+      "The trial proves that classroom annotation tools will produce 81 percent of responses at Class 4A and at every other site, too.",
+      "At Class 4A, the final recorded measure for responses citing a relevant passage was 72 percent of responses, the midpoint reading."
+    ],
+    "answerIndex": 1,
+    "explanationText": "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
+    "status": "approved"
+  }
+]

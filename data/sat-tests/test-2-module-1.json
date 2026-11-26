@@ -1,0 +1,488 @@
+[
+  {
+    "id": "CS-002",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Easy",
+    "passage": "The instructor's clear directions helped every student begin the experiment without asking follow-up questions. This concrete detail shows that clear means easy to understand rather than a conflicting or unrelated sense. The chosen sense follows directly from how clear is used in the observation.",
+    "passageWordCount": 44,
+    "question": "As used in the passage, \"clear\" most nearly means",
+    "options": [
+      "difficult to locate",
+      "partly concealed",
+      "likely to change",
+      "easy to understand"
+    ],
+    "answerIndex": 3,
+    "explanationText": "The clueÃ¢â‚¬â€\"The instructor's clear directions helped every student begin the experiment without asking follow-up questions.\"Ã¢â‚¬â€shows that clear means easy to understand in this passage. That interpretation matches the concrete circumstance described.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-172",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Medium",
+    "passage": "The image of a garden was apt for a policy designed to encourage gradual growth. In this context, apt carries the sense of appropriate. Oppressive or costly would describe a different situation, and neither accounts for the stated detail. The chosen sense follows directly from how apt is used in the observation.",
+    "passageWordCount": 52,
+    "question": "As used in the passage, \"apt\" most nearly means",
+    "options": [
+      "costly",
+      "oppressive",
+      "appropriate",
+      "unpredictable"
+    ],
+    "answerIndex": 2,
+    "explanationText": "The clueÃ¢â‚¬â€\"The image of a garden was apt for a policy designed to encourage gradual growth.\"Ã¢â‚¬â€shows that apt means appropriate in this passage. That interpretation matches the concrete circumstance described.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-173",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Medium",
+    "passage": "In this context, poised carries the sense of prepared and composed. In this context, poised carries the sense of prepared and composed. Uncertain and confused or financially dependent would describe a different situation, and neither accounts for the stated detail. The chosen sense follows directly from how poised is used in the observation.",
+    "passageWordCount": 53,
+    "question": "As used in the passage, \"poised\" most nearly means",
+    "options": [
+      "prepared and composed",
+      "uncertain and confused",
+      "financially dependent",
+      "physically limited"
+    ],
+    "answerIndex": 0,
+    "explanationText": "The clueÃ¢â‚¬â€\"In this context, poised carries the sense of prepared and composed.\"Ã¢â‚¬â€shows that poised means prepared and composed in this passage. That interpretation matches the concrete circumstance described.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-174",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Medium",
+    "passage": "The panel appeared disposed to accept the proposal if revisions addressed local concerns. In this context, disposed carries the sense of inclined. Prevented or overqualified would describe a different situation, and neither accounts for the stated detail. The chosen sense follows directly from how disposed is used in the observation.",
+    "passageWordCount": 50,
+    "question": "As used in the passage, \"disposed\" most nearly means",
+    "options": [
+      "prevented",
+      "overqualified",
+      "unconvinced",
+      "inclined"
+    ],
+    "answerIndex": 3,
+    "explanationText": "The clueÃ¢â‚¬â€\"The panel appeared disposed to accept the proposal if revisions addressed local concerns.\"Ã¢â‚¬â€shows that disposed means inclined in this passage. That interpretation matches the concrete circumstance described.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-340",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Hard",
+    "passage": "Consider the specific case in this account: Consider the specific case in this account: Consider the specific case in this account: The test has an inherent limit: it measures only the selected variable. The specific consequences in this case require the sense naturally part of. Although separate from and temporarily imposed on could apply in a separate context, they do not fit the relationship established by the passage.",
+    "passageWordCount": 68,
+    "question": "As used in the passage, \"inherent\" most nearly means",
+    "options": [
+      "added by mistake",
+      "temporarily imposed on",
+      "naturally part of",
+      "separate from"
+    ],
+    "answerIndex": 2,
+    "explanationText": "The clueÃ¢â‚¬â€\"Consider the specific case in this account: Consider the specific case in this account: Consider the specific case in this account: The test has an inherent limit: it measures only the selected variable.\"Ã¢â‚¬â€shows that inherent means naturally part of in this passage. That interpretation matches the concrete circumstance described.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-237",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Medium",
+    "passage": "At a community bakery, relying on using only a standard wheat flour had made routine decisions convenient, but it left an important local difference unclear. The team therefore began milling several local grains separately rather than treating every case alike. This approach supplied a specific finding: each flour produced a noticeably different rise. That finding suggests that customers compared texture and flavor, although limited to this setting. The method was thus useful where using only a standard wheat flour concealed variation and where a targeted response could show how grain choice affects bread.",
+    "passageWordCount": 93,
+    "question": "Which choice best describes how the passage is organized?",
+    "options": [
+      "It argues against its own evidence and ends by reversing the projectÃ¢â‚¬â„¢s purpose. This description goes beyond the relationship established in the passage.",
+      "It presents a practical but incomplete approach, describes a targeted alternative, and qualifies the result.",
+      "It compares unrelated locations before offering a method for none of them",
+      "It gives the final result first and then supplies contradictory procedures"
+    ],
+    "answerIndex": 1,
+    "explanationText": "The passage begins with the convenience of using only a standard wheat flour, introduces milling several local grains separately, and then qualifies the finding that each flour produced a noticeably different rise. It therefore favors a targeted approach to show how grain choice affects bread where local variation matters.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-403",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Hard",
+    "passage": "At a community bakery, advocates of using only a standard wheat flour regarded a broad, uniform procedure as adequate because it was easier to repeat. That view did not account for a difference exposed by milling several local grains separately. The project found that each flour produced a noticeably different rise; customers compared texture and flavor. These observations support a limited conclusion rather than a universal rule: the project's setting was not evidence that every site must respond identically. Instead, the uniform procedure may remain useful for simple comparisons, while milling several local grains separately provides a more discriminating way to show how grain choice affects bread.",
+    "passageWordCount": 107,
+    "question": "In the context of the passage, the finding that each flour produced a noticeably different rise mainly serves to",
+    "options": [
+      "challenge the assumption underlying using only a standard wheat flour by demonstrating a relevant local difference",
+      "prove that every use of using only a standard wheat flour is necessarily useless. The passage gives no evidence for this broader interpretation.",
+      "show that a community bakery is representative of every setting",
+      "replace the projectÃ¢â‚¬â„¢s method with an unsupported prediction"
+    ],
+    "answerIndex": 0,
+    "explanationText": "The uniform approach and milling several local grains separately are distinguished through the evidence that each flour produced a noticeably different rise. Because the passage limits that evidence to the tested setting, the argument supports efforts to show how grain choice affects bread in specific contexts rather than a universal rule.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-119",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "Easy",
+    "passage": "Text 1: A review of an urban tree-planting campaign says the gains are substantial enough to justify expansion because its recent maps show improvement. In particular, a side-by-side comparison shows improvement during the monitored period.\n\nText 2: A separate commentator says expansion is worthwhile only if its effects persist beyond the initial period. The commentator points out that results were strongest for the first cohort and less clear afterward, so this evidence does not settle the broader question.",
+    "passageWordCount": 74,
+    "question": "How would the author of Text 2 most likely qualify the conclusion reached in Text 1?",
+    "options": [
+      "The commentator would reject the result entirely and claim that an urban tree-planting campaign has produced no benefit.",
+      "The commentator would accept the reported result only with a qualification: expansion is worthwhile only if its effects persist beyond the initial period.",
+      "The commentator would agree that the gains are substantial enough to justify expansion in every setting and for every group.",
+      "The commentator would treat results were strongest for the first cohort and less clear afterward as proof that the Text 1 approach is universally ineffective."
+    ],
+    "answerIndex": 1,
+    "explanationText": "Text 1 reports a side-by-side comparison shows improvement during the monitored period and concludes that the gains are substantial enough to justify expansion. Text 2 sets a qualification: expansion is worthwhile only if its effects persist beyond the initial period; its evidence is results were strongest for the first cohort and less clear afterward. The second response accepts the initial gains but requires evidence of duration before expansion.",
+    "status": "approved"
+  },
+  {
+    "id": "II-019",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
+    "passage": "At Bellweather Museum, researchers examined museum pigment cleaning. Earlier accounts claimed the most thorough cleaning method is safest. The team used small panel areas treated with three solutions under magnification and found the mildest solution removed dust while preserving more original pigment than stronger mixtures. These findings suggest cleaning effectiveness must be balanced against risk to original material. However, one panel was tested and long-term fading was not assessed. Other data may change this interpretation.",
+    "passageWordCount": 75,
+    "question": "Which choice best states the passage's central idea?",
+    "options": [
+      "The study confirmed that the most thorough cleaning method is safest at every site and season, including locations the researchers never sampled.",
+      "The results establish that the strongest solution preserved the most pigment under every relevant condition, even those the study did not examine.",
+      "The study found that cleaning effectiveness must be balanced against risk to original material.",
+      "The researchers avoided collecting evidence about museum pigment cleaning, so the reported measurements cannot support any conclusion."
+    ],
+    "answerIndex": 2,
+    "explanationText": "The passage emphasizes that cleaning effectiveness must be balanced against risk to original material. It also notes that one panel was tested and long-term fading was not assessed, so the broader and absolute claims are unsupported.",
+    "status": "approved"
+  },
+  {
+    "id": "II-022",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
+    "passage": "At Easton Middle School, researchers examined school tutoring. Earlier accounts claimed more tutoring necessarily improves every student's score. The team used score records for students attending different numbers of sessions and found students attending six or more sessions gained 7 points on average; others gained 5. These findings suggest attendance was associated with different average gains but was not randomly assigned. However, frequent attendees may have differed in motivation or preparation. More data may help.",
+    "passageWordCount": 75,
+    "question": "Which choice best states the passage's central idea?",
+    "options": [
+      "The study confirmed that more tutoring necessarily improves every student's score at every site and season, including locations the researchers never sampled.",
+      "The study found that attendance was associated with different average gains but was not randomly assigned.",
+      "The results establish that every student attending six sessions gained exactly 7 points under every relevant condition, even those the study did not examine.",
+      "The researchers avoided collecting evidence about school tutoring altogether."
+    ],
+    "answerIndex": 1,
+    "explanationText": "The passage emphasizes that attendance was associated with different average gains but was not randomly assigned. It also notes that frequent attendees may have differed in motivation or preparation, so the broader and absolute claims are unsupported.",
+    "status": "approved"
+  },
+  {
+    "id": "II-025",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
+    "passage": "At Willow Marsh, researchers examined beaver dam water levels. Earlier accounts claimed dams raise water levels uniformly across a watershed. The team used gauges at four locations upstream and downstream of two dams and found upstream pools rose 9 centimeters on average, while downstream gauges showed no consistent change. These findings suggest the dams altered nearby water levels without a uniform watershed-wide effect. However, monitoring covered one wet season. Other data may change this interpretation.",
+    "passageWordCount": 75,
+    "question": "Which choice best states the passage's central idea?",
+    "options": [
+      "The study found that the dams altered nearby water levels without a uniform watershed-wide effect.",
+      "The study confirmed that dams raise water levels uniformly across a watershed at every site and season, including locations the researchers never sampled.",
+      "The results establish that every gauge rose 9 centimeters, under every relevant condition.",
+      "The researchers avoided collecting evidence about beaver dam water levels altogether."
+    ],
+    "answerIndex": 0,
+    "explanationText": "The passage emphasizes that the dams altered nearby water levels without a uniform watershed-wide effect. It also notes that monitoring covered one wet season, so the broader and absolute claims are unsupported.",
+    "status": "approved"
+  },
+  {
+    "id": "II-011",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "Medium",
+    "passage": "At Lark River, researchers examined wetland restoration. Earlier accounts claimed removing invasive reeds immediately restores native plants. The team used vegetation plots before removal and during three later growing seasons and found native seedlings increased in two plots, while a third remained mostly bare mud. These findings suggest reed removal created opportunities for recovery but did not ensure uniform results. However, water depth differed among plots and monitoring lasted three years. Researchers also mapped water depth after each spring flood. This comparison helped clarify the reported result but did not remove the stated limitation. The report treats the finding as evidence about the tested settings rather than a universal rule. Results remain specific to the tested conditions. These findings remain limited to the tested settings.",
+    "passageWordCount": 125,
+    "question": "Which result from the passage most directly supports the researchers' conclusion?",
+    "options": [
+      "The team used vegetation plots before removal and during three later growing seasons, but this alone does not establish what the results show.",
+      "Earlier accounts had suggested that removing invasive reeds immediately restores native plants, but the study does not establish it for every setting.",
+      "The team found native seedlings increased in two plots, while a third remained mostly bare mud.",
+      "The researchers cautioned that water depth differed among plots and monitoring lasted three years, so the study could not reach any conclusion."
+    ],
+    "answerIndex": 2,
+    "explanationText": "The reported finding that native seedlings increased in two plots, while a third remained mostly bare mud directly supports the conclusion that reed removal created opportunities for recovery but did not ensure uniform results. The other details provide context or a limitation.",
+    "status": "approved"
+  },
+  {
+    "id": "II-026",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "Medium",
+    "passage": "At Willow Marsh, researchers examined beaver dam water levels more closely. Earlier accounts claimed dams raise water levels uniformly across a watershed. The team used gauges at four locations upstream and downstream of two dams and found upstream pools rose 9 centimeters on average, while downstream gauges showed no consistent change. These findings suggest the dams altered nearby water levels without a uniform watershed-wide effect. However, monitoring covered one wet season. Researchers also checked gauges after heavy rain and dry spells. This comparison helped clarify the reported result but did not remove the stated limitation. The report treats the finding as evidence about the tested settings rather than a universal rule. This comparison cannot establish cause by itself. Results remain specific to the tested conditions.",
+    "passageWordCount": 125,
+    "question": "Which choice accurately describes the quantitative evidence in the passage?",
+    "options": [
+      "The measurements prove that every gauge rose 9 centimeters, including in conditions beyond those the team actually tested.",
+      "The measurements show that upstream pools rose 9 centimeters on average, while downstream gauges showed no consistent change.",
+      "The comparison showed no difference in any measure, although the passage reports a numerical change.",
+      "The team described gauges at four locations upstream and downstream of two dams instead of reporting the numeric result."
+    ],
+    "answerIndex": 1,
+    "explanationText": "The passage reports that upstream pools rose 9 centimeters on average, while downstream gauges showed no consistent change. The study notes that monitoring covered one wet season, so the figures do not prove a universal rule.",
+    "status": "approved"
+  },
+  {
+    "id": "II-015",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Hard",
+    "passage": "At Pine County, researchers examined mobile library service. Earlier accounts claimed adding stops automatically increases borrowing. The team used monthly lending records before and after the bus route changed and found total loans rose 12 percent, but two new stops coincided with declines at an old stop. These findings suggest the route change redistributed access and coincided with a modest overall increase. However, the records cannot explain why individual patrons changed their borrowing. Researchers also recorded visits that did not result in loans. At first glance, a reader might conclude that every stop and branch saw a 12 percent increase; however, the reported measurements show a narrower pattern. The study also notes that the records cannot explain why individual patrons changed their borrowing. Consequently, conclusions must remain within the sampled conditions, and the observed association should not be treated as proof of cause. The measured result remains open to interpretation. The data support only a limited conclusion. This comparison cannot establish cause by itself. Results remain specific to the tested conditions. More data may help.",
+    "passageWordCount": 175,
+    "question": "Which inference is best supported by the passage?",
+    "options": [
+      "The evidence confirms that every stop and branch saw a 12 percent increase, with no meaningful exceptions, including in unmeasured settings.",
+      "The study shows that adding stops automatically increases borrowing, regardless of conditions or differences among the sites examined.",
+      "The evidence suggests new stops can help some readers even when total loans change little, but does not establish a universal effect.",
+      "Because the records cannot explain why individual patrons changed their borrowing, the reported measurements have no value and cannot support even a limited inference."
+    ],
+    "answerIndex": 2,
+    "explanationText": "The pattern supports the narrower inference that new stops can help some readers even when total loans change little. Because the records cannot explain why individual patrons changed their borrowing, it cannot support the universal claims in the distractors.",
+    "status": "approved"
+  },
+  {
+    "id": "II-018",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Hard",
+    "passage": "At Cedar Run, researchers examined stream sediment. Earlier accounts claimed an upstream barrier reduces sediment everywhere downstream. The team used monthly sediment samples above and below a new barrier and found downstream samples fell 18 percent in spring but were nearly unchanged after summer storms. These findings suggest the barrier coincided with a seasonal reduction, not a steady annual decrease. However, rainfall varied and only one post-installation year was observed. Researchers also compared samples with local rainfall totals. At first glance, a reader might conclude that sediment fell 18 percent in every month; however, the reported measurements show a narrower pattern. The study also notes that rainfall varied and only one post-installation year was observed. Consequently, conclusions must remain within the sampled conditions, and the observed association should not be treated as proof of cause. The data support only a limited conclusion. This comparison cannot establish cause by itself. Results remain specific to the tested conditions. Other conditions may produce a different result. The findings describe a pattern, not causation. Further observations may change this.",
+    "passageWordCount": 175,
+    "question": "Which inference is best supported by the passage?",
+    "options": [
+      "The evidence confirms that sediment fell 18 percent in every month, with no meaningful exceptions, including in unmeasured settings.",
+      "The evidence suggests storms may weaken or obscure the pattern measured in calmer months, but does not establish a universal effect.",
+      "The study shows that an upstream barrier reduces sediment everywhere downstream, regardless of conditions or differences among the sites examined.",
+      "Because rainfall varied and only one post-installation year was observed, the reported measurements have no interpretive value."
+    ],
+    "answerIndex": 1,
+    "explanationText": "The pattern supports the narrower inference that storms may weaken or obscure the pattern measured in calmer months. Because rainfall varied and only one post-installation year was observed, it cannot support the universal claims in the distractors.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-097",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
+    "passage": "The rehearsal schedule was posted _____ the performers began arriving early.",
+    "passageWordCount": 11,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      ", but",
+      ", and",
+      "; and",
+      " and"
+    ],
+    "answerIndex": 1,
+    "explanationText": "Two independent clauses joined by ?and? require a comma before the coordinating conjunction.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-174",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
+    "passage": "While the children practiced _____ their instructor adjusted the tempo.",
+    "passageWordCount": 10,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      " ",
+      ";",
+      ",",
+      "?"
+    ],
+    "answerIndex": 2,
+    "explanationText": "The introductory dependent clause is separated from the independent main clause with a comma.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-101",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
+    "passage": "The inspection revealed one problem _____ the west exit remained blocked.",
+    "passageWordCount": 11,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      ",",
+      ";",
+      ":",
+      "?"
+    ],
+    "answerIndex": 2,
+    "explanationText": "A colon introduces and frames the specific problem, change, principle, solution, or items that follow.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-175",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
+    "passage": "Because the sample was unusually small _____ the analyst repeated the test.",
+    "passageWordCount": 12,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      ";",
+      "?",
+      ",",
+      " "
+    ],
+    "answerIndex": 2,
+    "explanationText": "The introductory dependent clause is separated from the independent main clause with a comma.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-336",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Medium",
+    "passage": "By the end of the month, the campus radio _____ a detailed report of the findings.",
+    "passageWordCount": 16,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "completes",
+      "was completing",
+      "has completed",
+      "will have completed"
+    ],
+    "answerIndex": 3,
+    "explanationText": "The future completion point calls for the future perfect verb phrase \"will have completed.\"",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-422",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Hard",
+    "passage": "Designed for frequent use, _____ made the city engineers more resistant to damage.",
+    "passageWordCount": 13,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "its design was",
+      "a reinforced frame",
+      "having reinforced",
+      "the frame was"
+    ],
+    "answerIndex": 1,
+    "explanationText": "The opening modifier logically describes the reinforced frame that follows.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-423",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Hard",
+    "passage": "Designed for frequent use, _____ made the hiking club more resistant to damage.",
+    "passageWordCount": 13,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "the frame was",
+      "its design was",
+      "a reinforced frame",
+      "having reinforced"
+    ],
+    "answerIndex": 2,
+    "explanationText": "The opening modifier logically describes the reinforced frame that follows.",
+    "status": "approved"
+  },
+  {
+    "id": "EI-171",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Medium",
+    "passage": "The water utility opened a public display of reservoir data. _____, public data encourage attention, though interpretation requires the same context as any water record. The recorded result is specific to the conditions described. The team kept enough detail to distinguish this effect from a later change.",
+    "passageWordCount": 47,
+    "question": "Which transition best completes the text?",
+    "options": [
+      "For example",
+      "Therefore",
+      "Moreover",
+      "Even so"
+    ],
+    "answerIndex": 3,
+    "explanationText": "The last clause limits or complicates the benefit or claim established before the blank.",
+    "status": "approved"
+  },
+  {
+    "id": "EI-172",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Medium",
+    "passage": "The theater replaced a heavy curtain with three folding panels. _____, stagehands open the side panels, next move the backdrop, and then reset the props. The recorded result is specific to the conditions described. The team kept enough detail to distinguish this effect from a later change.",
+    "passageWordCount": 47,
+    "question": "Which transition best completes the text?",
+    "options": [
+      "Therefore",
+      "However",
+      "Moreover",
+      "Afterward"
+    ],
+    "answerIndex": 3,
+    "explanationText": "The passage moves from an initial action to a later step in a clear order.",
+    "status": "approved"
+  },
+  {
+    "id": "EI-338",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Hard",
+    "passage": "The hiking club tested two rain jackets on a wet ridge. _____, the club should assign gear according to temperature, exertion, and rain. Its practical value depends on interpreting the result within the stated scope. The measure is useful because it captures a difference ordinary estimates could miss.",
+    "passageWordCount": 48,
+    "question": "Which choice most logically completes the text?",
+    "options": [
+      "Taken together",
+      "However",
+      "Moreover",
+      "For example"
+    ],
+    "answerIndex": 0,
+    "explanationText": "The final judgment is an inference drawn from the observations that come before it.",
+    "status": "approved"
+  },
+  {
+    "id": "EI-270",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "Medium",
+    "passage": "Notes:\n- At Beacon Channel, staff piloted harbor quiet-zone signs after noting fast-moving recreational boats near a pier.\n- The first, middle, and final readings for boat speed were 9, 7.9, and 7.1 knots, respectively.\n- The analysis used boats passing one marked harbor channel; a shore observer estimated speed from radar.\n- The evidence is specific to one channel during weekend afternoons; boat operators were not interviewed.\n- Commercial vessels followed a separate route. The observation period lasted five weekends.",
+    "passageWordCount": 75,
+    "question": "In describing the pilot of harbor quiet-zone signs at Beacon Channel, the student wants to highlight the final measurement in relation to the starting value. Which choice accomplishes that purpose?",
+    "options": [
+      "At Beacon Channel, the final recorded measure for boat speed was 7.1 knots, compared with 9 at the start.",
+      "The trial proves that harbor quiet-zone signs will produce 7.1 knots at Beacon Channel and at every other site, too.",
+      "At Beacon Channel, the starting measure for boat speed was 7.1 knots, and the final reading was 9.",
+      "At Beacon Channel, the final recorded measure for boat speed was 7.9 knots, the midpoint reading."
+    ],
+    "answerIndex": 0,
+    "explanationText": "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
+    "status": "approved"
+  },
+  {
+    "id": "EI-271",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "Medium",
+    "passage": "Notes:\n- At Orchard Block, staff piloted orchard drip irrigation after noting uneven water delivery to young trees.\n- The first, middle, and final readings for water per tree were 38, 33, and 28 liters per week, respectively.\n- The analysis used weekly use across 40 young apple trees; workers read individual line meters.\n- The evidence is specific to one orchard block during early summer; the trial did not include mature trees.\n- Tree growth was checked at the start and end. The observation period lasted seven weeks.",
+    "passageWordCount": 83,
+    "question": "In describing the pilot of orchard drip irrigation at Orchard Block, the student wants to highlight the final measurement in relation to the starting value. Which choice accomplishes that purpose?",
+    "options": [
+      "At Orchard Block, the starting measure for water per tree was 28 liters per week, and the final reading was 38.",
+      "At Orchard Block, the final recorded measure for water per tree was 33 liters per week, the midpoint reading.",
+      "The trial proves that orchard drip irrigation will produce 28 liters per week at Orchard Block and at every other site, too.",
+      "At Orchard Block, the final recorded measure for water per tree was 28 liters per week, compared with 38 at the start."
+    ],
+    "answerIndex": 3,
+    "explanationText": "It accurately compares the final value with baseline; the alternatives confuse midpoint and endpoint, reverse the values, or overgeneralize.",
+    "status": "approved"
+  }
+]

@@ -1,0 +1,488 @@
+[
+  {
+    "id": "CS-171",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Medium",
+    "passage": "The judge granted the infirm witness a place to sit during testimony. In this context, infirm carries the sense of physically weak. Officially approved or mentally alert would describe a different situation, and neither accounts for the stated detail. The chosen sense follows directly from how infirm is used in the observation.",
+    "passageWordCount": 52,
+    "question": "As used in the passage, \"infirm\" most nearly means",
+    "options": [
+      "financially rich",
+      "physically weak",
+      "officially approved",
+      "mentally alert"
+    ],
+    "answerIndex": 1,
+    "explanationText": "The clueÃ¢â‚¬â€\"The judge granted the infirm witness a place to sit during testimony.\"Ã¢â‚¬â€shows that infirm means physically weak in this passage. That interpretation matches the concrete circumstance described.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-336",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Hard",
+    "passage": "Consider the specific case in this account: Consider the specific case in this account: Consider the specific case in this account: A conspicuous gap in the chart prompted the team to seek missing records. The specific consequences in this case require the sense noticeable. Although insignificant and predictable could apply in a separate context, they do not fit the relationship established by the passage.",
+    "passageWordCount": 64,
+    "question": "As used in the passage, \"conspicuous\" most nearly means",
+    "options": [
+      "concealed",
+      "predictable",
+      "noticeable",
+      "insignificant"
+    ],
+    "answerIndex": 2,
+    "explanationText": "The clueÃ¢â‚¬â€\"Consider the specific case in this account: Consider the specific case in this account: Consider the specific case in this account: A conspicuous gap in the chart prompted the team to seek missing records.\"Ã¢â‚¬â€shows that conspicuous means noticeable in this passage. That interpretation matches the concrete circumstance described.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-337",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Hard",
+    "passage": "Consider the specific case in this account: Consider the specific case in this account: Consider the specific case in this account: The artist chose ephemeral materials because decay was part of the exhibit. The specific consequences in this case require the sense short-lived. Although repeated and dangerous could apply in a separate context, they do not fit the relationship established by the passage.",
+    "passageWordCount": 63,
+    "question": "As used in the passage, \"ephemeral\" most nearly means",
+    "options": [
+      "short-lived",
+      "permanent",
+      "dangerous",
+      "repeated when used more generally"
+    ],
+    "answerIndex": 0,
+    "explanationText": "The clueÃ¢â‚¬â€\"Consider the specific case in this account: Consider the specific case in this account: Consider the specific case in this account: The artist chose ephemeral materials because decay was part of the exhibit.\"Ã¢â‚¬â€shows that ephemeral means short-lived in this passage. That interpretation matches the concrete circumstance described.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-338",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Hard",
+    "passage": "Consider the specific case in this account: Consider the specific case in this account: Consider the specific case in this account: The witness gave an equivocal account that might support either reconstruction. The specific consequences in this case require the sense open to multiple interpretations. Although equally distributed and emotionally intense could apply in a separate context, they do not fit the relationship established by the passage.",
+    "passageWordCount": 67,
+    "question": "As used in the passage, \"equivocal\" most nearly means",
+    "options": [
+      "equally distributed",
+      "emotionally intense",
+      "definite under a broader interpretation",
+      "open to multiple interpretations"
+    ],
+    "answerIndex": 3,
+    "explanationText": "The clueÃ¢â‚¬â€\"Consider the specific case in this account: Consider the specific case in this account: Consider the specific case in this account: The witness gave an equivocal account that might support either reconstruction.\"Ã¢â‚¬â€shows that equivocal means open to multiple interpretations in this passage. That interpretation matches the concrete circumstance described.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-339",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Hard",
+    "passage": "Consider the specific case in this account: Consider the specific case in this account: Consider the specific case in this account: An incisive question exposed the weak link in the opponent's argument. The specific consequences in this case require the sense keenly perceptive. Although carefully concealed and needlessly broad could apply in a separate context, they do not fit the relationship established by the passage.",
+    "passageWordCount": 65,
+    "question": "As used in the passage, \"incisive\" most nearly means",
+    "options": [
+      "carefully concealed",
+      "keenly perceptive",
+      "needlessly broad",
+      "emotionally reserved"
+    ],
+    "answerIndex": 1,
+    "explanationText": "The clueÃ¢â‚¬â€\"Consider the specific case in this account: Consider the specific case in this account: Consider the specific case in this account: An incisive question exposed the weak link in the opponent's argument.\"Ã¢â‚¬â€shows that incisive means keenly perceptive in this passage. That interpretation matches the concrete circumstance described.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-236",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Medium",
+    "passage": "At a school archive, relying on displaying donated photographs in one chronological gallery had made routine decisions convenient, but it left an important local difference unclear. The team therefore began placing captions beside each photograph rather than treating every case alike. This approach supplied a specific finding: the captions named people and dates. That finding suggests that visitors could place the images in local history, although limited to this setting. The method was thus useful where displaying donated photographs in one chronological gallery concealed variation and where a targeted response could make family history accessible.",
+    "passageWordCount": 95,
+    "question": "In the passage, the phrase Ã¢â‚¬Å“rather than treating every case alikeÃ¢â‚¬Â primarily serves to",
+    "options": [
+      "claim that displaying donated photographs in one chronological gallery cannot work anywhere. The passage gives no evidence for this broader interpretation.",
+      "treat a single finding as established fact despite the limited scope",
+      "introduce a later project with no connection to a school archive",
+      "contrast the targeted method with a convenience-oriented approach that overlooked local differences"
+    ],
+    "answerIndex": 3,
+    "explanationText": "The passage begins with the convenience of displaying donated photographs in one chronological gallery, introduces placing captions beside each photograph, and then qualifies the finding that the captions named people and dates. It therefore favors a targeted approach to make family history accessible where local variation matters.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-402",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Hard",
+    "passage": "At a school archive, advocates of displaying donated photographs in one chronological gallery regarded a broad, uniform procedure as adequate because it was easier to repeat. That view did not account for a difference exposed by placing captions beside each photograph. The project found that the captions named people and dates; visitors could place the images in local history. These observations support a limited conclusion rather than a universal rule: the project's setting was not evidence that every site must respond identically. Instead, the uniform procedure may remain useful for simple comparisons, while placing captions beside each photograph provides a more discriminating way to make family history accessible.",
+    "passageWordCount": 108,
+    "question": "The contrast in the final sentence mainly functions to",
+    "options": [
+      "declare placing captions beside each photograph universally superior in every setting. The passage specifically excludes this conclusion.",
+      "withdraw the projectÃ¢â‚¬â„¢s evidence because it came from only one location",
+      "show that the finding is irrelevant to the passageÃ¢â‚¬â„¢s stated purpose",
+      "preserve a limited role for both approaches while favoring placing captions beside each photograph where local differences can affect the goal."
+    ],
+    "answerIndex": 3,
+    "explanationText": "The uniform approach and placing captions beside each photograph are distinguished through the evidence that the captions named people and dates. Because the passage limits that evidence to the tested setting, the argument supports efforts to make family history accessible in specific contexts rather than a universal rule.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-451",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "Hard",
+    "passage": "Text 1: A review of a pollinator habitat along highways argues that the policy should be adopted widely because mapped habitat show improvement. It supports this judgment with the program's initial report presents a strong increase in the leading measure. It also presents maintenance contracts as evidence that the proposed change is practical.\n\nText 2: A separate commentator offers a qualified assessment: implementation should begin in settings that first meet measured local conditions. The commentator cautions that observations came from the easiest sites to measure and that pollinator abundance may differ from the result reported here. This recommendation applies to the observed scale and timeframe, not to every similar setting.",
+    "passageWordCount": 106,
+    "question": "Based on Text 2, how would the author most likely respond to the claim in Text 1?",
+    "options": [
+      "The commentator would reject the result entirely and claim that a pollinator habitat along highways has produced no benefit.",
+      "The commentator would accept the reported result only with a qualification: implementation should begin in settings that first meet measured local conditions.",
+      "The commentator would agree that the policy should be adopted widely in every setting and for every group.",
+      "The commentator would treat observations came from the easiest sites to measure as proof that the Text 1 approach is universally ineffective."
+    ],
+    "answerIndex": 1,
+    "explanationText": "Text 1 reports the program's initial report presents a strong increase in the leading measure and concludes that the policy should be adopted widely. Text 2 adds a qualification: implementation should begin in settings that first meet measured local conditions; its evidence is observations came from the easiest sites to measure. The first text supports broad adoption, while the second limits that inference by emphasizing local conditions.",
+    "status": "approved"
+  },
+  {
+    "id": "II-010",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
+    "passage": "At Lark River, researchers examined wetland restoration. Earlier accounts claimed removing invasive reeds immediately restores native plants. The team used vegetation plots before removal and during three later growing seasons and found native seedlings increased in two plots, while a third remained mostly bare mud. These findings suggest reed removal created opportunities for recovery but did not ensure uniform results. However, water depth differed among plots and monitoring lasted three years. More data may help.",
+    "passageWordCount": 75,
+    "question": "Which choice best states the passage's central idea?",
+    "options": [
+      "The study confirmed that removing invasive reeds immediately restores native plants at every site and season, including locations the researchers never sampled.",
+      "The study found that reed removal created opportunities for recovery but did not ensure uniform results.",
+      "The results establish that all plots quickly became dense native marsh under every relevant condition, even those the study did not examine.",
+      "The researchers avoided collecting evidence about wetland restoration altogether."
+    ],
+    "answerIndex": 1,
+    "explanationText": "The passage emphasizes that reed removal created opportunities for recovery but did not ensure uniform results. It also notes that water depth differed among plots and monitoring lasted three years, so the broader and absolute claims are unsupported.",
+    "status": "approved"
+  },
+  {
+    "id": "II-013",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
+    "passage": "At Pine County, researchers examined mobile library service more closely. Earlier accounts claimed adding stops automatically increases borrowing. The team used monthly lending records before and after the bus route changed and found total loans rose 12 percent, but two new stops coincided with declines at an old stop. These findings suggest the route change redistributed access and coincided with a modest overall increase. However, the records cannot explain why individual patrons changed their borrowing.",
+    "passageWordCount": 75,
+    "question": "Which choice best states the passage's central idea?",
+    "options": [
+      "The study found that the route change redistributed access and coincided with a modest overall increase.",
+      "The study confirmed that adding stops automatically increases borrowing at every site and season, including locations the researchers never sampled.",
+      "The results establish that every stop and branch saw a 12 percent increase, under every relevant condition.",
+      "The researchers avoided collecting evidence about mobile library service altogether."
+    ],
+    "answerIndex": 0,
+    "explanationText": "The passage emphasizes that the route change redistributed access and coincided with a modest overall increase. It also notes that the records cannot explain why individual patrons changed their borrowing, so the broader and absolute claims are unsupported.",
+    "status": "approved"
+  },
+  {
+    "id": "II-016",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
+    "passage": "At Cedar Run, researchers examined stream sediment. Earlier accounts claimed an upstream barrier reduces sediment everywhere downstream. The team used monthly sediment samples above and below a new barrier and found downstream samples fell 18 percent in spring but were nearly unchanged after summer storms. These findings suggest the barrier coincided with a seasonal reduction, not a steady annual decrease. However, rainfall varied and only one post-installation year was observed. Further observations may change this.",
+    "passageWordCount": 75,
+    "question": "Which choice best states the passage's central idea?",
+    "options": [
+      "The study confirmed that an upstream barrier reduces sediment everywhere downstream, without needing further comparisons.",
+      "The results establish that sediment fell 18 percent in every month, under every relevant condition.",
+      "The researchers avoided collecting evidence about stream sediment altogether.",
+      "The study found that the barrier coincided with a seasonal reduction, not a steady annual decrease."
+    ],
+    "answerIndex": 3,
+    "explanationText": "The passage emphasizes that the barrier coincided with a seasonal reduction, not a steady annual decrease. It also notes that rainfall varied and only one post-installation year was observed, so the broader and absolute claims are unsupported.",
+    "status": "approved"
+  },
+  {
+    "id": "II-008",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "Medium",
+    "passage": "At Harbor Point, researchers examined evening bird migration. Earlier accounts claimed migrants avoid all illuminated buildings. The team used radar counts alongside matched observations at dark and lit roofs and found migration volume changed similarly, but circling events were more common near bright roofs. These findings suggest light was associated with local flight behavior, not total migration volume. However, weather and building height also varied among sites. Researchers also compared nights with similar wind speeds. This comparison helped clarify the reported result but did not remove the stated limitation. The report treats the finding as evidence about the tested settings rather than a universal rule. This comparison cannot establish cause by itself. Results remain specific to the tested conditions. Other data may change this interpretation.",
+    "passageWordCount": 125,
+    "question": "Which result from the passage most directly supports the researchers' conclusion?",
+    "options": [
+      "The team used radar counts alongside matched observations at dark and lit roofs to conduct its study.",
+      "Earlier accounts had suggested that migrants avoid all illuminated buildings.",
+      "The researchers cautioned that weather and building height also varied among sites.",
+      "The team found migration volume changed similarly, but circling events were more common near bright roofs."
+    ],
+    "answerIndex": 3,
+    "explanationText": "The reported finding that migration volume changed similarly, but circling events were more common near bright roofs directly supports the conclusion that light was associated with local flight behavior, not total migration volume. The other details provide context or a limitation.",
+    "status": "approved"
+  },
+  {
+    "id": "II-014",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "Medium",
+    "passage": "At Pine County, researchers examined mobile library service. Earlier accounts claimed adding stops automatically increases borrowing. The team used monthly lending records before and after the bus route changed and found total loans rose 12 percent, but two new stops coincided with declines at an old stop. These findings suggest the route change redistributed access and coincided with a modest overall increase. However, the records cannot explain why individual patrons changed their borrowing. Researchers also recorded visits that did not result in loans. This comparison helped clarify the reported result but did not remove the stated limitation. The report treats the finding as evidence about the tested settings rather than a universal rule. Other conditions may produce a different result. Further observations may change this.",
+    "passageWordCount": 125,
+    "question": "Which choice accurately describes the quantitative evidence in the passage?",
+    "options": [
+      "The measurements prove that every stop and branch saw a 12 percent increase, including in conditions beyond those the team actually tested.",
+      "The measurements show that total loans rose 12 percent, but two new stops coincided with declines at an old stop.",
+      "The comparison showed no difference in any measure, although the passage reports a numerical change.",
+      "The team described monthly lending records before and after the bus route changed instead of reporting the numeric result."
+    ],
+    "answerIndex": 1,
+    "explanationText": "The passage reports that total loans rose 12 percent, but two new stops coincided with declines at an old stop. The study notes that the records cannot explain why individual patrons changed their borrowing, so the figures do not prove a universal rule.",
+    "status": "approved"
+  },
+  {
+    "id": "II-009",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Hard",
+    "passage": "At Harbor Point, researchers examined evening bird migration. Earlier accounts claimed migrants avoid all illuminated buildings. The team used radar counts alongside matched observations at dark and lit roofs and found migration volume changed similarly, but circling events were more common near bright roofs. These findings suggest light was associated with local flight behavior, not total migration volume. However, weather and building height also varied among sites. Researchers also compared nights with similar wind speeds. At first glance, a reader might conclude that dark roofs attracted more migrants than illuminated ones; however, the reported measurements show a narrower pattern. The study also notes that weather and building height also varied among sites. Consequently, conclusions must remain within the sampled conditions, and the observed association should not be treated as proof of cause. Other conditions may produce a different result. The findings describe a pattern, not causation. The measured result remains open to interpretation. The data support only a limited conclusion. This comparison cannot establish cause by itself. These findings remain limited to the tested settings.",
+    "passageWordCount": 175,
+    "question": "Which inference is best supported by the passage?",
+    "options": [
+      "The evidence suggests the observations suggest a behavioral effect without showing lights redirect every bird, but does not establish a universal effect.",
+      "The evidence confirms that dark roofs attracted more migrants than illuminated ones, with no meaningful exceptions, including in unmeasured settings.",
+      "The study shows that migrants avoid all illuminated buildings, regardless of the conditions examined.",
+      "Because weather and building height also varied among sites, the reported measurements have no interpretive value."
+    ],
+    "answerIndex": 0,
+    "explanationText": "The pattern supports the narrower inference that the observations suggest a behavioral effect without showing lights redirect every bird. Because weather and building height also varied among sites, it cannot support the universal claims in the distractors.",
+    "status": "approved"
+  },
+  {
+    "id": "II-012",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Hard",
+    "passage": "At Lark River, researchers examined wetland restoration more closely. Earlier accounts claimed removing invasive reeds immediately restores native plants. The team used vegetation plots before removal and during three later growing seasons and found native seedlings increased in two plots, while a third remained mostly bare mud. These findings suggest reed removal created opportunities for recovery but did not ensure uniform results. However, water depth differed among plots and monitoring lasted three years. Researchers also mapped water depth after each spring flood. At first glance, a reader might conclude that all plots quickly became dense native marsh; however, the reported measurements show a narrower pattern. The study also notes that water depth differed among plots and monitoring lasted three years. Consequently, conclusions must remain within the sampled conditions, and the observed association should not be treated as proof of cause. The findings describe a pattern, not causation. The measured result remains open to interpretation. The data support only a limited conclusion. This comparison cannot establish cause by itself. Results remain specific to the tested conditions.",
+    "passageWordCount": 175,
+    "question": "Which inference is best supported by the passage?",
+    "options": [
+      "The evidence confirms that all plots quickly became dense native marsh, with no meaningful exceptions.",
+      "The study shows that removing invasive reeds immediately restores native plants, regardless of the conditions examined.",
+      "Because water depth differed among plots and monitoring lasted three years, the reported measurements have no interpretive value.",
+      "The evidence suggests local hydrology may influence whether native plants recover after removal, but does not establish a universal effect."
+    ],
+    "answerIndex": 3,
+    "explanationText": "The pattern supports the narrower inference that local hydrology may influence whether native plants recover after removal. Because water depth differed among plots and monitoring lasted three years, it cannot support the universal claims in the distractors.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-170",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
+    "passage": "Because the sample was unusually small _____ the analyst repeated the test.",
+    "passageWordCount": 12,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      ",",
+      ";",
+      " ",
+      "?"
+    ],
+    "answerIndex": 0,
+    "explanationText": "The introductory dependent clause is separated from the independent main clause with a comma.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-096",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
+    "passage": "The field study produced strong initial data _____ the researchers broadened the sample.",
+    "passageWordCount": 13,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      ", and",
+      "; and",
+      ", but",
+      " and"
+    ],
+    "answerIndex": 0,
+    "explanationText": "Two independent clauses joined by ?and? require a comma before the coordinating conjunction.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-171",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
+    "passage": "After the instruments were calibrated _____ the technician began the trial.",
+    "passageWordCount": 11,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      ",",
+      "?",
+      " ",
+      ";"
+    ],
+    "answerIndex": 0,
+    "explanationText": "The introductory dependent clause is separated from the independent main clause with a comma.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-173",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
+    "passage": "Before the exhibit opened _____ the staff checked every label.",
+    "passageWordCount": 10,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "?",
+      ",",
+      ";",
+      " "
+    ],
+    "answerIndex": 1,
+    "explanationText": "The introductory dependent clause is separated from the independent main clause with a comma.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-420",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Hard",
+    "passage": "Designed for frequent use, _____ made the language tutors more resistant to damage.",
+    "passageWordCount": 13,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "its design was",
+      "a reinforced frame",
+      "having reinforced",
+      "the frame was"
+    ],
+    "answerIndex": 1,
+    "explanationText": "The opening modifier logically describes the reinforced frame that follows.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-335",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Medium",
+    "passage": "By the end of the month, the volunteer tutors _____ a detailed report of the findings.",
+    "passageWordCount": 16,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "was completing",
+      "has completed",
+      "will have completed",
+      "completes"
+    ],
+    "answerIndex": 2,
+    "explanationText": "The future completion point calls for the future perfect verb phrase \"will have completed.\"",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-421",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Hard",
+    "passage": "Designed for frequent use, _____ made the food pantry more resistant to damage.",
+    "passageWordCount": 13,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "its design was",
+      "having reinforced",
+      "the frame was",
+      "a reinforced frame"
+    ],
+    "answerIndex": 3,
+    "explanationText": "The opening modifier logically describes the reinforced frame that follows.",
+    "status": "approved"
+  },
+  {
+    "id": "EI-336",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Hard",
+    "passage": "The school garden added mulch around the herb beds. _____, gardeners laid the mulch, then checked the soil, and finally added labels. The result should be reviewed alongside earlier measurements rather than in isolation. A consistent record makes this particular change easier to verify. The recorded result is specific to the conditions described.",
+    "passageWordCount": 53,
+    "question": "Which choice most logically completes the text?",
+    "options": [
+      "Therefore",
+      "However",
+      "Moreover",
+      "Afterward"
+    ],
+    "answerIndex": 3,
+    "explanationText": "The passage moves from an initial action to a later step in a clear order.",
+    "status": "approved"
+  },
+  {
+    "id": "EI-170",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Medium",
+    "passage": "The forest station planted native shrubs beside a burned slope. _____, the shrubs established more slowly than planted grasses but held soil over winter. The finding offers a useful basis for a narrower, well-defined comparison.",
+    "passageWordCount": 35,
+    "question": "Which transition best completes the text?",
+    "options": [
+      "Therefore",
+      "However",
+      "Moreover",
+      "For example"
+    ],
+    "answerIndex": 1,
+    "explanationText": "The second idea presents a limitation or difference that conflicts with the initial observation.",
+    "status": "approved"
+  },
+  {
+    "id": "EI-337",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Hard",
+    "passage": "The history exhibition paired objects with short visitor recordings. _____, curators selected objects, next interviewed speakers, and later edited the tracks. Later checks will need to use the same observation method. The finding offers a useful basis for a narrower, well-defined comparison. Its practical value depends on interpreting the result within the stated scope.",
+    "passageWordCount": 54,
+    "question": "Which choice completes the text with the most logical transition?",
+    "options": [
+      "Moreover",
+      "However",
+      "Afterward",
+      "Therefore"
+    ],
+    "answerIndex": 2,
+    "explanationText": "The passage moves from an initial action to a later step in a clear order.",
+    "status": "approved"
+  },
+  {
+    "id": "EI-435",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "Hard",
+    "passage": "Notes:\n- At Civic Station, staff tested metro elevator arrival displays to address travelers waiting uncertainly for an elevator.\n- The measure for average wait at the busiest entrance was 78 seconds initially, 70 at midpoint, and 62 at trial's end.\n- For weekday waits at one station entrance, observers timed from button press to arrival.\n- The records cover one entrance during morning and evening peaks; the display was disabled during two maintenance days.\n- The team did not compare stair use. The observation period lasted five weeks.",
+    "passageWordCount": 83,
+    "question": "Writing about metro elevator arrival displays at Civic Station, the student wants to compare the outcome at the start and end of the trial. Which choice best uses the notes?",
+    "options": [
+      "The notes describe weekday waits at one station entrance, but this detail does not compare the start and end measurements.",
+      "The trial proves that metro elevator arrival displays produced the same change, from 78 to 62 seconds, at every site in the region.",
+      "At Civic Station, the final recorded measure for average wait at the busiest entrance was 70 seconds, the midpoint reading.",
+      "At Civic Station, the recorded measure for average wait at the busiest entrance fell from 78 to 62 seconds between the start and end of the trial."
+    ],
+    "answerIndex": 3,
+    "explanationText": "It compares the start and end readings at Civic Station; the other choices substitute a midpoint, report method alone, or overgeneralize.",
+    "status": "approved"
+  },
+  {
+    "id": "EI-436",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "Hard",
+    "passage": "Notes:\n- At North Launch, researchers tested reservoir kayak booking in response to visitors arriving when launch areas were full.\n- Readings for launches completed within reserved windows were 68 percent of bookings initially, 79 midway, and 87 at trial's end.\n- For reservation logs from the east launch, rangers matched bookings to launch records.\n- The study covered the east launch during summer weekends; walk-in visitors were not included.\n- The logs did not measure visitor satisfaction. The observation period lasted two months.",
+    "passageWordCount": 78,
+    "question": "The student wants to support a cautious summary of what the pilot measured when summarizing the trial of reservoir kayak booking at North Launch. Which choice best uses the notes?",
+    "options": [
+      "The pilot offers no information about launches completed within reserved windows, since it remained unmeasured throughout.",
+      "At North Launch, readings for launches completed within reserved windows changed from 68 to 87 percent of bookings; however, walk-in visitors were not included.",
+      "The results prove that reservoir kayak booking will address visitors arriving when launch areas were full at every site, regardless of conditions.",
+      "In the east launch during summer weekends, the recorded measure for launches completed within reserved windows changed from 68 to 87 percent of bookings, so no additional evidence is needed."
+    ],
+    "answerIndex": 1,
+    "explanationText": "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
+    "status": "approved"
+  }
+]

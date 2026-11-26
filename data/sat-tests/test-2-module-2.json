@@ -1,0 +1,488 @@
+[
+  {
+    "id": "CS-175",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Medium",
+    "passage": "The chosen sense follows directly from how wary is used in the observation. In this context, wary carries the sense of cautious. Overconfident or elated would describe a different situation, and neither accounts for the stated detail. The chosen sense follows directly from how wary is used in the observation.",
+    "passageWordCount": 50,
+    "question": "As used in the passage, \"wary\" most nearly means",
+    "options": [
+      "overconfident",
+      "cautious",
+      "elated",
+      "indifferent"
+    ],
+    "answerIndex": 1,
+    "explanationText": "The clueÃ¢â‚¬â€\"The chosen sense follows directly from how wary is used in the observation.\"Ã¢â‚¬â€shows that wary means cautious in this passage. That interpretation matches the concrete circumstance described.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-341",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Hard",
+    "passage": "Consider the specific case in this account: Consider the specific case in this account: Consider the specific case in this account: The dispute remained intractable because neither side accepted the other's evidence. The specific consequences in this case require the sense difficult to manage. Although easy to solve and temporarily delayed could apply in a separate context, they do not fit the relationship established by the passage.",
+    "passageWordCount": 67,
+    "question": "As used in the passage, \"intractable\" most nearly means",
+    "options": [
+      "difficult to manage",
+      "temporarily delayed",
+      "easy to solve under a broader interpretation",
+      "publicly visible"
+    ],
+    "answerIndex": 0,
+    "explanationText": "The clueÃ¢â‚¬â€\"Consider the specific case in this account: Consider the specific case in this account: Consider the specific case in this account: The dispute remained intractable because neither side accepted the other's evidence.\"Ã¢â‚¬â€shows that intractable means difficult to manage in this passage. That interpretation matches the concrete circumstance described.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-342",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Hard",
+    "passage": "Consider the specific case in this account: Consider the specific case in this account: Consider the specific case in this account: The design showed dormant risk that a later stress test would expose. The specific consequences in this case require the sense not yet visible. Although fully observable and already exhausted could apply in a separate context, they do not fit the relationship established by the passage.",
+    "passageWordCount": 67,
+    "question": "As used in the passage, \"dormant\" most nearly means",
+    "options": [
+      "fully observable",
+      "already exhausted",
+      "legally invalid",
+      "not yet visible"
+    ],
+    "answerIndex": 3,
+    "explanationText": "The clueÃ¢â‚¬â€\"Consider the specific case in this account: Consider the specific case in this account: Consider the specific case in this account: The design showed dormant risk that a later stress test would expose.\"Ã¢â‚¬â€shows that dormant means not yet visible in this passage. That interpretation matches the concrete circumstance described.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-343",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Hard",
+    "passage": "Consider the specific case in this account: Consider the specific case in this account: Consider the specific case in this account: The lucid explanation required no specialist knowledge from readers. The specific consequences in this case require the sense expressed clearly. Although physically brilliant and expressed vaguely could apply in a separate context, they do not fit the relationship established by the passage.",
+    "passageWordCount": 63,
+    "question": "As used in the passage, \"lucid\" most nearly means",
+    "options": [
+      "expressed vaguely",
+      "expressed clearly",
+      "physically brilliant",
+      "emotionally guarded"
+    ],
+    "answerIndex": 1,
+    "explanationText": "The clueÃ¢â‚¬â€\"Consider the specific case in this account: Consider the specific case in this account: Consider the specific case in this account: The lucid explanation required no specialist knowledge from readers.\"Ã¢â‚¬â€shows that lucid means expressed clearly in this passage. That interpretation matches the concrete circumstance described.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-344",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Hard",
+    "passage": "Consider the specific case in this account: Consider the specific case in this account: Consider the specific case in this account: The botanist's task was mundane but essential: recording leaf growth each morning. The specific consequences in this case require the sense ordinary. Although dangerous and beautiful could apply in a separate context, they do not fit the relationship established by the passage.",
+    "passageWordCount": 63,
+    "question": "As used in the passage, \"mundane\" most nearly means",
+    "options": [
+      "exceptional",
+      "beautiful",
+      "ordinary",
+      "dangerous"
+    ],
+    "answerIndex": 2,
+    "explanationText": "The clueÃ¢â‚¬â€\"Consider the specific case in this account: Consider the specific case in this account: Consider the specific case in this account: The botanist's task was mundane but essential: recording leaf growth each morning.\"Ã¢â‚¬â€shows that mundane means ordinary in this passage. That interpretation matches the concrete circumstance described.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-238",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Medium",
+    "passage": "At a coastal greenhouse, relying on watering beds on a fixed schedule had made routine decisions convenient, but it left an important local difference unclear. The team therefore began testing soil salinity before irrigation rather than treating every case alike. This approach supplied a specific finding: drier beds received less saline water. That finding suggests that seedlings retained more leaves, although limited to this setting. The method was thus useful where watering beds on a fixed schedule concealed variation and where a targeted response could respond to changing soil conditions.",
+    "passageWordCount": 90,
+    "question": "What is the primary function of the final sentence?",
+    "options": [
+      "It declares that watering beds on a fixed schedule should never be used. The passage specifically excludes this conclusion.",
+      "It repeats the finding drier beds received less saline water without explaining its purpose",
+      "It extends the projectÃ¢â‚¬â„¢s evidence to every possible location",
+      "It identifies the context in which the new method can respond to changing soil conditions despite the limits of the study."
+    ],
+    "answerIndex": 3,
+    "explanationText": "The passage begins with the convenience of watering beds on a fixed schedule, introduces testing soil salinity before irrigation, and then qualifies the finding that drier beds received less saline water. It therefore favors a targeted approach to respond to changing soil conditions where local variation matters.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-404",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Hard",
+    "passage": "At a coastal greenhouse, advocates of watering beds on a fixed schedule regarded a broad, uniform procedure as adequate because it was easier to repeat. That view did not account for a difference exposed by testing soil salinity before irrigation. The project found that drier beds received less saline water; seedlings retained more leaves. These observations support a limited conclusion rather than a universal rule: the project's setting was not evidence that every site must respond identically. Instead, the uniform procedure may remain useful for simple comparisons, while testing soil salinity before irrigation provides a more discriminating way to respond to changing soil conditions.",
+    "passageWordCount": 104,
+    "question": "How does the passage develop its argument?",
+    "options": [
+      "It endorses the uniform approach, contradicts that endorsement, and gives no basis for the contradiction. This description goes beyond the relationship established in the passage.",
+      "It compares two unrelated findings and never establishes a relationship between them",
+      "It presents a uniform approach, introduces counterevidence, limits the generalization, and preserves a conditional role for each method.",
+      "It rejects both approaches before describing how either could be used"
+    ],
+    "answerIndex": 2,
+    "explanationText": "The uniform approach and testing soil salinity before irrigation are distinguished through the evidence that drier beds received less saline water. Because the passage limits that evidence to the tested setting, the argument supports efforts to respond to changing soil conditions in specific contexts rather than a universal rule.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-452",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "Hard",
+    "passage": "Text 1: A review of a pollinator habitat along highways argues that the gains are substantial enough to justify expansion because mapped habitat show improvement. It supports this judgment with a side-by-side comparison shows improvement during the monitored period. It also presents maintenance contracts as evidence that the proposed change is practical.\n\nText 2: A separate commentator offers a qualified assessment: expansion is worthwhile only if its effects persist beyond the initial period. The commentator cautions that results were strongest for the first cohort and less clear afterward and that pollinator abundance may differ from the result reported here. The apparent support is strongest for the measured outcome, not for all possible aims of the program.",
+    "passageWordCount": 112,
+    "question": "How would the author of Text 2 most likely qualify the conclusion reached in Text 1?",
+    "options": [
+      "The commentator would reject the result entirely and claim that a pollinator habitat along highways has produced no benefit.",
+      "The commentator would agree that the gains are substantial enough to justify expansion in every setting and for every group.",
+      "The commentator would treat results were strongest for the first cohort and less clear afterward as proof that the Text 1 approach is universally ineffective.",
+      "The commentator would accept the reported result only with a qualification: expansion is worthwhile only if its effects persist beyond the initial period."
+    ],
+    "answerIndex": 3,
+    "explanationText": "Text 1 reports a side-by-side comparison shows improvement during the monitored period and concludes that the gains are substantial enough to justify expansion. Text 2 sets a qualification: expansion is worthwhile only if its effects persist beyond the initial period; its evidence is results were strongest for the first cohort and less clear afterward. The second response accepts the initial gains but requires evidence of duration before expansion.",
+    "status": "approved"
+  },
+  {
+    "id": "II-028",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
+    "passage": "At Port Alder, researchers examined ship-manifest archive. Earlier accounts claimed cargo reliably identifies a ship's final destination. The team used manifest entries compared with separately preserved arrival records and found cargo matched arrival records for 63 percent of ships; many manifests listed an intermediate port. These findings suggest cargo alone is an unreliable substitute for a documented arrival. However, arrival records survive for only a subset of voyages. The findings describe a pattern, not causation.",
+    "passageWordCount": 75,
+    "question": "Which choice best states the passage's central idea?",
+    "options": [
+      "The study confirmed that cargo reliably identifies a ship's final destination, without needing further comparisons.",
+      "The results establish that archivists identified every ship's final destination, under every relevant condition.",
+      "The researchers avoided collecting evidence about ship-manifest archive altogether.",
+      "The study found that cargo alone is an unreliable substitute for a documented arrival."
+    ],
+    "answerIndex": 3,
+    "explanationText": "The passage emphasizes that cargo alone is an unreliable substitute for a documented arrival. It also notes that arrival records survive for only a subset of voyages, so the broader and absolute claims are unsupported.",
+    "status": "approved"
+  },
+  {
+    "id": "II-031",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
+    "passage": "At Dovetail Farms, researchers examined pollinator corridor. Earlier accounts claimed flower strips increase visits on every crop. The team used bee visits recorded on paired fields with and without strips and found strip-side fields had 22 percent more visits early in summer, but the gap later narrowed. These findings suggest the observed association with visits varied over the season. However, crops differed and yields were not measured. These findings remain limited to the tested settings.",
+    "passageWordCount": 75,
+    "question": "Which choice best states the passage's central idea?",
+    "options": [
+      "The study confirmed that flower strips increase visits on every crop at every site and season, including locations the researchers never sampled.",
+      "The results establish that strips raised crop yields 22 percent all season under every relevant condition, even those the study did not examine.",
+      "The study found that the observed association with visits varied over the season.",
+      "The researchers avoided collecting evidence about pollinator corridor, so the reported measurements cannot support any conclusion."
+    ],
+    "answerIndex": 2,
+    "explanationText": "The passage emphasizes that the observed association with visits varied over the season. It also notes that crops differed and yields were not measured, so the broader and absolute claims are unsupported.",
+    "status": "approved"
+  },
+  {
+    "id": "II-034",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
+    "passage": "At Mill Street Station, researchers examined transit transfers. Earlier accounts claimed a sheltered transfer area eliminates missed connections. The team used missed-connection logs on stormy days before and after construction and found missed connections fell from 14 to 9 monthly while scheduled bus frequency stayed constant. These findings suggest the shelter may have improved transfers, but missed connections continued. However, the station changed its reporting form during the study. Other data may change this interpretation.",
+    "passageWordCount": 75,
+    "question": "Which choice best states the passage's central idea?",
+    "options": [
+      "The study confirmed that a sheltered transfer area eliminates missed connections at every site and season, including locations the researchers never sampled.",
+      "The study found that the shelter may have improved transfers, but missed connections continued.",
+      "The results establish that the shelter eliminated all missed connections under every relevant condition, even those the study did not examine.",
+      "The researchers avoided collecting evidence about transit transfers altogether."
+    ],
+    "answerIndex": 1,
+    "explanationText": "The passage emphasizes that the shelter may have improved transfers, but missed connections continued. It also notes that the station changed its reporting form during the study, so the broader and absolute claims are unsupported.",
+    "status": "approved"
+  },
+  {
+    "id": "II-017",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "Medium",
+    "passage": "At Cedar Run, researchers examined stream sediment. Earlier accounts claimed an upstream barrier reduces sediment everywhere downstream. The team used monthly sediment samples above and below a new barrier and found downstream samples fell 18 percent in spring but were nearly unchanged after summer storms. These findings suggest the barrier coincided with a seasonal reduction, not a steady annual decrease. However, rainfall varied and only one post-installation year was observed. Researchers also compared samples with local rainfall totals. This comparison helped clarify the reported result but did not remove the stated limitation. The report treats the finding as evidence about the tested settings rather than a universal rule. The findings describe a pattern, not causation. The measured result remains open to interpretation. More evidence helps.",
+    "passageWordCount": 125,
+    "question": "Which result from the passage most directly supports the researchers' conclusion?",
+    "options": [
+      "The team found downstream samples fell 18 percent in spring but were nearly unchanged after summer storms.",
+      "The team used monthly sediment samples above and below a new barrier, but this alone does not establish what the results show.",
+      "Earlier accounts had suggested that an upstream barrier reduces sediment everywhere downstream.",
+      "The researchers cautioned that rainfall varied and only one post-installation year was observed."
+    ],
+    "answerIndex": 0,
+    "explanationText": "The reported finding that downstream samples fell 18 percent in spring but were nearly unchanged after summer storms directly supports the conclusion that the barrier coincided with a seasonal reduction, not a steady annual decrease. The other details provide context or a limitation.",
+    "status": "approved"
+  },
+  {
+    "id": "II-038",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "Medium",
+    "passage": "At Riverton parks, researchers examined urban bat acoustics. Earlier accounts claimed more recorded calls mean more bats are present. The team used nightly recordings compared with dusk counts and insect measurements and found call counts doubled on warm nights when dusk counts showed similar bat numbers. These findings suggest acoustic activity reflects more than population size. However, dusk counts may miss bats arriving later. Researchers also repeated comparisons at three parks. This comparison helped clarify the reported result but did not remove the stated limitation. The report treats the finding as evidence about the tested settings rather than a universal rule. The measured result remains open to interpretation. The data support only a limited conclusion. This comparison cannot establish cause by itself. More evidence helps.",
+    "passageWordCount": 125,
+    "question": "Which choice accurately describes the quantitative evidence in the passage?",
+    "options": [
+      "The measurements prove that the bat population doubled on warm nights, including in conditions beyond those the team actually tested.",
+      "The measurements show that call counts doubled on warm nights when dusk counts showed similar bat numbers.",
+      "The comparison showed no difference in any measure, although the passage reports a numerical change.",
+      "The team described nightly recordings compared with dusk counts and insect measurements instead of reporting the numeric result."
+    ],
+    "answerIndex": 1,
+    "explanationText": "The passage reports that call counts doubled on warm nights when dusk counts showed similar bat numbers. The study notes that dusk counts may miss bats arriving later, so the figures do not prove a universal rule.",
+    "status": "approved"
+  },
+  {
+    "id": "II-021",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Hard",
+    "passage": "At Bellweather Museum, researchers examined museum pigment cleaning. Earlier accounts claimed the most thorough cleaning method is safest. The team used small panel areas treated with three solutions under magnification and found the mildest solution removed dust while preserving more original pigment than stronger mixtures. These findings suggest cleaning effectiveness must be balanced against risk to original material. However, one panel was tested and long-term fading was not assessed. Researchers also photographed each test area before and after treatment. At first glance, a reader might conclude that the strongest solution preserved the most pigment; however, the reported measurements show a narrower pattern. The study also notes that one panel was tested and long-term fading was not assessed. Consequently, conclusions must remain within the sampled conditions, and the observed association should not be treated as proof of cause. This comparison cannot establish cause by itself. Results remain specific to the tested conditions. Other conditions may produce a different result. The findings describe a pattern, not causation. The measured result remains open to interpretation. More evidence helps.",
+    "passageWordCount": 175,
+    "question": "Which inference is best supported by the passage?",
+    "options": [
+      "The evidence suggests removing more residue may be inappropriate if a method damages pigment, but does not establish a universal effect.",
+      "The evidence confirms that the strongest solution preserved the most pigment, with no meaningful exceptions, including in unmeasured settings.",
+      "The study shows that the most thorough cleaning method is safest, regardless of the conditions examined.",
+      "Because one panel was tested and long-term fading was not assessed, the reported measurements have no interpretive value."
+    ],
+    "answerIndex": 0,
+    "explanationText": "The pattern supports the narrower inference that removing more residue may be inappropriate if a method damages pigment. Because one panel was tested and long-term fading was not assessed, it cannot support the universal claims in the distractors.",
+    "status": "approved"
+  },
+  {
+    "id": "II-024",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Hard",
+    "passage": "At Easton Middle School, researchers examined school tutoring more closely. Earlier accounts claimed more tutoring necessarily improves every student's score. The team used score records for students attending different numbers of sessions and found students attending six or more sessions gained 7 points on average; others gained 5. These findings suggest attendance was associated with different average gains but was not randomly assigned. However, frequent attendees may have differed in motivation or preparation. Researchers also compared baseline scores before calculating gains. At first glance, a reader might conclude that every student attending six sessions gained exactly 7 points; however, the reported measurements show a narrower pattern. The study also notes that frequent attendees may have differed in motivation or preparation. Consequently, conclusions must remain within the sampled conditions, and the observed association should not be treated as proof of cause. Results remain specific to the tested conditions. Other conditions may produce a different result. The findings describe a pattern, not causation. The measured result remains open to interpretation. The data support only a limited conclusion.",
+    "passageWordCount": 175,
+    "question": "Which inference is best supported by the passage?",
+    "options": [
+      "The evidence confirms that every student attending six sessions gained exactly 7 points, with no meaningful exceptions.",
+      "The study shows that more tutoring necessarily improves every student's score, regardless of the conditions examined.",
+      "Because frequent attendees may have differed in motivation or preparation, the reported measurements have no interpretive value.",
+      "The evidence suggests the comparison does not prove that extra sessions alone caused larger gains, but does not establish a universal effect."
+    ],
+    "answerIndex": 3,
+    "explanationText": "The pattern supports the narrower inference that the comparison does not prove that extra sessions alone caused larger gains. Because frequent attendees may have differed in motivation or preparation, it cannot support the universal claims in the distractors.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-176",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
+    "passage": "After the instruments were calibrated _____ the technician began the trial.",
+    "passageWordCount": 11,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "?",
+      " ",
+      ",",
+      ";"
+    ],
+    "answerIndex": 2,
+    "explanationText": "The introductory dependent clause is separated from the independent main clause with a comma.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-102",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
+    "passage": "The curator announced one change _____ the textiles would remain in storage.",
+    "passageWordCount": 12,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      ",",
+      ";",
+      "?",
+      ":"
+    ],
+    "answerIndex": 3,
+    "explanationText": "A colon introduces and frames the specific problem, change, principle, solution, or items that follow.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-177",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
+    "passage": "Although the weather worsened _____ the crew continued the survey.",
+    "passageWordCount": 10,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "?",
+      " ",
+      ";",
+      ","
+    ],
+    "answerIndex": 3,
+    "explanationText": "The introductory dependent clause is separated from the independent main clause with a comma.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-178",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
+    "passage": "Before the exhibit opened _____ the staff checked every label.",
+    "passageWordCount": 10,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      ";",
+      ",",
+      " ",
+      "?"
+    ],
+    "answerIndex": 1,
+    "explanationText": "The introductory dependent clause is separated from the independent main clause with a comma.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-424",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Hard",
+    "passage": "Designed for frequent use, _____ made the science fair more resistant to damage.",
+    "passageWordCount": 13,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "having reinforced",
+      "the frame was",
+      "its design was",
+      "a reinforced frame"
+    ],
+    "answerIndex": 3,
+    "explanationText": "The opening modifier logically describes the reinforced frame that follows.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-337",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Medium",
+    "passage": "By the end of the month, the market vendors _____ a detailed report of the findings.",
+    "passageWordCount": 16,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "was completing",
+      "will have completed",
+      "completes",
+      "has completed"
+    ],
+    "answerIndex": 1,
+    "explanationText": "The future completion point calls for the future perfect verb phrase \"will have completed.\"",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-425",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Hard",
+    "passage": "Designed for frequent use, _____ made the campus newspaper more resistant to damage.",
+    "passageWordCount": 13,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "a reinforced frame",
+      "having reinforced",
+      "the frame was",
+      "its design was"
+    ],
+    "answerIndex": 0,
+    "explanationText": "The opening modifier logically describes the reinforced frame that follows.",
+    "status": "approved"
+  },
+  {
+    "id": "EI-339",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Hard",
+    "passage": "The school garden added mulch around the herb beds. _____, mulch helps, but too much piled against a stem can encourage rot. The result should be reviewed alongside earlier measurements rather than in isolation. A consistent record makes this particular change easier to verify. The recorded result is specific to the conditions described.",
+    "passageWordCount": 53,
+    "question": "Which transition best completes the text?",
+    "options": [
+      "Therefore",
+      "Even so",
+      "Moreover",
+      "For example"
+    ],
+    "answerIndex": 1,
+    "explanationText": "The last clause limits or complicates the benefit or claim established before the blank.",
+    "status": "approved"
+  },
+  {
+    "id": "EI-173",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Medium",
+    "passage": "The research vessel lowered a camera at three depths. _____, the deepest images showed fewer fish but clearer footage of rock formations. The measure is useful because it captures a difference ordinary estimates could miss.",
+    "passageWordCount": 35,
+    "question": "Which choice most logically completes the text?",
+    "options": [
+      "Therefore",
+      "However",
+      "Moreover",
+      "For example"
+    ],
+    "answerIndex": 1,
+    "explanationText": "The second idea presents a limitation or difference that conflicts with the initial observation.",
+    "status": "approved"
+  },
+  {
+    "id": "EI-340",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Hard",
+    "passage": "The student newspaper changed from a weekly print edition to a daily online edition. _____, the daily format allows faster corrections but requires more frequent editing. The finding offers a useful basis for a narrower, well-defined comparison. Its practical value depends on interpreting the result within the stated scope.",
+    "passageWordCount": 49,
+    "question": "Which choice completes the text with the most logical transition?",
+    "options": [
+      "Therefore",
+      "However",
+      "Moreover",
+      "For example"
+    ],
+    "answerIndex": 1,
+    "explanationText": "The second idea presents a limitation or difference that conflicts with the initial observation.",
+    "status": "approved"
+  },
+  {
+    "id": "EI-437",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "Hard",
+    "passage": "Notes:\n- To address travelers waiting uncertainly for an elevator, staff at Library Station piloted metro elevator arrival displays.\n- Readings for average wait at the busiest entrance were 80 seconds initially, 72 midway, and 64 finally.\n- The team drew on weekday waits at one station entrance; observers timed from button press to arrival.\n- The measurements came from one entrance during morning and evening peaks; the display was disabled during two maintenance days.\n- The team did not compare stair use. The observation period lasted five weeks.",
+    "passageWordCount": 83,
+    "question": "To describe how the outcome changed across the three checkpoints in a report on metro elevator arrival displays at Library Station, which choice best uses the notes?",
+    "options": [
+      "At Library Station, the recorded measure for average wait at the busiest entrance declined at each checkpoint: it was 80, 72, and 64 seconds at the three checkpoints.",
+      "The results prove that metro elevator arrival displays will produce the same patternâ€”80, 72, and 64 secondsâ€”at every site.",
+      "At Library Station, the recorded measure for average wait at the busiest entrance increased at each checkpoint, from 80 through 72 to 64 seconds.",
+      "At Library Station, the measure for average wait at the busiest entrance moved from 80 to 64 seconds, without describing the midpoint reading."
+    ],
+    "answerIndex": 0,
+    "explanationText": "It uses all three readings to describe the trend; the alternatives omit a checkpoint, reverse the direction, or claim an unsupported universal pattern.",
+    "status": "approved"
+  },
+  {
+    "id": "EI-438",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "Hard",
+    "passage": "Notes:\n- Staff at Cove Launch piloted reservoir kayak booking in response to visitors arriving when launch areas were full.\n- For launches completed within reserved windows, readings were 66 percent of bookings initially, 77 midway, and 85 finally.\n- The sample comprised reservation logs from the east launch; rangers matched bookings to launch records.\n- The study was confined to the east launch during summer weekends, and walk-in visitors were not included.\n- The logs did not measure visitor satisfaction. The observation period lasted two months.",
+    "passageWordCount": 81,
+    "question": "At Cove Launch, the student studied reservoir kayak booking and wants to emphasize a limitation on interpreting the measured result. Which choice most effectively meets that goal?",
+    "options": [
+      "At Cove Launch, the recorded measure for launches completed within reserved windows changed from 66 to 85 percent of bookings, proving the intervention works in all settings.",
+      "The staff recorded launches completed within reserved windows at three checkpoints, but this summary leaves out the study's limitation.",
+      "At Cove Launch, the recorded measure for launches completed within reserved windows changed from 66 to 85 percent of bookings, but walk-in visitors were not included.",
+      "Despite the listed procedure, no measurement of launches completed within reserved windows was collected at Cove Launch or at any other point in the study."
+    ],
+    "answerIndex": 2,
+    "explanationText": "It reports the measured change and the stated limitation; the alternatives either erase the caveat, deny that data exist, or omit the limitation.",
+    "status": "approved"
+  }
+]

@@ -1,0 +1,488 @@
+[
+  {
+    "id": "CS-001",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Easy",
+    "passage": "The hikers described the morning pace as brisk because the group covered two miles before breakfast. This concrete detail shows that brisk means energetic and quick rather than a conflicting or unrelated sense. The chosen sense follows directly from how brisk is used in the observation.",
+    "passageWordCount": 46,
+    "question": "As used in the passage, \"brisk\" most nearly means",
+    "options": [
+      "energetic and quick",
+      "slow and reluctant",
+      "poorly organized in a different context",
+      "unusually strict"
+    ],
+    "answerIndex": 0,
+    "explanationText": "The clueÃ¢â‚¬â€\"The hikers described the morning pace as brisk because the group covered two miles before breakfast.\"Ã¢â‚¬â€shows that brisk means energetic and quick in this passage. That interpretation matches the concrete circumstance described.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-168",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Medium",
+    "passage": "The critic caught a nuance in the translation that the first reviewer had missed. In this context, nuance carries the sense of a subtle distinction. A public announcement or a complete explanation would describe a different situation, and neither accounts for the stated detail. The chosen sense follows directly from how nuance is used in the observation.",
+    "passageWordCount": 57,
+    "question": "As used in the passage, \"nuance\" most nearly means",
+    "options": [
+      "a major obstacle",
+      "a complete explanation",
+      "a subtle distinction",
+      "a public announcement"
+    ],
+    "answerIndex": 2,
+    "explanationText": "The clueÃ¢â‚¬â€\"The critic caught a nuance in the translation that the first reviewer had missed.\"Ã¢â‚¬â€shows that nuance means a subtle distinction in this passage. That interpretation matches the concrete circumstance described.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-169",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Medium",
+    "passage": "In this context, provisional carries the sense of temporary and subject to revision. In this context, provisional carries the sense of temporary and subject to revision. Simple and obvious or permanent and final would describe a different situation, and neither accounts for the stated detail. The chosen sense follows directly from how provisional is used in the observation.",
+    "passageWordCount": 58,
+    "question": "As used in the passage, \"provisional\" most nearly means",
+    "options": [
+      "temporary and subject to revision",
+      "secret and unauthorized",
+      "permanent and final",
+      "simple and obvious under a broader interpretation"
+    ],
+    "answerIndex": 0,
+    "explanationText": "The clueÃ¢â‚¬â€\"In this context, provisional carries the sense of temporary and subject to revision.\"Ã¢â‚¬â€shows that provisional means temporary and subject to revision in this passage. That interpretation matches the concrete circumstance described.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-170",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Medium",
+    "passage": "The mayor urged officials to temper their enthusiasm until the budget was verified. In this context, temper carries the sense of moderate. Publicize or ignore would describe a different situation, and neither accounts for the stated detail. The chosen sense follows directly from how temper is used in the observation.",
+    "passageWordCount": 50,
+    "question": "As used in the passage, \"temper\" most nearly means",
+    "options": [
+      "increase",
+      "ignore",
+      "publicize",
+      "moderate"
+    ],
+    "answerIndex": 3,
+    "explanationText": "The clueÃ¢â‚¬â€\"The mayor urged officials to temper their enthusiasm until the budget was verified.\"Ã¢â‚¬â€shows that temper means moderate in this passage. That interpretation matches the concrete circumstance described.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-335",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Hard",
+    "passage": "Consider the specific case in this account: Consider the specific case in this account: Consider the specific case in this account: The isolated reading was anomalous compared with thousands of nearby observations. The specific consequences in this case require the sense departing from normal patterns. Although matching every expectation and widely accepted could apply in a separate context, they do not fit the relationship established by the passage.",
+    "passageWordCount": 68,
+    "question": "As used in the passage, \"anomalous\" most nearly means",
+    "options": [
+      "matching every expectation",
+      "departing from normal patterns",
+      "carefully regulated",
+      "widely accepted under a broader interpretation"
+    ],
+    "answerIndex": 1,
+    "explanationText": "The clueÃ¢â‚¬â€\"Consider the specific case in this account: Consider the specific case in this account: Consider the specific case in this account: The isolated reading was anomalous compared with thousands of nearby observations.\"Ã¢â‚¬â€shows that anomalous means departing from normal patterns in this passage. That interpretation matches the concrete circumstance described.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-235",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Medium",
+    "passage": "At a river-monitoring project, relying on fixed measurements at a single dock had made routine decisions convenient, but it left an important local difference unclear. The team therefore began moving a sensor among shallow and deep sections rather than treating every case alike. This approach supplied a specific finding: readings varied with depth. That finding suggests that the team identified distinct habitat conditions, although limited to this setting. The method was thus useful where fixed measurements at a single dock concealed variation and where a targeted response could better track seasonal habitat patterns.",
+    "passageWordCount": 93,
+    "question": "What is the primary function of the final sentence?",
+    "options": [
+      "It declares that fixed measurements at a single dock should never be used. The passage specifically excludes this conclusion.",
+      "It repeats the finding readings varied with depth without explaining its purpose",
+      "It identifies the context in which the new method can better track seasonal habitat patterns despite the limits of the study.",
+      "It extends the projectÃ¢â‚¬â„¢s evidence to every possible location"
+    ],
+    "answerIndex": 2,
+    "explanationText": "The passage begins with the convenience of fixed measurements at a single dock, introduces moving a sensor among shallow and deep sections, and then qualifies the finding that readings varied with depth. It therefore favors a targeted approach to better track seasonal habitat patterns where local variation matters.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-401",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Hard",
+    "passage": "At a river-monitoring project, advocates of fixed measurements at a single dock regarded a broad, uniform procedure as adequate because it was easier to repeat. That view did not account for a difference exposed by moving a sensor among shallow and deep sections. The project found that readings varied with depth; the team identified distinct habitat conditions. These observations support a limited conclusion rather than a universal rule: the project's setting was not evidence that every site must respond identically. Instead, the uniform procedure may remain useful for simple comparisons, while moving a sensor among shallow and deep sections provides a more discriminating way to better track seasonal habitat patterns.",
+    "passageWordCount": 110,
+    "question": "How does the passage develop its argument?",
+    "options": [
+      "It endorses the uniform approach, contradicts that endorsement, and gives no basis for the contradiction. This description goes beyond the relationship established in the passage.",
+      "It presents a uniform approach, introduces counterevidence, limits the generalization, and preserves a conditional role for each method.",
+      "It compares two unrelated findings and never establishes a relationship between them",
+      "It rejects both approaches before describing how either could be used"
+    ],
+    "answerIndex": 1,
+    "explanationText": "The uniform approach and moving a sensor among shallow and deep sections are distinguished through the evidence that readings varied with depth. Because the passage limits that evidence to the tested setting, the argument supports efforts to better track seasonal habitat patterns in specific contexts rather than a universal rule.",
+    "status": "approved"
+  },
+  {
+    "id": "CS-118",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "Easy",
+    "passage": "Text 1: A review of an urban tree-planting campaign says the policy should be adopted widely because its recent maps show improvement. In particular, the program's initial report presents a strong increase in the leading measure.\n\nText 2: A separate commentator says implementation should begin in settings that first meet measured local conditions. The commentator points out that observations came from the easiest sites to measure, so this evidence does not settle the broader question.",
+    "passageWordCount": 71,
+    "question": "Based on Text 2, how would the author most likely respond to the claim in Text 1?",
+    "options": [
+      "The commentator would accept the reported result only with a qualification: implementation should begin in settings that first meet measured local conditions.",
+      "The commentator would reject the result entirely and claim that an urban tree-planting campaign has produced no benefit.",
+      "The commentator would agree that the policy should be adopted widely in every setting and for every group.",
+      "The commentator would treat observations came from the easiest sites to measure as proof that the Text 1 approach is universally ineffective."
+    ],
+    "answerIndex": 0,
+    "explanationText": "Text 1 reports the program's initial report presents a strong increase in the leading measure and concludes that the policy should be adopted widely. Text 2 adds a qualification: implementation should begin in settings that first meet measured local conditions; its evidence is observations came from the easiest sites to measure. The first text supports broad adoption, while the second limits that inference by emphasizing local conditions.",
+    "status": "approved"
+  },
+  {
+    "id": "II-001",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
+    "passage": "At Maple Junction, researchers examined street-tree cooling. Earlier accounts claimed trees cool every nearby block equally. The team used paired sensors on shaded sidewalks and exposed intersections and found shaded pavement averaged 2.4 degrees cooler, while air readings differed by only 0.3 degrees. These findings suggest shade changed surface heat more than neighborhood air temperature. However, sensors covered six blocks during two summer weeks. Other conditions may produce a different result. More data may help.",
+    "passageWordCount": 75,
+    "question": "Which choice best states the passage's central idea?",
+    "options": [
+      "The study found that shade changed surface heat more than neighborhood air temperature.",
+      "The study confirmed that trees cool every nearby block equally at every site and season, including locations the researchers never sampled.",
+      "The results establish that trees lowered air temperature by 2.4 degrees throughout the city, under every relevant condition.",
+      "The researchers avoided collecting evidence about street-tree cooling altogether."
+    ],
+    "answerIndex": 0,
+    "explanationText": "The passage emphasizes that shade changed surface heat more than neighborhood air temperature. It also notes that sensors covered six blocks during two summer weeks, so the broader and absolute claims are unsupported.",
+    "status": "approved"
+  },
+  {
+    "id": "II-004",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
+    "passage": "At North Valley, researchers examined seed germination. The team used equal seed counts from four storage dates under the same soil and watering conditions and found the oldest lot had 68 percent germination, compared with 71 percent for the newest. These findings suggest storage age alone did not explain most germination differences in this sample. However, the test used one greenhouse and did not measure later harvests. These findings remain limited to the tested settings.",
+    "passageWordCount": 75,
+    "question": "Which choice best states the passage's central idea?",
+    "options": [
+      "The study confirmed that older seed lots always germinate poorly, without needing further comparisons.",
+      "The results establish that the oldest seeds produced the largest harvest, under every relevant condition.",
+      "The researchers avoided collecting evidence about seed germination altogether.",
+      "The study found that storage age alone did not explain most germination differences in this sample."
+    ],
+    "answerIndex": 3,
+    "explanationText": "The passage emphasizes that storage age alone did not explain most germination differences in this sample. It also notes that the test used one greenhouse and did not measure later harvests, so the broader and absolute claims are unsupported.",
+    "status": "approved"
+  },
+  {
+    "id": "II-007",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
+    "passage": "At Harbor Point, researchers examined evening bird migration. Earlier accounts claimed migrants avoid all illuminated buildings. The team used radar counts alongside matched observations at dark and lit roofs and found migration volume changed similarly, but circling events were more common near bright roofs. These findings suggest light was associated with local flight behavior, not total migration volume. However, weather and building height also varied among sites. These findings remain limited to the tested settings.",
+    "passageWordCount": 75,
+    "question": "Which choice best states the passage's central idea?",
+    "options": [
+      "The study confirmed that migrants avoid all illuminated buildings at every site and season, including locations the researchers never sampled.",
+      "The results establish that dark roofs attracted more migrants than illuminated ones under every relevant condition, even those the study did not examine.",
+      "The study found that light was associated with local flight behavior, not total migration volume.",
+      "The researchers avoided collecting evidence about evening bird migration, so the reported measurements cannot support any conclusion."
+    ],
+    "answerIndex": 2,
+    "explanationText": "The passage emphasizes that light was associated with local flight behavior, not total migration volume. It also notes that weather and building height also varied among sites, so the broader and absolute claims are unsupported.",
+    "status": "approved"
+  },
+  {
+    "id": "II-005",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "Medium",
+    "passage": "At North Valley, researchers examined seed germination more closely. Earlier accounts claimed older seed lots always germinate poorly. The team used equal seed counts from four storage dates under the same soil and watering conditions and found the oldest lot had 68 percent germination, compared with 71 percent for the newest. These findings suggest storage age alone did not explain most germination differences in this sample. However, the test used one greenhouse and did not measure later harvests. Researchers also repeated the test with a second soil mixture. This comparison helped clarify the reported result but did not remove the stated limitation. The report treats the finding as evidence about the tested settings rather than a universal rule. The data support only a limited conclusion.",
+    "passageWordCount": 125,
+    "question": "Which result from the passage most directly supports the researchers' conclusion?",
+    "options": [
+      "The team found the oldest lot had 68 percent germination, compared with 71 percent for the newest.",
+      "The team used equal seed counts from four storage dates under the same soil and watering conditions, but this alone does not establish what the results show.",
+      "Earlier accounts had suggested that older seed lots always germinate poorly.",
+      "The researchers cautioned that the test used one greenhouse and did not measure later harvests."
+    ],
+    "answerIndex": 0,
+    "explanationText": "The reported finding that the oldest lot had 68 percent germination, compared with 71 percent for the newest directly supports the conclusion that storage age alone did not explain most germination differences in this sample. The other details provide context or a limitation.",
+    "status": "approved"
+  },
+  {
+    "id": "II-002",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "Medium",
+    "passage": "At Maple Junction, researchers examined street-tree cooling more closely. Earlier accounts claimed trees cool every nearby block equally. The team used paired sensors on shaded sidewalks and exposed intersections and found shaded pavement averaged 2.4 degrees cooler, while air readings differed by only 0.3 degrees. These findings suggest shade changed surface heat more than neighborhood air temperature. However, sensors covered six blocks during two summer weeks. Researchers also compared afternoon readings with predawn measurements. This comparison helped clarify the reported result but did not remove the stated limitation. The report treats the finding as evidence about the tested settings rather than a universal rule. The measured result remains open to interpretation. The data support only a limited conclusion. This comparison cannot establish cause by itself.",
+    "passageWordCount": 125,
+    "question": "Which choice accurately describes the quantitative evidence in the passage?",
+    "options": [
+      "The measurements prove that trees lowered air temperature by 2.4 degrees throughout the city, including in conditions beyond those the team actually tested.",
+      "The measurements show that shaded pavement averaged 2.4 degrees cooler, while air readings differed by only 0.3 degrees.",
+      "The comparison showed no difference in any measure, although the passage reports a numerical change.",
+      "The team described paired sensors on shaded sidewalks and exposed intersections instead of reporting the numeric result."
+    ],
+    "answerIndex": 1,
+    "explanationText": "The passage reports that shaded pavement averaged 2.4 degrees cooler, while air readings differed by only 0.3 degrees. The study notes that sensors covered six blocks during two summer weeks, so the figures do not prove a universal rule.",
+    "status": "approved"
+  },
+  {
+    "id": "II-003",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Hard",
+    "passage": "At Maple Junction, researchers examined street-tree cooling more closely. Earlier accounts claimed trees cool every nearby block equally. The team used paired sensors on shaded sidewalks and exposed intersections and found shaded pavement averaged 2.4 degrees cooler, while air readings differed by only 0.3 degrees. These findings suggest shade changed surface heat more than neighborhood air temperature. However, sensors covered six blocks during two summer weeks. Researchers also compared afternoon readings with predawn measurements. At first glance, a reader might conclude that trees lowered air temperature by 2.4 degrees throughout the city; however, the reported measurements show a narrower pattern. The study also notes that sensors covered six blocks during two summer weeks. Consequently, conclusions must remain within the sampled conditions, and the observed association should not be treated as proof of cause. This comparison cannot establish cause by itself. Results remain specific to the tested conditions. Other conditions may produce a different result. The findings describe a pattern, not causation. The measured result remains open to interpretation. The data support only a limited conclusion.",
+    "passageWordCount": 175,
+    "question": "Which inference is best supported by the passage?",
+    "options": [
+      "The evidence confirms that trees lowered air temperature by 2.4 degrees throughout the city, with no meaningful exceptions, including in unmeasured settings.",
+      "The study shows that trees cool every nearby block equally, regardless of conditions or differences among the sites examined.",
+      "The evidence suggests shade can cool pavement without a similar change in measured air temperature, but does not establish a universal effect.",
+      "Because sensors covered six blocks during two summer weeks, the reported measurements have no value and cannot support even a limited inference."
+    ],
+    "answerIndex": 2,
+    "explanationText": "The pattern supports the narrower inference that shade can cool pavement without a similar change in measured air temperature. Because sensors covered six blocks during two summer weeks, it cannot support the universal claims in the distractors.",
+    "status": "approved"
+  },
+  {
+    "id": "II-006",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Hard",
+    "passage": "At North Valley, researchers examined seed germination more closely. Earlier accounts claimed older seed lots always germinate poorly. The team used equal seed counts from four storage dates under the same soil and watering conditions and found the oldest lot had 68 percent germination, compared with 71 percent for the newest. These findings suggest storage age alone did not explain most germination differences in this sample. However, the test used one greenhouse and did not measure later harvests. Researchers also repeated the test with a second soil mixture. At first glance, a reader might conclude that the oldest seeds produced the largest harvest; however, the reported measurements show a narrower pattern. The study also notes that the test used one greenhouse and did not measure later harvests. Consequently, conclusions must remain within the sampled conditions, and the observed association should not be treated as proof of cause. Results remain specific to the tested conditions. Other conditions may produce a different result. The findings describe a pattern, not causation. The measured result remains open to interpretation.",
+    "passageWordCount": 175,
+    "question": "Which inference is best supported by the passage?",
+    "options": [
+      "The evidence confirms that the oldest seeds produced the largest harvest, with no meaningful exceptions, including in unmeasured settings.",
+      "The evidence suggests several years of storage need not prevent useful germination under suitable conditions, but does not establish a universal effect.",
+      "The study shows that older seed lots always germinate poorly, regardless of conditions or differences among the sites examined.",
+      "Because the test used one greenhouse and did not measure later harvests, the reported measurements have no interpretive value."
+    ],
+    "answerIndex": 1,
+    "explanationText": "The pattern supports the narrower inference that several years of storage need not prevent useful germination under suitable conditions. Because the test used one greenhouse and did not measure later harvests, it cannot support the universal claims in the distractors.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-086",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
+    "passage": "The field study produced strong initial data _____ the researchers broadened the sample.",
+    "passageWordCount": 13,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      ", but",
+      "; and",
+      " and",
+      ", and"
+    ],
+    "answerIndex": 3,
+    "explanationText": "Two independent clauses joined by ?and? require a comma before the coordinating conjunction.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-168",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
+    "passage": "Before the exhibit opened _____ the staff checked every label.",
+    "passageWordCount": 10,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "?",
+      ";",
+      ",",
+      " "
+    ],
+    "answerIndex": 2,
+    "explanationText": "The introductory dependent clause is separated from the independent main clause with a comma.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-087",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
+    "passage": "The rehearsal schedule was posted _____ the performers began arriving early.",
+    "passageWordCount": 11,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      ", and",
+      "; and",
+      ", but",
+      " and"
+    ],
+    "answerIndex": 0,
+    "explanationText": "Two independent clauses joined by ?and? require a comma before the coordinating conjunction.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-169",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
+    "passage": "While the children practiced _____ their instructor adjusted the tempo.",
+    "passageWordCount": 10,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "?",
+      ";",
+      " ",
+      ","
+    ],
+    "answerIndex": 3,
+    "explanationText": "The introductory dependent clause is separated from the independent main clause with a comma.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-334",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Medium",
+    "passage": "By the end of the month, the debate team _____ a detailed report of the findings.",
+    "passageWordCount": 16,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "was completing",
+      "will have completed",
+      "has completed",
+      "completes"
+    ],
+    "answerIndex": 1,
+    "explanationText": "The future completion point calls for the future perfect verb phrase \"will have completed.\"",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-418",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Hard",
+    "passage": "Designed for frequent use, _____ made the history workshop more resistant to damage.",
+    "passageWordCount": 13,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "the frame was",
+      "its design was",
+      "a reinforced frame",
+      "having reinforced"
+    ],
+    "answerIndex": 2,
+    "explanationText": "The opening modifier logically describes the reinforced frame that follows.",
+    "status": "approved"
+  },
+  {
+    "id": "SEC-419",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Hard",
+    "passage": "Designed for frequent use, _____ made the theater crew more resistant to damage.",
+    "passageWordCount": 13,
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "the frame was",
+      "having reinforced",
+      "its design was",
+      "a reinforced frame"
+    ],
+    "answerIndex": 3,
+    "explanationText": "The opening modifier logically describes the reinforced frame that follows.",
+    "status": "approved"
+  },
+  {
+    "id": "EI-168",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Medium",
+    "passage": "A student team designed a phone stand from a reused sheet of cardboard. _____, the team should choose the next material based on the intended device. The result should be reviewed alongside earlier measurements rather than in isolation.",
+    "passageWordCount": 38,
+    "question": "Which choice most logically completes the text?",
+    "options": [
+      "However",
+      "Taken together",
+      "Moreover",
+      "For example"
+    ],
+    "answerIndex": 1,
+    "explanationText": "The final judgment is an inference drawn from the observations that come before it.",
+    "status": "approved"
+  },
+  {
+    "id": "EI-169",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Medium",
+    "passage": "The history exhibition paired objects with short visitor recordings. _____, the recordings add voices but can make the gallery noisier. The result should be reviewed alongside earlier measurements rather than in isolation. A consistent record makes this particular change easier to verify.",
+    "passageWordCount": 42,
+    "question": "Which choice most logically completes the text?",
+    "options": [
+      "However",
+      "Therefore",
+      "Moreover",
+      "For example"
+    ],
+    "answerIndex": 0,
+    "explanationText": "The second idea presents a limitation or difference that conflicts with the initial observation.",
+    "status": "approved"
+  },
+  {
+    "id": "EI-335",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Hard",
+    "passage": "The laboratory stored samples at two temperatures. _____, cooling improved stability, but it does not prove that temperature is the only factor. A consistent record makes this particular change easier to verify. The recorded result is specific to the conditions described. The team kept enough detail to distinguish this effect from a later change.",
+    "passageWordCount": 54,
+    "question": "Which choice most logically completes the text?",
+    "options": [
+      "Even so",
+      "Therefore",
+      "Moreover",
+      "For example"
+    ],
+    "answerIndex": 0,
+    "explanationText": "The last clause limits or complicates the benefit or claim established before the blank.",
+    "status": "approved"
+  },
+  {
+    "id": "EI-268",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "Medium",
+    "passage": "Notes:\n- At Pier Channel, researchers tested harbor quiet-zone signs in response to fast-moving recreational boats near a pier.\n- Readings for boat speed were 8.8 knots initially, 7.7 midway, and 6.9 at trial's end.\n- For boats passing one marked harbor channel, a shore observer estimated speed from radar.\n- The study covered one channel during weekend afternoons; boat operators were not interviewed.\n- Commercial vessels followed a separate route. The observation period lasted five weekends.",
+    "passageWordCount": 71,
+    "question": "The student wants to support a cautious summary of what the pilot measured when summarizing the trial of harbor quiet-zone signs at Pier Channel. Which choice best uses the notes?",
+    "options": [
+      "In one channel during weekend afternoons, the recorded measure for boat speed changed from 8.8 to 6.9 knots, so no additional evidence is needed.",
+      "At Pier Channel, readings for boat speed changed from 8.8 to 6.9 knots; however, boat operators were not interviewed.",
+      "The results prove that harbor quiet-zone signs will address fast-moving recreational boats near a pier at every site, regardless of conditions.",
+      "The pilot offers no information about boat speed, since it remained unmeasured throughout."
+    ],
+    "answerIndex": 1,
+    "explanationText": "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
+    "status": "approved"
+  },
+  {
+    "id": "EI-269",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "Medium",
+    "passage": "Notes:\n- At Hill Block, researchers tested orchard drip irrigation in response to uneven water delivery to young trees.\n- Readings for water per tree were 37 liters per week initially, 32 midway, and 27 at trial's end.\n- For weekly use across 40 young apple trees, workers read individual line meters.\n- The study covered one orchard block during early summer; the trial did not include mature trees.\n- Tree growth was checked at the start and end. The observation period lasted seven weeks.",
+    "passageWordCount": 79,
+    "question": "The student wants to support a cautious summary of what the pilot measured when summarizing the trial of orchard drip irrigation at Hill Block. Which choice best uses the notes?",
+    "options": [
+      "The results prove that orchard drip irrigation will address uneven water delivery to young trees at every site, regardless of conditions.",
+      "At Hill Block, readings for water per tree changed from 37 to 27 liters per week; however, the trial did not include mature trees.",
+      "In one orchard block during early summer, the recorded measure for water per tree changed from 37 to 27 liters per week, so no additional evidence is needed.",
+      "The pilot offers no information about water per tree, since it remained unmeasured throughout."
+    ],
+    "answerIndex": 1,
+    "explanationText": "It pairs the observed change with a cautious, site-bounded inference; the other choices overstate causation or dismiss the recorded evidence.",
+    "status": "approved"
+  }
+]
