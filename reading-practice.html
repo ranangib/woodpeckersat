@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en" class="page-reading-practice">
 <head>
     <meta charset="utf-8">
@@ -74,7 +74,7 @@
                 <a href="about.html">About</a>
                 <a href="rewards.html">Rewards</a>
             </nav>
-            <a class="nav-cta" href="sat-grammar-practice-test-1.html">Timed practice →</a>
+            <a class="nav-cta" href="sat-grammar-practice-test-1.html">Timed practice â†’</a>
         </header>
 
         <main>
@@ -84,15 +84,35 @@
             <a href="https://araplhn.org/4/fed91e992ebec395efa5ecbc4bd4d062" target="_blank" rel="noopener noreferrer" class="sponsorship-button">Sponsorship</a>
                 <p>Browse all four SAT Reading and Writing domains, jump to any question, and pick up where you left off. Your answers stay saved on this device.</p>
                 <div class="practice-summary" aria-label="Your practice progress">
-                    <div><strong id="total-questions">—</strong><span>questions</span></div>
+                    <div><strong id="total-questions">â€”</strong><span>questions</span></div>
                     <div><strong id="answered-count">0</strong><span>answered</span></div>
                     <div><strong id="correct-count">0</strong><span>correct</span></div>
                 </div>
             </section>
+            <section class="reading-guide" aria-labelledby="reading-guide-title">
+                <h2 id="reading-guide-title">About SAT Reading &amp; Writing Practice</h2>
+                <p>The Digital SAT Reading and Writing section tests your ability to understand and analyze passages, interpret data, and apply standard English conventions. Questions are organized across four content domains:</p>
+                <ul class="domain-list">
+                    <li><strong>Information and Ideas</strong> - Locate, interpret, and evaluate information from texts and informational graphics.</li>
+                    <li><strong>Craft and Structure</strong> - Determine word meanings, analyze text structure, and identify the author's purpose and perspective.</li>
+                    <li><strong>Expression of Ideas</strong> - Revise texts to improve clarity, effectiveness, and logical organization.</li>
+                    <li><strong>Standard English Conventions</strong> - Edit sentences for grammar, usage, and punctuation errors.</li>
+                </ul>
+                <p>Each practice question includes detailed answer explanations so you can understand why the correct answer is right and why the other choices are wrong. Use the filters above to focus on a specific domain, skill, or difficulty level.</p>
+                <p><strong>How to use this practice tool:</strong></p>
+                <ol>
+                    <li>Select a domain or skill from the filters to narrow the question bank.</li>
+                    <li>Click any question to open it and record your answer.</li>
+                    <li>Review the answer explanation carefully, even for questions you answered correctly.</li>
+                    <li>Bookmark questions you want to revisit using the printable study sheet.</li>
+                    <li>Your progress is saved locally in your browser - no account required.</li>
+                </ol>
+                <p>For grammar and punctuation rules that appear in the Standard English Conventions domain, see the <a href="grammar.html">SAT Grammar Guide</a>.</p>
+            </section>
 
             <section class="reading-filters" aria-label="Filter practice questions">
                 <label>Search
-                    <input id="search-filter" type="search" placeholder="Search questions…" autocomplete="off">
+                    <input id="search-filter" type="search" placeholder="Search questionsâ€¦" autocomplete="off">
                 </label>
                 <label>Domain
                     <select id="domain-filter"><option value="">All domains</option></select>
@@ -117,7 +137,7 @@
                     <div class="browser-heading">
                         <div>
                             <h2>Question bank</h2>
-                            <p id="browser-count">Loading questions…</p>
+                            <p id="browser-count">Loading questionsâ€¦</p>
                         </div>
                         <button id="clear-progress" class="reset-button" type="button">Reset progress</button>
                     </div>
@@ -134,18 +154,18 @@
                         <div class="question-tags">
                             <span id="domain-tag" class="tag">Reading and Writing</span>
                             <span id="skill-tag" class="tag tag-skill">All skills</span>
-                            <span id="difficulty-tag" class="tag tag-difficulty">—</span>
+                            <span id="difficulty-tag" class="tag tag-difficulty">â€”</span>
                         </div>
-                        <div class="question-count" id="question-count">Loading questions…</div>
+                        <div class="question-count" id="question-count">Loading questionsâ€¦</div>
                     </div>
                     <div class="progress-track" aria-hidden="true"><div id="progress-bar"></div></div>
                     <div id="question-stage" aria-live="polite">
-                        <div class="loading-state">Loading your practice library…</div>
+                        <div class="loading-state">Loading your practice libraryâ€¦</div>
                     </div>
                     <div class="practice-controls">
-                        <button id="previous-button" class="control-button" type="button" disabled>← Previous</button>
-                        <span id="score-text" class="score-text">0 correct · 0 answered</span>
-                        <button id="next-button" class="control-button control-primary" type="button" disabled>Next →</button>
+                        <button id="previous-button" class="control-button" type="button" disabled>â† Previous</button>
+                        <span id="score-text" class="score-text">0 correct Â· 0 answered</span>
+                        <button id="next-button" class="control-button control-primary" type="button" disabled>Next â†’</button>
                     </div>
                 </section>
             </div>
@@ -187,6 +207,7 @@
     </script>
 </body>
 </html>
+
 
 
 
