@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" class="page-practice-test">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Take a full Digital SAT Reading & Writing practice test with timer and instant scoring.">
+    <link rel="canonical" href="https://woodpeckersat.online/practice-test.html">
+    <meta name="theme-color" content="#17483e">
+    <title>SAT Practice Test | WoodpeckerSAT</title>
+    <link rel="icon" type="image/png" href="/assets/favicon.png" sizes="96x96">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./ads.css?v=20261124-site-theme">
+    <link rel="stylesheet" href="/styles.css?v=20261124-site-theme">
+    <style>
+        .pt-container { max-width: 900px; margin: 0 auto; padding: 24px 20px; }
+        .pt-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; flex-wrap: wrap; gap: 12px; }
+        .pt-timer { font-size: 24px; font-weight: 800; color: #17483e; background: #f4f7f2; padding: 8px 16px; border-radius: 8px; }
+        .pt-timer.warning { color: #e47755; }
+        .pt-progress { font-size: 14px; color: #52645f; }
+        .pt-question { background: #fff; border: 1px solid #d8e1da; border-radius: 12px; padding: 24px; margin-bottom: 20px; }
+        .pt-passage { background: #f4f7f2; padding: 16px; border-radius: 8px; margin-bottom: 16px; line-height: 1.7; }
+        .pt-qtext { font-size: 17px; font-weight: 600; margin-bottom: 16px; }
+        .pt-options { list-style: none; padding: 0; margin: 0; }
+        .pt-options li { margin-bottom: 8px; }
+        .pt-options label { display: flex; align-items: center; gap: 10px; padding: 12px 16px; border: 1px solid #d8e1da; border-radius: 8px; cursor: pointer; transition: background 0.15s; }
+        .pt-options label:hover { background: #f4f7f2; }
+        .pt-options input:checked + span { font-weight: 700; }
+        .pt-options label:has(input:checked) { background: #e8f0ec; border-color: #17483e; }
+        .pt-nav { display: flex; gap: 12px; margin-top: 20px; flex-wrap: wrap; }
+        .pt-btn { padding: 10px 20px; border-radius: 8px; font-weight: 700; cursor: pointer; border: none; font-size: 15px; }
+        .pt-btn-primary { background: #17483e; color: #fff; }
+        .pt-btn-secondary { background: #e47755; color: #fff; }
+        .pt-btn-outline { background: #fff; color: #17483e; border: 1px solid #17483e; }
+        .pt-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(40px, 1fr)); gap: 6px; margin: 20px 0; }
+        .pt-qbtn { width: 40px; height: 40px; border-radius: 8px; border: 1px solid #d8e1da; background: #fff; cursor: pointer; font-weight: 600; }
+        .pt-qbtn.answered { background: #17483e; color: #fff; border-color: #17483e; }
+        .pt-qbtn.current { box-shadow: 0 0 0 2px #e47755; }
+        .pt-result { text-align: center; padding: 40px 20px; }
+        .pt-result h2 { font-size: 32px; color: #17483e; margin-bottom: 16px; }
+        .pt-score { font-size: 48px; font-weight: 800; color: #17483e; margin: 16px 0; }
+        .pt-select { padding: 10px 16px; border-radius: 8px; border: 1px solid #d8e1da; font-size: 15px; }
+        .pt-start { text-align: center; padding: 60px 20px; }
+        .pt-start h1 { font-size: 32px; color: #17483e; margin-bottom: 16px; }
+        .pt-start p { color: #52645f; margin-bottom: 24px; }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <header class="topbar" aria-label="Site header">
+            <a class="wordmark" href="/" aria-label="WoodpeckerSAT home">Woodpecker<span>SAT</span></a>
+            <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav-list" aria-label="Open menu">
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+            </button>
+            <nav class="home-nav" id="primary-nav-list" aria-label="Primary navigation">
+                <a href="reading-practice.html">Practice Questions</a>
+                <a href="free-mentorship.html">Free Mentorship</a>
+                <a href="best-sat-resources.html">Study Resources</a>
+                <a href="about.html">About</a>
+                <a href="rewards.html">Rewards</a>
+            </nav>
+            <a class="nav-cta" href="reading-practice.html">Start Practicing →</a>
+        </header>
+        <main>
+            <div class="pt-container" id="pt-app"></div>
+        </main>
+        <footer>
+            <span class="footer-brand">Woodpecker<span>SAT</span></span>
+            <nav class="footer-links" aria-label="Footer navigation">
+                <a href="reading-practice.html">Practice Questions</a>
+                <a href="free-mentorship.html">Free Mentorship</a>
+                <a href="best-sat-resources.html">Study Resources</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="privacy.html">Privacy Policy</a>
+            </nav>
+        </footer>
+    </div>
+    <script>
+    (function() {
+        var app = document.getElementById('pt-app');
+        var manifest = null;
+        var questions = [];
+        var answers = {};
+        var currentIndex = 0;
+        var timerInterval = null;
+        var timeLeft = 0;
+        var started = false;
+        var submitted = false;
+
+        function fmtTime(s) {
+            var m = Math.floor(s / 60);
+            var sec = s % 60;
+            return m + ':' + (sec < 10 ? '0' : '') + sec;
+        }
+
+        async function loadManifest() {
+            var res = await fetch('data/sat-tests/manifest.json');
+            manifest = await res.json();
+            renderStart();
+        }
+
+        function renderStart() {
+            var tests = manifest.tests;
+            var opts = '';
+            tests.forEach(function(t) {
+                opts += '<option value="' + t.test + '-' + t.module + '">Test ' + t.test + ' - Module ' + t.module + ' (' + t.questionCount + ' questions)</option>';
+            });
+            app.innerHTML = '<div class="pt-start"><h1>SAT Practice Test</h1><p>Select a test and module, then start. Module 1: 32 min, Module 2: 35 min.</p><select class="pt-select" id="pt-test-select">' + opts + '</select><br><br><button class="pt-btn pt-btn-primary" id="pt-start-btn">Start Test</button></div>';
+            document.getElementById('pt-start-btn').addEventListener('click', startTest);
+        }
+
+        async function startTest() {
+            var val = document.getElementById('pt-test-select').value;
+            var parts = val.split('-');
+            var testNum = parts[0];
+            var modNum = parts[1];
+            var testInfo = manifest.tests.find(function(t) { return t.test == testNum && t.module == modNum; });
+            if (!testInfo) return;
+            var res = await fetch(testInfo.file);
+            questions = await res.json();
+            answers = {};
+            currentIndex = 0;
+            submitted = false;
+            timeLeft = modNum === '1' ? 32 * 60 : 35 * 60;
+            started = true;
+            renderQuestion();
+            startTimer();
+        }
+
+        function startTimer() {
+            if (timerInterval) clearInterval(timerInterval);
+            timerInterval = setInterval(function() {
+                timeLeft--;
+                var timerEl = document.getElementById('pt-timer');
+                if (timerEl) {
+                    timerEl.textContent = fmtTime(timeLeft);
+                    if (timeLeft <= 300) timerEl.classList.add('warning');
+                }
+                if (timeLeft <= 0) {
+                    clearInterval(timerInterval);
+                    submitTest();
+                }
+            }, 1000);
+        }
+
+        function renderQuestion() {
+            var q = questions[currentIndex];
+            if (!q) return;
+            var opts = '';
+            q.options.forEach(function(opt, i) {
+                var checked = answers[q.id] === i ? 'checked' : '';
+                opts += '<li><label><input type="radio" name="q" value="' + i + '" ' + checked + '><span>' + opt + '</span></label></li>';
+            });
+            var grid = '';
+            questions.forEach(function(qq, i) {
+                var cls = 'pt-qbtn';
+                if (answers[qq.id] !== undefined) cls += ' answered';
+                if (i === currentIndex) cls += ' current';
+                grid += '<button class="' + cls + '" data-idx="' + i + '">' + (i+1) + '</button>';
+            });
+            app.innerHTML = '<div class="pt-header"><span class="pt-progress">Question ' + (currentIndex+1) + ' of ' + questions.length + '</span><span class="pt-timer" id="pt-timer">' + fmtTime(timeLeft) + '</span></div>' +
+                '<div class="pt-question"><div class="pt-passage">' + q.passage + '</div><p class="pt-qtext">' + q.question + '</p><ul class="pt-options">' + opts + '</ul></div>' +
+                '<div class="pt-grid">' + grid + '</div>' +
+                '<div class="pt-nav"><button class="pt-btn pt-btn-outline" id="pt-prev">Previous</button><button class="pt-btn pt-btn-outline" id="pt-next">Next</button><button class="pt-btn pt-btn-secondary" id="pt-submit">Submit Test</button></div>';
+
+            // Event listeners
+            document.querySelectorAll('.pt-options input').forEach(function(inp) {
+                inp.addEventListener('change', function() {
+                    answers[q.id] = parseInt(inp.value);
+                    renderQuestion();
+                });
+            });
+            document.querySelectorAll('.pt-qbtn').forEach(function(btn) {
+                btn.addEventListener('click', function() {
+                    currentIndex = parseInt(btn.dataset.idx);
+                    renderQuestion();
+                });
+            });
+            var prev = document.getElementById('pt-prev');
+            var next = document.getElementById('pt-next');
+            var submit = document.getElementById('pt-submit');
+            if (prev) prev.addEventListener('click', function() { if (currentIndex > 0) { currentIndex--; renderQuestion(); } });
+            if (next) next.addEventListener('click', function() { if (currentIndex < questions.length - 1) { currentIndex++; renderQuestion(); } });
+            if (submit) submit.addEventListener('click', function() { if (confirm('Submit your test?')) submitTest(); });
+        }
+
+        function submitTest() {
+            if (submitted) return;
+            submitted = true;
+            if (timerInterval) clearInterval(timerInterval);
+            var correct = 0;
+            questions.forEach(function(q) {
+                if (answers[q.id] === q.answerIndex) correct++;
+            });
+            var pct = Math.round((correct / questions.length) * 100);
+            app.innerHTML = '<div class="pt-result"><h2>Test Complete</h2><div class="pt-score">' + correct + ' / ' + questions.length + '</div><p>' + pct + '% correct</p><button class="pt-btn pt-btn-primary" id="pt-retry">Take Another Test</button></div>';
+            document.getElementById('pt-retry').addEventListener('click', function() { renderStart(); });
+        }
+
+        loadManifest();
+    })();
+    </script>
+    <script>
+    (function () {
+        var toggle = document.querySelector('.nav-toggle');
+        var nav = document.getElementById('primary-nav-list');
+        if (toggle && nav) {
+            toggle.addEventListener('click', function () {
+                var open = toggle.getAttribute('aria-expanded') === 'true';
+                toggle.setAttribute('aria-expanded', String(!open));
+                nav.classList.toggle('open', !open);
+            });
+            nav.querySelectorAll('a').forEach(function (link) {
+                link.addEventListener('click', function () {
+                    toggle.setAttribute('aria-expanded', 'false');
+                    nav.classList.remove('open');
+                });
+            });
+        }
+    })();
+    </script>
+    <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "bd4a1d1de0cb4bd38383245229f64444"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>
