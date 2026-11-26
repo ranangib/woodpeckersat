@@ -476,11 +476,63 @@
         </div>
     </div>
     <script>
-        setTimeout(function () {
-            var modal = document.getElementById('pass-it-forward-modal');
-            if (modal) { modal.style.display = 'flex'; }
-        }, 10000);
-    </script>
+(function() {
+  var modal = document.getElementById('pass-it-forward-modal');
+  if (!modal) return;
+  var popupShown = false;
+  var pendingUrl = null;
+
+  function showModal() {
+    if (popupShown) return;
+    popupShown = true;
+    modal.style.display = 'flex';
+  }
+
+  // 10-second timer
+  var timer = setTimeout(function() {
+    showModal();
+  }, 10000);
+
+  // Intercept link clicks
+  document.addEventListener('click', function(e) {
+    var link = e.target.closest('a');
+    if (!link) return;
+    var href = link.getAttribute('href');
+    if (!href || href.startsWith('#') || href.startsWith('javascript:') || href.startsWith('mailto:') || href.startsWith('tel:')) return;
+    if (popupShown) return;
+    if (link.target === '_blank') return;
+    e.preventDefault();
+    pendingUrl = href;
+    clearTimeout(timer);
+    showModal();
+  }, true);
+
+  // Handle close button
+  var closeBtn = modal.querySelector('button');
+  if (closeBtn) {
+    closeBtn.addEventListener('click', function() {
+      modal.style.display = 'none';
+      if (pendingUrl) {
+        var url = pendingUrl;
+        pendingUrl = null;
+        window.location.href = url;
+      }
+    });
+  }
+
+  // Close when clicking backdrop
+  modal.addEventListener('click', function(e) {
+    if (e.target === modal) {
+      modal.style.display = 'none';
+      if (pendingUrl) {
+        var url = pendingUrl;
+        pendingUrl = null;
+        window.location.href = url;
+      }
+    }
+  });
+})();
+</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" defer></script>
     <script src="referral-rewards.js?v=20261103-rewards" defer></script>
     <script>
