@@ -13,10 +13,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./ads.css?v=20261127-practice2">
-    <link rel="stylesheet" href="/styles.css?v=20261127-practice2">
+    <link rel="stylesheet" href="./ads.css?v=20261127-practice3">
+    <link rel="stylesheet" href="/styles.css?v=20261127-practice3">
     <style>
-        .pt-page {
+        html.page-practice-test .pt-page {
             max-width: 900px;
             margin: 0 auto;
             padding: 0 20px;
@@ -24,7 +24,7 @@
             color: #12182b;
         }
 
-        .pt-start {
+        html.page-practice-test .pt-start {
             text-align: center;
             padding: 70px 20px 60px;
             background: #f4f7f2;
@@ -49,11 +49,11 @@
             color: #17483e;
         }
 
-        .pt-select-wrap {
+        html.page-practice-test .pt-select-wrap {
             margin: 0 0 20px;
         }
 
-        .pt-select {
+        html.page-practice-test .pt-select {
             width: 100%;
             max-width: 460px;
             padding: 12px 16px;
@@ -68,7 +68,7 @@
             font-size: 16px;
         }
 
-        .pt-summary {
+        html.page-practice-test .pt-summary {
             margin-top: 32px;
             text-align: left;
             max-width: 600px;
@@ -101,7 +101,7 @@
         }
 
         /* ---------- Header during test ---------- */
-        .pt-header {
+        html.page-practice-test .pt-header {
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -110,13 +110,13 @@
             gap: 12px;
         }
 
-        .pt-progress {
+        html.page-practice-test .pt-progress {
             font-size: 15px;
             color: #52645f;
             font-weight: 600;
         }
 
-        .pt-timer {
+        html.page-practice-test .pt-timer {
             font-size: 26px;
             font-weight: 800;
             color: #17483e;
@@ -134,7 +134,7 @@
         }
 
         /* ---------- Page centering ---------- */
-        .pt-page {
+        html.page-practice-test .pt-page {
             max-width: 1000px;
             margin: 0 auto;
             padding: 0 20px;
@@ -143,7 +143,7 @@
         }
 
         /* ---------- Centered question card ---------- */
-        .pt-question {
+        html.page-practice-test .pt-question {
             max-width: 700px;
             margin: 0 auto 24px;
             background: #fff;
@@ -153,7 +153,7 @@
             box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
         }
 
-        .pt-passage {
+        html.page-practice-test .pt-passage {
             background: #f8fafb;
             padding: 24px;
             border-radius: 10px;
@@ -164,14 +164,14 @@
             border: 1px solid #eef2f1;
         }
 
-        .pt-qtext {
+        html.page-practice-test .pt-qtext {
             font-size: 18px;
             font-weight: 700;
             margin: 0 0 24px;
             line-height: 1.5;
         }
 
-        .pt-notes {
+        html.page-practice-test .pt-notes {
             margin: 0 0 20px;
             padding-left: 20px;
             line-height: 1.8;
@@ -184,7 +184,7 @@
         }
 
         /* ---------- Options: each on its own line ---------- */
-        .pt-options {
+        html.page-practice-test .pt-options {
             list-style: none;
             padding: 0;
             margin: 0;
@@ -241,14 +241,14 @@
         }
 
         /* ---------- Question navigation grid ---------- */
-        .pt-grid {
+        html.page-practice-test .pt-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(42px, 1fr));
             gap: 8px;
             margin: 32px 0;
         }
 
-        .pt-qbtn {
+        html.page-practice-test .pt-qbtn {
             width: 46px;
             height: 46px;
             border-radius: 10px;
@@ -276,7 +276,7 @@
         }
 
         /* ---------- Navigation buttons ---------- */
-        .pt-nav {
+        html.page-practice-test .pt-nav {
             display: flex;
             gap: 10px;
             margin-top: 24px;
@@ -284,7 +284,7 @@
             justify-content: center;
         }
 
-        .pt-btn {
+        html.page-practice-test .pt-btn {
             padding: 14px 28px;
             border-radius: 10px;
             font-weight: 700;
@@ -298,7 +298,7 @@
             transform: translateY(1px);
         }
 
-        .pt-btn-primary {
+        html.page-practice-test .pt-btn-primary {
             background: #17483e;
             color: #fff;
             box-shadow: 0 4px 12px rgba(23, 72, 62, 0.25);
@@ -308,7 +308,7 @@
             background: #10352b;
         }
 
-        .pt-btn-secondary {
+        html.page-practice-test .pt-btn-secondary {
             background: #e47755;
             color: #fff;
             box-shadow: 0 4px 12px rgba(228, 119, 85, 0.25);
@@ -318,7 +318,7 @@
             background: #d46b49;
         }
 
-        .pt-btn-outline {
+        html.page-practice-test .pt-btn-outline {
             background: #fff;
             color: #17483e;
             border: 1px solid #17483e;
@@ -330,7 +330,7 @@
         }
 
         /* ---------- Result screens ---------- */
-        .pt-result {
+        html.page-practice-test .pt-result {
             text-align: center;
             padding: 60px 20px;
             background: #f4f7f2;
@@ -344,7 +344,7 @@
             font-weight: 800;
         }
 
-        .pt-score {
+        html.page-practice-test .pt-score {
             font-size: 64px;
             font-weight: 800;
             color: #17483e;
@@ -364,7 +364,7 @@
         }
 
         /* ---------- Two-column module breakdown ---------- */
-        .pt-two-col {
+        html.page-practice-test .pt-two-col {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 20px;
@@ -372,7 +372,7 @@
             text-align: center;
         }
 
-        .pt-module-col {
+        html.page-practice-test .pt-module-col {
             background: #fff;
             border: 1px solid #d8e1da;
             border-radius: 14px;
@@ -393,7 +393,7 @@
         }
 
         /* ---------- Review mode ---------- */
-        .pt-expl {
+        html.page-practice-test .pt-expl {
             margin-top: 22px;
             padding: 18px 22px;
             background: #f4f7f2;
@@ -408,17 +408,17 @@
             color: #17483e;
         }
 
-        .pt-opt-correct {
+        html.page-practice-test .pt-opt-correct {
             background: #e8f5e9 !important;
             border-color: #2e7d32 !important;
         }
 
-        .pt-opt-incorrect {
+        html.page-practice-test .pt-opt-incorrect {
             background: #ffebee !important;
             border-color: #c62828 !important;
         }
 
-        .pt-tag {
+        html.page-practice-test .pt-tag {
             display: inline-block;
             font-size: 11px;
             font-weight: 800;
@@ -429,12 +429,12 @@
             margin-left: 8px;
         }
 
-        .pt-tag-correct {
+        html.page-practice-test .pt-tag-correct {
             background: #dcf7e3;
             color: #2e7d32;
         }
 
-        .pt-tag-incorrect {
+        html.page-practice-test .pt-tag-incorrect {
             background: #fdeaea;
             color: #c62828;
         }
@@ -458,7 +458,7 @@
 
         /* ---------- Mobile ---------- */
         @media (max-width: 600px) {
-            .pt-start {
+            html.page-practice-test .pt-start {
                 padding: 50px 16px 40px;
             }
 
@@ -466,48 +466,48 @@
                 font-size: 26px;
             }
 
-            .pt-question {
+            html.page-practice-test .pt-question {
                 padding: 24px 20px;
             }
 
-            .pt-qtext {
+            html.page-practice-test .pt-qtext {
                 font-size: 17px;
             }
 
-            .pt-timer {
+            html.page-practice-test .pt-timer {
                 font-size: 20px;
                 padding: 8px 14px;
             }
 
-            .pt-grid {
+            html.page-practice-test .pt-grid {
                 grid-template-columns: repeat(auto-fill, minmax(38px, 1fr));
                 gap: 6px;
             }
 
-            .pt-qbtn {
+            html.page-practice-test .pt-qbtn {
                 width: 38px;
                 height: 38px;
                 font-size: 13px;
             }
 
-            .pt-result {
+            html.page-practice-test .pt-result {
                 padding: 40px 16px;
             }
 
-            .pt-score {
+            html.page-practice-test .pt-score {
                 font-size: 48px;
             }
 
-            .pt-two-col {
+            html.page-practice-test .pt-two-col {
                 grid-template-columns: 1fr;
             }
 
-            .pt-nav {
+            html.page-practice-test .pt-nav {
                 flex-direction: column;
                 align-items: center;
             }
 
-            .pt-btn {
+            html.page-practice-test .pt-btn {
                 width: 100%;
                 max-width: 260px;
             }
@@ -889,3 +889,4 @@
 </body>
 
 </html>
+
