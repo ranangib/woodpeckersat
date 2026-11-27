@@ -44,6 +44,13 @@
         .pt-start { text-align: center; padding: 60px 20px; }
         .pt-start h1 { font-size: 32px; color: #17483e; margin-bottom: 16px; }
         .pt-start p { color: #52645f; margin-bottom: 24px; }
+        .pt-summary { text-align: left; margin-bottom: 16px; color: #52645f; font-size: 14px; }
+        .pt-summary ul { margin: 8px 0 0; padding-left: 20px; }
+        .pt-opt-correct { background: #e8f5e9 !important; border-color: #2e7d32 !important; }
+        .pt-opt-incorrect { background: #ffebee !important; border-color: #c62828 !important; }
+        .pt-expl { margin-top: 14px; padding: 12px 16px; background: #f4f7f2; border-radius: 8px; font-size: 14px; line-height: 1.5; color: #333; }
+        .pt-two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; text-align: center; }
+        @media (max-width: 600px) { .pt-two-col { grid-template-columns: 1fr; } }
     </style>
 </head>
 <body>
@@ -92,11 +99,52 @@
         var timeLeft = 0;
         var started = false;
         var submitted = false;
+        var mode = 'start';
+        var currentTest = null;
+        var currentModule = null;
+        var completedModules = {};
 
         function fmtTime(s) {
             var m = Math.floor(s / 60);
             var sec = s % 60;
             return m + ':' + (sec < 10 ? '0' : '') + sec;
+        }
+
+        function optionLetter(i) {
+            return ['A', 'B', 'C', 'D'][i] || (i + 1);
+        }
+
+        function moduleKey(testNum, modNum) {
+            return testNum + '-' + modNum;
+        }
+
+        // Raw score -> estimated scaled score (200-800) for Digital SAT Reading & Writing.
+        // Approximate College Board conversion; actual scaled scores vary by test form.
+        var RAW_TO_SCALED = {
+            54: 800, 53: 790, 52: 780, 51: 770, 50: 760,
+            49: 750, 48: 740, 47: 730, 46: 720, 45: 710,
+            44: 700, 43: 690, 42: 680, 41: 670, 40: 660,
+            39: 650, 38: 640, 37: 630, 36: 620, 35: 610,
+            34: 600, 33: 590, 32: 580, 31: 570, 30: 560,
+            29: 550, 28: 540, 27: 530, 26: 520, 25: 510,
+            24: 500, 23: 490, 22: 480, 21: 470, 20: 460,
+            19: 450, 18: 440, 17: 430, 16: 420, 15: 410,
+            14: 400, 13: 395, 12: 390, 11: 385, 10: 380,
+             9: 370,  8: 360,  7: 350,  6: 335,  5: 320,
+             4: 305,  3: 290,  2: 270,  1: 250,  0: 200
+        };
+
+        function scaledScore(raw, total) {
+            var keys = Object.keys(RAW_TO_SCALED).map(Number).sort(function(a, b) { return a - b; });
+            var r = Math.max(0, Math.min(total, Math.round(raw)));
+            if (RAW_TO_SCALED.hasOwnProperty(r)) return RAW_TO_SCALED[r];
+            for (var i = 0; i < keys.length - 1; i++) {
+                if (r >= keys[i] && r <= keys[i + 1]) {
+                    var t = (r - keys[i]) / (keys[i + 1] - keys[i]);
+                    return Math.round(RAW_TO_SCALED[keys[i]] + t * (RAW_TO_SCALED[keys[i + 1]] - RAW_TO_SCALED[keys[i]]));
+                }
+            }
+            return RAW_TO_SCALED[0];
         }
 
         async function loadManifest() {
@@ -109,26 +157,38 @@
             var tests = manifest.tests;
             var opts = '';
             tests.forEach(function(t) {
-                opts += '<option value="' + t.test + '-' + t.module + '">Test ' + t.test + ' - Module ' + t.module + ' (' + t.questionCount + ' questions)</option>';
+                var key = moduleKey(t.test, t.module);
+                var done = completedModules.hasOwnProperty(key);
+                opts += '<option value="' + key + '" ' + (done ? 'disabled' : '') + '>Test ' + t.test + ' - Module ' + t.module + ' (' + t.questionCount + ' questions)' + (done ? ' \u2713 done' : '') + '</option>';
             });
-            <div class="pt-start"><h1>SAT Practice Test</h1><a href="https://araplhn.org/4/fed91e992ebec395efa5ecbc4bd4d062" target="_blank" rel="noopener noreferrer" class="sponsorship-button">Sponsorship</a><p>Select a test and module, then start. Module 1: 32 min, Module 2: 35 min.</p><select class="pt-select" id="pt-test-select">' + opts + '</select><br><br><button class="pt-btn pt-btn-primary" id="pt-start-btn">Start Test</button></div>';
+
+            var summary = '';
+            var keys = Object.keys(completedModules);
+            if (keys.length > 0) {
+                summary = '<div class="pt-summary"><strong>Completed modules:</strong><ul>';
+                keys.sort().forEach(function(k) {
+                    var s = completedModules[k];
+                    var parts = k.split('-');
+                    summary += '<li>Test ' + parts[0] + ' Module ' + parts[1] + ': ' + s.correct + '/' + s.total + ' \u2248 ' + s.scaled + '</li>';
+                });
+                summary += '</ul></div>';
+            }
+            app.innerHTML = '<div class="pt-start"><h1>SAT Practice Test</h1><a href="https://araplhn.org/4/fed91e992ebec395efa5ecbc4bd4d062" target="_blank" rel="noopener noreferrer" class="sponsorship-button">Sponsorship</a><p>Select a test and module, then start. You must complete <strong>both Module 1 and Module 2</strong> of the same test to receive a 200\u2013800 score. Module 1: 32 min, Module 2: 35 min.</p>' + summary + '<select class="pt-select" id="pt-test-select">' + opts + '</select><br><br><button class="pt-btn pt-btn-primary" id="pt-start-btn">Start Test</button></div>';
             document.getElementById('pt-start-btn').addEventListener('click', startTest);
         }
 
         async function startTest() {
             var val = document.getElementById('pt-test-select').value;
             var parts = val.split('-');
-            var testNum = parts[0];
-            var modNum = parts[1];
-            var testInfo = manifest.tests.find(function(t) { return t.test == testNum && t.module == modNum; });
+            currentTest = parts[0];
+            currentModule = parts[1];
+            var testInfo = manifest.tests.find(function(t) { return t.test == currentTest && t.module == currentModule; });
             if (!testInfo) return;
             var res = await fetch(testInfo.file);
             questions = await res.json();
             answers = {};
             currentIndex = 0;
-            submitted = false;
-            timeLeft = modNum === '1' ? 32 * 60 : 35 * 60;
-            started = true;
+            timeLeft = currentModule === '1' ? 32 * 60 : 35 * 60;
             renderQuestion();
             startTimer();
         }
@@ -155,7 +215,7 @@
             var opts = '';
             q.options.forEach(function(opt, i) {
                 var checked = answers[q.id] === i ? 'checked' : '';
-                opts += '<li><label><input type="radio" name="q" value="' + i + '" ' + checked + '><span>' + opt + '</span></label></li>';
+                opts += '<li><label><input type="radio" name="q" value="' + i + '" ' + checked + '><strong>' + optionLetter(i) + '.</strong> <span>' + opt + '</span></label></li>';
             });
             var grid = '';
             questions.forEach(function(qq, i) {
@@ -191,16 +251,149 @@
         }
 
         function submitTest() {
-            if (submitted) return;
-            submitted = true;
+            var key = moduleKey(currentTest, currentModule);
+            if (completedModules.hasOwnProperty(key)) return;
             if (timerInterval) clearInterval(timerInterval);
             var correct = 0;
+            var total = questions.length;
             questions.forEach(function(q) {
                 if (answers[q.id] === q.answerIndex) correct++;
             });
-            var pct = Math.round((correct / questions.length) * 100);
-            app.innerHTML = '<div class="pt-result"><h2>Test Complete</h2><div class="pt-score">' + correct + ' / ' + questions.length + '</div><p>' + pct + '% correct</p><a href="https://araplhn.org/4/fed91e992ebec395efa5ecbc4bd4d062" target="_blank" rel="noopener noreferrer" class="sponsorship-button">Sponsorship</a><br><br><button class="pt-btn pt-btn-primary" id="pt-retry">Take Another Test</button></div>';
+            var scaled = scaledScore(correct, total);
+            completedModules[key] = { correct: correct, total: total, scaled: scaled };
+
+            var mod1Done = completedModules.hasOwnProperty(moduleKey(currentTest, '1'));
+            var mod2Done = completedModules.hasOwnProperty(moduleKey(currentTest, '2'));
+
+            if (mod1Done && mod2Done) {
+                showFinalResult(currentTest);
+            } else {
+                showModuleResult(correct, total, scaled, currentTest, currentModule);
+            }
+        }
+
+        function showModuleResult(correct, total, scaled, testNum, modNum) {
+            var otherMod = modNum === '1' ? '2' : '1';
+            var otherDone = completedModules.hasOwnProperty(moduleKey(testNum, otherMod));
+            app.innerHTML = '<div class="pt-result">' +
+                '<h2>Module ' + modNum + ' Complete</h2>' +
+                '<div class="pt-score">' + correct + ' / ' + total + '</div>' +
+                '<p>Module scaled score (est.): <strong>' + scaled + '</strong></p>' +
+                (otherDone ? '' : '<p style="margin-top:16px;color:#52645f;">You still need to complete Module ' + otherMod + ' of Test ' + testNum + ' to receive your full 200\u2013800 score.</p>') +
+                '<a href="https://araplhn.org/4/fed91e992ebec395efa5ecbc4bd4d062" target="_blank" rel="noopener noreferrer" class="sponsorship-button">Sponsorship</a><br><br>';
+            if (otherDone) {
+                app.innerHTML += '<button class="pt-btn pt-btn-primary" id="pt-final">View Full Test Score (200\u2013800)</button>';
+            } else {
+                app.innerHTML += '<button class="pt-btn pt-btn-primary" id="pt-nextmod">Take Module ' + otherMod + '</button>';
+            }
+            app.innerHTML += '<button class="pt-btn pt-btn-outline" id="pt-retry">Choose Another Test</button></div>';
+            document.getElementById(otherDone ? 'pt-final' : 'pt-nextmod').addEventListener('click', function() {
+                otherDone ? showFinalResult(testNum) : startModule(testNum, otherMod);
+            });
             document.getElementById('pt-retry').addEventListener('click', function() { renderStart(); });
+        }
+
+        function startModule(testNum, modNum) {
+            var testInfo = manifest.tests.find(function(t) { return t.test == testNum && t.module == modNum; });
+            if (!testInfo) return;
+            currentTest = testNum;
+            currentModule = modNum;
+            fetch(testInfo.file).then(function(res) { return res.json(); }).then(function(qs) {
+                questions = qs;
+                answers = {};
+                currentIndex = 0;
+                timeLeft = modNum === '1' ? 32 * 60 : 35 * 60;
+                renderQuestion();
+                startTimer();
+            });
+        }
+
+        function showFinalResult(testNum) {
+            var m1 = completedModules[moduleKey(testNum, '1')];
+            var m2 = completedModules[moduleKey(testNum, '2')];
+            var totalCorrect = m1.correct + m2.correct;
+            var totalQuestions = m1.total + m2.total;
+            var pct = Math.round((totalCorrect / totalQuestions) * 100);
+            var scaled = scaledScore(totalCorrect, totalQuestions);
+            app.innerHTML = '<div class="pt-result">' +
+                '<h2>Test ' + testNum + ' Complete</h2>' +
+                '<div class="pt-score">' + scaled + '</div>' +
+                '<p>Your estimated score: <strong>' + scaled + ' / 800</strong> (200\u2013800 scale)</p>' +
+                '<p>Raw score: ' + totalCorrect + ' / ' + totalQuestions + ' (' + pct + '% correct)</p>' +
+                '<div class="pt-two-col">' +
+                '<div><strong>Module 1:</strong> ' + m1.correct + '/' + m1.total + ' (\u2248 ' + m1.scaled + ')</div>' +
+                '<div><strong>Module 2:</strong> ' + m2.correct + '/' + m2.total + ' (\u2248 ' + m2.scaled + ')</div>' +
+                '</div>' +
+                '<a href="https://araplhn.org/4/fed91e992ebec395efa5ecbc4bd4d062" target="_blank" rel="noopener noreferrer" class="sponsorship-button">Sponsorship</a><br><br>' +
+                '<button class="pt-btn pt-btn-primary" id="pt-review">Review Answers</button>' +
+                '<button class="pt-btn pt-btn-outline" id="pt-retry2">Take Another Test</button>' +
+                '</div>';
+            document.getElementById('pt-review').addEventListener('click', function() { startReview(testNum, '1'); });
+            document.getElementById('pt-retry2').addEventListener('click', function() { renderStart(); });
+        }
+
+        function startReview(testNum, modNum) {
+            var testInfo = manifest.tests.find(function(t) { return t.test == testNum && t.module == modNum; });
+            if (!testInfo) return;
+            currentTest = testNum;
+            currentModule = modNum;
+            fetch(testInfo.file).then(function(res) { return res.json(); }).then(function(qs) {
+                questions = qs;
+                currentIndex = 0;
+                renderReview();
+            });
+        }
+
+        function renderReview() {
+            var q = questions[currentIndex];
+            if (!q) {
+                var otherMod = currentModule === '1' ? '2' : '1';
+                if (completedModules.hasOwnProperty(moduleKey(currentTest, otherMod)) && currentModule === '1') {
+                    startReview(currentTest, otherMod);
+                    return;
+                }
+                app.innerHTML = '<div class="pt-result"><h2>Review Complete</h2><p>You reviewed both modules of Test ' + currentTest + '.</p><button class="pt-btn pt-btn-primary" id="pt-back">Back to Results</button></div>';
+                document.getElementById('pt-back').addEventListener('click', function() { renderStart(); });
+                return;
+            }
+            var userAns = answers[q.id];
+            var correctAns = q.answerIndex;
+            var isCorrect = userAns === correctAns;
+            var opts = '';
+            q.options.forEach(function(opt, i) {
+                var cls = '';
+                if (i === correctAns) cls = 'pt-opt-correct';
+                else if (i === userAns && !isCorrect) cls = 'pt-opt-incorrect';
+                opts += '<li><label style="background:' + (cls === 'pt-opt-correct' ? '#e8f5e9' : (cls === 'pt-opt-incorrect' ? '#ffebee' : '#fff')) + ';border:1px solid #d8e1da;"><input type="radio" name="q" value="' + i + '" disabled><strong>' + optionLetter(i) + '.</strong> <span>' + opt + '</span>' +
+                    (i === correctAns ? ' <span style="color:#2e7d32;font-weight:700;">(correct)</span>' : '') +
+                    (i === userAns && !isCorrect ? ' <span style="color:#c62828;font-weight:700;">(your answer)</span>' : '') +
+                    '</label></li>';
+            });
+            var grid = '';
+            questions.forEach(function(qq, i) {
+                var cls = 'pt-qbtn';
+                if (i === currentIndex) cls += ' current';
+                grid += '<button class="' + cls + '" data-idx="' + i + '">' + (i + 1) + '</button>';
+            });
+            app.innerHTML = '<div class="pt-header"><span class="pt-progress">Review Question ' + (currentIndex + 1) + ' of ' + questions.length + ' &bull; Test ' + currentTest + ' Module ' + currentModule + '</span></div>' +
+                '<div class="pt-question"><div class="pt-passage">' + q.passage + '</div><p class="pt-qtext">' + q.question + '</p><ul class="pt-options">' + opts + '</ul>' +
+                (q.explanationText ? '<div class="pt-expl"><strong>Explanation:</strong> ' + q.explanationText + '</div>' : '') +
+                '</div>' +
+                '<div class="pt-grid">' + grid + '</div>' +
+                '<div class="pt-nav"><button class="pt-btn pt-btn-outline" id="pt-prev">Previous</button><button class="pt-btn pt-btn-outline" id="pt-next">Next</button><button class="pt-btn pt-btn-secondary" id="pt-done">Done Reviewing</button></div>';
+
+            document.querySelectorAll('.pt-qbtn').forEach(function(btn) {
+                btn.addEventListener('click', function() {
+                    currentIndex = parseInt(btn.dataset.idx);
+                    renderReview();
+                });
+            });
+            var prev = document.getElementById('pt-prev');
+            var next = document.getElementById('pt-next');
+            var done = document.getElementById('pt-done');
+            if (prev) prev.addEventListener('click', function() { if (currentIndex > 0) { currentIndex--; renderReview(); } });
+            if (next) next.addEventListener('click', function() { if (currentIndex < questions.length - 1) { currentIndex++; renderReview(); } });
+            if (done) done.addEventListener('click', function() { startReview(currentTest, currentModule === '1' ? '2' : '1'); });
         }
 
         loadManifest();
