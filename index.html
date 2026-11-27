@@ -47,6 +47,98 @@
 	</script>
     <link rel="stylesheet" href="./ads.css?v=20261124-site-theme">
     <link rel="stylesheet" href="./styles.css?v=20261124-site-theme">
+    <style>
+        .practice-tests {
+            padding: 70px 20px;
+            background: #f4f7f2;
+        }
+        .practice-tests .section-header {
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto 48px;
+        }
+        .practice-tests .section-eyebrow {
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+            font-size: 12px;
+            font-weight: 800;
+            color: #17483e;
+            margin: 0 0 12px;
+        }
+        .practice-tests .section-header h2 {
+            font-size: 30px;
+            color: #12182b;
+            margin: 0 0 14px;
+            font-weight: 800;
+        }
+        .practice-tests .section-lede {
+            font-size: 17px;
+            color: #52645f;
+            margin: 0;
+            line-height: 1.6;
+        }
+        .test-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-bottom: 48px;
+        }
+        .test-card {
+            background: #fff;
+            border: 1px solid #d8e1da;
+            border-radius: 16px;
+            padding: 32px 24px;
+            text-align: center;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .test-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 32px rgba(23, 72, 62, 0.12);
+            border-color: #17483e;
+        }
+        .test-icon {
+            font-size: 40px;
+            margin-bottom: 16px;
+            display: block;
+        }
+        .test-card h3 {
+            font-size: 20px;
+            color: #12182b;
+            margin: 0 0 12px;
+            font-weight: 700;
+        }
+        .test-card p {
+            font-size: 15px;
+            color: #52645f;
+            margin: 0 0 16px;
+            line-height: 1.6;
+        }
+        .test-count {
+            display: inline-block;
+            font-size: 13px;
+            font-weight: 800;
+            color: #17483e;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            padding: 6px 14px;
+            background: #e8f0ec;
+            border-radius: 6px;
+        }
+        .test-footer {
+            text-align: center;
+        }
+        @media (max-width: 600px) {
+            .practice-tests {
+                padding: 50px 16px;
+            }
+            .practice-tests .section-header h2 {
+                font-size: 24px;
+            }
+            .test-card {
+                padding: 24px 20px;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -152,6 +244,37 @@
                 </div>
                 <div class="domain-footer">
                     <a class="btn-primary" href="reading-practice.html">Explore All 2,000+ Questions →</a>
+                </div>
+            </section>
+            <!-- Practice Tests Section -->
+            <section class="practice-tests" aria-labelledby="practice-tests-title">
+                <div class="section-header">
+                    <p class="section-eyebrow">Full-Length Practice</p>
+                    <h2 id="practice-tests-title">Digital SAT Practice Tests (200–800 Scoring)</h2>
+                    <p class="section-lede">Take full-length Reading &amp; Writing practice tests with both modules, timed sections, and an estimated 200–800 score.</p>
+                </div>
+                <div class="test-grid">
+                    <div class="test-card">
+                        <div class="test-icon">📝</div>
+                        <h3>Four Full Tests</h3>
+                        <p>Tests 1–4, each with Module 1 and Module 2 — just like the real Digital SAT.</p>
+                        <span class="test-count">54 questions per test</span>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-icon">⏱️</div>
+                        <h3>Timed Sections</h3>
+                        <p>Module 1: 32 minutes • Module 2: 35 minutes. Built-in timer keeps you on pace.</p>
+                        <span class="test-count">Real test timing</span>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-icon">📊</div>
+                        <h3>200–800 Score</h3>
+                        <p>Complete both modules of any test to get your estimated scaled score and raw-score breakdown.</p>
+                        <span class="test-count">Estimated 200–800</span>
+                    </div>
+                </div>
+                <div class="test-footer">
+                    <a class="btn-primary" href="practice-test.html">Start a Practice Test →</a>
                 </div>
             </section>
             <!-- Free Mentorship Section -->
