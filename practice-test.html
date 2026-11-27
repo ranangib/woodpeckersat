@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" class="page-practice-test">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Take a full Digital SAT Reading & Writing practice test with timer and instant scoring.">
+    <meta name="description"
+        content="Take a full Digital SAT Reading & Writing practice test with timer and instant scoring.">
     <link rel="canonical" href="https://woodpeckersat.online/practice-test.html">
     <meta name="theme-color" content="#17483e">
     <title>SAT Practice Test | WoodpeckerSAT</title>
@@ -11,8 +13,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./ads.css?v=20261124-site-theme">
-    <link rel="stylesheet" href="/styles.css?v=20261124-site-theme">
+    <link rel="stylesheet" href="./ads.css?v=20261127-practice">
+    <link rel="stylesheet" href="/styles.css?v=20261127-practice">
     <style>
         .pt-page {
             max-width: 900px;
@@ -21,30 +23,36 @@
             font-family: Inter, system-ui, -apple-system, sans-serif;
             color: #12182b;
         }
+
         .pt-start {
             text-align: center;
             padding: 70px 20px 60px;
             background: #f4f7f2;
             border-radius: 24px;
         }
+
         .pt-start h1 {
             font-size: 34px;
             color: #17483e;
             margin: 0 0 10px;
             font-weight: 800;
         }
+
         .pt-start p {
             color: #52645f;
             margin: 0 0 24px;
             font-size: 16px;
             line-height: 1.6;
         }
+
         .pt-start strong {
             color: #17483e;
         }
+
         .pt-select-wrap {
             margin: 0 0 20px;
         }
+
         .pt-select {
             width: 100%;
             max-width: 460px;
@@ -54,10 +62,12 @@
             font-size: 15px;
             background: #fff;
         }
+
         .pt-start .pt-btn-primary {
             padding: 12px 32px;
             font-size: 16px;
         }
+
         .pt-summary {
             margin-top: 32px;
             text-align: left;
@@ -65,24 +75,30 @@
             margin-left: auto;
             margin-right: auto;
         }
+
         .pt-summary strong {
             display: block;
             font-size: 15px;
             color: #52645f;
             margin-bottom: 10px;
         }
+
         .pt-summary ul {
             margin: 0;
             padding-left: 20px;
             list-style: none;
         }
+
         .pt-summary li {
             padding: 8px 0;
             border-bottom: 1px solid #eee;
             font-size: 14px;
             color: #52645f;
         }
-        .pt-summary li:last-child { border-bottom: none; }
+
+        .pt-summary li:last-child {
+            border-bottom: none;
+        }
 
         /* ---------- Header during test ---------- */
         .pt-header {
@@ -93,11 +109,13 @@
             flex-wrap: wrap;
             gap: 12px;
         }
+
         .pt-progress {
             font-size: 15px;
             color: #52645f;
             font-weight: 600;
         }
+
         .pt-timer {
             font-size: 26px;
             font-weight: 800;
@@ -108,6 +126,7 @@
             border: 1px solid #d8e1da;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
         }
+
         .pt-timer.warning {
             color: #e47755;
             border-color: #e47755;
@@ -133,6 +152,7 @@
             padding: 32px 28px;
             box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
         }
+
         .pt-passage {
             background: #f8fafb;
             padding: 20px;
@@ -143,17 +163,20 @@
             color: #2a3a33;
             border: 1px solid #eef2f1;
         }
+
         .pt-qtext {
             font-size: 18px;
             font-weight: 700;
             margin: 0 0 20px;
             line-height: 1.5;
         }
+
         .pt-notes {
             margin: 0 0 20px;
             padding-left: 20px;
             line-height: 1.8;
         }
+
         .pt-notes li {
             margin-bottom: 8px;
             font-size: 15px;
@@ -166,9 +189,11 @@
             padding: 0;
             margin: 0;
         }
+
         .pt-options li {
             margin-bottom: 12px;
         }
+
         .pt-options label {
             display: flex;
             align-items: flex-start;
@@ -180,28 +205,34 @@
             transition: all 0.15s ease;
             background: #fff;
         }
+
         .pt-options label:hover {
             background: #f8fafb;
             border-color: #c4d9cf;
         }
+
         .pt-options input {
             width: 18px;
             height: 18px;
             margin-top: 2px;
             cursor: pointer;
         }
+
         .pt-options label:has(input:checked) {
             background: #eef7f2;
             border-color: #17483e;
         }
+
         .pt-options label:has(input:checked) strong {
             color: #17483e;
         }
+
         .pt-options strong {
             font-size: 16px;
             color: #17483e;
             min-width: 24px;
         }
+
         .pt-options span {
             flex: 1;
             font-size: 15px;
@@ -216,6 +247,7 @@
             gap: 8px;
             margin: 24px 0;
         }
+
         .pt-qbtn {
             width: 42px;
             height: 42px;
@@ -227,12 +259,17 @@
             font-size: 14px;
             transition: all 0.15s;
         }
-        .pt-qbtn:hover { border-color: #17483e; }
+
+        .pt-qbtn:hover {
+            border-color: #17483e;
+        }
+
         .pt-qbtn.answered {
             background: #17483e;
             color: #fff;
             border-color: #17483e;
         }
+
         .pt-qbtn.current {
             box-shadow: 0 0 0 3px #e47755;
             border-color: #e47755;
@@ -246,6 +283,7 @@
             flex-wrap: wrap;
             justify-content: center;
         }
+
         .pt-btn {
             padding: 12px 24px;
             border-radius: 10px;
@@ -255,25 +293,41 @@
             font-size: 15px;
             transition: all 0.15s;
         }
-        .pt-btn:active { transform: translateY(1px); }
+
+        .pt-btn:active {
+            transform: translateY(1px);
+        }
+
         .pt-btn-primary {
             background: #17483e;
             color: #fff;
             box-shadow: 0 4px 12px rgba(23, 72, 62, 0.25);
         }
-        .pt-btn-primary:hover { background: #10352b; }
+
+        .pt-btn-primary:hover {
+            background: #10352b;
+        }
+
         .pt-btn-secondary {
             background: #e47755;
             color: #fff;
             box-shadow: 0 4px 12px rgba(228, 119, 85, 0.25);
         }
-        .pt-btn-secondary:hover { background: #d46b49; }
+
+        .pt-btn-secondary:hover {
+            background: #d46b49;
+        }
+
         .pt-btn-outline {
             background: #fff;
             color: #17483e;
             border: 1px solid #17483e;
         }
-        .pt-btn-outline:hover { background: #17483e; color: #fff; }
+
+        .pt-btn-outline:hover {
+            background: #17483e;
+            color: #fff;
+        }
 
         /* ---------- Result screens ---------- */
         .pt-result {
@@ -282,12 +336,14 @@
             background: #f4f7f2;
             border-radius: 24px;
         }
+
         .pt-result h2 {
             font-size: 34px;
             color: #17483e;
             margin: 0 0 12px;
             font-weight: 800;
         }
+
         .pt-score {
             font-size: 64px;
             font-weight: 800;
@@ -295,13 +351,17 @@
             margin: 14px 0;
             line-height: 1;
         }
+
         .pt-result p {
             color: #52645f;
             margin: 0 0 16px;
             font-size: 16px;
             line-height: 1.6;
         }
-        .pt-result strong { color: #17483e; }
+
+        .pt-result strong {
+            color: #17483e;
+        }
 
         /* ---------- Two-column module breakdown ---------- */
         .pt-two-col {
@@ -311,18 +371,21 @@
             margin-top: 32px;
             text-align: center;
         }
+
         .pt-module-col {
             background: #fff;
             border: 1px solid #d8e1da;
             border-radius: 14px;
             padding: 20px 16px;
         }
+
         .pt-module-col strong {
             display: block;
             font-size: 16px;
             color: #52645f;
             margin-bottom: 6px;
         }
+
         .pt-module-col span {
             font-size: 22px;
             font-weight: 800;
@@ -340,15 +403,21 @@
             color: #2a3a33;
             border-left: 4px solid #17483e;
         }
-        .pt-expl strong { color: #17483e; }
+
+        .pt-expl strong {
+            color: #17483e;
+        }
+
         .pt-opt-correct {
             background: #e8f5e9 !important;
             border-color: #2e7d32 !important;
         }
+
         .pt-opt-incorrect {
             background: #ffebee !important;
             border-color: #c62828 !important;
         }
+
         .pt-tag {
             display: inline-block;
             font-size: 11px;
@@ -359,8 +428,16 @@
             border-radius: 4px;
             margin-left: 8px;
         }
-        .pt-tag-correct { background: #dcf7e3; color: #2e7d32; }
-        .pt-tag-incorrect { background: #fdeaea; color: #c62828; }
+
+        .pt-tag-correct {
+            background: #dcf7e3;
+            color: #2e7d32;
+        }
+
+        .pt-tag-incorrect {
+            background: #fdeaea;
+            color: #c62828;
+        }
 
         /* ---------- Sponsorship button ---------- */
         .sponsorship-button {
@@ -374,391 +451,441 @@
             font-weight: 700;
             font-size: 14px;
         }
-        .sponsorship-button:hover { background: #d46b49; }
+
+        .sponsorship-button:hover {
+            background: #d46b49;
+        }
 
         /* ---------- Mobile ---------- */
         @media (max-width: 600px) {
-            .pt-start { padding: 50px 16px 40px; }
-            .pt-start h1 { font-size: 26px; }
-            .pt-question { padding: 24px 20px; }
-            .pt-qtext { font-size: 17px; }
-            .pt-timer { font-size: 20px; padding: 8px 14px; }
-            .pt-grid { grid-template-columns: repeat(auto-fill, minmax(38px, 1fr)); gap: 6px; }
-            .pt-qbtn { width: 38px; height: 38px; font-size: 13px; }
-            .pt-result { padding: 40px 16px; }
-            .pt-score { font-size: 48px; }
-            .pt-two-col { grid-template-columns: 1fr; }
-            .pt-nav { flex-direction: column; align-items: center; }
-            .pt-btn { width: 100%; max-width: 260px; }
+            .pt-start {
+                padding: 50px 16px 40px;
+            }
+
+            .pt-start h1 {
+                font-size: 26px;
+            }
+
+            .pt-question {
+                padding: 24px 20px;
+            }
+
+            .pt-qtext {
+                font-size: 17px;
+            }
+
+            .pt-timer {
+                font-size: 20px;
+                padding: 8px 14px;
+            }
+
+            .pt-grid {
+                grid-template-columns: repeat(auto-fill, minmax(38px, 1fr));
+                gap: 6px;
+            }
+
+            .pt-qbtn {
+                width: 38px;
+                height: 38px;
+                font-size: 13px;
+            }
+
+            .pt-result {
+                padding: 40px 16px;
+            }
+
+            .pt-score {
+                font-size: 48px;
+            }
+
+            .pt-two-col {
+                grid-template-columns: 1fr;
+            }
+
+            .pt-nav {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .pt-btn {
+                width: 100%;
+                max-width: 260px;
+            }
         }
     </style>
 </head>
+
 <body>
-    <div class="page">
-        <header class="topbar" aria-label="Site header">
-            <a class="wordmark" href="/" aria-label="WoodpeckerSAT home">Woodpecker<span>SAT</span></a>
-            <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav-list" aria-label="Open menu">
-                <span class="nav-toggle-bar"></span>
-                <span class="nav-toggle-bar"></span>
-                <span class="nav-toggle-bar"></span>
-            </button>
-            <nav class="home-nav" id="primary-nav-list" aria-label="Primary navigation">
-                <a href="reading-practice.html">Practice Questions</a>
-                <a href="practice-test.html">Practice Test</a>
-                <a href="free-mentorship.html">Free Mentorship</a>
-                <a href="best-sat-resources.html">Study Resources</a>
-                <a href="about.html">About</a>
-                <a href="rewards.html">Rewards</a>
-            </nav>
-            <a class="nav-cta" href="reading-practice.html">Start Practicing →</a>
-        </header>
-        <main>
-            <div class="pt-page" id="pt-app"></div>
-        </main>
-        <footer>
-            <span class="footer-brand">Woodpecker<span>SAT</span></span>
-            <nav class="footer-links" aria-label="Footer navigation">
-                <a href="reading-practice.html">Practice Questions</a>
-                <a href="practice-test.html">Practice Test</a>
-                <a href="free-mentorship.html">Free Mentorship</a>
-                <a href="best-sat-resources.html">Study Resources</a>
-                <a href="about.html">About</a>
-                <a href="contact.html">Contact</a>
-                <a href="privacy.html">Privacy Policy</a>
-            </nav>
-        </footer>
-    </div>
+    <center>
+        <div class="page">
+            <header class="topbar" aria-label="Site header">
+                <a class="wordmark" href="/" aria-label="WoodpeckerSAT home">Woodpecker<span>SAT</span></a>
+                <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav-list"
+                    aria-label="Open menu">
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                </button>
+                <nav class="home-nav" id="primary-nav-list" aria-label="Primary navigation">
+                    <a href="reading-practice.html">Practice Questions</a>
+                    <a href="practice-test.html">Practice Test</a>
+                    <a href="free-mentorship.html">Free Mentorship</a>
+                    <a href="best-sat-resources.html">Study Resources</a>
+                    <a href="about.html">About</a>
+                    <a href="rewards.html">Rewards</a>
+                </nav>
+                <a class="nav-cta" href="reading-practice.html">Start Practicing →</a>
+            </header>
+            <main>
+                <div class="pt-page" id="pt-app"></div>
+            </main>
+            <footer>
+                <span class="footer-brand">Woodpecker<span>SAT</span></span>
+                <nav class="footer-links" aria-label="Footer navigation">
+                    <a href="reading-practice.html">Practice Questions</a>
+                    <a href="practice-test.html">Practice Test</a>
+                    <a href="free-mentorship.html">Free Mentorship</a>
+                    <a href="best-sat-resources.html">Study Resources</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="privacy.html">Privacy Policy</a>
+                </nav>
+            </footer>
+        </div>
+    </center>
     <script>
-    (function() {
-        var app = document.getElementById('pt-app');
-        var manifest = null;
-        var questions = [];
-        var answers = {};
-        var currentIndex = 0;
-        var timerInterval = null;
-        var timeLeft = 0;
-        var started = false;
-        var submitted = false;
-        var mode = 'start';
-        var currentTest = null;
-        var currentModule = null;
-        var completedModules = {};
+        (function () {
+            var app = document.getElementById('pt-app');
+            var manifest = null;
+            var questions = [];
+            var answers = {};
+            var currentIndex = 0;
+            var timerInterval = null;
+            var timeLeft = 0;
+            var started = false;
+            var submitted = false;
+            var mode = 'start';
+            var currentTest = null;
+            var currentModule = null;
+            var completedModules = {};
 
-        function fmtTime(s) {
-            var m = Math.floor(s / 60);
-            var sec = s % 60;
-            return m + ':' + (sec < 10 ? '0' : '') + sec;
-        }
+            function fmtTime(s) {
+                var m = Math.floor(s / 60);
+                var sec = s % 60;
+                return m + ':' + (sec < 10 ? '0' : '') + sec;
+            }
 
-        function optionLetter(i) {
-            return ['A', 'B', 'C', 'D'][i] || (i + 1);
-        }
+            function optionLetter(i) {
+                return ['A', 'B', 'C', 'D'][i] || (i + 1);
+            }
 
-        function moduleKey(testNum, modNum) {
-            return testNum + '-' + modNum;
-        }
+            function moduleKey(testNum, modNum) {
+                return testNum + '-' + modNum;
+            }
 
-        // Raw score -> estimated scaled score (200-800) for Digital SAT Reading & Writing.
-        // Approximate College Board conversion; actual scaled scores vary by test form.
-        var RAW_TO_SCALED = {
-            54: 800, 53: 790, 52: 780, 51: 770, 50: 760,
-            49: 750, 48: 740, 47: 730, 46: 720, 45: 710,
-            44: 700, 43: 690, 42: 680, 41: 670, 40: 660,
-            39: 650, 38: 640, 37: 630, 36: 620, 35: 610,
-            34: 600, 33: 590, 32: 580, 31: 570, 30: 560,
-            29: 550, 28: 540, 27: 530, 26: 520, 25: 510,
-            24: 500, 23: 490, 22: 480, 21: 470, 20: 460,
-            19: 450, 18: 440, 17: 430, 16: 420, 15: 410,
-            14: 400, 13: 395, 12: 390, 11: 385, 10: 380,
-             9: 370,  8: 360,  7: 350,  6: 335,  5: 320,
-             4: 305,  3: 290,  2: 270,  1: 250,  0: 200
-        };
+            // Raw score -> estimated scaled score (200-800) for Digital SAT Reading & Writing.
+            // Approximate College Board conversion; actual scaled scores vary by test form.
+            var RAW_TO_SCALED = {
+                54: 800, 53: 790, 52: 780, 51: 770, 50: 760,
+                49: 750, 48: 740, 47: 730, 46: 720, 45: 710,
+                44: 700, 43: 690, 42: 680, 41: 670, 40: 660,
+                39: 650, 38: 640, 37: 630, 36: 620, 35: 610,
+                34: 600, 33: 590, 32: 580, 31: 570, 30: 560,
+                29: 550, 28: 540, 27: 530, 26: 520, 25: 510,
+                24: 500, 23: 490, 22: 480, 21: 470, 20: 460,
+                19: 450, 18: 440, 17: 430, 16: 420, 15: 410,
+                14: 400, 13: 395, 12: 390, 11: 385, 10: 380,
+                9: 370, 8: 360, 7: 350, 6: 335, 5: 320,
+                4: 305, 3: 290, 2: 270, 1: 250, 0: 200
+            };
 
-        function scaledScore(raw, total) {
-            var keys = Object.keys(RAW_TO_SCALED).map(Number).sort(function(a, b) { return a - b; });
-            var r = Math.max(0, Math.min(total, Math.round(raw)));
-            if (RAW_TO_SCALED.hasOwnProperty(r)) return RAW_TO_SCALED[r];
-            for (var i = 0; i < keys.length - 1; i++) {
-                if (r >= keys[i] && r <= keys[i + 1]) {
-                    var t = (r - keys[i]) / (keys[i + 1] - keys[i]);
-                    return Math.round(RAW_TO_SCALED[keys[i]] + t * (RAW_TO_SCALED[keys[i + 1]] - RAW_TO_SCALED[keys[i]]));
+            function scaledScore(raw, total) {
+                var keys = Object.keys(RAW_TO_SCALED).map(Number).sort(function (a, b) { return a - b; });
+                var r = Math.max(0, Math.min(total, Math.round(raw)));
+                if (RAW_TO_SCALED.hasOwnProperty(r)) return RAW_TO_SCALED[r];
+                for (var i = 0; i < keys.length - 1; i++) {
+                    if (r >= keys[i] && r <= keys[i + 1]) {
+                        var t = (r - keys[i]) / (keys[i + 1] - keys[i]);
+                        return Math.round(RAW_TO_SCALED[keys[i]] + t * (RAW_TO_SCALED[keys[i + 1]] - RAW_TO_SCALED[keys[i]]));
+                    }
                 }
+                return RAW_TO_SCALED[0];
             }
-            return RAW_TO_SCALED[0];
-        }
 
-        async function loadManifest() {
-            var res = await fetch('data/sat-tests/manifest.json');
-            manifest = await res.json();
-            renderStart();
-        }
+            async function loadManifest() {
+                var res = await fetch('data/sat-tests/manifest.json');
+                manifest = await res.json();
+                renderStart();
+            }
 
-        function renderStart() {
-            var tests = manifest.tests;
-            var opts = '';
-            tests.forEach(function(t) {
-                var key = moduleKey(t.test, t.module);
-                var done = completedModules.hasOwnProperty(key);
-                opts += '<option value="' + key + '" ' + (done ? 'disabled' : '') + '>Test ' + t.test + ' - Module ' + t.module + ' (' + t.questionCount + ' questions)' + (done ? ' \u2713 done' : '') + '</option>';
-            });
-
-            var summary = '';
-            var keys = Object.keys(completedModules);
-            if (keys.length > 0) {
-                summary = '<div class="pt-summary"><strong>Completed modules:</strong><ul>';
-                keys.sort().forEach(function(k) {
-                    var s = completedModules[k];
-                    var parts = k.split('-');
-                    summary += '<li>Test ' + parts[0] + ' Module ' + parts[1] + ': ' + s.correct + '/' + s.total + ' \u2248 ' + s.scaled + '</li>';
+            function renderStart() {
+                var tests = manifest.tests;
+                var opts = '';
+                tests.forEach(function (t) {
+                    var key = moduleKey(t.test, t.module);
+                    var done = completedModules.hasOwnProperty(key);
+                    opts += '<option value="' + key + '" ' + (done ? 'disabled' : '') + '>Test ' + t.test + ' - Module ' + t.module + ' (' + t.questionCount + ' questions)' + (done ? ' \u2713 done' : '') + '</option>';
                 });
-                summary += '</ul></div>';
-            }
-            app.innerHTML = '<div class="pt-start"><h1>SAT Practice Test</h1><a href="https://araplhn.org/4/fed91e992ebec395efa5ecbc4bd4d062" target="_blank" rel="noopener noreferrer" class="sponsorship-button">Sponsorship</a><p>Select a test and module, then start. You must complete <strong>both Module 1 and Module 2</strong> of the same test to receive a 200\u2013800 score. Module 1: 32 min, Module 2: 35 min.</p>' + summary + '<select class="pt-select" id="pt-test-select">' + opts + '</select><br><br><button class="pt-btn pt-btn-primary" id="pt-start-btn">Start Test</button></div>';
-            document.getElementById('pt-start-btn').addEventListener('click', startTest);
-        }
 
-        async function startTest() {
-            var val = document.getElementById('pt-test-select').value;
-            var parts = val.split('-');
-            currentTest = parts[0];
-            currentModule = parts[1];
-            var testInfo = manifest.tests.find(function(t) { return t.test == currentTest && t.module == currentModule; });
-            if (!testInfo) return;
-            var res = await fetch(testInfo.file);
-            questions = await res.json();
-            answers = {};
-            currentIndex = 0;
-            timeLeft = currentModule === '1' ? 32 * 60 : 35 * 60;
-            renderQuestion();
-            startTimer();
-        }
-
-        function startTimer() {
-            if (timerInterval) clearInterval(timerInterval);
-            timerInterval = setInterval(function() {
-                timeLeft--;
-                var timerEl = document.getElementById('pt-timer');
-                if (timerEl) {
-                    timerEl.textContent = fmtTime(timeLeft);
-                    if (timeLeft <= 300) timerEl.classList.add('warning');
+                var summary = '';
+                var keys = Object.keys(completedModules);
+                if (keys.length > 0) {
+                    summary = '<div class="pt-summary"><strong>Completed modules:</strong><ul>';
+                    keys.sort().forEach(function (k) {
+                        var s = completedModules[k];
+                        var parts = k.split('-');
+                        summary += '<li>Test ' + parts[0] + ' Module ' + parts[1] + ': ' + s.correct + '/' + s.total + ' \u2248 ' + s.scaled + '</li>';
+                    });
+                    summary += '</ul></div>';
                 }
-                if (timeLeft <= 0) {
-                    clearInterval(timerInterval);
-                    submitTest();
-                }
-            }, 1000);
-        }
-
-        function renderQuestion() {
-            var q = questions[currentIndex];
-            if (!q) return;
-            var opts = '';
-            q.options.forEach(function(opt, i) {
-                var checked = answers[q.id] === i ? 'checked' : '';
-                opts += '<li><label><input type="radio" name="q" value="' + i + '" ' + checked + '><strong>' + optionLetter(i) + '.</strong> <span>' + opt + '</span></label></li>';
-            });
-            var grid = '';
-            questions.forEach(function(qq, i) {
-                var cls = 'pt-qbtn';
-                if (answers[qq.id] !== undefined) cls += ' answered';
-                if (i === currentIndex) cls += ' current';
-                grid += '<button class="' + cls + '" data-idx="' + i + '">' + (i+1) + '</button>';
-            });
-            app.innerHTML = '<div class="pt-header"><span class="pt-progress">Question ' + (currentIndex+1) + ' of ' + questions.length + '</span><span class="pt-timer" id="pt-timer">' + fmtTime(timeLeft) + '</span></div>' +
-                '<div class="pt-question"><div class="pt-passage">' + q.passage + '</div><p class="pt-qtext">' + q.question + '</p><ul class="pt-options">' + opts + '</ul></div>' +
-                '<div class="pt-grid">' + grid + '</div>' +
-                '<div class="pt-nav"><button class="pt-btn pt-btn-outline" id="pt-prev">Previous</button><button class="pt-btn pt-btn-outline" id="pt-next">Next</button><button class="pt-btn pt-btn-secondary" id="pt-submit">Submit Test</button></div>';
-
-            // Event listeners
-            document.querySelectorAll('.pt-options input').forEach(function(inp) {
-                inp.addEventListener('change', function() {
-                    answers[q.id] = parseInt(inp.value);
-                    renderQuestion();
-                });
-            });
-            document.querySelectorAll('.pt-qbtn').forEach(function(btn) {
-                btn.addEventListener('click', function() {
-                    currentIndex = parseInt(btn.dataset.idx);
-                    renderQuestion();
-                });
-            });
-            var prev = document.getElementById('pt-prev');
-            var next = document.getElementById('pt-next');
-            var submit = document.getElementById('pt-submit');
-            if (prev) prev.addEventListener('click', function() { if (currentIndex > 0) { currentIndex--; renderQuestion(); } });
-            if (next) next.addEventListener('click', function() { if (currentIndex < questions.length - 1) { currentIndex++; renderQuestion(); } });
-            if (submit) submit.addEventListener('click', function() { if (confirm('Submit your test?')) submitTest(); });
-        }
-
-        function submitTest() {
-            var key = moduleKey(currentTest, currentModule);
-            if (completedModules.hasOwnProperty(key)) return;
-            if (timerInterval) clearInterval(timerInterval);
-            var correct = 0;
-            var total = questions.length;
-            questions.forEach(function(q) {
-                if (answers[q.id] === q.answerIndex) correct++;
-            });
-            var scaled = scaledScore(correct, total);
-            completedModules[key] = { correct: correct, total: total, scaled: scaled };
-
-            var mod1Done = completedModules.hasOwnProperty(moduleKey(currentTest, '1'));
-            var mod2Done = completedModules.hasOwnProperty(moduleKey(currentTest, '2'));
-
-            if (mod1Done && mod2Done) {
-                showFinalResult(currentTest);
-            } else {
-                showModuleResult(correct, total, scaled, currentTest, currentModule);
+                app.innerHTML = '<div class="pt-start"><h1>SAT Practice Test</h1><a href="https://araplhn.org/4/fed91e992ebec395efa5ecbc4bd4d062" target="_blank" rel="noopener noreferrer" class="sponsorship-button">Sponsorship</a><p>Select a test and module, then start. You must complete <strong>both Module 1 and Module 2</strong> of the same test to receive a 200\u2013800 score. Module 1: 32 min, Module 2: 35 min.</p>' + summary + '<select class="pt-select" id="pt-test-select">' + opts + '</select><br><br><button class="pt-btn pt-btn-primary" id="pt-start-btn">Start Test</button></div>';
+                document.getElementById('pt-start-btn').addEventListener('click', startTest);
             }
-        }
 
-        function showModuleResult(correct, total, scaled, testNum, modNum) {
-            var otherMod = modNum === '1' ? '2' : '1';
-            var otherDone = completedModules.hasOwnProperty(moduleKey(testNum, otherMod));
-            app.innerHTML = '<div class="pt-result">' +
-                '<h2>Module ' + modNum + ' Complete</h2>' +
-                '<div class="pt-score">' + correct + ' / ' + total + '</div>' +
-                '<p>Module scaled score (est.): <strong>' + scaled + '</strong></p>' +
-                (otherDone ? '' : '<p style="margin-top:16px;color:#52645f;">You still need to complete Module ' + otherMod + ' of Test ' + testNum + ' to receive your full 200\u2013800 score.</p>') +
-                '<a href="https://araplhn.org/4/fed91e992ebec395efa5ecbc4bd4d062" target="_blank" rel="noopener noreferrer" class="sponsorship-button">Sponsorship</a><br><br>';
-            if (otherDone) {
-                app.innerHTML += '<button class="pt-btn pt-btn-primary" id="pt-final">View Full Test Score (200\u2013800)</button>';
-            } else {
-                app.innerHTML += '<button class="pt-btn pt-btn-primary" id="pt-nextmod">Take Module ' + otherMod + '</button>';
-            }
-            app.innerHTML += '<button class="pt-btn pt-btn-outline" id="pt-retry">Choose Another Test</button></div>';
-            document.getElementById(otherDone ? 'pt-final' : 'pt-nextmod').addEventListener('click', function() {
-                otherDone ? showFinalResult(testNum) : startModule(testNum, otherMod);
-            });
-            document.getElementById('pt-retry').addEventListener('click', function() { renderStart(); });
-        }
-
-        function startModule(testNum, modNum) {
-            var testInfo = manifest.tests.find(function(t) { return t.test == testNum && t.module == modNum; });
-            if (!testInfo) return;
-            currentTest = testNum;
-            currentModule = modNum;
-            fetch(testInfo.file).then(function(res) { return res.json(); }).then(function(qs) {
-                questions = qs;
+            async function startTest() {
+                var val = document.getElementById('pt-test-select').value;
+                var parts = val.split('-');
+                currentTest = parts[0];
+                currentModule = parts[1];
+                var testInfo = manifest.tests.find(function (t) { return t.test == currentTest && t.module == currentModule; });
+                if (!testInfo) return;
+                var res = await fetch(testInfo.file);
+                questions = await res.json();
                 answers = {};
                 currentIndex = 0;
-                timeLeft = modNum === '1' ? 32 * 60 : 35 * 60;
+                timeLeft = currentModule === '1' ? 32 * 60 : 35 * 60;
                 renderQuestion();
                 startTimer();
-            });
-        }
-
-        function showFinalResult(testNum) {
-            var m1 = completedModules[moduleKey(testNum, '1')];
-            var m2 = completedModules[moduleKey(testNum, '2')];
-            var totalCorrect = m1.correct + m2.correct;
-            var totalQuestions = m1.total + m2.total;
-            var pct = Math.round((totalCorrect / totalQuestions) * 100);
-            var scaled = scaledScore(totalCorrect, totalQuestions);
-            app.innerHTML = '<div class="pt-result">' +
-                '<h2>Test ' + testNum + ' Complete</h2>' +
-                '<div class="pt-score">' + scaled + '</div>' +
-                '<p>Your estimated score: <strong>' + scaled + ' / 800</strong> (200\u2013800 scale)</p>' +
-                '<p>Raw score: ' + totalCorrect + ' / ' + totalQuestions + ' (' + pct + '% correct)</p>' +
-                '<div class="pt-two-col">' +
-                '<div><strong>Module 1:</strong> ' + m1.correct + '/' + m1.total + ' (\u2248 ' + m1.scaled + ')</div>' +
-                '<div><strong>Module 2:</strong> ' + m2.correct + '/' + m2.total + ' (\u2248 ' + m2.scaled + ')</div>' +
-                '</div>' +
-                '<a href="https://araplhn.org/4/fed91e992ebec395efa5ecbc4bd4d062" target="_blank" rel="noopener noreferrer" class="sponsorship-button">Sponsorship</a><br><br>' +
-                '<button class="pt-btn pt-btn-primary" id="pt-review">Review Answers</button>' +
-                '<button class="pt-btn pt-btn-outline" id="pt-retry2">Take Another Test</button>' +
-                '</div>';
-            document.getElementById('pt-review').addEventListener('click', function() { startReview(testNum, '1'); });
-            document.getElementById('pt-retry2').addEventListener('click', function() { renderStart(); });
-        }
-
-        function startReview(testNum, modNum) {
-            var testInfo = manifest.tests.find(function(t) { return t.test == testNum && t.module == modNum; });
-            if (!testInfo) return;
-            currentTest = testNum;
-            currentModule = modNum;
-            fetch(testInfo.file).then(function(res) { return res.json(); }).then(function(qs) {
-                questions = qs;
-                currentIndex = 0;
-                renderReview();
-            });
-        }
-
-        function renderReview() {
-            var q = questions[currentIndex];
-            if (!q) {
-                var otherMod = currentModule === '1' ? '2' : '1';
-                if (completedModules.hasOwnProperty(moduleKey(currentTest, otherMod)) && currentModule === '1') {
-                    startReview(currentTest, otherMod);
-                    return;
-                }
-                app.innerHTML = '<div class="pt-result"><h2>Review Complete</h2><p>You reviewed both modules of Test ' + currentTest + '.</p><button class="pt-btn pt-btn-primary" id="pt-back">Back to Results</button></div>';
-                document.getElementById('pt-back').addEventListener('click', function() { renderStart(); });
-                return;
             }
-            var userAns = answers[q.id];
-            var correctAns = q.answerIndex;
-            var isCorrect = userAns === correctAns;
-            var opts = '';
-            q.options.forEach(function(opt, i) {
-                var cls = '';
-                if (i === correctAns) cls = 'pt-opt-correct';
-                else if (i === userAns && !isCorrect) cls = 'pt-opt-incorrect';
-                opts += '<li><label style="background:' + (cls === 'pt-opt-correct' ? '#e8f5e9' : (cls === 'pt-opt-incorrect' ? '#ffebee' : '#fff')) + ';border:1px solid #d8e1da;"><input type="radio" name="q" value="' + i + '" disabled><strong>' + optionLetter(i) + '.</strong> <span>' + opt + '</span>' +
-                    (i === correctAns ? ' <span style="color:#2e7d32;font-weight:700;">(correct)</span>' : '') +
-                    (i === userAns && !isCorrect ? ' <span style="color:#c62828;font-weight:700;">(your answer)</span>' : '') +
-                    '</label></li>';
-            });
-            var grid = '';
-            questions.forEach(function(qq, i) {
-                var cls = 'pt-qbtn';
-                if (i === currentIndex) cls += ' current';
-                grid += '<button class="' + cls + '" data-idx="' + i + '">' + (i + 1) + '</button>';
-            });
-            app.innerHTML = '<div class="pt-header"><span class="pt-progress">Review Question ' + (currentIndex + 1) + ' of ' + questions.length + ' &bull; Test ' + currentTest + ' Module ' + currentModule + '</span></div>' +
-                '<div class="pt-question"><div class="pt-passage">' + q.passage + '</div><p class="pt-qtext">' + q.question + '</p><ul class="pt-options">' + opts + '</ul>' +
-                (q.explanationText ? '<div class="pt-expl"><strong>Explanation:</strong> ' + q.explanationText + '</div>' : '') +
-                '</div>' +
-                '<div class="pt-grid">' + grid + '</div>' +
-                '<div class="pt-nav"><button class="pt-btn pt-btn-outline" id="pt-prev">Previous</button><button class="pt-btn pt-btn-outline" id="pt-next">Next</button><button class="pt-btn pt-btn-secondary" id="pt-done">Done Reviewing</button></div>';
 
-            document.querySelectorAll('.pt-qbtn').forEach(function(btn) {
-                btn.addEventListener('click', function() {
-                    currentIndex = parseInt(btn.dataset.idx);
+            function startTimer() {
+                if (timerInterval) clearInterval(timerInterval);
+                timerInterval = setInterval(function () {
+                    timeLeft--;
+                    var timerEl = document.getElementById('pt-timer');
+                    if (timerEl) {
+                        timerEl.textContent = fmtTime(timeLeft);
+                        if (timeLeft <= 300) timerEl.classList.add('warning');
+                    }
+                    if (timeLeft <= 0) {
+                        clearInterval(timerInterval);
+                        submitTest();
+                    }
+                }, 1000);
+            }
+
+            function renderQuestion() {
+                var q = questions[currentIndex];
+                if (!q) return;
+                var opts = '';
+                q.options.forEach(function (opt, i) {
+                    var checked = answers[q.id] === i ? 'checked' : '';
+                    opts += '<li><label><input type="radio" name="q" value="' + i + '" ' + checked + '><strong>' + optionLetter(i) + '.</strong> <span>' + opt + '</span></label></li>';
+                });
+                var grid = '';
+                questions.forEach(function (qq, i) {
+                    var cls = 'pt-qbtn';
+                    if (answers[qq.id] !== undefined) cls += ' answered';
+                    if (i === currentIndex) cls += ' current';
+                    grid += '<button class="' + cls + '" data-idx="' + i + '">' + (i + 1) + '</button>';
+                });
+                app.innerHTML = '<div class="pt-header"><span class="pt-progress">Question ' + (currentIndex + 1) + ' of ' + questions.length + '</span><span class="pt-timer" id="pt-timer">' + fmtTime(timeLeft) + '</span></div>' +
+                    '<div class="pt-question"><div class="pt-passage">' + q.passage + '</div><p class="pt-qtext">' + q.question + '</p><ul class="pt-options">' + opts + '</ul></div>' +
+                    '<div class="pt-grid">' + grid + '</div>' +
+                    '<div class="pt-nav"><button class="pt-btn pt-btn-outline" id="pt-prev">Previous</button><button class="pt-btn pt-btn-outline" id="pt-next">Next</button><button class="pt-btn pt-btn-secondary" id="pt-submit">Submit Test</button></div>';
+
+                // Event listeners
+                document.querySelectorAll('.pt-options input').forEach(function (inp) {
+                    inp.addEventListener('change', function () {
+                        answers[q.id] = parseInt(inp.value);
+                        renderQuestion();
+                    });
+                });
+                document.querySelectorAll('.pt-qbtn').forEach(function (btn) {
+                    btn.addEventListener('click', function () {
+                        currentIndex = parseInt(btn.dataset.idx);
+                        renderQuestion();
+                    });
+                });
+                var prev = document.getElementById('pt-prev');
+                var next = document.getElementById('pt-next');
+                var submit = document.getElementById('pt-submit');
+                if (prev) prev.addEventListener('click', function () { if (currentIndex > 0) { currentIndex--; renderQuestion(); } });
+                if (next) next.addEventListener('click', function () { if (currentIndex < questions.length - 1) { currentIndex++; renderQuestion(); } });
+                if (submit) submit.addEventListener('click', function () { if (confirm('Submit your test?')) submitTest(); });
+            }
+
+            function submitTest() {
+                var key = moduleKey(currentTest, currentModule);
+                if (completedModules.hasOwnProperty(key)) return;
+                if (timerInterval) clearInterval(timerInterval);
+                var correct = 0;
+                var total = questions.length;
+                questions.forEach(function (q) {
+                    if (answers[q.id] === q.answerIndex) correct++;
+                });
+                var scaled = scaledScore(correct, total);
+                completedModules[key] = { correct: correct, total: total, scaled: scaled };
+
+                var mod1Done = completedModules.hasOwnProperty(moduleKey(currentTest, '1'));
+                var mod2Done = completedModules.hasOwnProperty(moduleKey(currentTest, '2'));
+
+                if (mod1Done && mod2Done) {
+                    showFinalResult(currentTest);
+                } else {
+                    showModuleResult(correct, total, scaled, currentTest, currentModule);
+                }
+            }
+
+            function showModuleResult(correct, total, scaled, testNum, modNum) {
+                var otherMod = modNum === '1' ? '2' : '1';
+                var otherDone = completedModules.hasOwnProperty(moduleKey(testNum, otherMod));
+                app.innerHTML = '<div class="pt-result">' +
+                    '<h2>Module ' + modNum + ' Complete</h2>' +
+                    '<div class="pt-score">' + correct + ' / ' + total + '</div>' +
+                    '<p>Module scaled score (est.): <strong>' + scaled + '</strong></p>' +
+                    (otherDone ? '' : '<p style="margin-top:16px;color:#52645f;">You still need to complete Module ' + otherMod + ' of Test ' + testNum + ' to receive your full 200\u2013800 score.</p>') +
+                    '<a href="https://araplhn.org/4/fed91e992ebec395efa5ecbc4bd4d062" target="_blank" rel="noopener noreferrer" class="sponsorship-button">Sponsorship</a><br><br>';
+                if (otherDone) {
+                    app.innerHTML += '<button class="pt-btn pt-btn-primary" id="pt-final">View Full Test Score (200\u2013800)</button>';
+                } else {
+                    app.innerHTML += '<button class="pt-btn pt-btn-primary" id="pt-nextmod">Take Module ' + otherMod + '</button>';
+                }
+                app.innerHTML += '<button class="pt-btn pt-btn-outline" id="pt-retry">Choose Another Test</button></div>';
+                document.getElementById(otherDone ? 'pt-final' : 'pt-nextmod').addEventListener('click', function () {
+                    otherDone ? showFinalResult(testNum) : startModule(testNum, otherMod);
+                });
+                document.getElementById('pt-retry').addEventListener('click', function () { renderStart(); });
+            }
+
+            function startModule(testNum, modNum) {
+                var testInfo = manifest.tests.find(function (t) { return t.test == testNum && t.module == modNum; });
+                if (!testInfo) return;
+                currentTest = testNum;
+                currentModule = modNum;
+                fetch(testInfo.file).then(function (res) { return res.json(); }).then(function (qs) {
+                    questions = qs;
+                    answers = {};
+                    currentIndex = 0;
+                    timeLeft = modNum === '1' ? 32 * 60 : 35 * 60;
+                    renderQuestion();
+                    startTimer();
+                });
+            }
+
+            function showFinalResult(testNum) {
+                var m1 = completedModules[moduleKey(testNum, '1')];
+                var m2 = completedModules[moduleKey(testNum, '2')];
+                var totalCorrect = m1.correct + m2.correct;
+                var totalQuestions = m1.total + m2.total;
+                var pct = Math.round((totalCorrect / totalQuestions) * 100);
+                var scaled = scaledScore(totalCorrect, totalQuestions);
+                app.innerHTML = '<div class="pt-result">' +
+                    '<h2>Test ' + testNum + ' Complete</h2>' +
+                    '<div class="pt-score">' + scaled + '</div>' +
+                    '<p>Your estimated score: <strong>' + scaled + ' / 800</strong> (200\u2013800 scale)</p>' +
+                    '<p>Raw score: ' + totalCorrect + ' / ' + totalQuestions + ' (' + pct + '% correct)</p>' +
+                    '<div class="pt-two-col">' +
+                    '<div><strong>Module 1:</strong> ' + m1.correct + '/' + m1.total + ' (\u2248 ' + m1.scaled + ')</div>' +
+                    '<div><strong>Module 2:</strong> ' + m2.correct + '/' + m2.total + ' (\u2248 ' + m2.scaled + ')</div>' +
+                    '</div>' +
+                    '<a href="https://araplhn.org/4/fed91e992ebec395efa5ecbc4bd4d062" target="_blank" rel="noopener noreferrer" class="sponsorship-button">Sponsorship</a><br><br>' +
+                    '<button class="pt-btn pt-btn-primary" id="pt-review">Review Answers</button>' +
+                    '<button class="pt-btn pt-btn-outline" id="pt-retry2">Take Another Test</button>' +
+                    '</div>';
+                document.getElementById('pt-review').addEventListener('click', function () { startReview(testNum, '1'); });
+                document.getElementById('pt-retry2').addEventListener('click', function () { renderStart(); });
+            }
+
+            function startReview(testNum, modNum) {
+                var testInfo = manifest.tests.find(function (t) { return t.test == testNum && t.module == modNum; });
+                if (!testInfo) return;
+                currentTest = testNum;
+                currentModule = modNum;
+                fetch(testInfo.file).then(function (res) { return res.json(); }).then(function (qs) {
+                    questions = qs;
+                    currentIndex = 0;
                     renderReview();
                 });
-            });
-            var prev = document.getElementById('pt-prev');
-            var next = document.getElementById('pt-next');
-            var done = document.getElementById('pt-done');
-            if (prev) prev.addEventListener('click', function() { if (currentIndex > 0) { currentIndex--; renderReview(); } });
-            if (next) next.addEventListener('click', function() { if (currentIndex < questions.length - 1) { currentIndex++; renderReview(); } });
-            if (done) done.addEventListener('click', function() { startReview(currentTest, currentModule === '1' ? '2' : '1'); });
-        }
+            }
 
-        loadManifest();
-    })();
+            function renderReview() {
+                var q = questions[currentIndex];
+                if (!q) {
+                    var otherMod = currentModule === '1' ? '2' : '1';
+                    if (completedModules.hasOwnProperty(moduleKey(currentTest, otherMod)) && currentModule === '1') {
+                        startReview(currentTest, otherMod);
+                        return;
+                    }
+                    app.innerHTML = '<div class="pt-result"><h2>Review Complete</h2><p>You reviewed both modules of Test ' + currentTest + '.</p><button class="pt-btn pt-btn-primary" id="pt-back">Back to Results</button></div>';
+                    document.getElementById('pt-back').addEventListener('click', function () { renderStart(); });
+                    return;
+                }
+                var userAns = answers[q.id];
+                var correctAns = q.answerIndex;
+                var isCorrect = userAns === correctAns;
+                var opts = '';
+                q.options.forEach(function (opt, i) {
+                    var cls = '';
+                    if (i === correctAns) cls = 'pt-opt-correct';
+                    else if (i === userAns && !isCorrect) cls = 'pt-opt-incorrect';
+                    opts += '<li><label style="background:' + (cls === 'pt-opt-correct' ? '#e8f5e9' : (cls === 'pt-opt-incorrect' ? '#ffebee' : '#fff')) + ';border:1px solid #d8e1da;"><input type="radio" name="q" value="' + i + '" disabled><strong>' + optionLetter(i) + '.</strong> <span>' + opt + '</span>' +
+                        (i === correctAns ? ' <span style="color:#2e7d32;font-weight:700;">(correct)</span>' : '') +
+                        (i === userAns && !isCorrect ? ' <span style="color:#c62828;font-weight:700;">(your answer)</span>' : '') +
+                        '</label></li>';
+                });
+                var grid = '';
+                questions.forEach(function (qq, i) {
+                    var cls = 'pt-qbtn';
+                    if (i === currentIndex) cls += ' current';
+                    grid += '<button class="' + cls + '" data-idx="' + i + '">' + (i + 1) + '</button>';
+                });
+                app.innerHTML = '<div class="pt-header"><span class="pt-progress">Review Question ' + (currentIndex + 1) + ' of ' + questions.length + ' &bull; Test ' + currentTest + ' Module ' + currentModule + '</span></div>' +
+                    '<div class="pt-question"><div class="pt-passage">' + q.passage + '</div><p class="pt-qtext">' + q.question + '</p><ul class="pt-options">' + opts + '</ul>' +
+                    (q.explanationText ? '<div class="pt-expl"><strong>Explanation:</strong> ' + q.explanationText + '</div>' : '') +
+                    '</div>' +
+                    '<div class="pt-grid">' + grid + '</div>' +
+                    '<div class="pt-nav"><button class="pt-btn pt-btn-outline" id="pt-prev">Previous</button><button class="pt-btn pt-btn-outline" id="pt-next">Next</button><button class="pt-btn pt-btn-secondary" id="pt-done">Done Reviewing</button></div>';
+
+                document.querySelectorAll('.pt-qbtn').forEach(function (btn) {
+                    btn.addEventListener('click', function () {
+                        currentIndex = parseInt(btn.dataset.idx);
+                        renderReview();
+                    });
+                });
+                var prev = document.getElementById('pt-prev');
+                var next = document.getElementById('pt-next');
+                var done = document.getElementById('pt-done');
+                if (prev) prev.addEventListener('click', function () { if (currentIndex > 0) { currentIndex--; renderReview(); } });
+                if (next) next.addEventListener('click', function () { if (currentIndex < questions.length - 1) { currentIndex++; renderReview(); } });
+                if (done) done.addEventListener('click', function () { startReview(currentTest, currentModule === '1' ? '2' : '1'); });
+            }
+
+            loadManifest();
+        })();
     </script>
     <script>
-    (function () {
-        var toggle = document.querySelector('.nav-toggle');
-        var nav = document.getElementById('primary-nav-list');
-        if (toggle && nav) {
-            toggle.addEventListener('click', function () {
-                var open = toggle.getAttribute('aria-expanded') === 'true';
-                toggle.setAttribute('aria-expanded', String(!open));
-                nav.classList.toggle('open', !open);
-            });
-            nav.querySelectorAll('a').forEach(function (link) {
-                link.addEventListener('click', function () {
-                    toggle.setAttribute('aria-expanded', 'false');
-                    nav.classList.remove('open');
+        (function () {
+            var toggle = document.querySelector('.nav-toggle');
+            var nav = document.getElementById('primary-nav-list');
+            if (toggle && nav) {
+                toggle.addEventListener('click', function () {
+                    var open = toggle.getAttribute('aria-expanded') === 'true';
+                    toggle.setAttribute('aria-expanded', String(!open));
+                    nav.classList.toggle('open', !open);
                 });
-            });
-        }
-    })();
+                nav.querySelectorAll('a').forEach(function (link) {
+                    link.addEventListener('click', function () {
+                        toggle.setAttribute('aria-expanded', 'false');
+                        nav.classList.remove('open');
+                    });
+                });
+            }
+        })();
     </script>
-    <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "bd4a1d1de0cb4bd38383245229f64444"}'></script><!-- End Cloudflare Web Analytics -->
+    <!-- Cloudflare Web Analytics -->
+    <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js'
+        data-cf-beacon='{"token": "bd4a1d1de0cb4bd38383245229f64444"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
-</html>
 
+</html>
