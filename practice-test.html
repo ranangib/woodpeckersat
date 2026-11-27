@@ -114,75 +114,99 @@
             background: #fdf3f0;
         }
 
-        /* ---------- Question card ---------- */
+        /* ---------- Page centering ---------- */
+        .pt-page {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+            font-family: Inter, system-ui, -apple-system, sans-serif;
+            color: #12182b;
+        }
+
+        /* ---------- Centered question card ---------- */
         .pt-question {
+            max-width: 700px;
+            margin: 0 auto 24px;
             background: #fff;
-            border: 1px solid #d8e1da;
-            border-radius: 16px;
+            border: 1px solid #e2e8eb;
+            border-radius: 12px;
             padding: 32px 28px;
-            margin-bottom: 24px;
-            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.03);
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
         }
         .pt-passage {
-            background: #f4f7f2;
+            background: #f8fafb;
             padding: 20px;
-            border-radius: 12px;
+            border-radius: 10px;
             margin-bottom: 22px;
-            line-height: 1.75;
+            line-height: 1.7;
             font-size: 15px;
             color: #2a3a33;
-            border-left: 4px solid #17483e;
+            border: 1px solid #eef2f1;
         }
         .pt-qtext {
-            font-size: 19px;
+            font-size: 18px;
             font-weight: 700;
-            margin-bottom: 20px;
+            margin: 0 0 20px;
             line-height: 1.5;
         }
+        .pt-notes {
+            margin: 0 0 20px;
+            padding-left: 20px;
+            line-height: 1.8;
+        }
+        .pt-notes li {
+            margin-bottom: 8px;
+            font-size: 15px;
+            color: #2a3a33;
+        }
+
+        /* ---------- Options: each on its own line ---------- */
         .pt-options {
             list-style: none;
             padding: 0;
             margin: 0;
         }
         .pt-options li {
-            margin-bottom: 10px;
+            margin-bottom: 12px;
         }
         .pt-options label {
             display: flex;
-            align-items: center;
-            gap: 12px;
-            padding: 14px 18px;
-            border: 1px solid #d8e1da;
+            align-items: flex-start;
+            gap: 14px;
+            padding: 16px 20px;
+            border: 1px solid #e2e8eb;
             border-radius: 10px;
             cursor: pointer;
             transition: all 0.15s ease;
             background: #fff;
         }
         .pt-options label:hover {
-            background: #f4f7f2;
+            background: #f8fafb;
             border-color: #c4d9cf;
         }
         .pt-options input {
-            width: 20px;
-            height: 20px;
+            width: 18px;
+            height: 18px;
+            margin-top: 2px;
             cursor: pointer;
         }
         .pt-options label:has(input:checked) {
-            background: #e8f0ec;
+            background: #eef7f2;
             border-color: #17483e;
         }
         .pt-options label:has(input:checked) strong {
             color: #17483e;
         }
         .pt-options strong {
-            font-size: 18px;
-            color: #52645f;
+            font-size: 16px;
+            color: #17483e;
             min-width: 24px;
         }
         .pt-options span {
             flex: 1;
             font-size: 15px;
             line-height: 1.5;
+            color: #2a3a33;
         }
 
         /* ---------- Question navigation grid ---------- */
